@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-04T16:35:00-05:00",
- "updated_label": "Sun 10/4 4:35 PM",
+ "updated": "2026-10-04T17:15:00-05:00",
+ "updated_label": "Sun 10/4 5:15 PM",
  "window_start": "2026-10-04",
  "window_days": 21,
  "goal_days": 14,
  "types": [
   {"key":"tomorrow","name":"Tomorrow's","rate":"5/wk","per_week":5,
-   "queued":{"through":"2026-10-07","count":4},
+   "queued":{"through":"2026-10-07","count":3},
    "ready":{"through":"2026-10-15","count":5},
    "review":null,"picked":null,
    "holes":["2026-10-11"]},
@@ -15,17 +15,16 @@
    "ready":{"through":"2026-10-09","count":3},
    "review":null,"picked":null,"holes":[]},
   {"key":"promo","name":"Promo","rate":"4/wk","per_week":4,
-   "queued":{"count":0},"ready":{"count":0},
-   "review":null,"picked":null,"holes":["2026-10-06"]}
+   "queued":{"count":1},"ready":{"count":1},
+   "review":null,"picked":null,"holes":["2026-10-10","2026-10-10","2026-10-11"]}
  ],
  "buffer": {"youtube":10,"instagram":10,"facebook":10,"through_label":"Thu 10/8 9 AM","posted_7d":null},
  "needs_you": [
-  {"what":"Approve a promo (Tue 10/6 2 PM empty)","due":"Tue","urgent":true},
   {"what":"Tomorrow's E21 not in ready (Sun 10/11)","due":"by Fri","urgent":true},
   {"what":"Approve nature cards 10/12–16","due":"by Fri","urgent":true},
-  {"what":"Approve 4 promos for weekend 10/10–11","due":"by Fri","urgent":true}
+  {"what":"Approve 2 more promos for weekend 10/10–11","due":"by Fri","urgent":true}
  ],
  "waiting_on_builders": null,
- "last_run": {"ok":true,"scheduled":7,"held":0,"note":"Sun noon"},
+ "last_run": {"ok":true,"scheduled":1,"held":0,"note":"Off-schedule Sun 5 PM; Buffer at 10/channel cap"},
  "next_run": "Tue 8:52 PM"
 }
