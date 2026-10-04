@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="WWJ Posts"><meta name="theme-color" content="#fffdf8">
+<title>WWJ Posts</title>
+<style>
+:root{--bg:#fffdf8;--ink:#2b2620;--mute:#8a8073;--line:#e3dccf;--q:#2f5a40;--r:#6f9c6a;--v:#e0a83a;--p:#f1d9a4;--o:#efe8dc;--gap:#b4472f}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1a17;--ink:#eee7dc;--mute:#9a907f;--line:#38332c;--o:#2c2823;--p:#6b5a35}}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--ink);font:13px/1.35 -apple-system,Segoe UI,Roboto,sans-serif;padding:max(14px,env(safe-area-inset-top)) 16px 16px;max-width:430px;margin:0 auto}
+.hd{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px}.hd b{font:600 19px Georgia,serif}.hd span{color:var(--mute);font-size:11px}
+.sec{font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--mute);margin:12px 0 6px;display:flex;justify-content:space-between}.sec em{font-style:normal;text-transform:none;letter-spacing:0}
+.lg{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:10px;color:var(--mute)}.lg span::before{content:"";display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:4px;vertical-align:-1px;background:var(--c);border:1px solid #0001}
+.scale{position:relative;height:12px;font-size:9px;color:var(--mute);margin-top:6px}.scale span{position:absolute;transform:translateX(-50%)}
+.pl{margin:9px 0}.pl .t{display:flex;justify-content:space-between;font-size:12px;margin-bottom:3px}.pl .t em{font-style:normal;color:var(--mute);font-size:11px}
+.trk{height:18px;background:var(--o);border-radius:4px;position:relative;overflow:hidden}.seg{position:absolute;top:0;bottom:0}
+.tgt{position:absolute;top:-3px;bottom:-3px;border-left:2px dashed var(--ink);opacity:.55}.wk{position:absolute;top:0;bottom:0;width:1px;background:#fff9}
+.sub{font-size:11px;color:var(--mute);margin-top:3px}.sub b{color:var(--ink)}.bad{color:var(--gap);font-weight:700}
+.mini{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:11px;color:var(--mute)}.mini b{color:var(--ink)}
+ul{padding:0}li{list-style:none;padding:5px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:8px;font-size:12px}li b{color:var(--gap);white-space:nowrap}li b.ok{color:var(--mute);font-weight:500}
+.foot{display:flex;justify-content:space-between;font-size:11px;color:var(--mute);margin-top:10px}
+.err{color:var(--gap);padding:20px 0}
+</style></head><body><div id="app">Loading…</div>
+<script>
+const DAY=864e5,COL={queued:'var(--q)',ready:'var(--r)',review:'var(--v)',picked:'var(--p)'};
+const d=s=>new Date(s+'T12:00:00'),md=s=>{const x=d(s);return (x.getMonth()+1)+'/'+x.getDate()};
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+fetch('status.json?'+Date.now()).then(r=>r.json()).then(S=>{
+ const W=S.window_days||21,G=S.goal_days||14,start=d(S.window_start),pct=n=>Math.max(0,Math.min(100,n/W*100));
+ const daysTo=s=>s?(d(s)-start)/DAY+1:0;
+ let h=`<div class="hd"><b>WWJ Posts</b><span>${esc(S.updated_label)}</span></div>
+ <div class="lg"><span style="--c:var(--q)">Queued</span><span style="--c:var(--r)">Ready</span><span style="--c:var(--v)">Review</span><span style="--c:var(--p)">Picked</span><span style="--c:var(--o)">Open</span></div>
+ <div class="scale">${[0,7,14,21].map(n=>{const x=new Date(+start+n*DAY);const l=n?(x.getMonth()+1)+'/'+x.getDate():'today';return `<span style="left:${n/W*100}%;${n==0?'transform:none':n==W?'transform:translateX(-100%)':''}">${l}</span>`}).join('')}</div>`;
+ for(const t of S.types){
+  let prev=0,segs='';
+  for(const k of ['queued','ready','review','picked']){
+   const st=t[k]||{};let end=st.through?daysTo(st.through):(st.count!=null&&t.per_week?prev+st.count/t.per_week*7:prev);
+   end=Math.max(prev,end);if(end>prev)segs+=`<div class="seg" style="left:${pct(prev)}%;width:${pct(end)-pct(prev)}%;background:${COL[k]}"></div>`;prev=end;t['_'+k]=end;}
+  const short=G-(t._ready||0);
+  const bits=[];
+  bits.push(t.ready&&t.ready.through?`Ready → <b>${md(t.ready.through)}</b>`:`Ready <b${(t.ready?.count||0)==0?' class="bad"':''}>${t.ready?.count??0}</b>`);
+  if(t.review?.count!=null)bits.push(t.review.through?`Review → <b>${md(t.review.through)}</b>`:`Review <b>${t.review.count}</b>`);
+  else bits.push('Review <b>—</b>');
+  if(t.review?.fix)bits.push(`${t.review.fix} fix`);
+  if(t.holes?.length)bits.push(`<span class="bad">hole ${t.holes.map(md).join(', ')}</span>`);
+  else if(short>0.5)bits.push(`<span class="bad">Ready ${Math.round(short)}d short</span>`);
+  h+=`<div class="pl"><div class="t"><b>${esc(t.name)}</b><em>${esc(t.rate)}</em></div><div class="trk">${segs}<div class="wk" style="left:33.3%"></div><div class="wk" style="left:66.6%"></div><div class="tgt" style="left:${G/W*100}%"></div></div><div class="sub">${bits.join(' · ')}</div></div>`;
+ }
+ const B=S.buffer||{};
+ h+=`<div class="sec">Buffer <em>${B.through_label?'through '+esc(B.through_label):''}</em></div><div class="mini"><span>YT <b>${B.youtube??'—'}</b>/10</span><span>IG <b>${B.instagram??'—'}</b>/10</span><span>FB <b>${B.facebook??'—'}</b>/10</span>${B.posted_7d!=null?`<span>Posted 7d <b>${B.posted_7d}</b></span>`:''}</div>`;
+ h+=`<div class="sec">Needs you <em>soonest first</em></div><ul>${(S.needs_you||[]).map(n=>`<li>${esc(n.what)}<b class="${n.urgent?'':'ok'}">${esc(n.due)}</b></li>`).join('')||'<li>Nothing — you\'re ahead.<b class="ok">✓</b></li>'}</ul>`;
+ const wb=S.waiting_on_builders;
+ h+=`<div class="sec">Waiting on builders</div><div class="mini">${wb?`<span>Build <b>${wb.build}</b></span><span>Fix <b>${wb.fix}</b></span>`:'<span>No builder reports yet</span>'}</div>`;
+ const L=S.last_run||{};
+ h+=`<div class="foot"><span>Last run ${L.ok?'✓':'⚠'} +${L.scheduled??0} · ${L.held??0} held${L.note?' · '+esc(L.note):''}</span><span>Next ${esc(S.next_run)}</span></div>`;
+ document.getElementById('app').innerHTML=h;
+}).catch(e=>{document.getElementById('app').innerHTML='<div class="err">Couldn\'t load status.json</div>'});
+</script></body></html>
