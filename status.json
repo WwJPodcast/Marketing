@@ -1,30 +1,105 @@
 {
- "updated": "2026-10-04T17:15:00-05:00",
- "updated_label": "Sun 10/4 5:15 PM",
+ "updated": "2026-10-04T16:35:00-05:00",
+ "updated_label": "Sun 10/4 8:40 PM",
  "window_start": "2026-10-04",
  "window_days": 21,
  "goal_days": 14,
  "types": [
-  {"key":"tomorrow","name":"Tomorrow's","rate":"5/wk","per_week":5,
-   "queued":{"through":"2026-10-07","count":3},
-   "ready":{"through":"2026-10-15","count":5},
-   "review":null,"picked":null,
-   "holes":["2026-10-11"]},
-  {"key":"nature","name":"Nature","rate":"5–9/wk","per_week":7,
-   "queued":{"through":"2026-10-08","count":6},
-   "ready":{"through":"2026-10-09","count":3},
-   "review":null,"picked":null,"holes":[]},
-  {"key":"promo","name":"Promo","rate":"4/wk","per_week":4,
-   "queued":{"count":1},"ready":{"count":1},
-   "review":null,"picked":null,"holes":["2026-10-10","2026-10-10","2026-10-11"]}
+  {
+   "key": "tomorrow",
+   "name": "Tomorrow's",
+   "rate": "5/wk",
+   "per_week": 5,
+   "queued": {
+    "through": "2026-10-07",
+    "count": 4
+   },
+   "ready": {
+    "through": "2026-10-15",
+    "count": 5
+   },
+   "review": null,
+   "picked": null,
+   "holes": [
+    "2026-10-11"
+   ],
+   "builds": "Wed night"
+  },
+  {
+   "key": "nature",
+   "name": "Nature",
+   "rate": "5–9/wk",
+   "per_week": 7,
+   "queued": {
+    "through": "2026-10-08",
+    "count": 6
+   },
+   "ready": {
+    "through": "2026-10-09",
+    "count": 3
+   },
+   "review": {
+    "count": 0,
+    "fix": 0
+   },
+   "picked": {
+    "through": "2026-10-16",
+    "count": 9
+   },
+   "holes": [],
+   "builds": "Mon night",
+   "reported": "10/4"
+  },
+  {
+   "key": "promo",
+   "name": "Promo",
+   "rate": "4/wk",
+   "per_week": 4,
+   "queued": {
+    "count": 1
+   },
+   "ready": {
+    "count": 1
+   },
+   "review": null,
+   "picked": null,
+   "holes": [],
+   "builds": "Thu night"
+  }
  ],
- "buffer": {"youtube":10,"instagram":10,"facebook":10,"through_label":"Thu 10/8 9 AM","posted_7d":null},
+ "buffer": {
+  "youtube": 11,
+  "instagram": 11,
+  "facebook": 11,
+  "through_label": "Thu 10/8 9 AM",
+  "posted_7d": null
+ },
  "needs_you": [
-  {"what":"Tomorrow's E21 not in ready (Sun 10/11)","due":"by Fri","urgent":true},
-  {"what":"Approve nature cards 10/12–16","due":"by Fri","urgent":true},
-  {"what":"Approve 2 more promos for weekend 10/10–11","due":"by Fri","urgent":true}
+  {
+   "what": "Tomorrow's E21 not in ready (Sun 10/11)",
+   "due": "by Fri",
+   "urgent": true
+  },
+  {
+   "what": "Approve 2 more promos for weekend 10/10–11",
+   "due": "by Fri",
+   "urgent": true
+  },
+  {
+   "what": "Pick nature verses 10/19–23 (S4E1–5)",
+   "due": "by Mon 10/12",
+   "urgent": false
+  }
  ],
- "waiting_on_builders": null,
- "last_run": {"ok":true,"scheduled":1,"held":0,"note":"Off-schedule Sun 5 PM; Buffer at 10/channel cap"},
+ "waiting_on_builders": {
+  "build": 9,
+  "fix": 0
+ },
+ "last_run": {
+  "ok": true,
+  "scheduled": 7,
+  "held": 0,
+  "note": "Sun noon"
+ },
  "next_run": "Tue 8:52 PM"
 }

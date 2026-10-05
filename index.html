@@ -39,7 +39,8 @@ fetch('status.json?'+Date.now()).then(r=>r.json()).then(S=>{
   const bits=[];
   bits.push(t.ready&&t.ready.through?`Ready → <b>${md(t.ready.through)}</b>`:`Ready <b${(t.ready?.count||0)==0?' class="bad"':''}>${t.ready?.count??0}</b>`);
   if(t.review?.count!=null)bits.push(t.review.through?`Review → <b>${md(t.review.through)}</b>`:`Review <b>${t.review.count}</b>`);
-  else bits.push('Review <b>—</b>');
+  if(t.picked?.count)bits.push(t.picked.through?`Picked → <b>${md(t.picked.through)}</b>`:`Picked <b>${t.picked.count}</b>`);
+  else bits.push(`<span style="font-style:italic">stages after ${esc(t.builds||'next build')}</span>`);
   if(t.review?.fix)bits.push(`${t.review.fix} fix`);
   if(t.holes?.length)bits.push(`<span class="bad">hole ${t.holes.map(md).join(', ')}</span>`);
   else if(short>0.5)bits.push(`<span class="bad">Ready ${Math.round(short)}d short</span>`);
@@ -49,7 +50,7 @@ fetch('status.json?'+Date.now()).then(r=>r.json()).then(S=>{
  h+=`<div class="sec">Buffer <em>${B.through_label?'through '+esc(B.through_label):''}</em></div><div class="mini"><span>YT <b>${B.youtube??'—'}</b>/10</span><span>IG <b>${B.instagram??'—'}</b>/10</span><span>FB <b>${B.facebook??'—'}</b>/10</span>${B.posted_7d!=null?`<span>Posted 7d <b>${B.posted_7d}</b></span>`:''}</div>`;
  h+=`<div class="sec">Needs you <em>soonest first</em></div><ul>${(S.needs_you||[]).map(n=>`<li>${esc(n.what)}<b class="${n.urgent?'':'ok'}">${esc(n.due)}</b></li>`).join('')||'<li>Nothing — you\'re ahead.<b class="ok">✓</b></li>'}</ul>`;
  const wb=S.waiting_on_builders;
- h+=`<div class="sec">Waiting on builders</div><div class="mini">${wb?`<span>Build <b>${wb.build}</b></span><span>Fix <b>${wb.fix}</b></span>`:'<span>No builder reports yet</span>'}</div>`;
+ h+=`<div class="sec">Waiting on builders</div><div class="mini">${wb?`<span>To build <b>${wb.build}</b></span><span>Fix <b>${wb.fix}</b></span>`:'<span>No builder reports yet</span>'}</div><div class="mini" style="margin-top:4px">${S.types.map(t=>`<span>${esc(t.name)} <b>${esc(t.builds||'')}</b>${t.reported?` <span style="opacity:.7">(rpt ${esc(t.reported)})</span>`:''}</span>`).join('')}</div>`;
  const L=S.last_run||{};
  h+=`<div class="foot"><span>Last run ${L.ok?'✓':'⚠'} +${L.scheduled??0} · ${L.held??0} held${L.note?' · '+esc(L.note):''}</span><span>Next ${esc(S.next_run)}</span></div>`;
  document.getElementById('app').innerHTML=h;
