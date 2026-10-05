@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-04T16:35:00-05:00",
- "updated_label": "Sun 10/4 8:40 PM",
+ "updated_label": "Sun 10/4 8:30 PM",
  "window_start": "2026-10-04",
  "window_days": 21,
  "goal_days": 14,
@@ -56,7 +56,7 @@
    "rate": "4/wk",
    "per_week": 4,
    "queued": {
-    "count": 1
+    "count": 0
    },
    "ready": {
     "count": 1
@@ -68,9 +68,9 @@
   }
  ],
  "buffer": {
-  "youtube": 11,
-  "instagram": 11,
-  "facebook": 11,
+  "youtube": 10,
+  "instagram": 10,
+  "facebook": 10,
   "through_label": "Thu 10/8 9 AM",
   "posted_7d": null
  },
@@ -81,7 +81,7 @@
    "urgent": true
   },
   {
-   "what": "Approve 2 more promos for weekend 10/10–11",
+   "what": "Approve 3 more promos for weekend 10/10–11",
    "due": "by Fri",
    "urgent": true
   },
