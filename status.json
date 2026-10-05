@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-04T16:35:00-05:00",
- "updated_label": "Sun 10/4 8:30 PM",
- "window_start": "2026-10-04",
+ "updated": "2026-10-05T14:40:47-05:00",
+ "updated_label": "Mon 10/5 2:40 PM",
+ "window_start": "2026-10-05",
  "window_days": 21,
  "goal_days": 14,
  "types": [
@@ -10,89 +10,105 @@
    "name": "Tomorrow's",
    "rate": "5/wk",
    "per_week": 5,
+   "builds": "Wed night",
+   "reported": "10/5",
    "queued": {
     "through": "2026-10-07",
-    "count": 4
+    "count": 3
    },
    "ready": {
     "through": "2026-10-15",
+    "count": 6
+   },
+   "review": {
+    "through": "2026-10-15",
+    "count": 0,
+    "fix": 0
+   },
+   "picked": {
+    "through": "2026-10-22",
     "count": 5
    },
-   "review": null,
-   "picked": null,
-   "holes": [
-    "2026-10-11"
-   ],
-   "builds": "Wed night"
+   "holes": []
   },
   {
    "key": "nature",
    "name": "Nature",
    "rate": "5–9/wk",
    "per_week": 7,
+   "builds": "Mon night",
+   "reported": "10/5",
    "queued": {
-    "through": "2026-10-08",
-    "count": 6
+    "through": "2026-10-07",
+    "count": 4
    },
    "ready": {
     "through": "2026-10-09",
     "count": 3
    },
    "review": {
+    "through": "2026-10-09",
     "count": 0,
     "fix": 0
    },
    "picked": {
-    "through": "2026-10-16",
-    "count": 9
+    "through": "2026-10-23",
+    "count": 20
    },
-   "holes": [],
-   "builds": "Mon night",
-   "reported": "10/4"
+   "holes": []
   },
   {
    "key": "promo",
    "name": "Promo",
    "rate": "4/wk",
    "per_week": 4,
+   "builds": "Thu night",
+   "reported": "10/5",
    "queued": {
-    "count": 0
+    "count": 1
    },
    "ready": {
     "count": 1
    },
-   "review": null,
-   "picked": null,
-   "holes": [],
-   "builds": "Thu night"
+   "review": {
+    "count": 0,
+    "fix": 0
+   },
+   "picked": {
+    "count": 7
+   },
+   "holes": [
+    "2026-10-10",
+    "2026-10-11"
+   ]
   }
  ],
  "buffer": {
-  "youtube": 10,
-  "instagram": 10,
-  "facebook": 10,
+  "youtube": 8,
+  "instagram": 8,
+  "facebook": 8,
   "through_label": "Thu 10/8 9 AM",
-  "posted_7d": null
+  "posted_7d": 6
  },
  "needs_you": [
   {
-   "what": "Tomorrow's E21 not in ready (Sun 10/11)",
+   "what": "Approve 2 more promos for 10/10–11",
    "due": "by Fri",
    "urgent": true
   },
   {
-   "what": "Approve 3 more promos for weekend 10/10–11",
-   "due": "by Fri",
-   "urgent": true
+   "what": "Pick nature verses 10/26",
+   "due": "by Mon 10/19",
+   "urgent": false
   },
   {
-   "what": "Pick nature verses 10/19–23 (S4E1–5)",
-   "due": "by Mon 10/12",
+   "what": "Pick Tomorrow's passages 10/25–26",
+   "due": "by Wed 10/21",
    "urgent": false
   }
  ],
  "waiting_on_builders": {
-  "build": 9,
+  "build": 32,
   "fix": 0
  },
  "last_run": {
