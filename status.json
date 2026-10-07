@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-07T02:53:02-05:00",
- "updated_label": "Wed 10/7 2:53 AM",
+ "updated": "2026-10-07T18:52:36-05:00",
+ "updated_label": "Wed 10/7 6:52 PM",
  "window_start": "2026-10-07",
  "window_days": 21,
  "goal_days": 14,
@@ -14,7 +14,7 @@
    "reported": "10/7",
    "queued": {
     "through": "2026-10-11",
-    "count": 3
+    "count": 2
    },
    "ready": {
     "through": "2026-10-15",
@@ -40,7 +40,7 @@
    "reported": "10/7",
    "queued": {
     "through": "2026-10-09",
-    "count": 6
+    "count": 4
    },
    "ready": {
     "through": "2026-10-16",
@@ -75,7 +75,7 @@
     "fix": 0
    },
    "picked": {
-    "count": 7
+    "count": 9
    },
    "holes": [
     "2026-10-10",
@@ -85,11 +85,11 @@
   }
  ],
  "buffer": {
-  "youtube": 10,
-  "instagram": 10,
-  "facebook": 10,
+  "youtube": 7,
+  "instagram": 7,
+  "facebook": 7,
   "through_label": "Sun 10/11 5 PM",
-  "posted_7d": 10
+  "posted_7d": 13
  },
  "needs_you": [
   {
@@ -109,7 +109,7 @@
   }
  ],
  "waiting_on_builders": {
-  "build": 22,
+  "build": 24,
   "fix": 0
  },
  "last_run": {
