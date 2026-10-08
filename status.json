@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-08T06:29:29-05:00",
- "updated_label": "Thu 10/8 6:29 AM",
+ "updated": "2026-10-08T09:39:59-05:00",
+ "updated_label": "Thu 10/8 9:39 AM",
  "window_start": "2026-10-08",
  "window_days": 21,
  "goal_days": 14,
@@ -40,7 +40,7 @@
    "reported": "10/8",
    "queued": {
     "through": "2026-10-09",
-    "count": 4
+    "count": 3
    },
    "ready": {
     "through": "2026-10-16",
@@ -85,22 +85,22 @@
   }
  ],
  "buffer": {
-  "youtube": 7,
-  "instagram": 7,
-  "facebook": 7,
+  "youtube": 6,
+  "instagram": 6,
+  "facebook": 6,
   "through_label": "Sun 10/11 5 PM",
-  "posted_7d": 13
+  "posted_7d": 14
  },
  "needs_you": [
-  {
-   "what": "Review 5 Tomorrow's posts 10/18–22",
-   "due": "by Fri",
-   "urgent": true
-  },
   {
    "what": "Approve 3 more promos for 10/10–13",
    "due": "by Fri",
    "urgent": true
+  },
+  {
+   "what": "Review 5 Tomorrow's posts 10/18–22",
+   "due": "by Fri 10/16",
+   "urgent": false
   },
   {
    "what": "Pick nature verses 10/26–29 (S4E6–S4E9)",
