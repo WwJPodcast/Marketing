@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-08T02:52:34-05:00",
- "updated_label": "Thu 10/8 2:52 AM",
+ "updated": "2026-10-08T06:29:29-05:00",
+ "updated_label": "Thu 10/8 6:29 AM",
  "window_start": "2026-10-08",
  "window_days": 21,
  "goal_days": 14,
@@ -21,13 +21,13 @@
     "count": 4
    },
    "review": {
-    "through": "2026-10-15",
-    "count": 0,
-    "fix": 0
+    "through": "2026-10-22",
+    "count": 5,
+    "fix": 1
    },
    "picked": {
     "through": "2026-10-22",
-    "count": 5
+    "count": 0
    },
    "holes": []
   },
@@ -93,6 +93,11 @@
  },
  "needs_you": [
   {
+   "what": "Review 5 Tomorrow's posts 10/18–22",
+   "due": "by Fri",
+   "urgent": true
+  },
+  {
    "what": "Approve 3 more promos for 10/10–13",
    "due": "by Fri",
    "urgent": true
@@ -103,14 +108,14 @@
    "urgent": false
   },
   {
-   "what": "Pick Tomorrow's passages 10/25–29",
+   "what": "Pick Tomorrow's passages 10/25–29 (S4E6–S4E10)",
    "due": "by Wed 10/21",
    "urgent": false
   }
  ],
  "waiting_on_builders": {
-  "build": 24,
-  "fix": 0
+  "build": 19,
+  "fix": 1
  },
  "last_run": {
   "ok": true,
