@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-09T11:55:56-05:00",
- "updated_label": "Fri 10/9 11:55 AM",
+ "updated": "2026-10-09T16:15:41-05:00",
+ "updated_label": "Fri 10/9 4:15 PM",
  "window_start": "2026-10-09",
  "window_days": 21,
  "goal_days": 14,
@@ -40,7 +40,7 @@
    "reported": "10/9",
    "queued": {
     "through": "2026-10-13",
-    "count": 4
+    "count": 3
    },
    "ready": {
     "through": "2026-10-16",
@@ -81,11 +81,11 @@
   }
  ],
  "buffer": {
-  "youtube": 10,
-  "instagram": 10,
-  "facebook": 10,
+  "youtube": 9,
+  "instagram": 9,
+  "facebook": 9,
   "through_label": "Tue 10/13 2 PM",
-  "posted_7d": 17
+  "posted_7d": 18
  },
  "needs_you": [
   {
