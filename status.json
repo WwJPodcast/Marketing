@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-09T02:52:52-05:00",
- "updated_label": "Fri 10/9 2:52 AM",
+ "updated": "2026-10-09T11:55:56-05:00",
+ "updated_label": "Fri 10/9 11:55 AM",
  "window_start": "2026-10-09",
  "window_days": 21,
  "goal_days": 14,
@@ -13,12 +13,12 @@
    "builds": "Wed night",
    "reported": "10/9",
    "queued": {
-    "through": "2026-10-11",
-    "count": 1
+    "through": "2026-10-12",
+    "count": 2
    },
    "ready": {
     "through": "2026-10-22",
-    "count": 9
+    "count": 8
    },
    "review": {
     "through": "2026-10-22",
@@ -39,12 +39,12 @@
    "builds": "Mon night",
    "reported": "10/9",
    "queued": {
-    "through": "2026-10-09",
-    "count": 2
+    "through": "2026-10-13",
+    "count": 4
    },
    "ready": {
     "through": "2026-10-16",
-    "count": 9
+    "count": 6
    },
    "review": {
     "through": "2026-10-16",
@@ -65,38 +65,29 @@
    "builds": "Thu night",
    "reported": "10/9",
    "queued": {
-    "count": 1
+    "count": 4
    },
    "ready": {
-    "count": 0
+    "count": 4
    },
    "review": {
-    "count": 7,
+    "count": 0,
     "fix": 0
    },
    "picked": {
     "count": 2
    },
-   "holes": [
-    "2026-10-10",
-    "2026-10-11",
-    "2026-10-13"
-   ]
+   "holes": []
   }
  ],
  "buffer": {
-  "youtube": 4,
-  "instagram": 4,
-  "facebook": 4,
-  "through_label": "Sun 10/11 5 PM",
-  "posted_7d": 16
+  "youtube": 10,
+  "instagram": 10,
+  "facebook": 10,
+  "through_label": "Tue 10/13 2 PM",
+  "posted_7d": 17
  },
  "needs_you": [
-  {
-   "what": "Review 7 built promos",
-   "due": "now",
-   "urgent": true
-  },
   {
    "what": "Pick nature verses 10/26–30 (S4E6–S4E10)",
    "due": "by Mon 10/19",
@@ -114,9 +105,9 @@
  },
  "last_run": {
   "ok": true,
-  "scheduled": 6,
+  "scheduled": 7,
   "held": 0,
-  "note": "Tue 8:52 PM run"
+  "note": "Fri noon"
  },
- "next_run": "Fri 11:52 AM"
+ "next_run": "Sun 11:52 AM"
 }
