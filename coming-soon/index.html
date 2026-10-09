@@ -215,7 +215,7 @@
       <form class="signup" action="https://api.staticforms.dev/submit" method="POST">
         <input type="hidden" name="apiKey" value="sf_3da771d38e445708376cc5df">
         <!-- Where to send people after they submit -->
-        <input type="hidden" name="redirectTo" value="https://wwjpodcast.github.io/marketing/coming-soon/thank-you.html">
+        <input type="hidden" name="redirectTo" value="https://wwjpodcast.github.io/Marketing/coming-soon/thank-you.html">
         <input type="hidden" name="subject" value="New book notification signup">
 
         <!-- Honeypot (leave empty) -->
@@ -230,10 +230,14 @@
     </div>
   </div>
 
-  <script src="https://www.staticforms.dev/scripts/staticforms.js" defer></script>
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      StaticForms.attach(document.querySelector('.signup'));
+    // Prevent repeat clicks from sending duplicate emails
+    document.querySelector('.signup').addEventListener('submit', function () {
+      var btn = this.querySelector('button[type="submit"]');
+      setTimeout(function () {
+        btn.disabled = true;
+        btn.textContent = 'Sending...';
+      }, 0);
     });
   </script>
 </body>
