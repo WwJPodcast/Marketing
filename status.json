@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-12T02:53:14-05:00",
- "updated_label": "Mon 10/12 2:53 AM",
- "window_start": "2026-10-12",
+ "updated": "2026-10-13T02:52:43-05:00",
+ "updated_label": "Tue 10/13 2:52 AM",
+ "window_start": "2026-10-13",
  "window_days": 21,
  "goal_days": 14,
  "types": [
@@ -11,10 +11,10 @@
    "rate": "5/wk",
    "per_week": 5,
    "builds": "Wed night",
-   "reported": "10/12",
+   "reported": "10/13",
    "queued": {
     "through": "2026-10-14",
-    "count": 3
+    "count": 2
    },
    "ready": {
     "through": "2026-10-22",
@@ -37,23 +37,23 @@
    "rate": "5–9/wk",
    "per_week": 7,
    "builds": "Mon night",
-   "reported": "10/12",
+   "reported": "10/13",
    "queued": {
     "through": "2026-10-14",
-    "count": 5
+    "count": 3
    },
    "ready": {
     "through": "2026-10-16",
     "count": 4
    },
    "review": {
-    "through": "2026-10-16",
-    "count": 0,
+    "through": "2026-10-23",
+    "count": 10,
     "fix": 0
    },
    "picked": {
     "through": "2026-10-23",
-    "count": 10
+    "count": 0
    },
    "holes": []
   },
@@ -63,7 +63,7 @@
    "rate": "4/wk",
    "per_week": 4,
    "builds": "Thu night",
-   "reported": "10/12",
+   "reported": "10/13",
    "queued": {
     "count": 1
    },
@@ -81,26 +81,31 @@
   }
  ],
  "buffer": {
-  "youtube": 9,
-  "instagram": 9,
-  "facebook": 9,
+  "youtube": 6,
+  "instagram": 6,
+  "facebook": 6,
   "through_label": "Wed 10/14 5 PM",
   "posted_7d": 18
  },
  "needs_you": [
   {
-   "what": "Pick nature verses 10/26–11/2 (S4E6–S4E10)",
-   "due": "by Mon 10/19",
+   "what": "Review 10 nature cards 10/19–23",
+   "due": "by Fri",
    "urgent": true
   },
   {
-   "what": "Pick Tomorrow's passages 10/25–11/2 (S4E6–S4E10)",
+   "what": "Pick nature verses 10/26–11/3 (S4E6–S4E12)",
+   "due": "by Mon",
+   "urgent": true
+  },
+  {
+   "what": "Pick Tomorrow's passages 10/25–11/3 (S4E6–S4E10)",
    "due": "by Wed 10/21",
    "urgent": false
   }
  ],
  "waiting_on_builders": {
-  "build": 12,
+  "build": 2,
   "fix": 0
  },
  "last_run": {
