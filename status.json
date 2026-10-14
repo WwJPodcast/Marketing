@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-13T21:10:14-05:00",
- "updated_label": "Tue 10/13 9:10 PM",
- "window_start": "2026-10-13",
+ "updated": "2026-10-14T08:19:11-05:00",
+ "updated_label": "Wed 10/14 8:19 AM",
+ "window_start": "2026-10-14",
  "window_days": 21,
  "goal_days": 14,
  "types": [
@@ -11,7 +11,7 @@
    "rate": "5/wk",
    "per_week": 5,
    "builds": "Wed night",
-   "reported": "10/13",
+   "reported": "10/14",
    "queued": {
     "through": "2026-10-15",
     "count": 2
@@ -37,7 +37,7 @@
    "rate": "5–9/wk",
    "per_week": 7,
    "builds": "Mon night",
-   "reported": "10/13",
+   "reported": "10/14",
    "queued": {
     "through": "2026-10-16",
     "count": 6
@@ -63,7 +63,7 @@
    "rate": "4/wk",
    "per_week": 4,
    "builds": "Thu night",
-   "reported": "10/13",
+   "reported": "10/14",
    "queued": {
     "count": 2
    },
@@ -89,14 +89,14 @@
  },
  "needs_you": [
   {
-   "what": "Pick nature verses 10/26–11/3 (S4E6–S4E12)",
+   "what": "Pick nature verses 10/26–11/4 (S4E6–S4E12)",
    "due": "by Mon",
    "urgent": true
   },
   {
-   "what": "Pick Tomorrow's passages 10/25–11/3 (S4E6–S4E10)",
+   "what": "Pick Tomorrow's passages 10/25–11/4 (S4E6–S4E10)",
    "due": "by Wed 10/21",
-   "urgent": false
+   "urgent": true
   }
  ],
  "waiting_on_builders": {
