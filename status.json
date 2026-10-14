@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-13T13:41:02-05:00",
- "updated_label": "Tue 10/13 1:41 PM",
+ "updated": "2026-10-13T21:10:14-05:00",
+ "updated_label": "Tue 10/13 9:10 PM",
  "window_start": "2026-10-13",
  "window_days": 21,
  "goal_days": 14,
@@ -13,12 +13,12 @@
    "builds": "Wed night",
    "reported": "10/13",
    "queued": {
-    "through": "2026-10-14",
+    "through": "2026-10-15",
     "count": 2
    },
    "ready": {
     "through": "2026-10-22",
-    "count": 6
+    "count": 5
    },
    "review": {
     "through": "2026-10-22",
@@ -39,16 +39,16 @@
    "builds": "Mon night",
    "reported": "10/13",
    "queued": {
-    "through": "2026-10-14",
-    "count": 2
+    "through": "2026-10-16",
+    "count": 6
    },
    "ready": {
-    "through": "2026-10-16",
-    "count": 4
+    "through": "2026-10-23",
+    "count": 9
    },
    "review": {
     "through": "2026-10-23",
-    "count": 10,
+    "count": 0,
     "fix": 0
    },
    "picked": {
@@ -65,7 +65,7 @@
    "builds": "Thu night",
    "reported": "10/13",
    "queued": {
-    "count": 1
+    "count": 2
    },
    "ready": {
     "count": 9
@@ -81,18 +81,13 @@
   }
  ],
  "buffer": {
-  "youtube": 5,
-  "instagram": 5,
-  "facebook": 5,
-  "through_label": "Wed 10/14 5 PM",
+  "youtube": 10,
+  "instagram": 10,
+  "facebook": 10,
+  "through_label": "Sat 10/17 3 PM",
   "posted_7d": 18
  },
  "needs_you": [
-  {
-   "what": "Review 10 nature cards 10/19–23",
-   "due": "by Fri",
-   "urgent": true
-  },
   {
    "what": "Pick nature verses 10/26–11/3 (S4E6–S4E12)",
    "due": "by Mon",
@@ -110,9 +105,9 @@
  },
  "last_run": {
   "ok": true,
-  "scheduled": 4,
+  "scheduled": 7,
   "held": 0,
-  "note": "Sun noon"
+  "note": "Tue night"
  },
- "next_run": "Tue 8:52 PM"
+ "next_run": "Fri 11:52 AM"
 }
