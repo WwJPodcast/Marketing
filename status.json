@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-16T02:52:46-05:00",
- "updated_label": "Fri 10/16 2:52 AM",
+ "updated": "2026-10-16T11:55:46-05:00",
+ "updated_label": "Fri 10/16 11:55 AM",
  "window_start": "2026-10-16",
  "window_days": 21,
  "goal_days": 14,
@@ -13,12 +13,12 @@
    "builds": "Wed night",
    "reported": "10/16",
    "queued": {
-    "through": null,
-    "count": 0
+    "through": "2026-10-19",
+    "count": 2
    },
    "ready": {
     "through": "2026-10-22",
-    "count": 5
+    "count": 3
    },
    "review": {
     "through": "2026-10-22",
@@ -39,12 +39,12 @@
    "builds": "Mon night",
    "reported": "10/16",
    "queued": {
-    "through": "2026-10-16",
-    "count": 2
+    "through": "2026-10-20",
+    "count": 4
    },
    "ready": {
     "through": "2026-10-23",
-    "count": 9
+    "count": 6
    },
    "review": {
     "through": "2026-10-23",
@@ -65,10 +65,10 @@
    "builds": "Thu night",
    "reported": "10/16",
    "queued": {
-    "count": 3
+    "count": 4
    },
    "ready": {
-    "count": 6
+    "count": 4
    },
    "review": {
     "count": 0,
@@ -81,10 +81,10 @@
   }
  ],
  "buffer": {
-  "youtube": 5,
-  "instagram": 5,
-  "facebook": 5,
-  "through_label": "Sun 10/18 9 AM",
+  "youtube": 10,
+  "instagram": 10,
+  "facebook": 10,
+  "through_label": "Tue 10/20 2 PM",
   "posted_7d": 18
  },
  "needs_you": [
@@ -105,9 +105,9 @@
  },
  "last_run": {
   "ok": true,
-  "scheduled": 2,
-  "held": 0,
-  "note": "Extra run Wed"
+  "scheduled": 6,
+  "held": 1,
+  "note": "Fri noon"
  },
- "next_run": "Fri 11:52 AM"
+ "next_run": "Sun 11:52 AM"
 }
