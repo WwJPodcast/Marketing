@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-20T07:56:50-05:00",
- "updated_label": "Tue 10/20 7:56 AM",
+ "updated": "2026-10-20T13:38:27-05:00",
+ "updated_label": "Tue 10/20 1:38 PM",
  "window_start": "2026-10-20",
  "window_days": 21,
  "goal_days": 14,
@@ -40,7 +40,7 @@
    "reported": "10/20",
    "queued": {
     "through": "2026-10-21",
-    "count": 3
+    "count": 2
    },
    "ready": {
     "through": "2026-11-03",
@@ -65,10 +65,10 @@
    "builds": "Thu night",
    "reported": "10/20",
    "queued": {
-    "count": 1
+    "count": 2
    },
    "ready": {
-    "count": 7
+    "count": 6
    },
    "review": {
     "count": 0,
@@ -82,7 +82,7 @@
  ],
  "buffer": {
   "youtube": 6,
-  "instagram": 6,
+  "instagram": 5,
   "facebook": 6,
   "through_label": "Wed 10/21 5 PM",
   "posted_7d": 18
