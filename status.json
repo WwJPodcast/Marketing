@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-19T13:37:56-05:00",
- "updated_label": "Mon 10/19 1:37 PM",
- "window_start": "2026-10-19",
+ "updated": "2026-10-20T02:53:06-05:00",
+ "updated_label": "Tue 10/20 2:53 AM",
+ "window_start": "2026-10-20",
  "window_days": 21,
  "goal_days": 14,
  "types": [
@@ -11,18 +11,18 @@
    "rate": "5/wk",
    "per_week": 5,
    "builds": "Wed night",
-   "reported": "10/19",
+   "reported": "10/20",
    "queued": {
     "through": "2026-10-21",
-    "count": 3
+    "count": 2
    },
    "ready": {
-    "through": "2026-10-22",
-    "count": 1
+    "through": "2026-11-05",
+    "count": 11
    },
    "review": {
     "through": "2026-11-05",
-    "count": 10,
+    "count": 0,
     "fix": 0
    },
    "picked": {
@@ -37,18 +37,18 @@
    "rate": "5–9/wk",
    "per_week": 7,
    "builds": "Mon night",
-   "reported": "10/19",
+   "reported": "10/20",
    "queued": {
     "through": "2026-10-21",
-    "count": 4
+    "count": 3
    },
    "ready": {
-    "through": "2026-10-23",
-    "count": 4
+    "through": "2026-11-03",
+    "count": 16
    },
    "review": {
     "through": "2026-11-03",
-    "count": 14,
+    "count": 0,
     "fix": 0
    },
    "picked": {
@@ -63,7 +63,7 @@
    "rate": "4/wk",
    "per_week": 4,
    "builds": "Thu night",
-   "reported": "10/19",
+   "reported": "10/20",
    "queued": {
     "count": 1
    },
@@ -81,30 +81,20 @@
   }
  ],
  "buffer": {
-  "youtube": 8,
-  "instagram": 8,
-  "facebook": 8,
+  "youtube": 6,
+  "instagram": 6,
+  "facebook": 6,
   "through_label": "Wed 10/21 5 PM",
   "posted_7d": 18
  },
  "needs_you": [
   {
-   "what": "Review 14 nature cards 10/26–11/3",
-   "due": "by Fri",
+   "what": "Pick nature verses 11/4–10 (S4E13–S4E17)",
+   "due": "by Mon",
    "urgent": true
   },
   {
-   "what": "Review 10 Tomorrow's posts 10/25–11/5",
-   "due": "by Fri",
-   "urgent": true
-  },
-  {
-   "what": "Pick nature verses 11/4–9 (S4E13–S4E16)",
-   "due": "by Mon 10/26",
-   "urgent": true
-  },
-  {
-   "what": "Pick Tomorrow's passages 11/8–9 (S4E16–S4E17)",
+   "what": "Pick Tomorrow's passages 11/8–10 (S4E16–S4E18)",
    "due": "by Wed 11/4",
    "urgent": false
   }
