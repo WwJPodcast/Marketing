@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-20T02:53:06-05:00",
- "updated_label": "Tue 10/20 2:53 AM",
+ "updated": "2026-10-20T07:56:50-05:00",
+ "updated_label": "Tue 10/20 7:56 AM",
  "window_start": "2026-10-20",
  "window_days": 21,
  "goal_days": 14,
@@ -68,7 +68,7 @@
     "count": 1
    },
    "ready": {
-    "count": 6
+    "count": 7
    },
    "review": {
     "count": 0,
