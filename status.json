@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-23T15:05:08-05:00",
- "updated_label": "Fri 10/23 3:05 PM",
- "window_start": "2026-10-23",
+ "updated": "2026-10-24T02:52:25-05:00",
+ "updated_label": "Sat 10/24 2:52 AM",
+ "window_start": "2026-10-24",
  "window_days": 21,
  "goal_days": 14,
  "types": [
@@ -11,7 +11,7 @@
    "rate": "5/wk",
    "per_week": 5,
    "builds": "Wed night",
-   "reported": "10/23",
+   "reported": "10/24",
    "queued": {
     "through": "2026-10-27",
     "count": 3
@@ -37,7 +37,7 @@
    "rate": "5–9/wk",
    "per_week": 7,
    "builds": "Mon night",
-   "reported": "10/23",
+   "reported": "10/24",
    "queued": {
     "through": "2026-10-27",
     "count": 3
@@ -63,7 +63,7 @@
    "rate": "4/wk",
    "per_week": 4,
    "builds": "Thu night",
-   "reported": "10/23",
+   "reported": "10/24",
    "queued": {
     "count": 4
    },
