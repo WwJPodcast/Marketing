@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T02:52:25-05:00",
- "updated_label": "Sat 10/24 2:52 AM",
+ "updated": "2026-10-24T13:38:39-05:00",
+ "updated_label": "Sat 10/24 1:38 PM",
  "window_start": "2026-10-24",
  "window_days": 21,
  "goal_days": 14,
@@ -65,7 +65,7 @@
    "builds": "Thu night",
    "reported": "10/24",
    "queued": {
-    "count": 4
+    "count": 3
    },
    "ready": {
     "count": 2
@@ -81,9 +81,9 @@
   }
  ],
  "buffer": {
-  "youtube": 9,
-  "instagram": 10,
-  "facebook": 10,
+  "youtube": 8,
+  "instagram": 9,
+  "facebook": 9,
   "through_label": "Tue 10/27 2 PM",
   "posted_7d": 18
  },
