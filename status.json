@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T13:38:39-05:00",
- "updated_label": "Sat 10/24 1:38 PM",
+ "updated": "2026-10-24T16:19:46-05:00",
+ "updated_label": "Sat 10/24 4:19 PM",
  "window_start": "2026-10-24",
  "window_days": 21,
  "goal_days": 14,
@@ -65,7 +65,7 @@
    "builds": "Thu night",
    "reported": "10/24",
    "queued": {
-    "count": 3
+    "count": 2
    },
    "ready": {
     "count": 2
@@ -81,11 +81,12 @@
   }
  ],
  "buffer": {
-  "youtube": 8,
-  "instagram": 9,
-  "facebook": 9,
-  "through_label": "Tue 10/27 2 PM",
-  "posted_7d": 18
+  "youtube": 7,
+  "instagram": 8,
+  "facebook": 8,
+  "tiktok": 8,
+  "through_label": "Tue 10/27 5 PM",
+  "posted_7d": 19
  },
  "needs_you": [
   {
@@ -105,9 +106,9 @@
  },
  "last_run": {
   "ok": true,
-  "scheduled": 1,
+  "scheduled": 8,
   "held": 0,
-  "note": "Fri extra run: 1 post (IG+FB); duplicate FB deleted"
+  "note": "TikTok initial load (8)"
  },
  "next_run": "Sun 11:52 AM"
 }
