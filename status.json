@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25T02:53:15-05:00",
- "updated_label": "Sun 10/25 2:53 AM",
+ "updated": "2026-10-25T11:55:46-05:00",
+ "updated_label": "Sun 10/25 11:55 AM",
  "window_start": "2026-10-25",
  "window_days": 21,
  "goal_days": 14,
@@ -13,12 +13,12 @@
    "builds": "Wed night",
    "reported": "10/25",
    "queued": {
-    "through": "2026-10-27",
-    "count": 3
+    "through": "2026-10-28",
+    "count": 4
    },
    "ready": {
     "through": "2026-11-05",
-    "count": 7
+    "count": 6
    },
    "review": {
     "through": "2026-11-05",
@@ -39,12 +39,12 @@
    "builds": "Mon night",
    "reported": "10/25",
    "queued": {
-    "through": "2026-10-27",
-    "count": 3
+    "through": "2026-10-28",
+    "count": 5
    },
    "ready": {
     "through": "2026-11-03",
-    "count": 9
+    "count": 7
    },
    "review": {
     "through": "2026-11-03",
@@ -65,7 +65,7 @@
    "builds": "Thu night",
    "reported": "10/25",
    "queued": {
-    "count": 2
+    "count": 1
    },
    "ready": {
     "count": 2
@@ -81,11 +81,11 @@
   }
  ],
  "buffer": {
-  "youtube": 7,
-  "instagram": 8,
-  "facebook": 8,
-  "tiktok": 8,
-  "through_label": "Tue 10/27 5 PM",
+  "youtube": 10,
+  "instagram": 10,
+  "facebook": 10,
+  "tiktok": 10,
+  "through_label": "Wed 10/28 5 PM",
   "posted_7d": 19
  },
  "needs_you": [
@@ -106,9 +106,9 @@
  },
  "last_run": {
   "ok": true,
-  "scheduled": 8,
+  "scheduled": 3,
   "held": 0,
-  "note": "TikTok initial load (8)"
+  "note": "Sun noon"
  },
- "next_run": "Sun 11:52 AM"
+ "next_run": "Tue 8:52 PM"
 }
