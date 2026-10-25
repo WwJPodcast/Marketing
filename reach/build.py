@@ -120,13 +120,16 @@ def build_series(daymap, first_date, yday):
     return daily, weekly
 
 
-def entry(key, name, via, views, daymap, first_date, lifetime, yday):
-    daily, weekly = build_series(daymap, first_date, yday)
+def entry(key, name, via, views, daymap, first_date, lifetime, yday, through=None):
+    """through: last day the numbers cover, when that is earlier than yesterday."""
+    daily, weekly = build_series(daymap, first_date, through or yday)
     wv = sum(w["v"] or 0 for w in weekly)
     we = sum(w["e"] or 0 for w in weekly)
     out = {"key": key, "name": name, "via": via, "views": views,
            "since": f"{MONTHS[first_date.month - 1]} {first_date.year}" if first_date else None,
            "daily": daily, "weekly": weekly}
+    if through and through != yday:
+        out["through"] = iso(through)
     if lifetime is not None:
         # all-time on the page = the 26 weeks shown + this "before" amount
         out["before"] = {"v": max(0, lifetime[0] - wv), "e": max(0, lifetime[1] - we)}
@@ -139,6 +142,16 @@ def empty_entry(key, name, via, views="views"):
 
 
 # --------------------------------------------------------------------- YouTube
+
+def youtube_end(daymap, yday):
+    """YouTube reports a day or two late. Return the last day to show, so days it
+    has not reported yet are left off instead of drawing as zero-view days."""
+    floor = yday - dt.timedelta(days=2)  # only the newest two days can be unreported
+    last = max((d for d, (v, e) in daymap.items() if v or e), default=None)
+    if last is not None and last >= yday:
+        return yday
+    return max(last, floor) if last is not None else floor
+
 
 def fetch_youtube(yday):
     need("YOUTUBE_REFRESH_TOKEN", "GOOGLE_CLIENT_ID", "GOOGLE_CLIENT_SECRET")
@@ -168,7 +181,8 @@ def fetch_youtube(yday):
             first = d
     life = report(dt.date(2015, 1, 1))
     lifetime = (int(life[0][0]), int(life[0][1]) + int(life[0][2]) + int(life[0][3])) if life else (0, 0)
-    return entry("yt", "YouTube", "YouTube API", "views", daymap, first, lifetime, yday)
+    end = youtube_end(daymap, yday)
+    return entry("yt", "YouTube", "YouTube API", "views", daymap, first, lifetime, yday, through=end)
 
 
 # -------------------------------------------------------------------- Facebook

@@ -109,6 +109,8 @@ const DAY=864e5;
 /* ---------- data: build.py fills in the JSON below every night ---------- */
 const DATA=__DATA_JSON__;
 const pd=s=>{if(s==null)return null;const q=s.split('-').map(Number);return new Date(q[0],q[1]-1,q[2])};
+const YD=(q=>new Date(q[0],q[1]-1,q[2]-1))(DATA.updated_date.split('-').map(Number)); // the run's "yesterday"
+const sameDay=(a,b)=>a.getFullYear()===b.getFullYear()&&a.getMonth()===b.getMonth()&&a.getDate()===b.getDate();
 DATA.platforms.forEach(p=>{
   if(p.daily)p.daily=p.daily.map(x=>({d:pd(x.d),v:x.v,e:x.e}));
   if(p.weekly)p.weekly=p.weekly.map(x=>({d:pd(x.d),v:x.v,e:x.e}));
@@ -193,7 +195,7 @@ function chart(points,opt){
   }
   // x labels
   const lblY=H-6;
-  if(!weekly){points.forEach((p,i)=>{el('text',{x:xAt(i)+bw/2,y:lblY,'text-anchor':'middle'},svg).textContent=i===n-1?'Today':['S','M','T','W','T','F','S'][p.d.getDay()]})}
+  if(!weekly){points.forEach((p,i)=>{el('text',{x:xAt(i)+bw/2,y:lblY,'text-anchor':'middle'},svg).textContent=i===n-1&&sameDay(p.d,YD)?'Yesterday':['S','M','T','W','T','F','S'][p.d.getDay()]})}
   else{let lastM=-1;points.forEach((p,i)=>{const m=p.d.getMonth();if(m!==lastM&&i<n-1){el('text',{x:padL+i*step,y:lblY,'text-anchor':'start'},svg).textContent=MON[m];lastM=m}})}
   // first-data marker on 6-month charts
   if(weekly){const fi=points.findIndex(p=>p.v!=null);
@@ -233,7 +235,7 @@ function statLine(p){
   if(!p.daily)return h('div','stats','<span>Nothing posted here yet</span>');
   const c=cur(p),pr=prev(p),v=sum(c,'v'),e=sum(c,'e'),dv=delta(v,sum(pr,'v'));
   return h('div','stats num',`<span>Views <b>${full(v)}</b> <span class="delta ${dv.c}">${dv.t}</span></span><span>Engaged <b>${full(e)}</b></span><span>Rate <b>${rate(v,e)}</b></span>`)}
-function platHead(p){return h('div','plat-h',`<b>${ico(p.key)}${p.name}</b><small>${p.via}${p.views!=='views'&&p.daily?' · views = '+p.views:''}${p.stale?' · <span class="stale">not updated since '+p.stale+'</span>':''}</small>`)}
+function platHead(p){return h('div','plat-h',`<b>${ico(p.key)}${p.name}</b><small>${p.via}${p.views!=='views'&&p.daily?' · views = '+p.views:''}${p.through&&p.daily?' · through '+md(pd(p.through)):''}${p.stale?' · <span class="stale">not updated since '+p.stale+'</span>':''}</small>`)}
 function charts(p,style){
   if(!p.daily)return [emptyChart('Last 7 days',p.name),emptyChart('Last 6 months',p.name)];
   return [chart(cur(p),{title:'Last 7 days',sub:'vs prior 7',style,vlabel:p.views}),
@@ -285,7 +287,7 @@ function layoutC(root){
   let k='fb';try{k=localStorage.getItem('wwj-reach-tab')||'fb'}catch(e){}
   pick(DATA.platforms.some(p=>p.key===k)?k:'fb');
 }
-function foot(){return h('div','foot',`<span>Views follow each platform's own count: plays on YouTube, Instagram and TikTok, and content views on Facebook.</span><span>Engaged adds likes or reactions, comments, shares and saves. On Facebook it is Meta's post engagement count, which also includes clicks.</span><span>YouTube and Facebook report their own history. Instagram, TikTok and Pinterest come from Buffer, which only keeps 31 days, so each night's totals are saved to build the longer graphs.</span><span>YouTube reports with a one to two day delay, so the newest days can look low until they fill in.</span>`)}
+function foot(){return h('div','foot',`<span>Views follow each platform's own count: plays on YouTube, Instagram and TikTok, and content views on Facebook.</span><span>Engaged adds likes or reactions, comments, shares and saves. On Facebook it is Meta's post engagement count, which also includes clicks.</span><span>YouTube and Facebook report their own history. Instagram, TikTok and Pinterest come from Buffer, which only keeps 31 days, so each night's totals are saved to build the longer graphs.</span><span>YouTube reports a day or two late, so its graphs stop at the last day it has reported. The date is next to its name.</span><span>For Instagram, TikTok and Pinterest, history from before tracking began counts each post's views on the day it was posted, not the days people watched it.</span>`)}
 
 layoutC(document.getElementById('app'));
 })();
