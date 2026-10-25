@@ -246,6 +246,8 @@ def update_history(history, yday):
     org = orgs[0]["id"]
     chans = gql("query($o: OrganizationId!){ channels(input:{organizationId:$o}){ id service isLocked isDisconnected } }",
                 {"o": org})["channels"]
+    if not chans:
+        raise SourceError("this Buffer API key can see no channels (key made under a different Buffer login?)")
     locked = {c["service"]: bool(c.get("isLocked")) for c in chans if c["service"] in BUFFER_KEYS}
     ids = [c["id"] for c in chans if c["service"] in BUFFER_KEYS and not c.get("isLocked") and not c.get("isDisconnected")]
     NOTES.append("Buffer channels: " + ", ".join(
