@@ -2,8 +2,12 @@ name: Reach nightly build
 
 on:
   schedule:
+    # GitHub sometimes skips a scheduled run, so there are two a night. The build is
+    # safe to run twice: the second run just refreshes the same numbers.
     # 07:17 UTC = 2:17 AM Central in summer, 1:17 AM in winter (always after midnight)
     - cron: "17 7 * * *"
+    # 11:43 UTC = 6:43 AM Central in summer, 5:43 AM in winter (YouTube is more complete by then)
+    - cron: "43 11 * * *"
   workflow_dispatch:
   push:
     branches: [main, Analytics]
