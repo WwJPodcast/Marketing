@@ -46,6 +46,9 @@ class SourceError(Exception):
     pass
 
 
+NOTES = []  # harmless run notes (counts, channel names) saved into data.json
+
+
 def clean(msg):
     """Strip any secret value out of an error message before it is printed."""
     msg = str(msg)
@@ -238,11 +241,16 @@ def post_numbers(metrics):
 
 
 def update_history(history, yday):
-    org = gql("{ account { organizations { id } } }")["account"]["organizations"][0]["id"]
+    orgs = gql("{ account { organizations { id } } }")["account"]["organizations"]
+    NOTES.append(f"Buffer: {len(orgs)} organization(s) visible to the API key")
+    org = orgs[0]["id"]
     chans = gql("query($o: OrganizationId!){ channels(input:{organizationId:$o}){ id service isLocked isDisconnected } }",
                 {"o": org})["channels"]
     locked = {c["service"]: bool(c.get("isLocked")) for c in chans if c["service"] in BUFFER_KEYS}
     ids = [c["id"] for c in chans if c["service"] in BUFFER_KEYS and not c.get("isLocked") and not c.get("isDisconnected")]
+    NOTES.append("Buffer channels: " + ", ".join(
+        f"{c['service']}{' (locked)' if c.get('isLocked') else ''}{' (disconnected)' if c.get('isDisconnected') else ''}"
+        for c in chans) + f"; tracking {len(ids)}")
     asof = iso(yday)
     if ids:
         after, seen = None, 0
@@ -264,6 +272,7 @@ def update_history(history, yday):
             if not page["pageInfo"]["hasNextPage"]:
                 break
             after = page["pageInfo"]["endCursor"]
+        NOTES.append(f"Buffer posts read: {seen}; saved with numbers: {len(history['posts'])}")
     return locked
 
 
@@ -370,7 +379,7 @@ def main():
         print("::error::No channel produced numbers; leaving the page as it was.")
         sys.exit(1)
 
-    data = {"updated": label(now), "updated_date": iso(now.date()), "platforms": platforms}
+    data = {"updated": label(now), "updated_date": iso(now.date()), "platforms": platforms, "notes": NOTES}
     (HERE / "data.json").write_text(json.dumps(data, indent=1), encoding="utf-8")
     (HERE / "history.json").write_text(json.dumps(history, separators=(",", ":")), encoding="utf-8")
 
