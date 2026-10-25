@@ -6,7 +6,7 @@ on:
     - cron: "17 7 * * *"
   workflow_dispatch:
   push:
-    branches: [Analytics]
+    branches: [main, Analytics]
     paths:
       - "reach/build.py"
       - "reach/template.html"
