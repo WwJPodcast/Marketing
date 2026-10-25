@@ -1,0 +1,49 @@
+name: Reach nightly build
+
+on:
+  schedule:
+    # 07:17 UTC = 2:17 AM Central in summer, 1:17 AM in winter (always after midnight)
+    - cron: "17 7 * * *"
+  workflow_dispatch:
+  push:
+    branches: [Analytics]
+    paths:
+      - "reach/build.py"
+      - "reach/template.html"
+      - ".github/workflows/reach.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reach-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pull numbers and build the page
+        run: python3 reach/build.py
+        env:
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          FACEBOOK_PAGE_TOKEN: ${{ secrets.FACEBOOK_PAGE_TOKEN }}
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+
+      - name: Save the results
+        run: |
+          git config user.name "wwj-reach-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reach/data.json reach/history.json reach/index.html
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit -m "reach: numbers through $(date -u +%F)"
+          git pull --rebase origin "${{ github.ref_name }}"
+          git push origin "HEAD:${{ github.ref_name }}"
