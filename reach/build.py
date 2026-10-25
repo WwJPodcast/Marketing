@@ -390,6 +390,7 @@ def main():
 
     for key, why in failures.items():
         print(f"::warning::{names[key]} not updated: {why}")
+        NOTES.append(f"{names[key]} not updated: {why}")
 
     if not any(p.get("daily") for p in platforms):
         print("::error::No channel produced numbers; leaving the page as it was.")
