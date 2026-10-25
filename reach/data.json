@@ -1,5 +1,5 @@
 {
- "updated": "Sat 10/24 8:58 PM",
+ "updated": "Sat 10/24 8:59 PM",
  "updated_date": "2026-10-24",
  "platforms": [
   {
@@ -459,5 +459,9 @@
    "daily": null,
    "weekly": null
   }
+ ],
+ "notes": [
+  "Buffer: 1 organization(s) visible to the API key",
+  "Buffer channels: ; tracking 0"
  ]
 }
