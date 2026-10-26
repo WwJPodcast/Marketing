@@ -1,5 +1,5 @@
 {
- "updated": "Mon 10/26 9:15 AM",
+ "updated": "Mon 10/26 12:43 PM",
  "updated_date": "2026-10-26",
  "platforms": [
   {
@@ -507,7 +507,7 @@
     },
     {
      "d": "2026-10-25",
-     "v": 21,
+     "v": 25,
      "e": 1
     }
    ],
@@ -639,7 +639,7 @@
     },
     {
      "d": "2026-10-19",
-     "v": 174,
+     "v": 178,
      "e": 7
     }
    ],
@@ -1082,6 +1082,6 @@
  "notes": [
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: pinterest, tiktok, instagram; tracking 3",
-  "Buffer posts read: 128; saved with numbers: 127"
+  "Buffer posts read: 128; saved with numbers: 128"
  ]
 }
