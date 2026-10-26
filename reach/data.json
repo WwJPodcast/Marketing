@@ -1,5 +1,5 @@
 {
- "updated": "Mon 10/26 6:17 AM",
+ "updated": "Mon 10/26 9:15 AM",
  "updated_date": "2026-10-26",
  "platforms": [
   {
@@ -507,8 +507,8 @@
     },
     {
      "d": "2026-10-25",
-     "v": 0,
-     "e": 0
+     "v": 21,
+     "e": 1
     }
    ],
    "weekly": [
@@ -639,8 +639,8 @@
     },
     {
      "d": "2026-10-19",
-     "v": 153,
-     "e": 6
+     "v": 174,
+     "e": 7
     }
    ],
    "before": {
@@ -868,14 +868,220 @@
    "name": "Pinterest",
    "via": "Buffer",
    "views": "views",
-   "since": null,
-   "daily": null,
-   "weekly": null
+   "since": "Oct 2026",
+   "daily": [
+    {
+     "d": "2026-10-12",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-10-13",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-10-14",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-10-15",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-10-16",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-10-17",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-10-18",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-10-19",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-10-20",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-10-21",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-10-22",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-10-23",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-10-24",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-10-25",
+     "v": 0,
+     "e": 0
+    }
+   ],
+   "weekly": [
+    {
+     "d": "2026-04-27",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-05-04",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-05-11",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-05-18",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-05-25",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-06-01",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-06-08",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-06-15",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-06-22",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-06-29",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-07-06",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-07-13",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-07-20",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-07-27",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-08-03",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-08-10",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-08-17",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-08-24",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-08-31",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-09-07",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-09-14",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-09-21",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-09-28",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-10-05",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-10-12",
+     "v": null,
+     "e": null
+    },
+    {
+     "d": "2026-10-19",
+     "v": 0,
+     "e": 0
+    }
+   ],
+   "before": {
+    "v": 0,
+    "e": 0
+   }
   }
  ],
  "notes": [
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: pinterest, tiktok, instagram; tracking 3",
-  "Buffer posts read: 125; saved with numbers: 124"
+  "Buffer posts read: 128; saved with numbers: 127"
  ]
 }
