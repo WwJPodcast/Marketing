@@ -12,6 +12,10 @@ on:
   push:
     branches: [main, Analytics]
     paths:
+      # Your WWJ Scheduler pushes status.json around 2:53 AM Central every night.
+      # GitHub's clock-based schedule above is unreliable, but a push always starts
+      # a run, so this is the dependable nightly trigger.
+      - "status.json"
       - "reach/build.py"
       - "reach/template.html"
       - ".github/workflows/reach.yml"
