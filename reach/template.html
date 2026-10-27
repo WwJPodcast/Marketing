@@ -94,6 +94,7 @@ body.has-bar{padding-bottom:calc(76px + env(safe-area-inset-bottom,0px))}
 .rtabs button[aria-selected="true"]{color:var(--ink);background:var(--panel);box-shadow:inset 0 -3px 0 var(--views);font-weight:600}
 .rtabs button:active{background:var(--empty)}
 
+.split-sec{display:flex;flex-direction:column;gap:8px;padding-top:12px;border-top:1px solid var(--line)}
 .stale{color:var(--down);font-weight:600}
 .foot{font-size:11px;color:var(--mute);border-top:1px solid var(--line);padding-top:10px;display:flex;flex-direction:column;gap:4px}
 </style>
@@ -245,59 +246,19 @@ function charts(p,style){
   return [chart(cur(p),{title:'Last 7 days',sub:'vs prior 7',style,vlabel:p.views}),
           chart(p.weekly,{title:'Last 6 months',sub:'by week',style,weekly:true,vlabel:p.views})]}
 
-/* ---------- shorts vs long-form: stacked views (YouTube only) ---------- */
-function stackChart(points,opt){
-  const W=360,H=130,padL=30,padR=6,weekly=!!opt.weekly;
-  const wrap=h('div','chart');
-  const cap=h('div','chart-cap');const capL=h('span');const capR=h('span');cap.append(capL,capR);
-  const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':opt.title+': Shorts and long-form views'});
-  wrap.append(cap,svg);
-  const n=points.length,plotW=W-padL-padR,step=plotW/n,bw=Math.max(3,Math.min(step*(weekly?0.62:0.6),26));
-  const have=points.filter(p=>p.s!=null);
-  const vMax=nice(Math.max(1,...have.map(p=>p.s+p.l)));
-  const vTop=10,vBase=104,span=vBase-vTop;
-  const xAt=i=>padL+i*step+(step-bw)/2;
-  const defaultCap=()=>{capL.innerHTML=opt.title;capR.innerHTML=opt.sub||''};defaultCap();
-  const hl=[];
-  for(let i=0;i<n;i++)hl.push(el('rect',{x:padL+i*step,y:vTop-4,width:step,height:span+8,class:'col-hl'},svg));
-  const gl=y=>el('line',{x1:padL,x2:W-padR,y1:y,y2:y,stroke:'var(--line)','stroke-width':1},svg);
-  gl(vTop);gl((vTop+vBase)/2);el('line',{x1:padL,x2:W-padR,y1:vBase,y2:vBase,stroke:'var(--mute)','stroke-width':1,opacity:.5},svg);
-  el('text',{x:padL-5,y:vTop+3,'text-anchor':'end'},svg).textContent=fmt(vMax);
-  el('text',{x:padL-5,y:vBase+3,'text-anchor':'end'},svg).textContent='0';
-  points.forEach((p,i)=>{
-    if(p.s==null){el('rect',{x:xAt(i),y:vBase-3,width:bw,height:3,rx:1.5,fill:'var(--empty)'},svg);return}
-    const hs=p.s>0?Math.max(2,p.s/vMax*span):0,hlg=p.l>0?Math.max(2,p.l/vMax*span):0;
-    if(hs>0){if(hlg>0)el('rect',{x:xAt(i),y:vBase-hs,width:bw,height:hs,fill:'var(--pc,var(--views))'},svg);
-      else el('path',{d:bar(xAt(i),vBase,bw,hs,true),fill:'var(--pc,var(--views))'},svg)}
-    if(hlg>0)el('path',{d:bar(xAt(i),vBase-hs,bw,hlg,true),fill:'var(--long)'},svg);
-    if(hs===0&&hlg===0)el('rect',{x:xAt(i),y:vBase-2,width:bw,height:2,fill:'var(--mute)',opacity:.35},svg)});
-  const lblY=H-6;
-  if(!weekly){points.forEach((p,i)=>{el('text',{x:xAt(i)+bw/2,y:lblY,'text-anchor':'middle'},svg).textContent=i===n-1&&sameDay(p.d,YD)?'Yesterday':['S','M','T','W','T','F','S'][p.d.getDay()]})}
-  else{let lastM=-1;points.forEach((p,i)=>{const m=p.d.getMonth();if(m!==lastM&&i<n-1){el('text',{x:padL+i*step,y:lblY,'text-anchor':'start'},svg).textContent=MON[m];lastM=m}})}
-  if(weekly){const fi=points.findIndex(p=>p.s!=null);
-    if(fi>2){const x=padL+fi*step-1;el('line',{x1:x,x2:x,y1:vTop,y2:vBase,stroke:'var(--mute)','stroke-dasharray':'2 3',opacity:.7},svg);
-      el('text',{x:x-4,y:(vTop+vBase)/2+4,'text-anchor':'end'},svg).textContent='Tracking starts'}}
-  let sel=-1;
-  const show=i=>{hl.forEach((r,k)=>r.classList.toggle('on',k===i));const p=points[i];
-    capL.innerHTML=`<b>${weekly?'Week of '+md(p.d):dl(p.d)}</b>`;
-    if(p.s==null){capR.textContent='No data yet';return}
-    capR.innerHTML=`<span class="sw" style="background:var(--pc,var(--views))"></span><b class="num">${full(p.s)}</b> Shorts · <span class="sw" style="background:var(--long)"></span><b class="num">${full(p.l)}</b> long-form`};
-  const clear=()=>{if(sel>=0){show(sel);return}hl.forEach(r=>r.classList.remove('on'));defaultCap()};
-  for(let i=0;i<n;i++){const r=el('rect',{x:padL+i*step,y:0,width:step,height:H,class:'hit',tabindex:0,'aria-label':(weekly?'Week of '+md(points[i].d):dl(points[i].d))},svg);
-    r.addEventListener('pointerenter',()=>show(i));r.addEventListener('focus',()=>show(i));
-    r.addEventListener('click',()=>{sel=sel===i?-1:i;sel<0?clear():show(i)})}
-  svg.addEventListener('pointerleave',clear);
-  return wrap}
+/* ---------- shorts vs long-form: one section each, own scale (YouTube only) ---------- */
 function splitBlock(p){
   const S=p.split;if(!S)return [];
-  const row=(k,label,color)=>{const c=S[k].daily.slice(7),pr=S[k].daily.slice(0,7),v=sum(c,'v'),e=sum(c,'e'),dv=delta(v,sum(pr,'v'));
-    return h('div','stats num',`<span><span class="sw" style="background:${color}"></span><b>${label}</b> ${full(v)} <span class="delta ${dv.c}">${dv.t}</span></span><span>Engaged <b>${full(e)}</b></span><span>Rate <b>${rate(v,e)}</b></span>`)};
-  const zip=(a,b)=>a.map((x,i)=>({d:x.d,s:x.v,l:b[i].v}));
-  return [h('div','sec-t','<span>Shorts vs long-form</span><em>last 7 days vs prior 7</em>'),
-    row('shorts','Shorts','var(--pc,var(--views))'),row('long','Long-form','var(--long)'),
-    h('div','lg',`<span><span class="sw" style="background:var(--pc,var(--views))"></span>Shorts</span><span><span class="sw" style="background:var(--long)"></span>Long-form (regular uploads and live streams)</span>`),
-    stackChart(zip(S.shorts.daily,S.long.daily),{title:'Last 14 days',sub:'views, stacked'}),
-    stackChart(zip(S.shorts.weekly,S.long.weekly),{title:'Last 6 months',sub:'by week',weekly:true})]}
+  return [['shorts','Shorts'],['long','Long-form']].map(([k,label])=>{
+    const s=S[k],c=s.daily.slice(7),pr=s.daily.slice(0,7),v=sum(c,'v'),e=sum(c,'e'),dv=delta(v,sum(pr,'v'));
+    const sec=h('div','split-sec');
+    if(k==='long')sec.style.setProperty('--pc','var(--long)');
+    sec.append(
+      h('div','sec-t',`<span>${label}</span><em>last 7 days vs prior 7</em>`),
+      h('div','stats num',`<span>Views <b>${full(v)}</b> <span class="delta ${dv.c}">${dv.t}</span></span><span>Engaged <b>${full(e)}</b></span><span>Rate <b>${rate(v,e)}</b></span>`),
+      chart(s.daily,{title:label+' · last 14 days',sub:'views + engaged',style:'twin',vlabel:'views'}),
+      chart(s.weekly,{title:label+' · last 6 months',sub:'by week',style:'twin',weekly:true,vlabel:'views'}));
+    return sec})}
 
 /* ---------- C: overview + one platform at a time ---------- */
 function layoutC(root){
