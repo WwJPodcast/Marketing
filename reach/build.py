@@ -153,6 +153,36 @@ def youtube_end(daymap, yday):
     return max(last, floor) if last is not None else floor
 
 
+# YouTube's own content-type tag. Anything that is not a Short (regular uploads,
+# live streams) counts as long-form. Other types (e.g. STORY) are ignored.
+CONTENT_TYPES = {"SHORTS": "shorts", "VIDEO_ON_DEMAND": "long", "LIVE_STREAM": "long"}
+
+
+def split_daymaps(rows):
+    """Rows of [day, contentType, views, likes, comments, shares] ->
+    {"shorts": {date: (views, engaged)}, "long": {...}}."""
+    out = {"shorts": {}, "long": {}}
+    for r in rows:
+        kind = CONTENT_TYPES.get(r[1])
+        if kind is None:
+            continue
+        d = dt.date.fromisoformat(r[0])
+        v, e = int(r[2]), int(r[3]) + int(r[4]) + int(r[5])
+        a, b = out[kind].get(d, (0, 0))
+        out[kind][d] = (a + v, b + e)
+    return out
+
+
+def youtube_split(rows, first, end):
+    """Shorts vs long-form daily (14) and weekly (26) series, same shape as the main ones."""
+    maps = split_daymaps(rows)
+    split = {}
+    for kind, dm in maps.items():
+        daily, weekly = build_series(dm, first, end)
+        split[kind] = {"daily": daily, "weekly": weekly}
+    return split, maps
+
+
 def fetch_youtube(yday):
     need("YOUTUBE_REFRESH_TOKEN", "GOOGLE_CLIENT_ID", "GOOGLE_CLIENT_SECRET")
     tok = http("https://oauth2.googleapis.com/token", method="POST",
@@ -182,7 +212,23 @@ def fetch_youtube(yday):
     life = report(dt.date(2015, 1, 1))
     lifetime = (int(life[0][0]), int(life[0][1]) + int(life[0][2]) + int(life[0][3])) if life else (0, 0)
     end = youtube_end(daymap, yday)
-    return entry("yt", "YouTube", "YouTube API", "views", daymap, first, lifetime, yday, through=end)
+    out = entry("yt", "YouTube", "YouTube API", "views", daymap, first, lifetime, yday, through=end)
+
+    # Shorts vs long-form. A second query; if it fails the page simply shows no split.
+    if first is not None:
+        try:
+            rows = report(first, "day,creatorContentType")
+            split, maps = youtube_split(rows, first, end)
+            out["split"] = split
+            s = sum(v for v, _ in maps["shorts"].values())
+            lf = sum(v for v, _ in maps["long"].values())
+            tot = sum(v for d, (v, _) in daymap.items() if d >= first)
+            NOTES.append(f"YouTube split since {iso(first)}: shorts {s} + long-form {lf} of {tot} total views")
+        except Exception as ex:
+            msg = clean(ex)
+            print(f"::warning::YouTube shorts/long-form split not available: {msg}")
+            NOTES.append(f"YouTube split not available: {msg}")
+    return out
 
 
 # -------------------------------------------------------------------- Facebook
