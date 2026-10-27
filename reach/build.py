@@ -22,6 +22,7 @@ Standard library only.
 import datetime as dt
 import json
 import os
+import re
 import sys
 import urllib.error
 import urllib.parse
@@ -153,34 +154,49 @@ def youtube_end(daymap, yday):
     return max(last, floor) if last is not None else floor
 
 
-# YouTube's own content-type tag. Anything that is not a Short (regular uploads,
-# live streams) counts as long-form. Other types (e.g. STORY) are ignored.
-CONTENT_TYPES = {"SHORTS": "shorts", "VIDEO_ON_DEMAND": "long", "LIVE_STREAM": "long"}
+def content_kind(t):
+    """Map YouTube's content-type label to 'shorts' / 'long' / None (ignore).
+    Matched loosely (case and punctuation do not matter) because the exact labels
+    are not guaranteed: SHORTS -> shorts; STORY -> ignored; anything else
+    (regular uploads, live streams) -> long-form."""
+    norm = re.sub(r"[^A-Z]", "", str(t).upper())
+    if "SHORT" in norm:
+        return "shorts"
+    if "STORY" in norm:
+        return None
+    return "long"
 
 
-def split_daymaps(rows):
-    """Rows of [day, contentType, views, likes, comments, shares] ->
-    {"shorts": {date: (views, engaged)}, "long": {...}}."""
-    out = {"shorts": {}, "long": {}}
+def split_daymaps(rows, heads=None):
+    """Rows of day, contentType, views, likes, comments, shares ->
+    ({"shorts": {date: (views, engaged)}, "long": {...}}, set of type labels seen).
+    heads = the API's column names; when given, columns are found by name."""
+    names = ["day", "creatorContentType", "views", "likes", "comments", "shares"]
+    pos = {n: i for i, n in enumerate(names)}
+    if heads and all(n in heads for n in names):
+        pos = {n: heads.index(n) for n in names}
+    out, seen = {"shorts": {}, "long": {}}, set()
     for r in rows:
-        kind = CONTENT_TYPES.get(r[1])
+        seen.add(str(r[pos["creatorContentType"]]))
+        kind = content_kind(r[pos["creatorContentType"]])
         if kind is None:
             continue
-        d = dt.date.fromisoformat(r[0])
-        v, e = int(r[2]), int(r[3]) + int(r[4]) + int(r[5])
+        d = dt.date.fromisoformat(r[pos["day"]])
+        v = int(r[pos["views"]])
+        e = int(r[pos["likes"]]) + int(r[pos["comments"]]) + int(r[pos["shares"]])
         a, b = out[kind].get(d, (0, 0))
         out[kind][d] = (a + v, b + e)
-    return out
+    return out, seen
 
 
-def youtube_split(rows, first, end):
+def youtube_split(rows, first, end, heads=None):
     """Shorts vs long-form daily (14) and weekly (26) series, same shape as the main ones."""
-    maps = split_daymaps(rows)
+    maps, seen = split_daymaps(rows, heads)
     split = {}
     for kind, dm in maps.items():
         daily, weekly = build_series(dm, first, end)
         split[kind] = {"daily": daily, "weekly": weekly}
-    return split, maps
+    return split, maps, seen
 
 
 def fetch_youtube(yday):
@@ -193,14 +209,15 @@ def fetch_youtube(yday):
                    "grant_type": "refresh_token"}).encode())
     auth = {"Authorization": "Bearer " + tok["access_token"]}
 
-    def report(start, dims=None):
+    def report(start, dims=None, raw=False):
         q = {"ids": "channel==MINE", "startDate": iso(start), "endDate": iso(yday),
              "metrics": "views,likes,comments,shares"}
         if dims:
             q["dimensions"] = dims
             q["sort"] = dims
-        return http("https://youtubeanalytics.googleapis.com/v2/reports?" + urllib.parse.urlencode(q),
-                    headers=auth).get("rows") or []
+        j = http("https://youtubeanalytics.googleapis.com/v2/reports?" + urllib.parse.urlencode(q),
+                 headers=auth)
+        return j if raw else (j.get("rows") or [])
 
     daymap, first = {}, None
     for r in report(dt.date(2024, 1, 1), "day"):
@@ -217,13 +234,17 @@ def fetch_youtube(yday):
     # Shorts vs long-form. A second query; if it fails the page simply shows no split.
     if first is not None:
         try:
-            rows = report(first, "day,creatorContentType")
-            split, maps = youtube_split(rows, first, end)
-            out["split"] = split
+            resp = report(first, "day,creatorContentType", raw=True)
+            rows = resp.get("rows") or []
+            heads = [h.get("name") for h in resp.get("columnHeaders") or []]
+            split, maps, seen = youtube_split(rows, first, end, heads)
             s = sum(v for v, _ in maps["shorts"].values())
             lf = sum(v for v, _ in maps["long"].values())
             tot = sum(v for d, (v, _) in daymap.items() if d >= first)
-            NOTES.append(f"YouTube split since {iso(first)}: shorts {s} + long-form {lf} of {tot} total views")
+            NOTES.append(f"YouTube split since {iso(first)}: shorts {s} + long-form {lf} of {tot} total views; "
+                         f"{len(rows)} rows, content types seen: {sorted(seen) or 'none'}, columns: {heads or 'none'}")
+            if s + lf:  # only show the block when the API actually returned numbers
+                out["split"] = split
         except Exception as ex:
             msg = clean(ex)
             print(f"::warning::YouTube shorts/long-form split not available: {msg}")
