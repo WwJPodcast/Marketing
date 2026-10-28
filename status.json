@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-27T21:45:13-05:00",
- "updated_label": "Tue 10/27 9:45 PM",
- "window_start": "2026-10-27",
+ "updated": "2026-10-28T02:52:41-05:00",
+ "updated_label": "Wed 10/28 2:52 AM",
+ "window_start": "2026-10-28",
  "window_days": 21,
  "goal_days": 14,
  "types": [
@@ -11,7 +11,7 @@
    "rate": "5/wk",
    "per_week": 5,
    "builds": "Wed night",
-   "reported": "10/27",
+   "reported": "10/28",
    "queued": {
     "through": "2026-10-29",
     "count": 2
@@ -37,7 +37,7 @@
    "rate": "5–9/wk",
    "per_week": 7,
    "builds": "Mon night",
-   "reported": "10/27",
+   "reported": "10/28",
    "queued": {
     "through": "2026-10-30",
     "count": 6
@@ -63,7 +63,7 @@
    "rate": "4/wk",
    "per_week": 4,
    "builds": "Thu night",
-   "reported": "10/27",
+   "reported": "10/28",
    "queued": {
     "count": 2
    },
@@ -95,12 +95,12 @@
    "urgent": true
   },
   {
-   "what": "Pick Tomorrow's passages 11/8–17 (S4E16–S4E23)",
+   "what": "Pick Tomorrow's passages 11/8–18 (S4E16–S4E24)",
    "due": "by Wed 11/4",
-   "urgent": false
+   "urgent": true
   },
   {
-   "what": "Pick nature verses 11/16–17 (S4E21–S4E22)",
+   "what": "Pick nature verses 11/16–18 (S4E21–S4E23)",
    "due": "by Mon 11/9",
    "urgent": false
   }
