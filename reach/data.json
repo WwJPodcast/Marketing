@@ -1,5 +1,5 @@
 {
- "updated": "Fri 10/30 2:53 AM",
+ "updated": "Fri 10/30 9:06 AM",
  "updated_date": "2026-10-30",
  "platforms": [
   {
@@ -921,8 +921,8 @@
     },
     {
      "d": "2026-10-29",
-     "v": 0,
-     "e": 0
+     "v": 27,
+     "e": 4
     }
    ],
    "weekly": [
@@ -1053,8 +1053,8 @@
     },
     {
      "d": "2026-10-23",
-     "v": 138,
-     "e": 14
+     "v": 165,
+     "e": 18
     }
    ],
    "before": {
@@ -1497,6 +1497,6 @@
   "YouTube split since 2026-09-15: shorts 12656 + long-form 68 of 12740 total views; 55 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: pinterest, tiktok, instagram; tracking 3",
-  "Buffer posts read: 160; saved with numbers: 157"
+  "Buffer posts read: 163; saved with numbers: 162"
  ]
 }
