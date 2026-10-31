@@ -346,6 +346,21 @@ def fb_views(vid, metric, token):
     return int(v) if isinstance(v, (int, float)) else None
 
 
+def fb_live_time(r):
+    """When a video really went (or goes) live: publishing_phase.publish_time, else the scheduled time."""
+    try:
+        pt = ((r.get("status") or {}).get("publishing_phase") or {}).get("publish_time")
+        if pt:
+            return dt.datetime.strptime(pt, "%Y-%m-%dT%H:%M:%S%z")
+    except Exception:
+        pass
+    sp = r.get("scheduled_publish_time")
+    try:
+        return dt.datetime.fromtimestamp(int(sp), dt.timezone.utc) if sp else None
+    except Exception:
+        return None
+
+
 def fetch_facebook_posts(now):
     """List the Page's recent videos and Reels with length and views, and save them to
     fb_posts.json so a reach drop can be traced to what was actually posted."""
@@ -375,6 +390,7 @@ def fetch_facebook_posts(now):
                                   # created_time is when the video was uploaded; for a scheduled upload the
                                   # real go-live moment is scheduled_publish_time, so both are kept
                                   "pub": r.get("published"), "sched": r.get("scheduled_publish_time"),
+                                  "live": fb_live_time(r) or t,
                                   "status": json.dumps(r.get("status"), separators=(",", ":"))[:240] if r.get("status") is not None else None,
                                   "src": "field:views" if isinstance(r.get("views"), int) else None}
         except Exception as ex:
@@ -408,6 +424,7 @@ def fetch_facebook_posts(now):
         if kind not in working:  # trial-and-error misses are noise once a metric works
             errors.extend(f"{kind} {name}: {msg}" for name, msg in list(msgs.items())[:3])
     out_items = [{"id": i["id"], "type": i["type"], "at": i["t"].astimezone(TZ).strftime("%Y-%m-%d %H:%M"),
+                  "live": i["live"].astimezone(TZ).strftime("%Y-%m-%d %H:%M"),
                   "len": i["len"], "views": i["views"], "src": i["src"], "text": i["text"],
                   "pub": i["pub"], "status": i["status"],
                   "sched": (dt.datetime.fromtimestamp(int(i["sched"]), TZ).strftime("%Y-%m-%d %H:%M")
@@ -427,6 +444,12 @@ def fetch_facebook_posts(now):
               "view_metrics_used": {k: m[1] for k, m in working.items()}, "errors": errors,
               "days": [days[d] for d in sorted(days, reverse=True)], "items": out_items}
     (HERE / "fb_posts.json").write_text(json.dumps(result, indent=1), encoding="utf-8")
+    # trimmed copy for the page: newest go-live first
+    page_items = sorted(rows, key=lambda x: x["live"], reverse=True)
+    result_page = {"long_over": FB_LONG_SECONDS, "days": FB_POST_DAYS,
+                   "items": [{"t": i["live"].astimezone(TZ).strftime("%Y-%m-%dT%H:%M"), "len": i["len"],
+                              "v": i["views"], "k": i["type"], "x": i["text"][:48],
+                              "up": i["live"] > now} for i in page_items]}
 
     nl = sum(1 for i in rows if (i["len"] or 0) > FB_LONG_SECONDS)
     unpub = sum(1 for i in rows if i["pub"] is False)
@@ -435,6 +458,7 @@ def fetch_facebook_posts(now):
                  f"{sum(1 for i in rows if i['type'] == 'video')} other videos, {nl} over {FB_LONG_SECONDS}s; "
                  f"views known for {nviews} of {len(rows)}, not yet published {unpub} (metrics: {result['view_metrics_used'] or 'none'})"
                  + (f"; problems: {'; '.join(errors)[:240]}" if errors else ""))
+    return result_page
 
 
 # ---------------------------------------------------------------------- Buffer
@@ -604,8 +628,9 @@ def main():
         print(f"::warning::{names[key]} not updated: {why}")
         NOTES.append(f"{names[key]} not updated: {why}")
 
+    fb_page_list = None
     try:
-        fetch_facebook_posts(now)  # extra detail for diagnosing Facebook; never allowed to affect the page
+        fb_page_list = fetch_facebook_posts(now)  # extra detail for diagnosing Facebook; never allowed to affect the page
     except Exception as ex:
         msg = clean(ex)
         print(f"::warning::Facebook post list not available: {msg}")
@@ -616,6 +641,8 @@ def main():
         sys.exit(1)
 
     data = {"updated": label(now), "updated_date": iso(now.date()), "platforms": platforms, "notes": NOTES}
+    if fb_page_list:
+        data["fb_posts"] = fb_page_list
     (HERE / "data.json").write_text(json.dumps(data, indent=1), encoding="utf-8")
     (HERE / "history.json").write_text(json.dumps(history, separators=(",", ":")), encoding="utf-8")
 

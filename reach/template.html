@@ -95,6 +95,19 @@ body.has-bar{padding-bottom:calc(76px + env(safe-area-inset-bottom,0px))}
 .rtabs button:active{background:var(--empty)}
 
 .split-sec{display:flex;flex-direction:column;gap:8px;padding-top:12px;border-top:1px solid var(--line)}
+.posts{display:flex;flex-direction:column;gap:8px;padding-top:12px;border-top:1px solid var(--line)}
+.posts .sum{display:flex;flex-direction:column;gap:2px;font-size:12px;color:var(--mute)}
+.posts .sum b{color:var(--ink);font-weight:600}
+.posts .sum i{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px}
+.prow{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:7px 0 7px 8px;border-top:1px solid var(--line);border-left:3px solid var(--views);font-size:12px}
+.prow.long{border-left-color:var(--long)}
+.prow .x{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.prow .v{font-weight:600;text-align:right}
+.prow small{color:var(--mute);font-size:11px;grid-column:1/-1}
+.prow .tag{font-size:9px;letter-spacing:.06em;text-transform:uppercase;border:1px solid currentColor;border-radius:3px;padding:0 4px;margin-left:6px;vertical-align:1px}
+.prow.long .tag{color:var(--long)}.prow.up .tag{color:var(--eng)}
+.more{align-self:flex-start;background:none;border:1px solid var(--line);border-radius:8px;padding:6px 12px;color:var(--mute);cursor:pointer;min-height:36px}
+.more:active{background:var(--empty)}
 .stale{color:var(--down);font-weight:600}
 .foot{font-size:11px;color:var(--mute);border-top:1px solid var(--line);padding-top:10px;display:flex;flex-direction:column;gap:4px}
 </style>
@@ -260,6 +273,31 @@ function splitBlock(p){
       chart(s.weekly,{title:label+' · last 6 months',sub:'by week',style:'twin',weekly:true,vlabel:'views'}));
     return sec})}
 
+/* ---------- Facebook only: every recent video with its length and views ---------- */
+function postsBlock(p){
+  const F=DATA.fb_posts;if(p.key!=='fb'||!F||!F.items||!F.items.length)return [];
+  const LONG=F.long_over||90,isL=i=>(i.len||0)>LONG;
+  const mm=n=>n==null?'?':Math.floor(n/60)+':'+String(n%60).padStart(2,'0');
+  const when=t=>{const d=pd(t.slice(0,10));let H=+t.slice(11,13);const m=t.slice(14,16);const ap=H<12?'AM':'PM';H=H%12||12;return dl(d)+' '+H+':'+m+' '+ap};
+  const med=a=>{if(!a.length)return null;const b=[...a].sort((x,y)=>x-y),n=b.length;return n%2?b[(n-1)/2]:Math.round((b[n/2-1]+b[n/2])/2)};
+  const live=F.items.filter(i=>!i.up);
+  const stat=(label,col,list)=>{const k=list.filter(i=>i.v!=null);
+    return `<span><i style="background:var(${col})"></i><b>${label}</b> · ${list.length} posted · median <b class="num">${k.length?full(med(k.map(i=>i.v))):'—'}</b> views · total <b class="num">${full(k.reduce((s,i)=>s+i.v,0))}</b></span>`};
+  const sec=h('div','posts');
+  sec.append(h('div','sec-t',`<span>Recent posts</span><em>last ${F.days} days · by go-live time</em>`),
+    h('div','sum num',stat('Shorts and Reels','--views',live.filter(i=>!isL(i)))+stat('Long-form','--long',live.filter(isL))));
+  const list=h('div','plist');
+  const row=i=>{const L=isL(i);
+    const r=h('div','prow'+(L?' long':'')+(i.up?' up':''),
+      `<span class="x">${i.x?i.x.replace(/</g,'&lt;'):'(no caption)'}${L?'<span class="tag">Long</span>':''}${i.up?'<span class="tag">Scheduled</span>':''}</span><span class="v num">${i.up||i.v==null?'—':full(i.v)}</span><small>${when(i.t)} · ${mm(i.len)} · ${i.k==='reel'?'Reel':'Video'}</small>`);return r};
+  const SHOW=20;let all=false;
+  const paint=()=>{list.replaceChildren(...(all?F.items:F.items.slice(0,SHOW)).map(row));
+    if(F.items.length>SHOW){btn.textContent=all?'Show fewer':'Show all '+F.items.length;btn.hidden=false}else btn.hidden=true};
+  const btn=h('button','more');btn.type='button';btn.addEventListener('click',()=>{all=!all;paint()});
+  paint();sec.append(list,btn);
+  sec.append(h('div','sum',`<span>Posts over ${LONG} seconds are long-form. Views are Facebook's own play count and keep growing for a few days.</span>`));
+  return [sec]}
+
 /* ---------- C: overview + one platform at a time ---------- */
 function layoutC(root){
   root.className='page narrow';
@@ -298,7 +336,7 @@ function layoutC(root){
   const tabs=h('div','tabs');tabs.setAttribute('role','tablist');tabs.setAttribute('aria-label','Platform');
   const panel=h('section','plat');panel.setAttribute('role','tabpanel');
   const pick=(k,tap)=>{const p=DATA.platforms.find(x=>x.key===k);panel.style.setProperty('--pc',`var(--${k})`);[...tabs.children].forEach(b=>b.setAttribute('aria-selected',b.dataset.k===k));
-    panel.replaceChildren(platHead(p),statLine(p),legend(),...charts(p,'twin'),...splitBlock(p));try{localStorage.setItem('wwj-reach-tab',k)}catch(e){}
+    panel.replaceChildren(platHead(p),statLine(p),legend(),...charts(p,'twin'),...splitBlock(p),...postsBlock(p));try{localStorage.setItem('wwj-reach-tab',k)}catch(e){}
     if(tap){const r=panel.getBoundingClientRect();if(r.top<0||r.top>innerHeight*0.6)panel.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})}};
   DATA.platforms.forEach(p=>{const b=h('button',null,`${ico(p.key,'')}${p.name}`);b.style.setProperty('--pc',`var(--${p.key})`);b.type='button';b.id='tab-'+p.key;b.dataset.k=p.key;b.setAttribute('role','tab');b.addEventListener('click',()=>pick(p.key,true));tabs.append(b)});
   root.append(panel,foot());
