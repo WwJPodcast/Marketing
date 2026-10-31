@@ -292,6 +292,140 @@ def fetch_facebook(yday):
     return entry("fb", "Facebook", "Facebook API", "views", daymap, first, lifetime, yday)
 
 
+# ------------------------------------------- Facebook posts (what went out, how each did)
+
+FB_LONG_SECONDS = 90  # Facebook treats videos over 90 seconds as regular videos, not Reels
+FB_POST_DAYS = 21
+FB_MAX_LOOKUPS = 80   # newest posts that get a per-post views lookup
+# Meta renames and retires video metrics often, so several are tried; the first that
+# works is used for the rest of the run and its name is saved with the results.
+FB_VIEW_METRICS = [("video_insights", "total_video_views"), ("video_insights", "fb_reels_total_plays"),
+                   ("video_insights", "blue_reels_play_count"), ("video_insights", "post_video_views"),
+                   ("insights", "post_media_view"), ("insights", "post_impressions_unique")]
+
+
+def fb_time(s):
+    try:
+        return dt.datetime.strptime(s, "%Y-%m-%dT%H:%M:%S%z")
+    except Exception:
+        return None
+
+
+def fb_edge(edge, page, token, cutoff, fields_list):
+    """Newest-first rows of a Page edge ('videos' or 'video_reels') back to cutoff.
+    fields_list = field sets to try in order (a retired field must not sink the call)."""
+    last = None
+    for fields in fields_list:
+        try:
+            q = urllib.parse.urlencode({"fields": fields, "limit": 50, "access_token": token})
+            data = http(f"https://graph.facebook.com/{page}/{edge}?{q}")
+        except SourceError as ex:
+            last = ex
+            continue
+        rows = []
+        for _ in range(6):
+            got = data.get("data") or []
+            rows.extend(got)
+            oldest = fb_time(got[-1].get("created_time")) if got else None
+            nxt = (data.get("paging") or {}).get("next")
+            if not got or (oldest and oldest < cutoff) or not nxt:
+                break
+            data = http(nxt)
+        return rows
+    raise last
+
+
+def fb_views(vid, metric, token):
+    kind, name = metric
+    q = urllib.parse.urlencode({"metric": name, "access_token": token})
+    d = http(f"https://graph.facebook.com/{vid}/{kind}?{q}")
+    vals = ((d.get("data") or [{}])[0].get("values")) or []
+    v = vals[-1].get("value") if vals else None
+    if isinstance(v, dict):
+        v = sum(x for x in v.values() if isinstance(x, (int, float)))
+    return int(v) if isinstance(v, (int, float)) else None
+
+
+def fetch_facebook_posts(now):
+    """List the Page's recent videos and Reels with length and views, and save them to
+    fb_posts.json so a reach drop can be traced to what was actually posted."""
+    need("FACEBOOK_PAGE_TOKEN")
+    token = os.environ["FACEBOOK_PAGE_TOKEN"]
+    page = os.environ.get("FACEBOOK_PAGE_ID") or FB_PAGE_ID_DEFAULT
+    cutoff = now - dt.timedelta(days=FB_POST_DAYS)
+    errors = []
+
+    items = {}
+    for edge, kind, fields in (
+            ("video_reels", "reel", ["id,created_time,length,description,permalink_url,views",
+                                     "id,created_time,length,description,permalink_url", "id,created_time,length"]),
+            ("videos", "video", ["id,created_time,length,title,description,permalink_url,views",
+                                 "id,created_time,length,title,description,permalink_url", "id,created_time,length"])):
+        try:
+            for r in fb_edge(edge, page, token, cutoff, fields):
+                t = fb_time(r.get("created_time"))
+                if not t or t < cutoff or r["id"] in items:
+                    continue  # a reel can also be listed under videos: keep the first (reel) label
+                text = " ".join(str(r.get("title") or r.get("description") or "").split())[:60]
+                items[r["id"]] = {"id": r["id"], "type": kind, "t": t,
+                                  "len": round(float(r["length"])) if r.get("length") is not None else None,
+                                  "text": text, "views": r["views"] if isinstance(r.get("views"), int) else None,
+                                  "src": "field:views" if isinstance(r.get("views"), int) else None}
+        except Exception as ex:
+            errors.append(f"{edge}: {clean(ex)}")
+
+    rows = sorted(items.values(), key=lambda x: x["t"], reverse=True)
+    working, misses, tried, probe = {}, {}, 0, {}
+    for it in rows[:FB_MAX_LOOKUPS]:
+        kind = it["type"]
+        if misses.get(kind, 0) >= 3 and kind not in working:
+            continue  # nothing has worked for this kind: stop asking
+        order = ([working[kind]] if kind in working else []) + [m for m in FB_VIEW_METRICS if m != working.get(kind)]
+        got = None
+        for m in order:
+            try:
+                v = fb_views(it["id"], m, token)
+            except SourceError as ex:
+                probe.setdefault(kind, {}).setdefault(m[1], clean(ex))  # kept only if nothing works for this kind
+                continue
+            if v is not None:
+                got = (m, v)
+                break
+        tried += 1
+        if got:
+            working[kind] = got[0]
+            it["views"], it["src"] = got[1], got[0][1]
+        else:
+            misses[kind] = misses.get(kind, 0) + 1
+
+    for kind, msgs in probe.items():
+        if kind not in working:  # trial-and-error misses are noise once a metric works
+            errors.extend(f"{kind} {name}: {msg}" for name, msg in list(msgs.items())[:3])
+    out_items = [{"id": i["id"], "type": i["type"], "at": i["t"].astimezone(TZ).strftime("%Y-%m-%d %H:%M"),
+                  "len": i["len"], "views": i["views"], "src": i["src"], "text": i["text"]} for i in rows]
+    days = {}
+    for i in rows:
+        d = i["t"].astimezone(TZ).date()
+        r = days.setdefault(d, {"d": iso(d), "short": 0, "long": 0, "short_views": 0, "long_views": 0, "unknown": 0})
+        long_ = (i["len"] or 0) > FB_LONG_SECONDS
+        r["long" if long_ else "short"] += 1
+        if i["views"] is None:
+            r["unknown"] += 1
+        else:
+            r["long_views" if long_ else "short_views"] += i["views"]
+    result = {"updated": label(now), "cutoff_days": FB_POST_DAYS, "long_over_seconds": FB_LONG_SECONDS,
+              "view_metrics_used": {k: m[1] for k, m in working.items()}, "errors": errors,
+              "days": [days[d] for d in sorted(days, reverse=True)], "items": out_items}
+    (HERE / "fb_posts.json").write_text(json.dumps(result, indent=1), encoding="utf-8")
+
+    nl = sum(1 for i in rows if (i["len"] or 0) > FB_LONG_SECONDS)
+    nviews = sum(1 for i in rows if i["views"] is not None)
+    NOTES.append(f"Facebook posts, last {FB_POST_DAYS} days: {sum(1 for i in rows if i['type'] == 'reel')} reels, "
+                 f"{sum(1 for i in rows if i['type'] == 'video')} other videos, {nl} over {FB_LONG_SECONDS}s; "
+                 f"views known for {nviews} of {len(rows)} (metrics: {result['view_metrics_used'] or 'none'})"
+                 + (f"; problems: {'; '.join(errors)[:240]}" if errors else ""))
+
+
 # ---------------------------------------------------------------------- Buffer
 
 BUFFER_KEYS = {"instagram": ("ig", "Instagram"), "tiktok": ("tt", "TikTok"), "pinterest": ("pin", "Pinterest")}
@@ -458,6 +592,13 @@ def main():
     for key, why in failures.items():
         print(f"::warning::{names[key]} not updated: {why}")
         NOTES.append(f"{names[key]} not updated: {why}")
+
+    try:
+        fetch_facebook_posts(now)  # extra detail for diagnosing Facebook; never allowed to affect the page
+    except Exception as ex:
+        msg = clean(ex)
+        print(f"::warning::Facebook post list not available: {msg}")
+        NOTES.append(f"Facebook post list not available: {msg}")
 
     if not any(p.get("daily") for p in platforms):
         print("::error::No channel produced numbers; leaving the page as it was.")

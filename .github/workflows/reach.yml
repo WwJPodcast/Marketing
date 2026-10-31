@@ -48,6 +48,7 @@ jobs:
           git config user.name "wwj-reach-bot"
           git config user.email "actions@users.noreply.github.com"
           git add reach/data.json reach/history.json reach/index.html
+          if [ -f reach/fb_posts.json ]; then git add reach/fb_posts.json; fi
           if git diff --cached --quiet; then
             echo "Nothing changed."
             exit 0
