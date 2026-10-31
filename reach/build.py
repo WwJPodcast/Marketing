@@ -357,9 +357,11 @@ def fetch_facebook_posts(now):
 
     items = {}
     for edge, kind, fields in (
-            ("video_reels", "reel", ["id,created_time,length,description,permalink_url,views",
+            ("video_reels", "reel", ["id,created_time,length,description,permalink_url,views,published,scheduled_publish_time,status",
+                                     "id,created_time,length,description,permalink_url,published,scheduled_publish_time,status",
                                      "id,created_time,length,description,permalink_url", "id,created_time,length"]),
-            ("videos", "video", ["id,created_time,length,title,description,permalink_url,views",
+            ("videos", "video", ["id,created_time,length,title,description,permalink_url,views,published,scheduled_publish_time,status",
+                                 "id,created_time,length,title,description,permalink_url,published,scheduled_publish_time,status",
                                  "id,created_time,length,title,description,permalink_url", "id,created_time,length"])):
         try:
             for r in fb_edge(edge, page, token, cutoff, fields):
@@ -370,6 +372,10 @@ def fetch_facebook_posts(now):
                 items[r["id"]] = {"id": r["id"], "type": kind, "t": t,
                                   "len": round(float(r["length"])) if r.get("length") is not None else None,
                                   "text": text, "views": r["views"] if isinstance(r.get("views"), int) else None,
+                                  # created_time is when the video was uploaded; for a scheduled upload the
+                                  # real go-live moment is scheduled_publish_time, so both are kept
+                                  "pub": r.get("published"), "sched": r.get("scheduled_publish_time"),
+                                  "status": json.dumps(r.get("status"), separators=(",", ":"))[:240] if r.get("status") is not None else None,
                                   "src": "field:views" if isinstance(r.get("views"), int) else None}
         except Exception as ex:
             errors.append(f"{edge}: {clean(ex)}")
@@ -402,7 +408,11 @@ def fetch_facebook_posts(now):
         if kind not in working:  # trial-and-error misses are noise once a metric works
             errors.extend(f"{kind} {name}: {msg}" for name, msg in list(msgs.items())[:3])
     out_items = [{"id": i["id"], "type": i["type"], "at": i["t"].astimezone(TZ).strftime("%Y-%m-%d %H:%M"),
-                  "len": i["len"], "views": i["views"], "src": i["src"], "text": i["text"]} for i in rows]
+                  "len": i["len"], "views": i["views"], "src": i["src"], "text": i["text"],
+                  "pub": i["pub"], "status": i["status"],
+                  "sched": (dt.datetime.fromtimestamp(int(i["sched"]), TZ).strftime("%Y-%m-%d %H:%M")
+                            if isinstance(i["sched"], (int, float)) or str(i["sched"]).isdigit() else i["sched"])}
+                 for i in rows]
     days = {}
     for i in rows:
         d = i["t"].astimezone(TZ).date()
@@ -419,10 +429,11 @@ def fetch_facebook_posts(now):
     (HERE / "fb_posts.json").write_text(json.dumps(result, indent=1), encoding="utf-8")
 
     nl = sum(1 for i in rows if (i["len"] or 0) > FB_LONG_SECONDS)
+    unpub = sum(1 for i in rows if i["pub"] is False)
     nviews = sum(1 for i in rows if i["views"] is not None)
     NOTES.append(f"Facebook posts, last {FB_POST_DAYS} days: {sum(1 for i in rows if i['type'] == 'reel')} reels, "
                  f"{sum(1 for i in rows if i['type'] == 'video')} other videos, {nl} over {FB_LONG_SECONDS}s; "
-                 f"views known for {nviews} of {len(rows)} (metrics: {result['view_metrics_used'] or 'none'})"
+                 f"views known for {nviews} of {len(rows)}, not yet published {unpub} (metrics: {result['view_metrics_used'] or 'none'})"
                  + (f"; problems: {'; '.join(errors)[:240]}" if errors else ""))
 
 
