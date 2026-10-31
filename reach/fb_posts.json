@@ -1,0 +1,725 @@
+{
+ "updated": "Sat 10/31 9:16 AM",
+ "cutoff_days": 21,
+ "long_over_seconds": 90,
+ "view_metrics_used": {
+  "reel": "fb_reels_total_plays"
+ },
+ "errors": [],
+ "days": [
+  {
+   "d": "2026-10-28",
+   "short": 6,
+   "long": 0,
+   "short_views": 3,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
+   "d": "2026-10-25",
+   "short": 11,
+   "long": 10,
+   "short_views": 281,
+   "long_views": 18,
+   "unknown": 0
+  },
+  {
+   "d": "2026-10-24",
+   "short": 2,
+   "long": 0,
+   "short_views": 554,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
+   "d": "2026-10-23",
+   "short": 2,
+   "long": 0,
+   "short_views": 339,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
+   "d": "2026-10-22",
+   "short": 3,
+   "long": 0,
+   "short_views": 488,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
+   "d": "2026-10-21",
+   "short": 3,
+   "long": 0,
+   "short_views": 7743,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
+   "d": "2026-10-20",
+   "short": 3,
+   "long": 0,
+   "short_views": 308,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
+   "d": "2026-10-19",
+   "short": 3,
+   "long": 0,
+   "short_views": 668,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
+   "d": "2026-10-18",
+   "short": 2,
+   "long": 0,
+   "short_views": 655,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
+   "d": "2026-10-17",
+   "short": 2,
+   "long": 0,
+   "short_views": 502,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
+   "d": "2026-10-16",
+   "short": 2,
+   "long": 0,
+   "short_views": 363,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
+   "d": "2026-10-15",
+   "short": 3,
+   "long": 0,
+   "short_views": 645,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
+   "d": "2026-10-14",
+   "short": 3,
+   "long": 0,
+   "short_views": 988,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
+   "d": "2026-10-13",
+   "short": 3,
+   "long": 0,
+   "short_views": 563,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
+   "d": "2026-10-12",
+   "short": 3,
+   "long": 0,
+   "short_views": 536,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
+   "d": "2026-10-11",
+   "short": 2,
+   "long": 0,
+   "short_views": 312,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
+   "d": "2026-10-10",
+   "short": 1,
+   "long": 0,
+   "short_views": 272,
+   "long_views": 0,
+   "unknown": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "1804657004104905",
+   "type": "reel",
+   "at": "2026-10-28 02:45",
+   "len": 27,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "The whole story of Jesus, from the manger to the empty tomb:"
+  },
+  {
+   "id": "1767058434588525",
+   "type": "reel",
+   "at": "2026-10-28 02:45",
+   "len": 16,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "Luke 6:31 (KJV) On today's episode of Walking with Jesus: Ou"
+  },
+  {
+   "id": "2908769992828512",
+   "type": "reel",
+   "at": "2026-10-28 02:45",
+   "len": 17,
+   "views": 1,
+   "src": "fb_reels_total_plays",
+   "text": "Matthew 5:17 (KJV) On today's episode of Walking with Jesus:"
+  },
+  {
+   "id": "2138003903756807",
+   "type": "reel",
+   "at": "2026-10-28 02:45",
+   "len": 49,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "On tomorrow's episode of Walking with Jesus: Our Father Whic"
+  },
+  {
+   "id": "2115635869828691",
+   "type": "reel",
+   "at": "2026-10-28 02:45",
+   "len": 15,
+   "views": 1,
+   "src": "fb_reels_total_plays",
+   "text": "Matthew 5:8 (KJV) On today's episode of Walking with Jesus: "
+  },
+  {
+   "id": "1425133580682677",
+   "type": "reel",
+   "at": "2026-10-28 02:45",
+   "len": 17,
+   "views": 1,
+   "src": "fb_reels_total_plays",
+   "text": "Matthew 5:16 (KJV) On today's episode of Walking with Jesus:"
+  },
+  {
+   "id": "1168822045500303",
+   "type": "reel",
+   "at": "2026-10-25 21:18",
+   "len": 63,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "On tomorrow's episode of Walking with Jesus: Ye Are the Salt"
+  },
+  {
+   "id": "1793336625217939",
+   "type": "reel",
+   "at": "2026-10-25 21:18",
+   "len": 15,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "John 5:40 (KJV) On today's episode of Walking with Jesus: Ri"
+  },
+  {
+   "id": "1143045178307887",
+   "type": "reel",
+   "at": "2026-10-25 21:18",
+   "len": 17,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "John 5:39 (KJV) On today's episode of Walking with Jesus: Ri"
+  },
+  {
+   "id": "1646556363866657",
+   "type": "reel",
+   "at": "2026-10-25 21:15",
+   "len": 45,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "On tomorrow's episode of Walking with Jesus: Rise, Take Up T"
+  },
+  {
+   "id": "1657467559078185",
+   "type": "reel",
+   "at": "2026-10-25 21:15",
+   "len": 30,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "Jesus spoke seven times from the cross, and no single Gospel"
+  },
+  {
+   "id": "1668636978103691",
+   "type": "reel",
+   "at": "2026-10-25 21:15",
+   "len": 19,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "Matthew 9:13 (KJV) On today's episode of Walking with Jesus:"
+  },
+  {
+   "id": "4609861772601380",
+   "type": "reel",
+   "at": "2026-10-25 21:15",
+   "len": 52,
+   "views": 2,
+   "src": "fb_reels_total_plays",
+   "text": "On tomorrow's episode of Walking with Jesus: Thy Sins Be For"
+  },
+  {
+   "id": "1130600506097789",
+   "type": "reel",
+   "at": "2026-10-25 21:14",
+   "len": 17,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "Mark 1:15 (KJV) On today's episode of Walking with Jesus: Fo"
+  },
+  {
+   "id": "2719099295159307",
+   "type": "reel",
+   "at": "2026-10-25 21:14",
+   "len": 15,
+   "views": 3,
+   "src": "fb_reels_total_plays",
+   "text": "Matthew 4:19 (KJV) On today's episode of Walking with Jesus:"
+  },
+  {
+   "id": "1651235023014710",
+   "type": "reel",
+   "at": "2026-10-25 19:50",
+   "len": 711,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "Anger counts as murder. A look counts as adultery. And when "
+  },
+  {
+   "id": "1128697212880399",
+   "type": "reel",
+   "at": "2026-10-25 19:50",
+   "len": 681,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "A withered hand is healed in front of hostile eyes. Twelve o"
+  },
+  {
+   "id": "2359644168111375",
+   "type": "reel",
+   "at": "2026-10-25 19:50",
+   "len": 832,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "New wine and old bottles. A paralyzed man waits thirty-eight"
+  },
+  {
+   "id": "1590459555720038",
+   "type": "reel",
+   "at": "2026-10-25 19:49",
+   "len": 809,
+   "views": 1,
+   "src": "fb_reels_total_plays",
+   "text": "A leper no one would touch is cleansed with a touch. A paral"
+  },
+  {
+   "id": "2587385681759737",
+   "type": "reel",
+   "at": "2026-10-25 17:01",
+   "len": 46,
+   "views": 249,
+   "src": "fb_reels_total_plays",
+   "text": "On tomorrow's episode of Walking with Jesus: Follow Me, and "
+  },
+  {
+   "id": "29221853900773778",
+   "type": "reel",
+   "at": "2026-10-25 09:47",
+   "len": 764,
+   "views": 1,
+   "src": "fb_reels_total_plays",
+   "text": "A blind push toward home gets a long-distance miracle. Four "
+  },
+  {
+   "id": "1627782005749310",
+   "type": "reel",
+   "at": "2026-10-25 09:46",
+   "len": 928,
+   "views": 3,
+   "src": "fb_reels_total_plays",
+   "text": "A Pharisee comes by night with a question. A woman at a well"
+  },
+  {
+   "id": "1654903569355745",
+   "type": "reel",
+   "at": "2026-10-25 09:46",
+   "len": 838,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "Forty days alone against the devil. A wedding saved by water"
+  },
+  {
+   "id": "1436824231884400",
+   "type": "reel",
+   "at": "2026-10-25 09:46",
+   "len": 805,
+   "views": 1,
+   "src": "fb_reels_total_plays",
+   "text": "Eighteen silent years end with a wilderness preacher and a v"
+  },
+  {
+   "id": "1659653242399270",
+   "type": "reel",
+   "at": "2026-10-25 09:45",
+   "len": 858,
+   "views": 4,
+   "src": "fb_reels_total_plays",
+   "text": "Shepherds hear the news before anyone of standing does. Wise"
+  },
+  {
+   "id": "1099263533010076",
+   "type": "reel",
+   "at": "2026-10-25 09:16",
+   "len": 962,
+   "views": 8,
+   "src": "fb_reels_total_plays",
+   "text": "A priest struck silent for doubting an angel. A virgin told "
+  },
+  {
+   "id": "1814527676414878",
+   "type": "reel",
+   "at": "2026-10-25 09:01",
+   "len": 22,
+   "views": 27,
+   "src": "fb_reels_total_plays",
+   "text": "Three Gospels tell of Jesus walking on the water. Only Matth"
+  },
+  {
+   "id": "1114882734767661",
+   "type": "reel",
+   "at": "2026-10-24 15:01",
+   "len": 12,
+   "views": 409,
+   "src": "fb_reels_total_plays",
+   "text": "Do you have a daily habit that puts Jesus first? The Walking"
+  },
+  {
+   "id": "1124284210525386",
+   "type": "reel",
+   "at": "2026-10-24 09:02",
+   "len": 31,
+   "views": 145,
+   "src": "fb_reels_total_plays",
+   "text": "Before Jesus says a word, Luke tells you why he's writing: \""
+  },
+  {
+   "id": "2334497683992946",
+   "type": "reel",
+   "at": "2026-10-23 14:02",
+   "len": 18,
+   "views": 177,
+   "src": "fb_reels_total_plays",
+   "text": "John 4:14 (KJV) On today's episode of Walking with Jesus: Ye"
+  },
+  {
+   "id": "1000823569725282",
+   "type": "reel",
+   "at": "2026-10-23 09:03",
+   "len": 18,
+   "views": 162,
+   "src": "fb_reels_total_plays",
+   "text": "John 3:3 (KJV) On today's episode of Walking with Jesus: Ye "
+  },
+  {
+   "id": "1299490909925187",
+   "type": "reel",
+   "at": "2026-10-22 17:01",
+   "len": 46,
+   "views": 206,
+   "src": "fb_reels_total_plays",
+   "text": "On tomorrow's episode of Walking with Jesus: Ye Must Be Born"
+  },
+  {
+   "id": "2084987102223143",
+   "type": "reel",
+   "at": "2026-10-22 14:02",
+   "len": 18,
+   "views": 158,
+   "src": "fb_reels_total_plays",
+   "text": "John 2:19 (KJV) On today's episode of Walking with Jesus: Be"
+  },
+  {
+   "id": "2027887444596737",
+   "type": "reel",
+   "at": "2026-10-22 09:02",
+   "len": 18,
+   "views": 124,
+   "src": "fb_reels_total_plays",
+   "text": "Matthew 4:4 (KJV) On today's episode of Walking with Jesus: "
+  },
+  {
+   "id": "1803818777427696",
+   "type": "reel",
+   "at": "2026-10-21 17:01",
+   "len": 49,
+   "views": 368,
+   "src": "fb_reels_total_plays",
+   "text": "On tomorrow's episode of Walking with Jesus: Behold the Lamb"
+  },
+  {
+   "id": "1596009228963505",
+   "type": "reel",
+   "at": "2026-10-21 14:02",
+   "len": 18,
+   "views": 7345,
+   "src": "fb_reels_total_plays",
+   "text": "Matthew 3:17 (KJV) On today's episode of Walking with Jesus:"
+  },
+  {
+   "id": "1655848376139677",
+   "type": "reel",
+   "at": "2026-10-21 09:03",
+   "len": 18,
+   "views": 30,
+   "src": "fb_reels_total_plays",
+   "text": "Luke 2:49 (KJV) On today's episode of Walking with Jesus: Th"
+  },
+  {
+   "id": "1432465961641817",
+   "type": "reel",
+   "at": "2026-10-20 17:01",
+   "len": 40,
+   "views": 252,
+   "src": "fb_reels_total_plays",
+   "text": "On tomorrow's episode of Walking with Jesus: This Is My Belo"
+  },
+  {
+   "id": "1472924391427510",
+   "type": "reel",
+   "at": "2026-10-20 14:00",
+   "len": 89,
+   "views": 15,
+   "src": "fb_reels_total_plays",
+   "text": "I read the Book of Mormon, the Quran, and the Dhammapada in "
+  },
+  {
+   "id": "40648065321458983",
+   "type": "reel",
+   "at": "2026-10-20 09:03",
+   "len": 18,
+   "views": 41,
+   "src": "fb_reels_total_plays",
+   "text": "Luke 2:11 (KJV) On today's episode of Walking with Jesus: Un"
+  },
+  {
+   "id": "1870006134168690",
+   "type": "reel",
+   "at": "2026-10-19 17:01",
+   "len": 48,
+   "views": 311,
+   "src": "fb_reels_total_plays",
+   "text": "On tomorrow's episode of Walking with Jesus: Unto You Is Bor"
+  },
+  {
+   "id": "1133883035839964",
+   "type": "reel",
+   "at": "2026-10-19 14:02",
+   "len": 18,
+   "views": 244,
+   "src": "fb_reels_total_plays",
+   "text": "John 1:14 (KJV) On today's episode of Walking with Jesus: In"
+  },
+  {
+   "id": "1139691008709691",
+   "type": "reel",
+   "at": "2026-10-19 09:02",
+   "len": 18,
+   "views": 113,
+   "src": "fb_reels_total_plays",
+   "text": "John 1:1 (KJV) On today's episode of Walking with Jesus: In "
+  },
+  {
+   "id": "2482513315549127",
+   "type": "reel",
+   "at": "2026-10-18 17:01",
+   "len": 50,
+   "views": 390,
+   "src": "fb_reels_total_plays",
+   "text": "On tomorrow's episode of Walking with Jesus: In the Beginnin"
+  },
+  {
+   "id": "2996740687385418",
+   "type": "reel",
+   "at": "2026-10-18 09:02",
+   "len": 16,
+   "views": 265,
+   "src": "fb_reels_total_plays",
+   "text": "Tomorrow, we begin. \ud83d\ude4f The Four Gospel Harmony starts Monday,"
+  },
+  {
+   "id": "1635259744732969",
+   "type": "reel",
+   "at": "2026-10-17 15:01",
+   "len": 20,
+   "views": 270,
+   "src": "fb_reels_total_plays",
+   "text": "Three Gospels tell of Jesus walking on the water. Only Matth"
+  },
+  {
+   "id": "1653021499544119",
+   "type": "reel",
+   "at": "2026-10-17 09:02",
+   "len": 22,
+   "views": 232,
+   "src": "fb_reels_total_plays",
+   "text": "Starts Monday, October 19. Fifty episodes, every weekday. Th"
+  },
+  {
+   "id": "1082644511320395",
+   "type": "reel",
+   "at": "2026-10-16 14:01",
+   "len": 15,
+   "views": 329,
+   "src": "fb_reels_total_plays",
+   "text": "Luke 24:39-40 (KJV) On today's episode of Walking with Jesus"
+  },
+  {
+   "id": "948360631255651",
+   "type": "reel",
+   "at": "2026-10-16 09:02",
+   "len": 14,
+   "views": 34,
+   "src": "fb_reels_total_plays",
+   "text": "John 21:22 (KJV) On today's episode of Walking with Jesus: H"
+  },
+  {
+   "id": "1118332177374621",
+   "type": "reel",
+   "at": "2026-10-15 17:01",
+   "len": 45,
+   "views": 282,
+   "src": "fb_reels_total_plays",
+   "text": "On tomorrow's episode of Walking with Jesus: He Was Known of"
+  },
+  {
+   "id": "1681205880229613",
+   "type": "reel",
+   "at": "2026-10-15 14:01",
+   "len": 14,
+   "views": 275,
+   "src": "fb_reels_total_plays",
+   "text": "Luke 23:46 (KJV) On today's episode of Walking with Jesus: I"
+  },
+  {
+   "id": "2501775793649146",
+   "type": "reel",
+   "at": "2026-10-15 09:02",
+   "len": 14,
+   "views": 88,
+   "src": "fb_reels_total_plays",
+   "text": "Luke 23:43 (KJV) On today's episode of Walking with Jesus: I"
+  },
+  {
+   "id": "1849253466222948",
+   "type": "reel",
+   "at": "2026-10-14 17:01",
+   "len": 48,
+   "views": 253,
+   "src": "fb_reels_total_plays",
+   "text": "On tomorrow's episode of Walking with Jesus: It Is Finished "
+  },
+  {
+   "id": "1782794990516049",
+   "type": "reel",
+   "at": "2026-10-14 14:02",
+   "len": 15,
+   "views": 285,
+   "src": "fb_reels_total_plays",
+   "text": "John 19:11 (KJV) On today's episode of Walking with Jesus: A"
+  },
+  {
+   "id": "1556104856557512",
+   "type": "reel",
+   "at": "2026-10-14 09:02",
+   "len": 14,
+   "views": 450,
+   "src": "fb_reels_total_plays",
+   "text": "Luke 23:3 (KJV) On today's episode of Walking with Jesus: Ar"
+  },
+  {
+   "id": "1112320391390671",
+   "type": "reel",
+   "at": "2026-10-13 17:01",
+   "len": 65,
+   "views": 204,
+   "src": "fb_reels_total_plays",
+   "text": "On tomorrow's episode of Walking with Jesus: Art Thou the Ki"
+  },
+  {
+   "id": "3221665221358415",
+   "type": "reel",
+   "at": "2026-10-13 14:01",
+   "len": 28,
+   "views": 318,
+   "src": "fb_reels_total_plays",
+   "text": "Only one miracle besides the resurrection is told in all fou"
+  },
+  {
+   "id": "1628990208614955",
+   "type": "reel",
+   "at": "2026-10-13 09:03",
+   "len": 14,
+   "views": 41,
+   "src": "fb_reels_total_plays",
+   "text": "Luke 22:42 (KJV) On today's episode of Walking with Jesus: N"
+  },
+  {
+   "id": "2114634612501841",
+   "type": "reel",
+   "at": "2026-10-12 17:01",
+   "len": 50,
+   "views": 200,
+   "src": "fb_reels_total_plays",
+   "text": "On tomorrow's episode of Walking with Jesus: Not My Will, Bu"
+  },
+  {
+   "id": "1632170405040783",
+   "type": "reel",
+   "at": "2026-10-12 14:01",
+   "len": 13,
+   "views": 237,
+   "src": "fb_reels_total_plays",
+   "text": "John 14:15 (KJV) On today's episode of Walking with Jesus: I"
+  },
+  {
+   "id": "2092666688048259",
+   "type": "reel",
+   "at": "2026-10-12 09:02",
+   "len": 14,
+   "views": 99,
+   "src": "fb_reels_total_plays",
+   "text": "John 14:6 (KJV) On today's episode of Walking with Jesus: I "
+  },
+  {
+   "id": "1536088675182565",
+   "type": "reel",
+   "at": "2026-10-11 17:01",
+   "len": 63,
+   "views": 189,
+   "src": "fb_reels_total_plays",
+   "text": "On tomorrow's episode of Walking with Jesus: I Am the Vine, "
+  },
+  {
+   "id": "1145769857925950",
+   "type": "reel",
+   "at": "2026-10-11 09:01",
+   "len": 24,
+   "views": 123,
+   "src": "fb_reels_total_plays",
+   "text": "The Good Samaritan appears in only one Gospel: Luke. The Fou"
+  },
+  {
+   "id": "1776285887136658",
+   "type": "reel",
+   "at": "2026-10-10 15:00",
+   "len": 28,
+   "views": 272,
+   "src": "fb_reels_total_plays",
+   "text": "Jesus' first miracle, water into wine at Cana, is in only on"
+  }
+ ]
+}
