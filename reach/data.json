@@ -1,5 +1,5 @@
 {
- "updated": "Sat 10/31 2:53 AM",
+ "updated": "Sat 10/31 8:38 AM",
  "updated_date": "2026-10-31",
  "platforms": [
   {
@@ -277,7 +277,7 @@
       },
       {
        "d": "2026-10-26",
-       "v": 132,
+       "v": 123,
        "e": 13
       },
       {
@@ -419,7 +419,7 @@
       },
       {
        "d": "2026-10-22",
-       "v": 1253,
+       "v": 1244,
        "e": 152
       }
      ]
@@ -921,7 +921,7 @@
     },
     {
      "d": "2026-10-30",
-     "v": 0,
+     "v": 7,
      "e": 0
     }
    ],
@@ -1053,7 +1053,7 @@
     },
     {
      "d": "2026-10-24",
-     "v": 123,
+     "v": 130,
      "e": 17
     }
    ],
@@ -1494,9 +1494,9 @@
   }
  ],
  "notes": [
-  "YouTube split since 2026-09-15: shorts 12903 + long-form 71 of 12990 total views; 57 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
+  "YouTube split since 2026-09-15: shorts 12894 + long-form 71 of 12990 total views; 57 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: pinterest, tiktok, instagram; tracking 3",
-  "Buffer posts read: 166; saved with numbers: 164"
+  "Buffer posts read: 166; saved with numbers: 166"
  ]
 }
