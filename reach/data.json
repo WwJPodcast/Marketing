@@ -1,5 +1,5 @@
 {
- "updated": "Sat 10/31 9:16 AM",
+ "updated": "Sat 10/31 9:19 AM",
  "updated_date": "2026-10-31",
  "platforms": [
   {
@@ -1136,7 +1136,7 @@
     },
     {
      "d": "2026-10-30",
-     "v": 0,
+     "v": 72,
      "e": 0
     }
    ],
@@ -1268,7 +1268,7 @@
     },
     {
      "d": "2026-10-24",
-     "v": 516,
+     "v": 588,
      "e": 54
     }
    ],
@@ -1498,6 +1498,6 @@
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: pinterest, tiktok, instagram; tracking 3",
   "Buffer posts read: 169; saved with numbers: 168",
-  "Facebook posts, last 21 days: 64 reels, 0 other videos, 10 over 90s; views known for 64 of 64 (metrics: {'reel': 'fb_reels_total_plays'})"
+  "Facebook posts, last 21 days: 64 reels, 0 other videos, 10 over 90s; views known for 64 of 64, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})"
  ]
 }
