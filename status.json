@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-30T11:57:17-05:00",
- "updated_label": "Fri 10/30 11:57 AM",
- "window_start": "2026-10-30",
+ "updated": "2026-10-31T02:52:38-05:00",
+ "updated_label": "Sat 10/31 2:52 AM",
+ "window_start": "2026-10-31",
  "window_days": 21,
  "goal_days": 14,
  "types": [
@@ -11,7 +11,7 @@
    "rate": "5/wk",
    "per_week": 5,
    "builds": "Wed night",
-   "reported": "10/30",
+   "reported": "10/31",
    "queued": {
     "through": "2026-11-02",
     "count": 2
@@ -37,10 +37,10 @@
    "rate": "5–9/wk",
    "per_week": 7,
    "builds": "Mon night",
-   "reported": "10/30",
+   "reported": "10/31",
    "queued": {
     "through": "2026-11-03",
-    "count": 4
+    "count": 3
    },
    "ready": {
     "through": "2026-11-06",
@@ -63,7 +63,7 @@
    "rate": "4/wk",
    "per_week": 4,
    "builds": "Thu night",
-   "reported": "10/30",
+   "reported": "10/31",
    "queued": {
     "count": 4
    },
@@ -81,11 +81,11 @@
   }
  ],
  "buffer": {
-  "youtube": 10,
-  "instagram": 10,
-  "facebook": 10,
-  "tiktok": 10,
-  "pinterest": 8,
+  "youtube": 9,
+  "instagram": 9,
+  "facebook": 9,
+  "tiktok": 9,
+  "pinterest": 7,
   "through_label": "Tue 11/3 9 AM",
   "posted_7d": 18
  },
