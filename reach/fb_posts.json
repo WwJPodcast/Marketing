@@ -1,5 +1,5 @@
 {
- "updated": "Sat 10/31 2:23 PM",
+ "updated": "Sun 11/1 2:53 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -9,9 +9,9 @@
  "days": [
   {
    "d": "2026-10-28",
-   "short": 6,
+   "short": 7,
    "long": 0,
-   "short_views": 3,
+   "short_views": 4,
    "long_views": 0,
    "unknown": 0
   },
@@ -43,7 +43,7 @@
    "d": "2026-10-22",
    "short": 3,
    "long": 0,
-   "short_views": 488,
+   "short_views": 489,
    "long_views": 0,
    "unknown": 0
   },
@@ -134,17 +134,22 @@
    "short_views": 312,
    "long_views": 0,
    "unknown": 0
-  },
-  {
-   "d": "2026-10-10",
-   "short": 1,
-   "long": 0,
-   "short_views": 272,
-   "long_views": 0,
-   "unknown": 0
   }
  ],
  "items": [
+  {
+   "id": "1842912433565128",
+   "type": "reel",
+   "at": "2026-10-28 02:46",
+   "live": "2026-10-31 15:00",
+   "len": 20,
+   "views": 1,
+   "src": "fb_reels_total_plays",
+   "text": "Fifteen minutes with Jesus. No commentary. Just the Gospels.",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":1010493},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-31T20:00:12+00",
+   "sched": null
+  },
   {
    "id": "1804657004104905",
    "type": "reel",
@@ -567,7 +572,7 @@
    "at": "2026-10-22 14:02",
    "live": "2026-10-22 14:02",
    "len": 18,
-   "views": 158,
+   "views": 159,
    "src": "fb_reels_total_plays",
    "text": "John 2:19 (KJV) On today's episode of Walking with Jesus: Be",
    "pub": true,
@@ -962,19 +967,6 @@
    "text": "The Good Samaritan appears in only one Gospel: Luke. The Fou",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":1094670},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-11T14:01:13+00",
-   "sched": null
-  },
-  {
-   "id": "1776285887136658",
-   "type": "reel",
-   "at": "2026-10-10 15:00",
-   "live": "2026-10-10 15:00",
-   "len": 28,
-   "views": 272,
-   "src": "fb_reels_total_plays",
-   "text": "Jesus' first miracle, water into wine at Cana, is in only on",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":1272343},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-10T20:00:39+00",
    "sched": null
   }
  ]
