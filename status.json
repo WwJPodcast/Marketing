@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-31T14:22:56-05:00",
- "updated_label": "Sat 10/31 2:22 PM",
- "window_start": "2026-10-31",
+ "updated": "2026-11-01T02:52:44-06:00",
+ "updated_label": "Sun 11/1 2:52 AM",
+ "window_start": "2026-11-01",
  "window_days": 21,
  "goal_days": 14,
  "types": [
@@ -11,7 +11,7 @@
    "rate": "5/wk",
    "per_week": 5,
    "builds": "Wed night",
-   "reported": "10/31",
+   "reported": "11/1",
    "queued": {
     "through": "2026-11-02",
     "count": 2
@@ -37,7 +37,7 @@
    "rate": "5–9/wk",
    "per_week": 7,
    "builds": "Mon night",
-   "reported": "10/31",
+   "reported": "11/1",
    "queued": {
     "through": "2026-11-03",
     "count": 3
@@ -63,9 +63,9 @@
    "rate": "4/wk",
    "per_week": 4,
    "builds": "Thu night",
-   "reported": "10/31",
+   "reported": "11/1",
    "queued": {
-    "count": 3
+    "count": 2
    },
    "ready": {
     "count": 0
@@ -77,22 +77,29 @@
    "picked": {
     "count": 8
    },
-   "holes": []
+   "holes": [
+    "2026-11-07"
+   ]
   }
  ],
  "buffer": {
-  "youtube": 8,
-  "instagram": 8,
-  "facebook": 8,
-  "tiktok": 8,
-  "pinterest": 6,
+  "youtube": 7,
+  "instagram": 7,
+  "facebook": 7,
+  "tiktok": 7,
+  "pinterest": 5,
   "through_label": "Tue 11/3 9 AM",
   "posted_7d": 18
  },
  "needs_you": [
   {
-   "what": "Pick Tomorrow's passages 11/8–19 (S4E16–S4E25)",
+   "what": "Pick Tomorrow's passages 11/8–22 (S4E16–S4E25)",
    "due": "by Wed",
+   "urgent": true
+  },
+  {
+   "what": "Approve 2 more promos for 11/7",
+   "due": "by Fri",
    "urgent": true
   },
   {
