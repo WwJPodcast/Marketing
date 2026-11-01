@@ -1,5 +1,5 @@
 {
- "updated": "Sun 11/1 2:53 AM",
+ "updated": "Sun 11/1 8:15 AM",
  "updated_date": "2026-11-01",
  "platforms": [
   {
@@ -921,8 +921,8 @@
     },
     {
      "d": "2026-10-31",
-     "v": 0,
-     "e": 0
+     "v": 72,
+     "e": 1
     }
    ],
    "weekly": [
@@ -1053,8 +1053,8 @@
     },
     {
      "d": "2026-10-25",
-     "v": 117,
-     "e": 14
+     "v": 189,
+     "e": 15
     }
    ],
    "before": {
@@ -1136,7 +1136,7 @@
     },
     {
      "d": "2026-10-31",
-     "v": 137,
+     "v": 145,
      "e": 1
     }
    ],
@@ -1268,7 +1268,7 @@
     },
     {
      "d": "2026-10-25",
-     "v": 725,
+     "v": 733,
      "e": 55
     }
    ],
@@ -1497,7 +1497,7 @@
   "YouTube split since 2026-09-15: shorts 13310 + long-form 77 of 13403 total views; 59 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: pinterest, tiktok, instagram; tracking 3",
-  "Buffer posts read: 172; saved with numbers: 170",
+  "Buffer posts read: 172; saved with numbers: 172",
   "Facebook posts, last 21 days: 64 reels, 0 other videos, 10 over 90s; views known for 64 of 64, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})"
  ],
  "fb_posts": {
