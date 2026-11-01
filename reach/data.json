@@ -1,5 +1,5 @@
 {
- "updated": "Sun 11/1 8:15 AM",
+ "updated": "Sun 11/1 11:14 AM",
  "updated_date": "2026-11-01",
  "platforms": [
   {
@@ -1497,13 +1497,21 @@
   "YouTube split since 2026-09-15: shorts 13310 + long-form 77 of 13403 total views; 59 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: pinterest, tiktok, instagram; tracking 3",
-  "Buffer posts read: 172; saved with numbers: 172",
+  "Buffer posts read: 174; saved with numbers: 173",
   "Facebook posts, last 21 days: 64 reels, 0 other videos, 10 over 90s; views known for 64 of 64, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
+   {
+    "t": "2026-11-01T09:00",
+    "len": 31,
+    "v": 0,
+    "k": "reel",
+    "x": "Pastors, ministers, ministry workers: try this. ",
+    "up": false
+   },
    {
     "t": "2026-10-31T15:00",
     "len": 20,
@@ -1731,7 +1739,7 @@
    {
     "t": "2026-10-24T15:01",
     "len": 12,
-    "v": 409,
+    "v": 410,
     "k": "reel",
     "x": "Do you have a daily habit that puts Jesus first?",
     "up": false
@@ -1851,7 +1859,7 @@
    {
     "t": "2026-10-19T09:02",
     "len": 18,
-    "v": 113,
+    "v": 114,
     "k": "reel",
     "x": "John 1:1 (KJV) On today's episode of Walking wit",
     "up": false
@@ -2006,14 +2014,6 @@
     "v": 189,
     "k": "reel",
     "x": "On tomorrow's episode of Walking with Jesus: I A",
-    "up": false
-   },
-   {
-    "t": "2026-10-11T09:01",
-    "len": 24,
-    "v": 123,
-    "k": "reel",
-    "x": "The Good Samaritan appears in only one Gospel: L",
     "up": false
    }
   ]

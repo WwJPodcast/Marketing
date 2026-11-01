@@ -1,5 +1,5 @@
 {
- "updated": "Sun 11/1 8:15 AM",
+ "updated": "Sun 11/1 11:14 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -7,6 +7,14 @@
  },
  "errors": [],
  "days": [
+  {
+   "d": "2026-10-31",
+   "short": 1,
+   "long": 0,
+   "short_views": 0,
+   "long_views": 0,
+   "unknown": 0
+  },
   {
    "d": "2026-10-28",
    "short": 7,
@@ -27,7 +35,7 @@
    "d": "2026-10-24",
    "short": 2,
    "long": 0,
-   "short_views": 554,
+   "short_views": 555,
    "long_views": 0,
    "unknown": 0
   },
@@ -67,7 +75,7 @@
    "d": "2026-10-19",
    "short": 3,
    "long": 0,
-   "short_views": 668,
+   "short_views": 669,
    "long_views": 0,
    "unknown": 0
   },
@@ -129,14 +137,27 @@
   },
   {
    "d": "2026-10-11",
-   "short": 2,
+   "short": 1,
    "long": 0,
-   "short_views": 312,
+   "short_views": 189,
    "long_views": 0,
    "unknown": 0
   }
  ],
  "items": [
+  {
+   "id": "1040015129054042",
+   "type": "reel",
+   "at": "2026-10-31 02:45",
+   "live": "2026-11-01 09:00",
+   "len": 31,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "Pastors, ministers, ministry workers: try this. In one month",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":1376197},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-01T15:00:18+00",
+   "sched": null
+  },
   {
    "id": "1842912433565128",
    "type": "reel",
@@ -507,7 +528,7 @@
    "at": "2026-10-24 15:01",
    "live": "2026-10-24 15:01",
    "len": 12,
-   "views": 409,
+   "views": 410,
    "src": "fb_reels_total_plays",
    "text": "Do you have a daily habit that puts Jesus first? The Walking",
    "pub": true,
@@ -702,7 +723,7 @@
    "at": "2026-10-19 09:02",
    "live": "2026-10-19 09:02",
    "len": 18,
-   "views": 113,
+   "views": 114,
    "src": "fb_reels_total_plays",
    "text": "John 1:1 (KJV) On today's episode of Walking with Jesus: In ",
    "pub": true,
@@ -954,19 +975,6 @@
    "text": "On tomorrow's episode of Walking with Jesus: I Am the Vine, ",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":6445338},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-11T22:01:09+00",
-   "sched": null
-  },
-  {
-   "id": "1145769857925950",
-   "type": "reel",
-   "at": "2026-10-11 09:01",
-   "live": "2026-10-11 09:01",
-   "len": 24,
-   "views": 123,
-   "src": "fb_reels_total_plays",
-   "text": "The Good Samaritan appears in only one Gospel: Luke. The Fou",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":1094670},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-11T14:01:13+00",
    "sched": null
   }
  ]
