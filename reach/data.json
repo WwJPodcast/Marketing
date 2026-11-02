@@ -1,5 +1,5 @@
 {
- "updated": "Mon 11/2 2:53 AM",
+ "updated": "Mon 11/2 11:03 AM",
  "updated_date": "2026-11-02",
  "platforms": [
   {
@@ -1136,7 +1136,7 @@
     },
     {
      "d": "2026-11-01",
-     "v": 0,
+     "v": 14,
      "e": 0
     }
    ],
@@ -1268,7 +1268,7 @@
     },
     {
      "d": "2026-10-26",
-     "v": 637,
+     "v": 651,
      "e": 54
     }
    ],
@@ -1497,13 +1497,21 @@
   "YouTube split since 2026-09-15: shorts 13568 + long-form 80 of 13662 total views; 61 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: pinterest, tiktok, instagram; tracking 3",
-  "Buffer posts read: 177; saved with numbers: 177",
+  "Buffer posts read: 180; saved with numbers: 179",
   "Facebook posts, last 21 days: 64 reels, 0 other videos, 10 over 90s; views known for 64 of 64, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
+   {
+    "t": "2026-11-02T09:00",
+    "len": 15,
+    "v": 0,
+    "k": "reel",
+    "x": "Luke 6:46 (KJV) On today's episode of Walking wi",
+    "up": false
+   },
    {
     "t": "2026-11-01T17:00",
     "len": 45,
@@ -2006,14 +2014,6 @@
     "v": 237,
     "k": "reel",
     "x": "John 14:15 (KJV) On today's episode of Walking w",
-    "up": false
-   },
-   {
-    "t": "2026-10-12T09:02",
-    "len": 14,
-    "v": 99,
-    "k": "reel",
-    "x": "John 14:6 (KJV) On today's episode of Walking wi",
     "up": false
    }
   ]

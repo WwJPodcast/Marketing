@@ -1,5 +1,5 @@
 {
- "updated": "Mon 11/2 2:53 AM",
+ "updated": "Mon 11/2 11:03 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -9,7 +9,7 @@
  "days": [
   {
    "d": "2026-10-31",
-   "short": 2,
+   "short": 3,
    "long": 0,
    "short_views": 0,
    "long_views": 0,
@@ -129,14 +129,27 @@
   },
   {
    "d": "2026-10-12",
-   "short": 3,
+   "short": 2,
    "long": 0,
-   "short_views": 536,
+   "short_views": 437,
    "long_views": 0,
    "unknown": 0
   }
  ],
  "items": [
+  {
+   "id": "1118093637607949",
+   "type": "reel",
+   "at": "2026-10-31 02:45",
+   "live": "2026-11-02 09:00",
+   "len": 15,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "Luke 6:46 (KJV) On today's episode of Walking with Jesus: Se",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":6519369},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-02T15:00:15+00",
+   "sched": null
+  },
   {
    "id": "1124735826954992",
    "type": "reel",
@@ -954,19 +967,6 @@
    "text": "John 14:15 (KJV) On today's episode of Walking with Jesus: I",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":10260667},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-12T19:01:20+0",
-   "sched": null
-  },
-  {
-   "id": "2092666688048259",
-   "type": "reel",
-   "at": "2026-10-12 09:02",
-   "live": "2026-10-12 09:02",
-   "len": 14,
-   "views": 99,
-   "src": "fb_reels_total_plays",
-   "text": "John 14:6 (KJV) On today's episode of Walking with Jesus: I ",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":7311687},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-12T14:02:26+00",
    "sched": null
   }
  ]
