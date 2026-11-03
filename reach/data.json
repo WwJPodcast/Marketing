@@ -1,5 +1,5 @@
 {
- "updated": "Tue 11/3 2:53 AM",
+ "updated": "Tue 11/3 9:05 AM",
  "updated_date": "2026-11-03",
  "platforms": [
   {
@@ -1136,8 +1136,8 @@
     },
     {
      "d": "2026-11-02",
-     "v": 0,
-     "e": 0
+     "v": 81,
+     "e": 9
     }
    ],
    "weekly": [
@@ -1268,8 +1268,8 @@
     },
     {
      "d": "2026-10-27",
-     "v": 330,
-     "e": 4
+     "v": 411,
+     "e": 13
     }
    ],
    "before": {
@@ -1504,6 +1504,14 @@
   "long_over": 90,
   "days": 21,
   "items": [
+   {
+    "t": "2026-11-03T09:00",
+    "len": 16,
+    "v": 0,
+    "k": "reel",
+    "x": "Matthew 11:28 (KJV) On today's episode of Walkin",
+    "up": false
+   },
    {
     "t": "2026-11-02T17:00",
     "len": 50,
@@ -1819,7 +1827,7 @@
    {
     "t": "2026-10-22T09:02",
     "len": 18,
-    "v": 124,
+    "v": 125,
     "k": "reel",
     "x": "Matthew 4:4 (KJV) On today's episode of Walking ",
     "up": false
@@ -2006,14 +2014,6 @@
     "v": 318,
     "k": "reel",
     "x": "Only one miracle besides the resurrection is tol",
-    "up": false
-   },
-   {
-    "t": "2026-10-13T09:03",
-    "len": 14,
-    "v": 41,
-    "k": "reel",
-    "x": "Luke 22:42 (KJV) On today's episode of Walking w",
     "up": false
    }
   ]
