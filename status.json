@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-03T02:52:56-06:00",
- "updated_label": "Tue 11/3 2:52 AM",
+ "updated": "2026-11-03T13:38:23-06:00",
+ "updated_label": "Tue 11/3 1:38 PM",
  "window_start": "2026-11-03",
  "window_days": 21,
  "goal_days": 14,
@@ -26,8 +26,8 @@
     "fix": 0
    },
    "picked": {
-    "through": "2026-11-05",
-    "count": 0
+    "through": "2026-11-19",
+    "count": 10
    },
    "holes": []
   },
@@ -40,15 +40,15 @@
    "reported": "11/3",
    "queued": {
     "through": "2026-11-04",
-    "count": 3
+    "count": 2
    },
    "ready": {
-    "through": "2026-11-06",
-    "count": 4
+    "through": "2026-11-13",
+    "count": 9
    },
    "review": {
     "through": "2026-11-13",
-    "count": 5,
+    "count": 0,
     "fix": 0
    },
    "picked": {
@@ -84,25 +84,15 @@
   }
  ],
  "buffer": {
-  "youtube": 6,
-  "instagram": 6,
-  "facebook": 6,
-  "tiktok": 6,
-  "pinterest": 5,
+  "youtube": 5,
+  "instagram": 5,
+  "facebook": 5,
+  "tiktok": 5,
+  "pinterest": 4,
   "through_label": "Wed 11/4 5 PM",
   "posted_7d": 18
  },
  "needs_you": [
-  {
-   "what": "Pick Tomorrow's passages 11/8–24 (S4E16–S4E25)",
-   "due": "by Wed",
-   "urgent": true
-  },
-  {
-   "what": "Review 5 nature cards 11/9–13",
-   "due": "by Fri",
-   "urgent": true
-  },
   {
    "what": "Approve 3 more promos for 11/7–8",
    "due": "by Fri",
@@ -112,10 +102,15 @@
    "what": "Pick nature verses 11/16–24 (S4E21–S4E27)",
    "due": "by Mon",
    "urgent": true
+  },
+  {
+   "what": "Pick Tomorrow's passages 11/22–24 (S4E26–S4E28)",
+   "due": "by Wed 11/18",
+   "urgent": false
   }
  ],
  "waiting_on_builders": {
-  "build": 8,
+  "build": 18,
   "fix": 0
  },
  "last_run": {
