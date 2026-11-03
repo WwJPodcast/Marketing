@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-02T13:37:46-06:00",
- "updated_label": "Mon 11/2 1:37 PM",
- "window_start": "2026-11-02",
+ "updated": "2026-11-03T02:52:56-06:00",
+ "updated_label": "Tue 11/3 2:52 AM",
+ "window_start": "2026-11-03",
  "window_days": 21,
  "goal_days": 14,
  "types": [
@@ -11,10 +11,10 @@
    "rate": "5/wk",
    "per_week": 5,
    "builds": "Wed night",
-   "reported": "11/2",
+   "reported": "11/3",
    "queued": {
     "through": "2026-11-04",
-    "count": 3
+    "count": 2
    },
    "ready": {
     "through": "2026-11-05",
@@ -37,23 +37,23 @@
    "rate": "5–9/wk",
    "per_week": 7,
    "builds": "Mon night",
-   "reported": "11/2",
+   "reported": "11/3",
    "queued": {
     "through": "2026-11-04",
-    "count": 4
+    "count": 3
    },
    "ready": {
     "through": "2026-11-06",
     "count": 4
    },
    "review": {
-    "through": "2026-11-06",
-    "count": 0,
+    "through": "2026-11-13",
+    "count": 5,
     "fix": 0
    },
    "picked": {
     "through": "2026-11-13",
-    "count": 5
+    "count": 0
    },
    "holes": []
   },
@@ -63,7 +63,7 @@
    "rate": "4/wk",
    "per_week": 4,
    "builds": "Thu night",
-   "reported": "11/2",
+   "reported": "11/3",
    "queued": {
     "count": 1
    },
@@ -84,18 +84,23 @@
   }
  ],
  "buffer": {
-  "youtube": 8,
-  "instagram": 8,
-  "facebook": 8,
-  "tiktok": 8,
-  "pinterest": 7,
+  "youtube": 6,
+  "instagram": 6,
+  "facebook": 6,
+  "tiktok": 6,
+  "pinterest": 5,
   "through_label": "Wed 11/4 5 PM",
   "posted_7d": 18
  },
  "needs_you": [
   {
-   "what": "Pick Tomorrow's passages 11/8–23 (S4E16–S4E25)",
+   "what": "Pick Tomorrow's passages 11/8–24 (S4E16–S4E25)",
    "due": "by Wed",
+   "urgent": true
+  },
+  {
+   "what": "Review 5 nature cards 11/9–13",
+   "due": "by Fri",
    "urgent": true
   },
   {
@@ -104,13 +109,13 @@
    "urgent": true
   },
   {
-   "what": "Pick nature verses 11/16–23 (S4E21–S4E25)",
-   "due": "by Mon 11/9",
+   "what": "Pick nature verses 11/16–24 (S4E21–S4E27)",
+   "due": "by Mon",
    "urgent": true
   }
  ],
  "waiting_on_builders": {
-  "build": 13,
+  "build": 8,
   "fix": 0
  },
  "last_run": {
