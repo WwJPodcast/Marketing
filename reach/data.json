@@ -1,5 +1,5 @@
 {
- "updated": "Tue 11/3 9:05 AM",
+ "updated": "Tue 11/3 12:42 PM",
  "updated_date": "2026-11-03",
  "platforms": [
   {
@@ -1497,7 +1497,7 @@
   "YouTube split since 2026-09-15: shorts 13631 + long-form 80 of 13719 total views; 62 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: pinterest, tiktok, instagram; tracking 3",
-  "Buffer posts read: 186; saved with numbers: 186",
+  "Buffer posts read: 189; saved with numbers: 188",
   "Facebook posts, last 21 days: 64 reels, 0 other videos, 10 over 90s; views known for 64 of 64, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})"
  ],
  "fb_posts": {
