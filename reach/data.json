@@ -1,5 +1,5 @@
 {
- "updated": "Wed 11/4 2:53 AM",
+ "updated": "Wed 11/4 9:25 AM",
  "updated_date": "2026-11-04",
  "platforms": [
   {
@@ -921,7 +921,7 @@
     },
     {
      "d": "2026-11-03",
-     "v": 10,
+     "v": 11,
      "e": 0
     }
    ],
@@ -1053,7 +1053,7 @@
     },
     {
      "d": "2026-10-28",
-     "v": 161,
+     "v": 162,
      "e": 7
     }
    ],
@@ -1136,8 +1136,8 @@
     },
     {
      "d": "2026-11-03",
-     "v": 0,
-     "e": 0
+     "v": 57,
+     "e": 4
     }
    ],
    "weekly": [
@@ -1268,8 +1268,8 @@
     },
     {
      "d": "2026-10-28",
-     "v": 396,
-     "e": 13
+     "v": 453,
+     "e": 17
     }
    ],
    "before": {
@@ -1497,13 +1497,21 @@
   "YouTube split since 2026-09-15: shorts 13850 + long-form 80 of 13940 total views; 63 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: pinterest, tiktok, instagram; tracking 3",
-  "Buffer posts read: 193; saved with numbers: 193",
+  "Buffer posts read: 196; saved with numbers: 195",
   "Facebook posts, last 21 days: 64 reels, 0 other videos, 10 over 90s; views known for 64 of 64, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
+   {
+    "t": "2026-11-04T09:00",
+    "len": 18,
+    "v": 0,
+    "k": "reel",
+    "x": "Luke 11:9 (KJV) On today's episode of Walking wi",
+    "up": false
+   },
    {
     "t": "2026-11-03T17:00",
     "len": 50,
@@ -2006,14 +2014,6 @@
     "v": 285,
     "k": "reel",
     "x": "John 19:11 (KJV) On today's episode of Walking w",
-    "up": false
-   },
-   {
-    "t": "2026-10-14T09:02",
-    "len": 14,
-    "v": 450,
-    "k": "reel",
-    "x": "Luke 23:3 (KJV) On today's episode of Walking wi",
     "up": false
    }
   ]
