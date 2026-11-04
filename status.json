@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-04T02:53:14-06:00",
- "updated_label": "Wed 11/4 2:53 AM",
+ "updated": "2026-11-04T13:37:40-06:00",
+ "updated_label": "Wed 11/4 1:37 PM",
  "window_start": "2026-11-04",
  "window_days": 21,
  "goal_days": 14,
@@ -40,7 +40,7 @@
    "reported": "11/4",
    "queued": {
     "through": "2026-11-10",
-    "count": 8
+    "count": 7
    },
    "ready": {
     "through": "2026-11-13",
@@ -71,11 +71,11 @@
     "count": 0
    },
    "review": {
-    "count": 0,
+    "count": 8,
     "fix": 0
    },
    "picked": {
-    "count": 8
+    "count": 0
    },
    "holes": [
     "2026-11-07",
@@ -85,17 +85,17 @@
   }
  ],
  "buffer": {
-  "youtube": 10,
-  "instagram": 10,
-  "facebook": 10,
-  "tiktok": 10,
-  "pinterest": 10,
+  "youtube": 9,
+  "instagram": 9,
+  "facebook": 9,
+  "tiktok": 9,
+  "pinterest": 9,
   "through_label": "Tue 11/10 9 AM",
   "posted_7d": 18
  },
  "needs_you": [
   {
-   "what": "Approve 4 more promos for 11/7–10",
+   "what": "Review 8 built promos",
    "due": "by Fri",
    "urgent": true
   },
@@ -111,7 +111,7 @@
   }
  ],
  "waiting_on_builders": {
-  "build": 18,
+  "build": 10,
   "fix": 0
  },
  "last_run": {
