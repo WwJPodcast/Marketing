@@ -1,5 +1,5 @@
 {
- "updated": "Tue 11/3 1:46 PM",
+ "updated": "Tue 11/3 8:57 PM",
  "updated_date": "2026-11-03",
  "platforms": [
   {
@@ -9,11 +9,6 @@
    "views": "views",
    "since": "Sep 2026",
    "daily": [
-    {
-     "d": "2026-10-18",
-     "v": 211,
-     "e": 36
-    },
     {
      "d": "2026-10-19",
      "v": 144,
@@ -78,141 +73,146 @@
      "d": "2026-10-31",
      "v": 63,
      "e": 13
+    },
+    {
+     "d": "2026-11-01",
+     "v": 221,
+     "e": 10
     }
    ],
    "weekly": [
     {
-     "d": "2026-05-03",
+     "d": "2026-05-04",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-05-10",
+     "d": "2026-05-11",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-05-17",
+     "d": "2026-05-18",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-05-24",
+     "d": "2026-05-25",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-05-31",
+     "d": "2026-06-01",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-06-07",
+     "d": "2026-06-08",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-06-14",
+     "d": "2026-06-15",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-06-21",
+     "d": "2026-06-22",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-06-28",
+     "d": "2026-06-29",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-07-05",
+     "d": "2026-07-06",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-07-12",
+     "d": "2026-07-13",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-07-19",
+     "d": "2026-07-20",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-07-26",
+     "d": "2026-07-27",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-08-02",
+     "d": "2026-08-03",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-08-09",
+     "d": "2026-08-10",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-08-16",
+     "d": "2026-08-17",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-08-23",
+     "d": "2026-08-24",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-08-30",
+     "d": "2026-08-31",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-09-06",
+     "d": "2026-09-07",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-09-13",
-     "v": 128,
+     "d": "2026-09-14",
+     "v": 131,
      "e": 9
     },
     {
-     "d": "2026-09-20",
-     "v": 2622,
-     "e": 401
+     "d": "2026-09-21",
+     "v": 2703,
+     "e": 412
     },
     {
-     "d": "2026-09-27",
-     "v": 1440,
-     "e": 245
+     "d": "2026-09-28",
+     "v": 1483,
+     "e": 268
     },
     {
-     "d": "2026-10-04",
-     "v": 2290,
-     "e": 481
+     "d": "2026-10-05",
+     "v": 2393,
+     "e": 482
     },
     {
-     "d": "2026-10-11",
-     "v": 4612,
-     "e": 637
+     "d": "2026-10-12",
+     "v": 4593,
+     "e": 638
     },
     {
-     "d": "2026-10-18",
-     "v": 1131,
-     "e": 150
+     "d": "2026-10-19",
+     "v": 1112,
+     "e": 131
     },
     {
-     "d": "2026-10-25",
-     "v": 1496,
-     "e": 256
+     "d": "2026-10-26",
+     "v": 1525,
+     "e": 249
     }
    ],
-   "through": "2026-10-31",
+   "through": "2026-11-01",
    "before": {
     "v": 0,
     "e": 0
@@ -220,11 +220,6 @@
    "split": {
     "shorts": {
      "daily": [
-      {
-       "d": "2026-10-18",
-       "v": 210,
-       "e": 36
-      },
       {
        "d": "2026-10-19",
        "v": 131,
@@ -289,148 +284,148 @@
        "d": "2026-10-31",
        "v": 63,
        "e": 13
+      },
+      {
+       "d": "2026-11-01",
+       "v": 221,
+       "e": 10
       }
      ],
      "weekly": [
       {
-       "d": "2026-05-03",
+       "d": "2026-05-04",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-05-10",
+       "d": "2026-05-11",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-05-17",
+       "d": "2026-05-18",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-05-24",
+       "d": "2026-05-25",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-05-31",
+       "d": "2026-06-01",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-07",
+       "d": "2026-06-08",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-14",
+       "d": "2026-06-15",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-21",
+       "d": "2026-06-22",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-28",
+       "d": "2026-06-29",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-05",
+       "d": "2026-07-06",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-12",
+       "d": "2026-07-13",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-19",
+       "d": "2026-07-20",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-26",
+       "d": "2026-07-27",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-02",
+       "d": "2026-08-03",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-09",
+       "d": "2026-08-10",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-16",
+       "d": "2026-08-17",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-23",
+       "d": "2026-08-24",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-30",
+       "d": "2026-08-31",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-09-06",
+       "d": "2026-09-07",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-09-13",
-       "v": 128,
+       "d": "2026-09-14",
+       "v": 131,
        "e": 9
       },
       {
-       "d": "2026-09-20",
-       "v": 2619,
-       "e": 401
+       "d": "2026-09-21",
+       "v": 2700,
+       "e": 412
       },
       {
-       "d": "2026-09-27",
-       "v": 1432,
-       "e": 245
+       "d": "2026-09-28",
+       "v": 1476,
+       "e": 268
       },
       {
-       "d": "2026-10-04",
-       "v": 2290,
-       "e": 481
+       "d": "2026-10-05",
+       "v": 2392,
+       "e": 482
       },
       {
-       "d": "2026-10-11",
-       "v": 4600,
-       "e": 636
+       "d": "2026-10-12",
+       "v": 4580,
+       "e": 637
       },
       {
-       "d": "2026-10-18",
-       "v": 1080,
-       "e": 147
+       "d": "2026-10-19",
+       "v": 1062,
+       "e": 128
       },
       {
-       "d": "2026-10-25",
-       "v": 1482,
-       "e": 253
+       "d": "2026-10-26",
+       "v": 1511,
+       "e": 246
       }
      ]
     },
     "long": {
      "daily": [
-      {
-       "d": "2026-10-18",
-       "v": 1,
-       "e": 0
-      },
       {
        "d": "2026-10-19",
        "v": 12,
@@ -495,136 +490,141 @@
        "d": "2026-10-31",
        "v": 0,
        "e": 0
+      },
+      {
+       "d": "2026-11-01",
+       "v": 0,
+       "e": 0
       }
      ],
      "weekly": [
       {
-       "d": "2026-05-03",
+       "d": "2026-05-04",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-05-10",
+       "d": "2026-05-11",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-05-17",
+       "d": "2026-05-18",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-05-24",
+       "d": "2026-05-25",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-05-31",
+       "d": "2026-06-01",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-07",
+       "d": "2026-06-08",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-14",
+       "d": "2026-06-15",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-21",
+       "d": "2026-06-22",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-28",
+       "d": "2026-06-29",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-05",
+       "d": "2026-07-06",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-12",
+       "d": "2026-07-13",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-19",
+       "d": "2026-07-20",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-26",
+       "d": "2026-07-27",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-02",
+       "d": "2026-08-03",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-09",
+       "d": "2026-08-10",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-16",
+       "d": "2026-08-17",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-23",
+       "d": "2026-08-24",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-30",
+       "d": "2026-08-31",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-09-06",
+       "d": "2026-09-07",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-09-13",
+       "d": "2026-09-14",
        "v": 0,
        "e": 0
       },
       {
-       "d": "2026-09-20",
+       "d": "2026-09-21",
        "v": 3,
        "e": 0
       },
       {
-       "d": "2026-09-27",
+       "d": "2026-09-28",
        "v": 6,
        "e": 0
       },
       {
-       "d": "2026-10-04",
+       "d": "2026-10-05",
        "v": 0,
        "e": 0
       },
       {
-       "d": "2026-10-11",
-       "v": 4,
+       "d": "2026-10-12",
+       "v": 5,
        "e": 1
       },
       {
-       "d": "2026-10-18",
-       "v": 45,
+       "d": "2026-10-19",
+       "v": 44,
        "e": 3
       },
       {
-       "d": "2026-10-25",
+       "d": "2026-10-26",
        "v": 22,
        "e": 3
       }
@@ -1494,21 +1494,37 @@
   }
  ],
  "notes": [
-  "YouTube split since 2026-09-15: shorts 13631 + long-form 80 of 13719 total views; 62 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
+  "YouTube split since 2026-09-15: shorts 13852 + long-form 80 of 13940 total views; 63 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: pinterest, tiktok, instagram; tracking 3",
-  "Buffer posts read: 189; saved with numbers: 188",
-  "Facebook posts, last 21 days: 0 reels, 64 other videos, 10 over 90s; views known for 64 of 64, not yet published 0 (metrics: {'video': 'fb_reels_total_plays'}); problems: video_reels: HTTP 500: An unknown error occurred"
+  "Buffer posts read: 193; saved with numbers: 190",
+  "Facebook posts, last 21 days: 64 reels, 0 other videos, 10 over 90s; views known for 64 of 64, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
    {
+    "t": "2026-11-03T17:00",
+    "len": 50,
+    "v": 0,
+    "k": "reel",
+    "x": "On tomorrow's episode of Walking with Jesus: A H",
+    "up": false
+   },
+   {
+    "t": "2026-11-03T14:00",
+    "len": 89,
+    "v": 0,
+    "k": "reel",
+    "x": "I read the Book of Mormon, the Quran, and the Dh",
+    "up": false
+   },
+   {
     "t": "2026-11-03T09:00",
     "len": 16,
     "v": 0,
-    "k": "video",
+    "k": "reel",
     "x": "Matthew 11:28 (KJV) On today's episode of Walkin",
     "up": false
    },
@@ -1516,7 +1532,7 @@
     "t": "2026-11-02T17:00",
     "len": 50,
     "v": 0,
-    "k": "video",
+    "k": "reel",
     "x": "On tomorrow's episode of Walking with Jesus: You",
     "up": false
    },
@@ -1524,7 +1540,7 @@
     "t": "2026-11-02T14:00",
     "len": 17,
     "v": 0,
-    "k": "video",
+    "k": "reel",
     "x": "Matthew 7:7 (KJV) On today's episode of Walking ",
     "up": false
    },
@@ -1532,7 +1548,7 @@
     "t": "2026-11-02T09:00",
     "len": 15,
     "v": 0,
-    "k": "video",
+    "k": "reel",
     "x": "Luke 6:46 (KJV) On today's episode of Walking wi",
     "up": false
    },
@@ -1540,7 +1556,7 @@
     "t": "2026-11-01T17:00",
     "len": 45,
     "v": 0,
-    "k": "video",
+    "k": "reel",
     "x": "On tomorrow's episode of Walking with Jesus: See",
     "up": false
    },
@@ -1548,7 +1564,7 @@
     "t": "2026-11-01T09:00",
     "len": 31,
     "v": 0,
-    "k": "video",
+    "k": "reel",
     "x": "Pastors, ministers, ministry workers: try this. ",
     "up": false
    },
@@ -1556,7 +1572,7 @@
     "t": "2026-10-31T15:00",
     "len": 20,
     "v": 1,
-    "k": "video",
+    "k": "reel",
     "x": "Fifteen minutes with Jesus. No commentary. Just ",
     "up": false
    },
@@ -1564,7 +1580,7 @@
     "t": "2026-10-31T09:00",
     "len": 27,
     "v": 0,
-    "k": "video",
+    "k": "reel",
     "x": "The whole story of Jesus, from the manger to the",
     "up": false
    },
@@ -1572,7 +1588,7 @@
     "t": "2026-10-30T14:00",
     "len": 16,
     "v": 0,
-    "k": "video",
+    "k": "reel",
     "x": "Luke 6:31 (KJV) On today's episode of Walking wi",
     "up": false
    },
@@ -1580,7 +1596,7 @@
     "t": "2026-10-30T09:00",
     "len": 17,
     "v": 1,
-    "k": "video",
+    "k": "reel",
     "x": "Matthew 5:17 (KJV) On today's episode of Walking",
     "up": false
    },
@@ -1588,15 +1604,15 @@
     "t": "2026-10-30T04:00",
     "len": 711,
     "v": 0,
-    "k": "video",
-    "x": "Our Father Which Art in Heaven \u2014 Matthew 5-6; Lu",
+    "k": "reel",
+    "x": "Anger counts as murder. A look counts as adulter",
     "up": false
    },
    {
     "t": "2026-10-29T17:00",
     "len": 49,
     "v": 0,
-    "k": "video",
+    "k": "reel",
     "x": "On tomorrow's episode of Walking with Jesus: Our",
     "up": false
    },
@@ -1604,7 +1620,7 @@
     "t": "2026-10-29T14:00",
     "len": 15,
     "v": 1,
-    "k": "video",
+    "k": "reel",
     "x": "Matthew 5:8 (KJV) On today's episode of Walking ",
     "up": false
    },
@@ -1612,7 +1628,7 @@
     "t": "2026-10-29T09:00",
     "len": 17,
     "v": 1,
-    "k": "video",
+    "k": "reel",
     "x": "Matthew 5:16 (KJV) On today's episode of Walking",
     "up": false
    },
@@ -1620,15 +1636,15 @@
     "t": "2026-10-29T04:00",
     "len": 681,
     "v": 0,
-    "k": "video",
-    "x": "Ye Are the Salt of the Earth \u2014 Matthew 5, 12; Ma",
+    "k": "reel",
+    "x": "A withered hand is healed in front of hostile ey",
     "up": false
    },
    {
     "t": "2026-10-28T17:00",
     "len": 63,
     "v": 0,
-    "k": "video",
+    "k": "reel",
     "x": "On tomorrow's episode of Walking with Jesus: Ye ",
     "up": false
    },
@@ -1636,7 +1652,7 @@
     "t": "2026-10-28T14:00",
     "len": 15,
     "v": 0,
-    "k": "video",
+    "k": "reel",
     "x": "John 5:40 (KJV) On today's episode of Walking wi",
     "up": false
    },
@@ -1644,7 +1660,7 @@
     "t": "2026-10-28T09:00",
     "len": 17,
     "v": 0,
-    "k": "video",
+    "k": "reel",
     "x": "John 5:39 (KJV) On today's episode of Walking wi",
     "up": false
    },
@@ -1652,15 +1668,15 @@
     "t": "2026-10-28T04:00",
     "len": 832,
     "v": 0,
-    "k": "video",
-    "x": "Rise, Take Up Thy Bed, and Walk \u2014 Matthew 9, 12;",
+    "k": "reel",
+    "x": "New wine and old bottles. A paralyzed man waits ",
     "up": false
    },
    {
     "t": "2026-10-27T17:00",
     "len": 45,
     "v": 0,
-    "k": "video",
+    "k": "reel",
     "x": "On tomorrow's episode of Walking with Jesus: Ris",
     "up": false
    },
@@ -1668,7 +1684,7 @@
     "t": "2026-10-27T14:00",
     "len": 30,
     "v": 0,
-    "k": "video",
+    "k": "reel",
     "x": "Jesus spoke seven times from the cross, and no s",
     "up": false
    },
@@ -1676,7 +1692,7 @@
     "t": "2026-10-27T09:00",
     "len": 19,
     "v": 0,
-    "k": "video",
+    "k": "reel",
     "x": "Matthew 9:13 (KJV) On today's episode of Walking",
     "up": false
    },
@@ -1684,15 +1700,15 @@
     "t": "2026-10-27T04:00",
     "len": 809,
     "v": 1,
-    "k": "video",
-    "x": "Thy Sins Be Forgiven Thee \u2014 Matthew 4, 8-9; Mark",
+    "k": "reel",
+    "x": "A leper no one would touch is cleansed with a to",
     "up": false
    },
    {
     "t": "2026-10-26T17:00",
     "len": 52,
     "v": 2,
-    "k": "video",
+    "k": "reel",
     "x": "On tomorrow's episode of Walking with Jesus: Thy",
     "up": false
    },
@@ -1700,7 +1716,7 @@
     "t": "2026-10-26T14:00",
     "len": 17,
     "v": 0,
-    "k": "video",
+    "k": "reel",
     "x": "Mark 1:15 (KJV) On today's episode of Walking wi",
     "up": false
    },
@@ -1708,7 +1724,7 @@
     "t": "2026-10-26T09:00",
     "len": 15,
     "v": 3,
-    "k": "video",
+    "k": "reel",
     "x": "Matthew 4:19 (KJV) On today's episode of Walking",
     "up": false
    },
@@ -1716,304 +1732,288 @@
     "t": "2026-10-26T06:00",
     "len": 764,
     "v": 1,
-    "k": "video",
-    "x": "Follow Me, and I Will Make You Fishers of Men \u2014 ",
+    "k": "reel",
+    "x": "A blind push toward home gets a long-distance mi",
     "up": false
    },
    {
     "t": "2026-10-25T18:00",
     "len": 928,
     "v": 3,
-    "k": "video",
-    "x": "Ye Must Be Born Again \u2014 Matthew 4; Luke 3; John ",
+    "k": "reel",
+    "x": "A Pharisee comes by night with a question. A wom",
     "up": false
    },
    {
     "t": "2026-10-25T17:01",
     "len": 46,
     "v": 249,
-    "k": "video",
-    "x": "Follow Me, and I Will Make You Fishers of Men \u2014 ",
+    "k": "reel",
+    "x": "On tomorrow's episode of Walking with Jesus: Fol",
     "up": false
    },
    {
     "t": "2026-10-25T16:00",
     "len": 838,
     "v": 0,
-    "k": "video",
-    "x": "Behold the Lamb of God \u2014 Matthew 4; Mark 1; Luke",
+    "k": "reel",
+    "x": "Forty days alone against the devil. A wedding sa",
     "up": false
    },
    {
     "t": "2026-10-25T14:00",
     "len": 805,
     "v": 1,
-    "k": "video",
-    "x": "This Is My Beloved Son \u2014 Matthew 2-3; Mark 1; Lu",
+    "k": "reel",
+    "x": "Eighteen silent years end with a wilderness prea",
     "up": false
    },
    {
     "t": "2026-10-25T12:00",
     "len": 858,
     "v": 4,
-    "k": "video",
-    "x": "Unto You Is Born a Saviour \u2014 Matthew 1-2; Luke 1",
+    "k": "reel",
+    "x": "Shepherds hear the news before anyone of standin",
     "up": false
    },
    {
     "t": "2026-10-25T10:00",
     "len": 962,
     "v": 8,
-    "k": "video",
-    "x": "In the Beginning Was the Word \u2014 Matthew 1; Luke ",
+    "k": "reel",
+    "x": "A priest struck silent for doubting an angel. A ",
     "up": false
    },
    {
     "t": "2026-10-25T09:01",
     "len": 22,
     "v": 27,
-    "k": "video",
-    "x": "Only Matthew Says Peter Walked Too \u2014 Four Gospel",
+    "k": "reel",
+    "x": "Three Gospels tell of Jesus walking on the water",
     "up": false
    },
    {
     "t": "2026-10-24T15:01",
     "len": 12,
     "v": 410,
-    "k": "video",
-    "x": "Do You Have a Daily Habit That Puts Jesus First?",
+    "k": "reel",
+    "x": "Do you have a daily habit that puts Jesus first?",
     "up": false
    },
    {
     "t": "2026-10-24T09:02",
     "len": 31,
     "v": 146,
-    "k": "video",
-    "x": "Why Luke Wrote His Gospel \u2014 Walking with Jesus",
+    "k": "reel",
+    "x": "Before Jesus says a word, Luke tells you why he'",
     "up": false
    },
    {
     "t": "2026-10-23T14:02",
     "len": 18,
     "v": 177,
-    "k": "video",
-    "x": "John 4:14 KJV \u2014 Ye Must Be Born Again | Walking ",
+    "k": "reel",
+    "x": "John 4:14 (KJV) On today's episode of Walking wi",
     "up": false
    },
    {
     "t": "2026-10-23T09:03",
     "len": 18,
     "v": 163,
-    "k": "video",
-    "x": "John 3:3 KJV \u2014 Ye Must Be Born Again | Walking w",
+    "k": "reel",
+    "x": "John 3:3 (KJV) On today's episode of Walking wit",
     "up": false
    },
    {
     "t": "2026-10-22T17:01",
     "len": 46,
     "v": 206,
-    "k": "video",
-    "x": "Ye Must Be Born Again \u2014 Matt 4; Luke 3; John 3-4",
+    "k": "reel",
+    "x": "On tomorrow's episode of Walking with Jesus: Ye ",
     "up": false
    },
    {
     "t": "2026-10-22T14:02",
     "len": 18,
     "v": 159,
-    "k": "video",
-    "x": "John 2:19 KJV \u2014 Behold the Lamb of God | Walking",
+    "k": "reel",
+    "x": "John 2:19 (KJV) On today's episode of Walking wi",
     "up": false
    },
    {
     "t": "2026-10-22T09:02",
     "len": 18,
     "v": 125,
-    "k": "video",
-    "x": "Matthew 4:4 KJV \u2014 Behold the Lamb of God | Walki",
+    "k": "reel",
+    "x": "Matthew 4:4 (KJV) On today's episode of Walking ",
     "up": false
    },
    {
     "t": "2026-10-21T17:01",
     "len": 49,
     "v": 368,
-    "k": "video",
-    "x": "Behold the Lamb of God \u2014 Matt 4; Mark 1; Luke 4;",
+    "k": "reel",
+    "x": "On tomorrow's episode of Walking with Jesus: Beh",
     "up": false
    },
    {
     "t": "2026-10-21T14:02",
     "len": 18,
     "v": 7345,
-    "k": "video",
-    "x": "Matthew 3:17 KJV \u2014 This Is My Beloved Son | Walk",
+    "k": "reel",
+    "x": "Matthew 3:17 (KJV) On today's episode of Walking",
     "up": false
    },
    {
     "t": "2026-10-21T09:03",
     "len": 18,
     "v": 30,
-    "k": "video",
-    "x": "Luke 2:49 KJV \u2014 This Is My Beloved Son | Walking",
+    "k": "reel",
+    "x": "Luke 2:49 (KJV) On today's episode of Walking wi",
     "up": false
    },
    {
     "t": "2026-10-20T17:01",
     "len": 40,
     "v": 252,
-    "k": "video",
-    "x": "This Is My Beloved Son \u2014 Matt 2-3; Mark 1; Luke ",
+    "k": "reel",
+    "x": "On tomorrow's episode of Walking with Jesus: Thi",
     "up": false
    },
    {
     "t": "2026-10-20T14:00",
     "len": 89,
     "v": 15,
-    "k": "video",
-    "x": "I Read the Quran, Book of Mormon, and Dhammapada",
+    "k": "reel",
+    "x": "I read the Book of Mormon, the Quran, and the Dh",
     "up": false
    },
    {
     "t": "2026-10-20T09:03",
     "len": 18,
     "v": 41,
-    "k": "video",
-    "x": "Luke 2:11 KJV \u2014 Unto You Is Born a Saviour | Wal",
+    "k": "reel",
+    "x": "Luke 2:11 (KJV) On today's episode of Walking wi",
     "up": false
    },
    {
     "t": "2026-10-19T17:01",
     "len": 48,
     "v": 311,
-    "k": "video",
-    "x": "Unto You Is Born a Saviour \u2014 Matt 1-2; Luke 1-2 ",
+    "k": "reel",
+    "x": "On tomorrow's episode of Walking with Jesus: Unt",
     "up": false
    },
    {
     "t": "2026-10-19T14:02",
     "len": 18,
     "v": 244,
-    "k": "video",
-    "x": "John 1:14 KJV \u2014 In the Beginning Was the Word | ",
+    "k": "reel",
+    "x": "John 1:14 (KJV) On today's episode of Walking wi",
     "up": false
    },
    {
     "t": "2026-10-19T09:02",
     "len": 18,
     "v": 114,
-    "k": "video",
-    "x": "John 1:1 KJV \u2014 In the Beginning Was the Word | W",
+    "k": "reel",
+    "x": "John 1:1 (KJV) On today's episode of Walking wit",
     "up": false
    },
    {
     "t": "2026-10-18T17:01",
     "len": 50,
     "v": 390,
-    "k": "video",
-    "x": "In the Beginning Was the Word \u2014 Matt 1; Luke 1, ",
+    "k": "reel",
+    "x": "On tomorrow's episode of Walking with Jesus: In ",
     "up": false
    },
    {
     "t": "2026-10-18T09:02",
     "len": 16,
     "v": 265,
-    "k": "video",
-    "x": "Tomorrow, We Begin \u2014 The Four Gospel Harmony",
+    "k": "reel",
+    "x": "Tomorrow, we begin. \ud83d\ude4f The Four Gospel Harmony st",
     "up": false
    },
    {
     "t": "2026-10-17T15:01",
     "len": 20,
     "v": 270,
-    "k": "video",
-    "x": "Only Matthew Says Peter Walked Too \u2014 Four Gospel",
+    "k": "reel",
+    "x": "Three Gospels tell of Jesus walking on the water",
     "up": false
    },
    {
     "t": "2026-10-17T09:02",
     "len": 22,
     "v": 232,
-    "k": "video",
-    "x": "Starts Monday. Ends Christmas Day. \u2014 Four Gospel",
+    "k": "reel",
+    "x": "Starts Monday, October 19. Fifty episodes, every",
     "up": false
    },
    {
     "t": "2026-10-16T14:01",
     "len": 15,
     "v": 329,
-    "k": "video",
-    "x": "Luke 24:39-40 KJV \u2014 He Was Known of Them | Walki",
+    "k": "reel",
+    "x": "Luke 24:39-40 (KJV) On today's episode of Walkin",
     "up": false
    },
    {
     "t": "2026-10-16T09:02",
     "len": 14,
     "v": 34,
-    "k": "video",
-    "x": "John 21:22 KJV \u2014 He Was Known of Them | Walking ",
+    "k": "reel",
+    "x": "John 21:22 (KJV) On today's episode of Walking w",
     "up": false
    },
    {
     "t": "2026-10-15T17:01",
     "len": 45,
     "v": 282,
-    "k": "video",
-    "x": "He Was Known of Them \u2014 Luke 24, John 20-21 KJV",
+    "k": "reel",
+    "x": "On tomorrow's episode of Walking with Jesus: He ",
     "up": false
    },
    {
     "t": "2026-10-15T14:01",
     "len": 14,
     "v": 275,
-    "k": "video",
-    "x": "Luke 23:46 KJV \u2014 It Is Finished | Walking with J",
+    "k": "reel",
+    "x": "Luke 23:46 (KJV) On today's episode of Walking w",
     "up": false
    },
    {
     "t": "2026-10-15T09:02",
     "len": 14,
     "v": 88,
-    "k": "video",
-    "x": "Luke 23:43 KJV \u2014 It Is Finished | Walking with J",
+    "k": "reel",
+    "x": "Luke 23:43 (KJV) On today's episode of Walking w",
     "up": false
    },
    {
     "t": "2026-10-14T17:01",
     "len": 48,
     "v": 253,
-    "k": "video",
-    "x": "It Is Finished \u2014 Luke 23-24, John 19-20 KJV",
+    "k": "reel",
+    "x": "On tomorrow's episode of Walking with Jesus: It ",
     "up": false
    },
    {
     "t": "2026-10-14T14:02",
     "len": 15,
     "v": 285,
-    "k": "video",
-    "x": "John 19:11 KJV \u2014 Art Thou the King of the Jews? ",
+    "k": "reel",
+    "x": "John 19:11 (KJV) On today's episode of Walking w",
     "up": false
    },
    {
     "t": "2026-10-14T09:02",
     "len": 14,
     "v": 450,
-    "k": "video",
-    "x": "Luke 23:3 KJV \u2014 Art Thou the King of the Jews? |",
-    "up": false
-   },
-   {
-    "t": "2026-10-13T17:01",
-    "len": 65,
-    "v": 204,
-    "k": "video",
-    "x": "Art Thou the King of the Jews? \u2014 Luke 22-23, Joh",
-    "up": false
-   },
-   {
-    "t": "2026-10-13T14:01",
-    "len": 28,
-    "v": 318,
-    "k": "video",
-    "x": "The Miracle in All Four Gospels \u2014 Four Gospel Ha",
+    "k": "reel",
+    "x": "Luke 23:3 (KJV) On today's episode of Walking wi",
     "up": false
    }
   ]
