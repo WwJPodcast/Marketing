@@ -1,5 +1,5 @@
 {
- "updated": "Thu 11/5 2:53 AM",
+ "updated": "Thu 11/5 9:26 AM",
  "updated_date": "2026-11-05",
  "platforms": [
   {
@@ -1136,7 +1136,7 @@
     },
     {
      "d": "2026-11-04",
-     "v": 14,
+     "v": 30,
      "e": 0
     }
    ],
@@ -1268,7 +1268,7 @@
     },
     {
      "d": "2026-10-29",
-     "v": 429,
+     "v": 445,
      "e": 15
     }
    ],
@@ -1497,13 +1497,21 @@
   "YouTube split since 2026-09-15: shorts 14059 + long-form 80 of 14149 total views; 64 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: pinterest, tiktok, instagram; tracking 3",
-  "Buffer posts read: 202; saved with numbers: 202",
+  "Buffer posts read: 205; saved with numbers: 204",
   "Facebook posts, last 21 days: 64 reels, 0 other videos, 10 over 90s; views known for 64 of 64, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
+   {
+    "t": "2026-11-05T09:00",
+    "len": 19,
+    "v": 0,
+    "k": "reel",
+    "x": "Luke 8:15 (KJV) On today's episode of Walking wi",
+    "up": false
+   },
    {
     "t": "2026-11-04T17:00",
     "len": 48,
@@ -1827,7 +1835,7 @@
    {
     "t": "2026-10-24T09:02",
     "len": 31,
-    "v": 146,
+    "v": 147,
     "k": "reel",
     "x": "Before Jesus says a word, Luke tells you why he'",
     "up": false
@@ -2006,14 +2014,6 @@
     "v": 275,
     "k": "reel",
     "x": "Luke 23:46 (KJV) On today's episode of Walking w",
-    "up": false
-   },
-   {
-    "t": "2026-10-15T09:02",
-    "len": 14,
-    "v": 88,
-    "k": "reel",
-    "x": "Luke 23:43 (KJV) On today's episode of Walking w",
     "up": false
    }
   ]

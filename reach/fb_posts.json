@@ -1,5 +1,5 @@
 {
- "updated": "Thu 11/5 2:53 AM",
+ "updated": "Thu 11/5 9:26 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -7,6 +7,14 @@
  },
  "errors": [],
  "days": [
+  {
+   "d": "2026-11-04",
+   "short": 1,
+   "long": 0,
+   "short_views": 0,
+   "long_views": 0,
+   "unknown": 0
+  },
   {
    "d": "2026-11-02",
    "short": 4,
@@ -43,7 +51,7 @@
    "d": "2026-10-24",
    "short": 2,
    "long": 0,
-   "short_views": 556,
+   "short_views": 557,
    "long_views": 0,
    "unknown": 0
   },
@@ -113,14 +121,27 @@
   },
   {
    "d": "2026-10-15",
-   "short": 3,
+   "short": 2,
    "long": 0,
-   "short_views": 645,
+   "short_views": 557,
    "long_views": 0,
    "unknown": 0
   }
  ],
  "items": [
+  {
+   "id": "4547887438819940",
+   "type": "reel",
+   "at": "2026-11-04 02:45",
+   "live": "2026-11-05 09:00",
+   "len": 19,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "Luke 8:15 (KJV) On today's episode of Walking with Jesus: He",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":7098831},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-05T15:00:01+00",
+   "sched": null
+  },
   {
    "id": "2002233080453924",
    "type": "reel",
@@ -647,7 +668,7 @@
    "at": "2026-10-24 09:02",
    "live": "2026-10-24 09:02",
    "len": 31,
-   "views": 146,
+   "views": 147,
    "src": "fb_reels_total_plays",
    "text": "Before Jesus says a word, Luke tells you why he's writing: \"",
    "pub": true,
@@ -938,19 +959,6 @@
    "text": "Luke 23:46 (KJV) On today's episode of Walking with Jesus: I",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":8840742},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-15T19:01:36+00",
-   "sched": null
-  },
-  {
-   "id": "2501775793649146",
-   "type": "reel",
-   "at": "2026-10-15 09:02",
-   "live": "2026-10-15 09:02",
-   "len": 14,
-   "views": 88,
-   "src": "fb_reels_total_plays",
-   "text": "Luke 23:43 (KJV) On today's episode of Walking with Jesus: I",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":3742291},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-15T14:02:39+00",
    "sched": null
   }
  ]
