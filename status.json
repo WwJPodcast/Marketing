@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-04T13:37:40-06:00",
- "updated_label": "Wed 11/4 1:37 PM",
- "window_start": "2026-11-04",
+ "updated": "2026-11-05T02:52:29-06:00",
+ "updated_label": "Thu 11/5 2:52 AM",
+ "window_start": "2026-11-05",
  "window_days": 21,
  "goal_days": 14,
  "types": [
@@ -11,23 +11,23 @@
    "rate": "5/wk",
    "per_week": 5,
    "builds": "Wed night",
-   "reported": "11/4",
+   "reported": "11/5",
    "queued": {
     "through": "2026-11-05",
-    "count": 2
+    "count": 1
    },
    "ready": {
     "through": "2026-11-05",
     "count": 0
    },
    "review": {
-    "through": "2026-11-05",
-    "count": 0,
+    "through": "2026-11-19",
+    "count": 10,
     "fix": 0
    },
    "picked": {
     "through": "2026-11-19",
-    "count": 10
+    "count": 0
    },
    "holes": []
   },
@@ -37,10 +37,10 @@
    "rate": "5–9/wk",
    "per_week": 7,
    "builds": "Mon night",
-   "reported": "11/4",
+   "reported": "11/5",
    "queued": {
     "through": "2026-11-10",
-    "count": 7
+    "count": 6
    },
    "ready": {
     "through": "2026-11-13",
@@ -63,55 +63,51 @@
    "rate": "4/wk",
    "per_week": 4,
    "builds": "Thu night",
-   "reported": "11/4",
+   "reported": "11/5",
    "queued": {
     "count": 0
    },
    "ready": {
-    "count": 0
+    "count": 8
    },
    "review": {
-    "count": 8,
+    "count": 0,
     "fix": 0
    },
    "picked": {
     "count": 0
    },
-   "holes": [
-    "2026-11-07",
-    "2026-11-08",
-    "2026-11-10"
-   ]
+   "holes": []
   }
  ],
  "buffer": {
-  "youtube": 9,
-  "instagram": 9,
-  "facebook": 9,
-  "tiktok": 9,
-  "pinterest": 9,
+  "youtube": 7,
+  "instagram": 7,
+  "facebook": 7,
+  "tiktok": 7,
+  "pinterest": 7,
   "through_label": "Tue 11/10 9 AM",
   "posted_7d": 18
  },
  "needs_you": [
   {
-   "what": "Review 8 built promos",
+   "what": "Review 10 Tomorrow's posts 11/8–19",
    "due": "by Fri",
    "urgent": true
   },
   {
-   "what": "Pick nature verses 11/16–25 (S4E21–S4E27)",
+   "what": "Pick nature verses 11/16–26 (S4E21–S4E27)",
    "due": "by Mon",
    "urgent": true
   },
   {
-   "what": "Pick Tomorrow's passages 11/22–25 (S4E26–S4E29)",
+   "what": "Pick Tomorrow's passages 11/22–26 (S4E26–S4E30)",
    "due": "by Wed 11/18",
    "urgent": false
   }
  ],
  "waiting_on_builders": {
-  "build": 10,
+  "build": 0,
   "fix": 0
  },
  "last_run": {
