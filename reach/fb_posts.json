@@ -1,5 +1,5 @@
 {
- "updated": "Wed 11/4 1:38 PM",
+ "updated": "Thu 11/5 2:53 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -9,7 +9,7 @@
  "days": [
   {
    "d": "2026-11-02",
-   "short": 2,
+   "short": 4,
    "long": 0,
    "short_views": 0,
    "long_views": 0,
@@ -118,17 +118,35 @@
    "short_views": 645,
    "long_views": 0,
    "unknown": 0
-  },
-  {
-   "d": "2026-10-14",
-   "short": 2,
-   "long": 0,
-   "short_views": 538,
-   "long_views": 0,
-   "unknown": 0
   }
  ],
  "items": [
+  {
+   "id": "2002233080453924",
+   "type": "reel",
+   "at": "2026-11-02 02:45",
+   "live": "2026-11-04 17:00",
+   "len": 48,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "On tomorrow's episode of Walking with Jesus: He That Hath Ea",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":2611303},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-04T23:00:01+00",
+   "sched": null
+  },
+  {
+   "id": "1915552693219039",
+   "type": "reel",
+   "at": "2026-11-02 02:45",
+   "live": "2026-11-04 14:00",
+   "len": 16,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "Matthew 12:30 (KJV) On today's episode of Walking with Jesus",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":7425591},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-04T20:00:01+00",
+   "sched": null
+  },
   {
    "id": "1139247335146539",
    "type": "reel",
@@ -933,32 +951,6 @@
    "text": "Luke 23:43 (KJV) On today's episode of Walking with Jesus: I",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":3742291},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-15T14:02:39+00",
-   "sched": null
-  },
-  {
-   "id": "1849253466222948",
-   "type": "reel",
-   "at": "2026-10-14 17:01",
-   "live": "2026-10-14 17:01",
-   "len": 48,
-   "views": 253,
-   "src": "fb_reels_total_plays",
-   "text": "On tomorrow's episode of Walking with Jesus: It Is Finished ",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":2553816},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-14T22:01:41+00",
-   "sched": null
-  },
-  {
-   "id": "1782794990516049",
-   "type": "reel",
-   "at": "2026-10-14 14:02",
-   "live": "2026-10-14 14:02",
-   "len": 15,
-   "views": 285,
-   "src": "fb_reels_total_plays",
-   "text": "John 19:11 (KJV) On today's episode of Walking with Jesus: A",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":18233437},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-14T19:02:05+0",
    "sched": null
   }
  ]
