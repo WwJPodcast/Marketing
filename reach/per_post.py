@@ -36,11 +36,14 @@ PLATFORM_OF = {"youtube": "yt", "facebook": "fb", "instagram": "ig", "tiktok": "
 
 VERSE_START = re.compile(r"\s*(?:[123]\s*)?[A-Z][a-z]+\.?\s+\d+:\d+")
 TOMORROW = re.compile(r"tomorrow'?s\s+episode", re.I)
+# YouTube Tomorrow's titles name chapter ranges with no verse, e.g. "Blessed Is He That Cometh - John 11-12, Luke 18-19 KJV"
+CHAPTERS = re.compile(r"\b(?:[123]\s*)?[A-Z][a-z]+\.?\s+\d+(?:-\d+)?\s*(?:[,;]|KJV\b)")
+YT_LOOKUPS = 150               # most title/first-view lookups per night (new videos only after the first run)
 
 
 # ------------------------------------------------------------------ post type
 
-def post_type(file=None, text=None, length=None):
+def post_type(file=None, text=None, length=None, yt_title=False):
     """-> (type, tag_by). type is nature / tomorrow / promo / episode / other."""
     name = (file or "").rsplit("/", 1)[-1].lower()
     for k in TYPES:
@@ -55,6 +58,8 @@ def post_type(file=None, text=None, length=None):
         return "tomorrow", "caption"
     if VERSE_START.match(t):
         return "nature", "caption"
+    if yt_title and ":" not in t.split("|")[0] and CHAPTERS.search(t):
+        return "tomorrow", "caption"
     return "promo", "caption"
 
 
@@ -158,7 +163,7 @@ def fetch_youtube_posts(history, auth, http, start, yday, tz, notes, clean):
     except Exception as ex:
         notes.append(f"YouTube titles/publish times not available (needs youtube.readonly scope?): {clean(ex)}")
 
-    asof = yday.isoformat()
+    asof, lookups = yday.isoformat(), 0
     for r in rows:
         vid = r["video"]
         rec = history.setdefault("extra", {}).setdefault("yt:" + vid, {"ch": "youtube"})
@@ -170,7 +175,36 @@ def fetch_youtube_posts(history, auth, http, start, yday, tz, notes, clean):
             rec["x"] = snippet(m["title"])
             rec["len"] = m["len"]
             rec["tagtext"] = snippet(m["title"] + " " + m["desc"], 200)
-        if not rec.get("at"):
+            rec["date_by"] = "youtube"
+        else:
+            # Without the Data API: title from YouTube's public oEmbed (no sign-in),
+            # date from the first day the video had views, length from average
+            # view duration and % watched. Each is looked up once and kept.
+            pct, avd = r.get("averageViewPercentage"), r.get("averageViewDuration")
+            if rec.get("len") is None and pct and avd:
+                rec["len"], rec["len_by"] = round(avd * 100 / pct), "estimate"
+            if lookups < YT_LOOKUPS and (not rec.get("x") or not rec.get("sent")):
+                lookups += 1
+                if not rec.get("x"):
+                    try:
+                        o = http("https://www.youtube.com/oembed?" + urllib.parse.urlencode(
+                            {"url": "https://www.youtube.com/watch?v=" + vid, "format": "json"}))
+                        rec["x"] = snippet(o.get("title"))
+                        rec["tagtext"] = snippet(o.get("title"), 200)
+                    except Exception:
+                        pass
+                if not rec.get("sent"):
+                    try:
+                        d = http("https://youtubeanalytics.googleapis.com/v2/reports?" + urllib.parse.urlencode(
+                            {"ids": "channel==MINE", "startDate": start.isoformat(), "endDate": asof,
+                             "metrics": "views", "dimensions": "day", "sort": "day",
+                             "filters": "video==" + vid}), headers=auth)
+                        first = next((row[0] for row in d.get("rows") or [] if int(row[1] or 0) > 0), None)
+                        if first:
+                            rec["sent"], rec["date_by"] = first, "first views"
+                    except Exception:
+                        pass
+        if not rec.get("at") and rec.get("date_by") != "first views":
             rec.pop("sent", None)  # publish time unknown: leave it empty rather than guess
         short = rec.get("len") is not None and rec["len"] <= EPISODE_SECONDS
         rec["url"] = ("https://youtube.com/shorts/" if short else "https://youtu.be/") + vid
@@ -179,7 +213,8 @@ def fetch_youtube_posts(history, auth, http, start, yday, tz, notes, clean):
         rec["m"] = {k: r.get(k) for k in ("views", "likes", "comments", "shares",
                                           "averageViewDuration", "averageViewPercentage")}
         snap(rec, asof, v, e)
-    notes.append(f"YouTube per-video: {len(rows)} videos, titles for {len(meta)}")
+    notes.append(f"YouTube per-video: {len(rows)} videos, titles from Data API for {len(meta)}, "
+                 f"public-title/first-view lookups {lookups}")
 
 
 # ----------------------------------------------------------------- Facebook
@@ -209,7 +244,7 @@ def save_facebook_posts(history, rows, yday, tz, notes):
 def one_post(rec, pid, today):
     p = PLATFORM_OF.get(rec["ch"])
     m = rec.get("m") or {}
-    typ, tag_by = post_type(rec.get("file"), rec.get("tagtext") or rec.get("x"), rec.get("len"))
+    typ, tag_by = post_type(rec.get("file"), rec.get("tagtext") or rec.get("x"), rec.get("len"), yt_title=(p == "yt"))
     last = rec["snaps"][-1] if rec.get("snaps") else [None, None, None]
     d1, d7 = at_age(rec, 1), at_age(rec, 7)
     watch = m.get("averageViewDuration") if p == "yt" else m.get("averageTimeWatched")
