@@ -63,6 +63,17 @@ def post_type(file=None, text=None, length=None, yt_title=False):
     return "promo", "caption"
 
 
+OPENING = re.compile(r"_([wqb])_v\d+\.mp4$")
+OPENINGS = {"w": "words", "q": "question", "b": "build"}
+
+
+def opening_of(file=None):
+    """Opening style from the file name letter before the version (nature_..._d1_w_v1.mp4).
+    None for files built before openings existed, and for posts with no known file."""
+    m = OPENING.search((file or "").rsplit("/", 1)[-1].lower())
+    return OPENINGS[m.group(1)] if m else None
+
+
 def snippet(text, n=60):
     return " ".join(str(text or "").split())[:n]
 
@@ -249,6 +260,7 @@ def one_post(rec, pid, today):
     d1, d7 = at_age(rec, 1), at_age(rec, 7)
     watch = m.get("averageViewDuration") if p == "yt" else m.get("averageTimeWatched")
     out = {"p": p, "id": pid, "t": rec.get("at") or rec.get("sent"), "type": typ, "tag_by": tag_by,
+           "opening": opening_of(rec.get("file")),
            "len": rec.get("len"), "x": rec.get("x"), "url": rec.get("url"),
            "age": (today - dt.date.fromisoformat(rec["sent"])).days if rec.get("sent") else None,
            "v": last[1], "e": last[2],
@@ -299,6 +311,9 @@ def write_posts(path, history, now, notes):
     summary = {
         # what kind of post works, per platform (compare median_views_day7 when with_day7 is decent)
         "by_type": group(posts, lambda x: f"{x['p']}/{x['type']}"),
+        # opening style (words / question / build), only posts whose file name carries it
+        "by_opening": group([x for x in posts if x.get("opening")],
+                            lambda x: f"{x['p']}/{x['type']}/{x['opening']}"),
         # cadence: posts per week against views per post that week
         "by_week": group(dated, lambda x: f"{x['p']}/{week_of(x['t'])}"),
         # time of day the post went out (local hour)
@@ -307,6 +322,7 @@ def write_posts(path, history, now, notes):
     out = {"updated": now.strftime("%Y-%m-%d %H:%M"),
            "fields": {"p": "platform", "t": "posted (Central)", "type": "nature/tomorrow/promo/episode/other",
                       "tag_by": "file name, length or caption", "len": "seconds",
+                      "opening": "words/question/build from the file name letter, else null",
                       "v": "views to date", "e": "likes+comments+shares(+saves) to date",
                       "v1": "views at 1 day old", "v7": "views at 7 days old", "e7": "engaged at 7 days old",
                       "watch": "average seconds watched", "watch_pct": "average % watched (YouTube)",
