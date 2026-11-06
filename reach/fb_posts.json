@@ -1,5 +1,5 @@
 {
- "updated": "Fri 11/6 12:25 PM",
+ "updated": "Fri 11/6 4:03 PM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -9,7 +9,7 @@
  "days": [
   {
    "d": "2026-11-04",
-   "short": 4,
+   "short": 5,
    "long": 0,
    "short_views": 0,
    "long_views": 0,
@@ -110,17 +110,22 @@
    "short_views": 502,
    "long_views": 0,
    "unknown": 0
-  },
-  {
-   "d": "2026-10-16",
-   "short": 1,
-   "long": 0,
-   "short_views": 329,
-   "long_views": 0,
-   "unknown": 0
   }
  ],
  "items": [
+  {
+   "id": "2006514173340589",
+   "type": "reel",
+   "at": "2026-11-04 02:45",
+   "live": "2026-11-06 14:00",
+   "len": 20,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "Matthew 13:44 (KJV) On today's episode of Walking with Jesus",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":12269619},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-06T20:00:02+0",
+   "sched": null
+  },
   {
    "id": "1713262950317969",
    "type": "reel",
@@ -938,19 +943,6 @@
    "text": "Starts Monday, October 19. Fifty episodes, every weekday. Th",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":987396},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-17T14:02:05+000",
-   "sched": null
-  },
-  {
-   "id": "1082644511320395",
-   "type": "reel",
-   "at": "2026-10-16 14:01",
-   "live": "2026-10-16 14:01",
-   "len": 15,
-   "views": 329,
-   "src": "fb_reels_total_plays",
-   "text": "Luke 24:39-40 (KJV) On today's episode of Walking with Jesus",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":5521996},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-16T19:01:54+00",
    "sched": null
   }
  ]
