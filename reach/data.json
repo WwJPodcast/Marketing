@@ -1,5 +1,5 @@
 {
- "updated": "Fri 11/6 9:00 AM",
+ "updated": "Fri 11/6 11:57 AM",
  "updated_date": "2026-11-06",
  "platforms": [
   {
@@ -1497,8 +1497,8 @@
   "YouTube split since 2026-09-15: shorts 14141 + long-form 85 of 14236 total views; 66 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: pinterest, tiktok, instagram; tracking 3",
-  "Buffer posts read: 211; saved with numbers: 211",
-  "Facebook posts, last 21 days: 64 reels, 1 other videos, 10 over 90s; views known for 65 of 65, not yet published 0 (metrics: {'video': 'fb_reels_total_plays', 'reel': 'fb_reels_total_plays'})"
+  "Buffer posts read: 214; saved with numbers: 213",
+  "Facebook posts, last 21 days: 64 reels, 0 other videos, 10 over 90s; views known for 64 of 64, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})"
  ],
  "fb_posts": {
   "long_over": 90,
@@ -1508,9 +1508,9 @@
     "t": "2026-11-06T09:00",
     "len": 18,
     "v": 0,
-    "k": "video",
+    "k": "reel",
     "x": "Mark 4:39 (KJV) On today's episode of Walking wi",
-    "up": true
+    "up": false
    },
    {
     "t": "2026-11-05T17:00",
@@ -1851,7 +1851,7 @@
    {
     "t": "2026-10-24T15:01",
     "len": 12,
-    "v": 410,
+    "v": 413,
     "k": "reel",
     "x": "Do you have a daily habit that puts Jesus first?",
     "up": false
@@ -1859,7 +1859,7 @@
    {
     "t": "2026-10-24T09:02",
     "len": 31,
-    "v": 147,
+    "v": 150,
     "k": "reel",
     "x": "Before Jesus says a word, Luke tells you why he'",
     "up": false
@@ -1899,7 +1899,7 @@
    {
     "t": "2026-10-22T09:02",
     "len": 18,
-    "v": 125,
+    "v": 127,
     "k": "reel",
     "x": "Matthew 4:4 (KJV) On today's episode of Walking ",
     "up": false
@@ -1915,7 +1915,7 @@
    {
     "t": "2026-10-21T14:02",
     "len": 18,
-    "v": 7345,
+    "v": 7347,
     "k": "reel",
     "x": "Matthew 3:17 (KJV) On today's episode of Walking",
     "up": false
@@ -2014,14 +2014,6 @@
     "v": 329,
     "k": "reel",
     "x": "Luke 24:39-40 (KJV) On today's episode of Walkin",
-    "up": false
-   },
-   {
-    "t": "2026-10-16T09:02",
-    "len": 14,
-    "v": 34,
-    "k": "reel",
-    "x": "John 21:22 (KJV) On today's episode of Walking w",
     "up": false
    }
   ]

@@ -1,9 +1,8 @@
 {
- "updated": "Fri 11/6 9:00 AM",
+ "updated": "Fri 11/6 11:57 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
-  "video": "fb_reels_total_plays",
   "reel": "fb_reels_total_plays"
  },
  "errors": [],
@@ -52,7 +51,7 @@
    "d": "2026-10-24",
    "short": 2,
    "long": 0,
-   "short_views": 557,
+   "short_views": 563,
    "long_views": 0,
    "unknown": 0
   },
@@ -68,7 +67,7 @@
    "d": "2026-10-22",
    "short": 3,
    "long": 0,
-   "short_views": 490,
+   "short_views": 492,
    "long_views": 0,
    "unknown": 0
   },
@@ -76,7 +75,7 @@
    "d": "2026-10-21",
    "short": 3,
    "long": 0,
-   "short_views": 7743,
+   "short_views": 7745,
    "long_views": 0,
    "unknown": 0
   },
@@ -114,9 +113,9 @@
   },
   {
    "d": "2026-10-16",
-   "short": 2,
+   "short": 1,
    "long": 0,
-   "short_views": 363,
+   "short_views": 329,
    "long_views": 0,
    "unknown": 0
   }
@@ -124,7 +123,7 @@
  "items": [
   {
    "id": "1713262950317969",
-   "type": "video",
+   "type": "reel",
    "at": "2026-11-04 02:45",
    "live": "2026-11-06 09:00",
    "len": 18,
@@ -687,7 +686,7 @@
    "at": "2026-10-24 15:01",
    "live": "2026-10-24 15:01",
    "len": 12,
-   "views": 410,
+   "views": 413,
    "src": "fb_reels_total_plays",
    "text": "Do you have a daily habit that puts Jesus first? The Walking",
    "pub": true,
@@ -700,7 +699,7 @@
    "at": "2026-10-24 09:02",
    "live": "2026-10-24 09:02",
    "len": 31,
-   "views": 147,
+   "views": 150,
    "src": "fb_reels_total_plays",
    "text": "Before Jesus says a word, Luke tells you why he's writing: \"",
    "pub": true,
@@ -765,7 +764,7 @@
    "at": "2026-10-22 09:02",
    "live": "2026-10-22 09:02",
    "len": 18,
-   "views": 125,
+   "views": 127,
    "src": "fb_reels_total_plays",
    "text": "Matthew 4:4 (KJV) On today's episode of Walking with Jesus: ",
    "pub": true,
@@ -791,7 +790,7 @@
    "at": "2026-10-21 14:02",
    "live": "2026-10-21 14:02",
    "len": 18,
-   "views": 7345,
+   "views": 7347,
    "src": "fb_reels_total_plays",
    "text": "Matthew 3:17 (KJV) On today's episode of Walking with Jesus:",
    "pub": true,
@@ -952,19 +951,6 @@
    "text": "Luke 24:39-40 (KJV) On today's episode of Walking with Jesus",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":5521996},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-16T19:01:54+00",
-   "sched": null
-  },
-  {
-   "id": "948360631255651",
-   "type": "reel",
-   "at": "2026-10-16 09:02",
-   "live": "2026-10-16 09:02",
-   "len": 14,
-   "views": 34,
-   "src": "fb_reels_total_plays",
-   "text": "John 21:22 (KJV) On today's episode of Walking with Jesus: H",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":10319448},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-16T14:02:51+0",
    "sched": null
   }
  ]
