@@ -1,5 +1,5 @@
 {
- "updated": "Fri 11/6 4:18 PM",
+ "updated": "Fri 11/6 4:38 PM",
  "updated_date": "2026-11-06",
  "platforms": [
   {
@@ -1498,8 +1498,8 @@
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: pinterest, tiktok, instagram; tracking 3",
   "Buffer posts read: 217; saved with numbers: 215",
-  "Facebook posts, last 21 days: 64 reels, 0 other videos, 10 over 90s; views known for 64 of 64, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'}); problems: videos: HTTP 500: An unexpected error has occurred. Please retry your request later.",
-  "posts.json: 403 posts; YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.; YouTube per-video: 126 videos, titles from Data API for 0, public-title/first-view lookups 126; Facebook per-post: 62 saved"
+  "Facebook posts, last 21 days: 64 reels, 0 other videos, 10 over 90s; views known for 64 of 64, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
+  "posts.json: 403 posts; YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.; YouTube per-video: 126 videos, titles from Data API for 0, public-title/first-view lookups 0; Facebook per-post: 62 saved"
  ],
  "fb_posts": {
   "long_over": 90,
