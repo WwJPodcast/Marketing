@@ -170,8 +170,10 @@ def fetch_youtube_posts(history, auth, http, start, yday, tz, notes, clean):
             rec["x"] = snippet(m["title"])
             rec["len"] = m["len"]
             rec["tagtext"] = snippet(m["title"] + " " + m["desc"], 200)
-        rec.setdefault("sent", asof)  # no publish time: first night seen
-        rec["url"] = "https://youtube.com/shorts/" + vid if (rec.get("len") or 0) <= EPISODE_SECONDS else "https://youtu.be/" + vid
+        if not rec.get("at"):
+            rec.pop("sent", None)  # publish time unknown: leave it empty rather than guess
+        short = rec.get("len") is not None and rec["len"] <= EPISODE_SECONDS
+        rec["url"] = ("https://youtube.com/shorts/" if short else "https://youtu.be/") + vid
         v = int(r.get("views") or 0)
         e = int(r.get("likes") or 0) + int(r.get("comments") or 0) + int(r.get("shares") or 0)
         rec["m"] = {k: r.get(k) for k in ("views", "likes", "comments", "shares",
