@@ -12,6 +12,7 @@ Outputs, next to this file:
                 saved here each night. This file is the long-term memory.
   data.json     what the page shows
   index.html    template.html with data.json filled in
+  posts.json    one record per post for all five platforms (see per_post.py)
 
 If one source fails, last night's numbers for that channel are kept and the
 page shows a small "not updated" note. Secrets come from environment
@@ -29,6 +30,8 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 from zoneinfo import ZoneInfo
+
+import per_post  # per-post numbers for every platform -> posts.json
 
 HERE = Path(__file__).resolve().parent
 TZ = ZoneInfo("America/Chicago")
@@ -199,7 +202,7 @@ def youtube_split(rows, first, end, heads=None):
     return split, maps, seen
 
 
-def fetch_youtube(yday):
+def youtube_auth():
     need("YOUTUBE_REFRESH_TOKEN", "GOOGLE_CLIENT_ID", "GOOGLE_CLIENT_SECRET")
     tok = http("https://oauth2.googleapis.com/token", method="POST",
                data=urllib.parse.urlencode({
@@ -207,7 +210,11 @@ def fetch_youtube(yday):
                    "client_secret": os.environ["GOOGLE_CLIENT_SECRET"],
                    "refresh_token": os.environ["YOUTUBE_REFRESH_TOKEN"],
                    "grant_type": "refresh_token"}).encode())
-    auth = {"Authorization": "Bearer " + tok["access_token"]}
+    return {"Authorization": "Bearer " + tok["access_token"]}
+
+
+def fetch_youtube(yday):
+    auth = youtube_auth()
 
     def report(start, dims=None, raw=False):
         q = {"ids": "channel==MINE", "startDate": iso(start), "endDate": iso(yday),
@@ -304,6 +311,18 @@ FB_VIEW_METRICS = [("video_insights", "total_video_views"), ("video_insights", "
                    ("insights", "post_media_view"), ("insights", "post_impressions_unique")]
 
 
+# Tried first: adds like and comment counts per post. If Meta rejects it, the
+# existing field sets below are used and those counts are simply missing.
+FB_RICH = "id,created_time,length,likes.limit(0).summary(true),comments.limit(0).summary(true),"
+
+
+def fb_count(r, edge):
+    try:
+        return int(((r.get(edge) or {}).get("summary") or {}).get("total_count"))
+    except (TypeError, ValueError):
+        return None
+
+
 def fb_time(s):
     try:
         return dt.datetime.strptime(s, "%Y-%m-%dT%H:%M:%S%z")
@@ -372,10 +391,12 @@ def fetch_facebook_posts(now):
 
     items = {}
     for edge, kind, fields in (
-            ("video_reels", "reel", ["id,created_time,length,description,permalink_url,views,published,scheduled_publish_time,status",
+            ("video_reels", "reel", [FB_RICH + "description,permalink_url,views,published,scheduled_publish_time,status",
+                                     "id,created_time,length,description,permalink_url,views,published,scheduled_publish_time,status",
                                      "id,created_time,length,description,permalink_url,published,scheduled_publish_time,status",
                                      "id,created_time,length,description,permalink_url", "id,created_time,length"]),
-            ("videos", "video", ["id,created_time,length,title,description,permalink_url,views,published,scheduled_publish_time,status",
+            ("videos", "video", [FB_RICH + "title,description,permalink_url,views,published,scheduled_publish_time,status",
+                                 "id,created_time,length,title,description,permalink_url,views,published,scheduled_publish_time,status",
                                  "id,created_time,length,title,description,permalink_url,published,scheduled_publish_time,status",
                                  "id,created_time,length,title,description,permalink_url", "id,created_time,length"])):
         try:
@@ -392,7 +413,9 @@ def fetch_facebook_posts(now):
                                   "pub": r.get("published"), "sched": r.get("scheduled_publish_time"),
                                   "live": fb_live_time(r) or t,
                                   "status": json.dumps(r.get("status"), separators=(",", ":"))[:240] if r.get("status") is not None else None,
-                                  "src": "field:views" if isinstance(r.get("views"), int) else None}
+                                  "src": "field:views" if isinstance(r.get("views"), int) else None,
+                                  "likes": fb_count(r, "likes"), "comments": fb_count(r, "comments"),
+                                  "url": r.get("permalink_url")}
         except Exception as ex:
             errors.append(f"{edge}: {clean(ex)}")
 
@@ -458,7 +481,7 @@ def fetch_facebook_posts(now):
                  f"{sum(1 for i in rows if i['type'] == 'video')} other videos, {nl} over {FB_LONG_SECONDS}s; "
                  f"views known for {nviews} of {len(rows)}, not yet published {unpub} (metrics: {result['view_metrics_used'] or 'none'})"
                  + (f"; problems: {'; '.join(errors)[:240]}" if errors else ""))
-    return result_page
+    return result_page, rows
 
 
 # ---------------------------------------------------------------------- Buffer
@@ -505,9 +528,16 @@ def update_history(history, yday):
         for c in chans) + f"; tracking {len(ids)}")
     asof = iso(yday)
     if ids:
-        after, seen = None, 0
+        after, seen, query = None, 0, per_post.POSTS_Q_RICH
         for _ in range(30):
-            page = gql(POSTS_Q, {"org": org, "after": after, "ch": ids})["posts"]
+            try:
+                page = gql(query, {"org": org, "after": after, "ch": ids})["posts"]
+            except SourceError as ex:
+                if query is POSTS_Q:
+                    raise
+                NOTES.append(f"Buffer per-post details not available, plain numbers only: {clean(ex)}")
+                query = POSTS_Q
+                page = gql(query, {"org": org, "after": after, "ch": ids})["posts"]
             for edge in page["edges"]:
                 n = edge["node"]
                 seen += 1
@@ -521,6 +551,8 @@ def update_history(history, yday):
                     snaps[-1] = row  # same night run twice: replace
                 elif not snaps or (snaps[-1][1], snaps[-1][2]) != (v, e):
                     snaps.append(row)
+                rec["seen"] = asof
+                per_post.buffer_details(rec, n, TZ)
             if not page["pageInfo"]["hasNextPage"]:
                 break
             after = page["pageInfo"]["endCursor"]
@@ -628,13 +660,32 @@ def main():
         print(f"::warning::{names[key]} not updated: {why}")
         NOTES.append(f"{names[key]} not updated: {why}")
 
-    fb_page_list = None
+    fb_page_list, fb_rows = None, None
     try:
-        fb_page_list = fetch_facebook_posts(now)  # extra detail for diagnosing Facebook; never allowed to affect the page
+        fb_page_list, fb_rows = fetch_facebook_posts(now)  # extra detail for diagnosing Facebook; never allowed to affect the page
     except Exception as ex:
         msg = clean(ex)
         print(f"::warning::Facebook post list not available: {msg}")
         NOTES.append(f"Facebook post list not available: {msg}")
+
+    # Per-post numbers for every platform. Each step is on its own: a failure only
+    # leaves a note, never touches the page or the other platforms.
+    post_notes = []
+    try:
+        per_post.fetch_youtube_posts(history, youtube_auth(), http, dt.date(2024, 1, 1), yday, TZ, post_notes, clean)
+    except Exception as ex:
+        post_notes.append(f"YouTube per-video not available: {clean(ex)}")
+    if fb_rows:
+        try:
+            per_post.save_facebook_posts(history, fb_rows, yday, TZ, post_notes)
+        except Exception as ex:
+            post_notes.append(f"Facebook per-post not saved: {clean(ex)}")
+    try:
+        n = per_post.write_posts(HERE / "posts.json", history, now, post_notes)
+        NOTES.append(f"posts.json: {n} posts; " + "; ".join(post_notes)[:400])
+    except Exception as ex:
+        print(f"::warning::posts.json not written: {clean(ex)}")
+        NOTES.append(f"posts.json not written: {clean(ex)}")
 
     if not any(p.get("daily") for p in platforms):
         print("::error::No channel produced numbers; leaving the page as it was.")
