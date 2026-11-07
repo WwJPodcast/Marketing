@@ -1,5 +1,5 @@
 {
- "updated": "Sat 11/7 7:59 AM",
+ "updated": "Sat 11/7 10:59 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -105,9 +105,9 @@
   },
   {
    "d": "2026-10-17",
-   "short": 2,
+   "short": 1,
    "long": 0,
-   "short_views": 502,
+   "short_views": 270,
    "long_views": 0,
    "unknown": 0
   }
@@ -930,19 +930,6 @@
    "text": "Three Gospels tell of Jesus walking on the water. Only Matth",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":970724},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-17T20:01:05+000",
-   "sched": null
-  },
-  {
-   "id": "1653021499544119",
-   "type": "reel",
-   "at": "2026-10-17 09:02",
-   "live": "2026-10-17 09:02",
-   "len": 22,
-   "views": 232,
-   "src": "fb_reels_total_plays",
-   "text": "Starts Monday, October 19. Fifty episodes, every weekday. Th",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":987396},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-17T14:02:05+000",
    "sched": null
   }
  ]

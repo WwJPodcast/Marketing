@@ -1,5 +1,5 @@
 {
- "updated": "Sat 11/7 7:59 AM",
+ "updated": "Sat 11/7 10:59 AM",
  "updated_date": "2026-11-07",
  "platforms": [
   {
@@ -1498,8 +1498,8 @@
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
   "Buffer posts read: 189; saved with numbers: 217",
-  "Facebook posts, last 21 days: 64 reels, 0 other videos, 10 over 90s; views known for 64 of 64, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 407 posts; YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.; YouTube per-video: 126 videos, titles from Data API for 0, public-title/first-view lookups 0; Facebook per-post: 64 saved"
+  "Facebook posts, last 21 days: 63 reels, 0 other videos, 10 over 90s; views known for 63 of 63, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
+  "posts.json: 407 posts; YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.; YouTube per-video: 126 videos, titles from Data API for 0, public-title/first-view lookups 0; Facebook per-post: 63 saved"
  ],
  "fb_posts": {
   "long_over": 90,
@@ -2007,14 +2007,6 @@
     "v": 270,
     "k": "reel",
     "x": "Three Gospels tell of Jesus walking on the water",
-    "up": false
-   },
-   {
-    "t": "2026-10-17T09:02",
-    "len": 22,
-    "v": 232,
-    "k": "reel",
-    "x": "Starts Monday, October 19. Fifty episodes, every",
     "up": false
    }
   ]
