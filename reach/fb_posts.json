@@ -1,13 +1,11 @@
 {
- "updated": "Fri 11/6 6:22 PM",
+ "updated": "Fri 11/6 6:28 PM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
   "reel": "fb_reels_total_plays"
  },
- "errors": [
-  "videos: HTTP 500: An unknown error occurred"
- ],
+ "errors": [],
  "days": [
   {
    "d": "2026-11-04",
