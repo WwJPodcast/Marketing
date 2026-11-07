@@ -1,0 +1,11 @@
+{
+ "_note": "Dates when posting method changed. Edit this file to add one: date (YYYY-MM-DD), title, text, platforms (yt fb ig tt pin). 'stops' lists platforms whose tracking ends that day.",
+ "events": [
+  {"date": "2026-11-06", "title": "Posting route changed", "platforms": ["fb"],
+   "text": "Facebook API posting suspended; Facebook posting went back through Buffer. Test: can a different route overcome near-zero reach?"},
+  {"date": "2026-11-06", "title": "Pinterest disconnected", "platforms": ["pin"], "stops": ["pin"],
+   "text": "Disconnected from Buffer as a zero-reach test. Tracking stops here; earlier numbers stay."},
+  {"date": "2026-11-07", "title": "Nature posts begin", "platforms": ["yt", "fb", "ig", "tt"],
+   "text": "Regular posts paused; a new kind of nature post replaces them. Test: can they beat the 2-second swipe-away?"}
+ ]
+}

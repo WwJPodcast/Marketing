@@ -694,6 +694,9 @@ def main():
     data = {"updated": label(now), "updated_date": iso(now.date()), "platforms": platforms, "notes": NOTES}
     if fb_page_list:
         data["fb_posts"] = fb_page_list
+    ev = load(HERE / "events.json", {}).get("events")
+    if isinstance(ev, list):
+        data["events"] = ev  # dates when the posting method changed (edit events.json)
     (HERE / "data.json").write_text(json.dumps(data, indent=1), encoding="utf-8")
     (HERE / "history.json").write_text(json.dumps(history, separators=(",", ":")), encoding="utf-8")
 
