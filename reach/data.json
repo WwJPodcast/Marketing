@@ -1,5 +1,5 @@
 {
- "updated": "Fri 11/6 6:28 PM",
+ "updated": "Fri 11/6 10:44 PM",
  "updated_date": "2026-11-06",
  "platforms": [
   {
@@ -51,17 +51,17 @@
     },
     {
      "d": "2026-10-30",
-     "v": 261,
+     "v": 260,
      "e": 64
     },
     {
      "d": "2026-10-31",
-     "v": 63,
+     "v": 60,
      "e": 13
     },
     {
      "d": "2026-11-01",
-     "v": 221,
+     "v": 217,
      "e": 10
     },
     {
@@ -208,7 +208,7 @@
     },
     {
      "d": "2026-10-29",
-     "v": 1487,
+     "v": 1479,
      "e": 216
     }
    ],
@@ -921,7 +921,7 @@
     },
     {
      "d": "2026-11-05",
-     "v": 15,
+     "v": 30,
      "e": 1
     }
    ],
@@ -1053,7 +1053,7 @@
     },
     {
      "d": "2026-10-30",
-     "v": 149,
+     "v": 164,
      "e": 4
     }
    ],
@@ -1494,12 +1494,12 @@
   }
  ],
  "notes": [
-  "YouTube split since 2026-09-15: shorts 14371 + long-form 85 of 14466 total views; 67 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
+  "YouTube split since 2026-09-15: shorts 14371 + long-form 85 of 14458 total views; 67 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
-  "Buffer channels: pinterest, tiktok, instagram; tracking 3",
-  "Buffer posts read: 217; saved with numbers: 215",
+  "Buffer channels: facebook, tiktok, instagram; tracking 2",
+  "Buffer posts read: 189; saved with numbers: 217",
   "Facebook posts, last 21 days: 64 reels, 0 other videos, 10 over 90s; views known for 64 of 64, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 403 posts; YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.; YouTube per-video: 126 videos, titles from Data API for 0, public-title/first-view lookups 0; Facebook per-post: 62 saved"
+  "posts.json: 405 posts; YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.; YouTube per-video: 126 videos, titles from Data API for 0, public-title/first-view lookups 0; Facebook per-post: 62 saved"
  ],
  "fb_posts": {
   "long_over": 90,
@@ -2018,5 +2018,37 @@
     "up": false
    }
   ]
- }
+ },
+ "events": [
+  {
+   "date": "2026-11-06",
+   "title": "Posting route changed",
+   "platforms": [
+    "fb"
+   ],
+   "text": "Facebook API posting suspended; Facebook posting went back through Buffer. Test: can a different route overcome near-zero reach?"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "Pinterest disconnected",
+   "platforms": [
+    "pin"
+   ],
+   "stops": [
+    "pin"
+   ],
+   "text": "Disconnected from Buffer as a zero-reach test. Tracking stops here; earlier numbers stay."
+  },
+  {
+   "date": "2026-11-07",
+   "title": "Nature posts begin",
+   "platforms": [
+    "yt",
+    "fb",
+    "ig",
+    "tt"
+   ],
+   "text": "Regular posts paused; a new kind of nature post replaces them. Test: can they beat the 2-second swipe-away?"
+  }
+ ]
 }
