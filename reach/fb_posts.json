@@ -1,5 +1,5 @@
 {
- "updated": "Sat 11/7 1:38 PM",
+ "updated": "Sun 11/8 2:54 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -100,14 +100,6 @@
    "short": 2,
    "long": 0,
    "short_views": 655,
-   "long_views": 0,
-   "unknown": 0
-  },
-  {
-   "d": "2026-10-17",
-   "short": 1,
-   "long": 0,
-   "short_views": 270,
    "long_views": 0,
    "unknown": 0
   }
@@ -917,19 +909,6 @@
    "text": "Tomorrow, we begin. \ud83d\ude4f The Four Gospel Harmony starts Monday,",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":703695},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-18T14:02:08+000",
-   "sched": null
-  },
-  {
-   "id": "1635259744732969",
-   "type": "reel",
-   "at": "2026-10-17 15:01",
-   "live": "2026-10-17 15:01",
-   "len": 20,
-   "views": 270,
-   "src": "fb_reels_total_plays",
-   "text": "Three Gospels tell of Jesus walking on the water. Only Matth",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":970724},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-17T20:01:05+000",
    "sched": null
   }
  ]
