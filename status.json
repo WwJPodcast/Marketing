@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-07T13:37:59-06:00",
- "updated_label": "Sat 11/7 1:37 PM",
- "window_start": "2026-11-07",
+ "updated": "2026-11-08T02:53:21-06:00",
+ "updated_label": "Sun 11/8 2:53 AM",
+ "window_start": "2026-11-08",
  "window_days": 21,
  "goal_days": 14,
  "types": [
@@ -11,7 +11,7 @@
    "rate": "5/wk",
    "per_week": 5,
    "builds": "Wed night",
-   "reported": "11/7",
+   "reported": "11/8",
    "queued": {
     "through": null,
     "count": 0
@@ -37,7 +37,7 @@
    "rate": "5–9/wk",
    "per_week": 7,
    "builds": "Mon night",
-   "reported": "11/7",
+   "reported": "11/8",
    "queued": {
     "through": "2026-11-13",
     "count": 10
@@ -63,7 +63,7 @@
    "rate": "4/wk",
    "per_week": 4,
    "builds": "Thu night",
-   "reported": "11/7",
+   "reported": "11/8",
    "queued": {
     "count": 4
    },
@@ -86,7 +86,7 @@
   "facebook": 10,
   "tiktok": 14,
   "through_label": "Thu 11/12 5 PM",
-  "posted_7d": 17
+  "posted_7d": 16
  },
  "needs_you": [
   {
@@ -100,7 +100,7 @@
    "urgent": true
   },
   {
-   "what": "Pick Tomorrow's passages 11/22–26 (S4E26–S4E30)",
+   "what": "Pick Tomorrow's passages 11/22–29 (S4E26–S4E31)",
    "due": "by Wed 11/18",
    "urgent": false
   }
