@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-08T02:53:21-06:00",
- "updated_label": "Sun 11/8 2:53 AM",
+ "updated": "2026-11-08T11:53:35-06:00",
+ "updated_label": "Sun 11/8 11:53 AM",
  "window_start": "2026-11-08",
  "window_days": 21,
  "goal_days": 14,
@@ -86,7 +86,7 @@
   "facebook": 10,
   "tiktok": 14,
   "through_label": "Thu 11/12 5 PM",
-  "posted_7d": 16
+  "posted_7d": 15
  },
  "needs_you": [
   {
@@ -111,9 +111,9 @@
  },
  "last_run": {
   "ok": true,
-  "scheduled": 7,
+  "scheduled": 0,
   "held": 0,
-  "note": "Fri noon"
+  "note": "Sun noon"
  },
- "next_run": "Sun 11:52 AM"
+ "next_run": "Tue 8:52 PM"
 }
