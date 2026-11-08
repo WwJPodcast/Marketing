@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08 08:16",
+ "updated": "2026-11-08 11:14",
  "fields": {
   "p": "platform",
   "t": "posted (Central)",
@@ -19,7 +19,7 @@
  "notes": [
   "YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.",
   "YouTube per-video: 130 videos, titles from Data API for 0, public-title/first-view lookups 0",
-  "Facebook per-post: 62 saved"
+  "Facebook per-post: 61 saved"
  ],
  "posts": [
   {

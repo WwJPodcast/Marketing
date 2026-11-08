@@ -1,5 +1,5 @@
 {
- "updated": "Sun 11/8 8:16 AM",
+ "updated": "Sun 11/8 11:14 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -97,9 +97,9 @@
   },
   {
    "d": "2026-10-18",
-   "short": 2,
+   "short": 1,
    "long": 0,
-   "short_views": 655,
+   "short_views": 390,
    "long_views": 0,
    "unknown": 0
   }
@@ -896,19 +896,6 @@
    "text": "On tomorrow's episode of Walking with Jesus: In the Beginnin",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":2611859},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-18T22:01:09+00",
-   "sched": null
-  },
-  {
-   "id": "2996740687385418",
-   "type": "reel",
-   "at": "2026-10-18 09:02",
-   "live": "2026-10-18 09:02",
-   "len": 16,
-   "views": 265,
-   "src": "fb_reels_total_plays",
-   "text": "Tomorrow, we begin. \ud83d\ude4f The Four Gospel Harmony starts Monday,",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":703695},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-18T14:02:08+000",
    "sched": null
   }
  ]

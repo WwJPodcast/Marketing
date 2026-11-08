@@ -1,5 +1,5 @@
 {
- "updated": "Sun 11/8 8:16 AM",
+ "updated": "Sun 11/8 11:14 AM",
  "updated_date": "2026-11-08",
  "platforms": [
   {
@@ -1498,8 +1498,8 @@
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
   "Buffer posts read: 189; saved with numbers: 217",
-  "Facebook posts, last 21 days: 62 reels, 0 other videos, 10 over 90s; views known for 62 of 62, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 411 posts; YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.; YouTube per-video: 130 videos, titles from Data API for 0, public-title/first-view lookups 0; Facebook per-post: 62 saved"
+  "Facebook posts, last 21 days: 61 reels, 0 other videos, 10 over 90s; views known for 61 of 61, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
+  "posts.json: 411 posts; YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.; YouTube per-video: 130 videos, titles from Data API for 0, public-title/first-view lookups 0; Facebook per-post: 61 saved"
  ],
  "fb_posts": {
   "long_over": 90,
@@ -1991,14 +1991,6 @@
     "v": 390,
     "k": "reel",
     "x": "On tomorrow's episode of Walking with Jesus: In ",
-    "up": false
-   },
-   {
-    "t": "2026-10-18T09:02",
-    "len": 16,
-    "v": 265,
-    "k": "reel",
-    "x": "Tomorrow, we begin. \ud83d\ude4f The Four Gospel Harmony st",
     "up": false
    }
   ]
