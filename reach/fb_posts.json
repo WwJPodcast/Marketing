@@ -1,5 +1,5 @@
 {
- "updated": "Sun 11/8 11:54 AM",
+ "updated": "Mon 11/9 2:53 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -7,6 +7,14 @@
  },
  "errors": [],
  "days": [
+  {
+   "d": "2026-11-08",
+   "short": 1,
+   "long": 0,
+   "short_views": 180,
+   "long_views": 0,
+   "unknown": 0
+  },
   {
    "d": "2026-11-04",
    "short": 5,
@@ -94,17 +102,22 @@
    "short_views": 669,
    "long_views": 0,
    "unknown": 0
-  },
-  {
-   "d": "2026-10-18",
-   "short": 1,
-   "long": 0,
-   "short_views": 390,
-   "long_views": 0,
-   "unknown": 0
   }
  ],
  "items": [
+  {
+   "id": "2468565593632519",
+   "type": "reel",
+   "at": "2026-11-08 17:01",
+   "live": "2026-11-08 17:01",
+   "len": 17,
+   "views": 180,
+   "src": "fb_reels_total_plays",
+   "text": "Mark 5:34 (KJV) On tomorrow's episode of Walking with Jesus:",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":7581924},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-08T23:01:02+00",
+   "sched": null
+  },
   {
    "id": "2006514173340589",
    "type": "reel",
@@ -883,19 +896,6 @@
    "text": "John 1:1 (KJV) On today's episode of Walking with Jesus: In ",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":4033256},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-19T14:02:59+00",
-   "sched": null
-  },
-  {
-   "id": "2482513315549127",
-   "type": "reel",
-   "at": "2026-10-18 17:01",
-   "live": "2026-10-18 17:01",
-   "len": 50,
-   "views": 390,
-   "src": "fb_reels_total_plays",
-   "text": "On tomorrow's episode of Walking with Jesus: In the Beginnin",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":2611859},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-18T22:01:09+00",
    "sched": null
   }
  ]
