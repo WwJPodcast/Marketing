@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-08T11:53:35-06:00",
- "updated_label": "Sun 11/8 11:53 AM",
- "window_start": "2026-11-08",
+ "updated": "2026-11-09T02:52:36-06:00",
+ "updated_label": "Mon 11/9 2:52 AM",
+ "window_start": "2026-11-09",
  "window_days": 21,
  "goal_days": 14,
  "types": [
@@ -11,7 +11,7 @@
    "rate": "5/wk",
    "per_week": 5,
    "builds": "Wed night",
-   "reported": "11/8",
+   "reported": "11/9",
    "queued": {
     "through": null,
     "count": 0
@@ -22,7 +22,7 @@
    },
    "review": {
     "through": "2026-11-19",
-    "count": 10,
+    "count": 9,
     "fix": 0
    },
    "picked": {
@@ -37,10 +37,10 @@
    "rate": "5–9/wk",
    "per_week": 7,
    "builds": "Mon night",
-   "reported": "11/8",
+   "reported": "11/9",
    "queued": {
     "through": "2026-11-13",
-    "count": 10
+    "count": 9
    },
    "ready": {
     "through": "2026-11-13",
@@ -63,7 +63,7 @@
    "rate": "4/wk",
    "per_week": 4,
    "builds": "Thu night",
-   "reported": "11/8",
+   "reported": "11/9",
    "queued": {
     "count": 4
    },
@@ -81,26 +81,26 @@
   }
  ],
  "buffer": {
-  "youtube": 14,
-  "instagram": 14,
-  "facebook": 10,
-  "tiktok": 14,
+  "youtube": 13,
+  "instagram": 13,
+  "facebook": 9,
+  "tiktok": 13,
   "through_label": "Thu 11/12 5 PM",
   "posted_7d": 15
  },
  "needs_you": [
   {
-   "what": "Review 10 Tomorrow's posts 11/8–19",
+   "what": "Pick nature verses 11/16–30 (S4E21–S4E27)",
    "due": "now",
    "urgent": true
   },
   {
-   "what": "Pick nature verses 11/16–27 (S4E21–S4E27)",
-   "due": "by Mon",
+   "what": "Review 9 Tomorrow's posts 11/9–19",
+   "due": "now",
    "urgent": true
   },
   {
-   "what": "Pick Tomorrow's passages 11/22–29 (S4E26–S4E31)",
+   "what": "Pick Tomorrow's passages 11/22–30 (S4E26–S4E32)",
    "due": "by Wed 11/18",
    "urgent": false
   }
