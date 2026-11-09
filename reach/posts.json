@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09 02:53",
+ "updated": "2026-11-09 11:27",
  "fields": {
   "p": "platform",
   "t": "posted (Central)",
@@ -18,10 +18,34 @@
  },
  "notes": [
   "YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.",
-  "YouTube per-video: 132 videos, titles from Data API for 0, public-title/first-view lookups 2",
-  "Facebook per-post: 61 saved"
+  "YouTube per-video: 132 videos, titles from Data API for 0, public-title/first-view lookups 0",
+  "Facebook per-post: 60 saved"
  ],
  "posts": [
+  {
+   "p": "tt",
+   "id": "6aea9ebd16e63068f18d51f1",
+   "t": "2026-11-09T09:05",
+   "type": "nature",
+   "tag_by": "caption",
+   "opening": null,
+   "len": 17,
+   "x": "Mark 5:34 (KJV) On today's episode of Walking with Jesus: My",
+   "url": "https://tiktok.com/@walking.with.jesu838/video/7706187871920590093",
+   "age": 0,
+   "v": 0,
+   "e": 0,
+   "v1": null,
+   "v7": null,
+   "e7": null,
+   "watch": 0,
+   "watch_pct": null,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": null,
+   "reach": 0
+  },
   {
    "p": "ig",
    "id": "6aee6f21229bf05daf1b27e6",
@@ -33,18 +57,18 @@
    "x": "Mark 5:34 (KJV) On tomorrow's episode of Walking with Jesus:",
    "url": "https://www.instagram.com/reel/Dff46-OGmxy/",
    "age": 1,
-   "v": 1,
+   "v": 4,
    "e": 0,
    "v1": null,
    "v7": null,
    "e7": null,
-   "watch": 1.0,
+   "watch": 1.3,
    "watch_pct": null,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saves": 0,
-   "reach": 1
+   "reach": 3
   },
   {
    "p": "tt",
@@ -10125,9 +10149,9 @@
    {
     "key": "ig/nature",
     "posts": 49,
-    "views": 883,
+    "views": 886,
     "engaged": 117,
-    "eng_rate_pct": 13.25,
+    "eng_rate_pct": 13.21,
     "median_views": 5,
     "median_views_day1": 5.0,
     "median_views_day7": 5.0,
@@ -10208,15 +10232,15 @@
    },
    {
     "key": "tt/nature",
-    "posts": 18,
+    "posts": 19,
     "views": 455,
     "engaged": 38,
     "eng_rate_pct": 8.35,
-    "median_views": 21.0,
+    "median_views": 20,
     "median_views_day1": 20.0,
     "median_views_day7": 20,
     "with_day7": 9,
-    "median_watch_s": 3.1
+    "median_watch_s": 3
    },
    {
     "key": "tt/promo",
@@ -10295,14 +10319,14 @@
    {
     "key": "ig/nature/words",
     "posts": 1,
-    "views": 1,
+    "views": 4,
     "engaged": 0,
     "eng_rate_pct": 0.0,
-    "median_views": 1,
+    "median_views": 4,
     "median_views_day1": null,
     "median_views_day7": null,
     "with_day7": 0,
-    "median_watch_s": 1.0
+    "median_watch_s": 1.3
    }
   ],
   "by_week": [
@@ -10525,9 +10549,9 @@
    {
     "key": "ig/2026-11-02",
     "posts": 15,
-    "views": 73,
+    "views": 76,
     "engaged": 2,
-    "eng_rate_pct": 2.74,
+    "eng_rate_pct": 2.63,
     "median_views": 5,
     "median_views_day1": 4.5,
     "median_views_day7": null,
@@ -10593,6 +10617,18 @@
     "median_views_day7": null,
     "with_day7": 0,
     "median_watch_s": 3.2
+   },
+   {
+    "key": "tt/2026-11-09",
+    "posts": 1,
+    "views": 0,
+    "engaged": 0,
+    "eng_rate_pct": null,
+    "median_views": 0,
+    "median_views_day1": null,
+    "median_views_day7": null,
+    "with_day7": 0,
+    "median_watch_s": 0
    },
    {
     "key": "yt/2026-09-14",
@@ -10935,9 +10971,9 @@
    {
     "key": "ig/17",
     "posts": 33,
-    "views": 345,
+    "views": 348,
     "engaged": 36,
-    "eng_rate_pct": 10.43,
+    "eng_rate_pct": 10.34,
     "median_views": 7,
     "median_views_day1": 6,
     "median_views_day7": 8,
@@ -11018,15 +11054,15 @@
    },
    {
     "key": "tt/09",
-    "posts": 13,
+    "posts": 14,
     "views": 510,
     "engaged": 49,
     "eng_rate_pct": 9.61,
-    "median_views": 22,
+    "median_views": 20.5,
     "median_views_day1": 22,
     "median_views_day7": 28.0,
     "with_day7": 8,
-    "median_watch_s": 3
+    "median_watch_s": 2.9
    },
    {
     "key": "tt/14",

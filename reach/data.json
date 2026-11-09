@@ -1,5 +1,5 @@
 {
- "updated": "Mon 11/9 2:53 AM",
+ "updated": "Mon 11/9 11:27 AM",
  "updated_date": "2026-11-09",
  "platforms": [
   {
@@ -921,7 +921,7 @@
     },
     {
      "d": "2026-11-08",
-     "v": 1,
+     "v": 4,
      "e": 0
     }
    ],
@@ -1053,7 +1053,7 @@
     },
     {
      "d": "2026-11-02",
-     "v": 74,
+     "v": 77,
      "e": 2
     }
    ],
@@ -1497,14 +1497,22 @@
   "YouTube split since 2026-09-15: shorts 15226 + long-form 95 of 15327 total views; 71 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 191; saved with numbers: 219",
+  "Buffer posts read: 193; saved with numbers: 220",
   "Facebook posts, last 21 days: 61 reels, 0 other videos, 10 over 90s; views known for 61 of 61, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 416 posts; YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.; YouTube per-video: 132 videos, titles from Data API for 0, public-title/first-view lookups 2; Facebook per-post: 61 saved"
+  "posts.json: 417 posts; YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.; YouTube per-video: 132 videos, titles from Data API for 0, public-title/first-view lookups 0; Facebook per-post: 60 saved"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
+   {
+    "t": "2026-11-09T09:03",
+    "len": 17,
+    "v": 4,
+    "k": "reel",
+    "x": "Mark 5:34 (KJV) On today's episode of Walking wi",
+    "up": false
+   },
    {
     "t": "2026-11-08T17:01",
     "len": 17,
@@ -1983,14 +1991,6 @@
     "v": 244,
     "k": "reel",
     "x": "John 1:14 (KJV) On today's episode of Walking wi",
-    "up": false
-   },
-   {
-    "t": "2026-10-19T09:02",
-    "len": 18,
-    "v": 114,
-    "k": "reel",
-    "x": "John 1:1 (KJV) On today's episode of Walking wit",
     "up": false
    }
   ]
