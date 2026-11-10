@@ -1,5 +1,5 @@
 {
- "updated": "Mon 11/9 3:37 PM",
+ "updated": "Tue 11/10 2:53 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -9,9 +9,9 @@
  "days": [
   {
    "d": "2026-11-09",
-   "short": 1,
+   "short": 2,
    "long": 0,
-   "short_views": 18,
+   "short_views": 117,
    "long_views": 0,
    "unknown": 0
   },
@@ -19,7 +19,7 @@
    "d": "2026-11-08",
    "short": 1,
    "long": 0,
-   "short_views": 180,
+   "short_views": 182,
    "long_views": 0,
    "unknown": 0
   },
@@ -102,24 +102,29 @@
    "short_views": 308,
    "long_views": 0,
    "unknown": 0
-  },
-  {
-   "d": "2026-10-19",
-   "short": 1,
-   "long": 0,
-   "short_views": 311,
-   "long_views": 0,
-   "unknown": 0
   }
  ],
  "items": [
+  {
+   "id": "1165447625831605",
+   "type": "reel",
+   "at": "2026-11-09 17:01",
+   "live": "2026-11-09 17:01",
+   "len": 16,
+   "views": 98,
+   "src": "fb_reels_total_plays",
+   "text": "Luke 6:37 (KJV) On today's episode of Walking with Jesus: My",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":6498235},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-09T23:01:40+00",
+   "sched": null
+  },
   {
    "id": "1146761071101425",
    "type": "reel",
    "at": "2026-11-09 09:03",
    "live": "2026-11-09 09:03",
    "len": 17,
-   "views": 18,
+   "views": 19,
    "src": "fb_reels_total_plays",
    "text": "Mark 5:34 (KJV) On today's episode of Walking with Jesus: My",
    "pub": true,
@@ -132,7 +137,7 @@
    "at": "2026-11-08 17:01",
    "live": "2026-11-08 17:01",
    "len": 17,
-   "views": 180,
+   "views": 182,
    "src": "fb_reels_total_plays",
    "text": "Mark 5:34 (KJV) On tomorrow's episode of Walking with Jesus:",
    "pub": true,
@@ -878,19 +883,6 @@
    "text": "Luke 2:11 (KJV) On today's episode of Walking with Jesus: Un",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":8343648},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-20T14:03:31+00",
-   "sched": null
-  },
-  {
-   "id": "1870006134168690",
-   "type": "reel",
-   "at": "2026-10-19 17:01",
-   "live": "2026-10-19 17:01",
-   "len": 48,
-   "views": 311,
-   "src": "fb_reels_total_plays",
-   "text": "On tomorrow's episode of Walking with Jesus: Unto You Is Bor",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":2358655},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-19T22:01:53+00",
    "sched": null
   }
  ]
