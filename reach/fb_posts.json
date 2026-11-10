@@ -1,5 +1,5 @@
 {
- "updated": "Tue 11/10 2:53 AM",
+ "updated": "Tue 11/10 9:35 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -7,6 +7,14 @@
  },
  "errors": [],
  "days": [
+  {
+   "d": "2026-11-10",
+   "short": 1,
+   "long": 0,
+   "short_views": 0,
+   "long_views": 0,
+   "unknown": 0
+  },
   {
    "d": "2026-11-09",
    "short": 2,
@@ -97,14 +105,27 @@
   },
   {
    "d": "2026-10-20",
-   "short": 3,
+   "short": 2,
    "long": 0,
-   "short_views": 308,
+   "short_views": 267,
    "long_views": 0,
    "unknown": 0
   }
  ],
  "items": [
+  {
+   "id": "1673806737664743",
+   "type": "reel",
+   "at": "2026-11-10 09:04",
+   "live": "2026-11-10 09:04",
+   "len": 17,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "Mark 5:36 (KJV) On today's episode of Walking with Jesus: Da",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":7344738},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-10T15:04:35+00",
+   "sched": null
+  },
   {
    "id": "1165447625831605",
    "type": "reel",
@@ -870,19 +891,6 @@
    "text": "I read the Book of Mormon, the Quran, and the Dhammapada in ",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":12000050},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-20T19:00:45+0",
-   "sched": null
-  },
-  {
-   "id": "40648065321458983",
-   "type": "reel",
-   "at": "2026-10-20 09:03",
-   "live": "2026-10-20 09:03",
-   "len": 18,
-   "views": 41,
-   "src": "fb_reels_total_plays",
-   "text": "Luke 2:11 (KJV) On today's episode of Walking with Jesus: Un",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":8343648},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-20T14:03:31+00",
    "sched": null
   }
  ]

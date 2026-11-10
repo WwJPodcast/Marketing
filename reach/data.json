@@ -1,5 +1,5 @@
 {
- "updated": "Tue 11/10 2:53 AM",
+ "updated": "Tue 11/10 9:35 AM",
  "updated_date": "2026-11-10",
  "platforms": [
   {
@@ -1497,14 +1497,22 @@
   "YouTube split since 2026-09-15: shorts 15589 + long-form 97 of 15700 total views; 73 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 195; saved with numbers: 223",
+  "Buffer posts read: 197; saved with numbers: 224",
   "Facebook posts, last 21 days: 60 reels, 0 other videos, 10 over 90s; views known for 60 of 60, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 424 posts; YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.; YouTube per-video: 134 videos, titles from Data API for 0, public-title/first-view lookups 0; Facebook per-post: 60 saved"
+  "posts.json: 425 posts; YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.; YouTube per-video: 134 videos, titles from Data API for 0, public-title/first-view lookups 0; Facebook per-post: 59 saved"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
+   {
+    "t": "2026-11-10T09:04",
+    "len": 17,
+    "v": 0,
+    "k": "reel",
+    "x": "Mark 5:36 (KJV) On today's episode of Walking wi",
+    "up": false
+   },
    {
     "t": "2026-11-09T17:01",
     "len": 16,
@@ -1975,14 +1983,6 @@
     "v": 15,
     "k": "reel",
     "x": "I read the Book of Mormon, the Quran, and the Dh",
-    "up": false
-   },
-   {
-    "t": "2026-10-20T09:03",
-    "len": 18,
-    "v": 41,
-    "k": "reel",
-    "x": "Luke 2:11 (KJV) On today's episode of Walking wi",
     "up": false
    }
   ]

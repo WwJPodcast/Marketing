@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10 02:53",
+ "updated": "2026-11-10 09:35",
  "fields": {
   "p": "platform",
   "t": "posted (Central)",
@@ -19,9 +19,33 @@
  "notes": [
   "YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.",
   "YouTube per-video: 134 videos, titles from Data API for 0, public-title/first-view lookups 0",
-  "Facebook per-post: 60 saved"
+  "Facebook per-post: 59 saved"
  ],
  "posts": [
+  {
+   "p": "tt",
+   "id": "6aea9ebdb8d162e0d8fd3dc7",
+   "t": "2026-11-10T09:07",
+   "type": "nature",
+   "tag_by": "caption",
+   "opening": null,
+   "len": 17,
+   "x": "Mark 5:36 (KJV) On today's episode of Walking with Jesus: Da",
+   "url": "https://tiktok.com/@walking.with.jesu838/video/7706559002485771534",
+   "age": 0,
+   "v": 0,
+   "e": 0,
+   "v1": null,
+   "v7": null,
+   "e7": null,
+   "watch": 0,
+   "watch_pct": null,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": null,
+   "reach": 0
+  },
   {
    "p": "ig",
    "id": "6aee7055d6bbae6fa156f3b9",
@@ -10402,15 +10426,15 @@
    },
    {
     "key": "tt/nature",
-    "posts": 20,
+    "posts": 21,
     "views": 481,
     "engaged": 39,
     "eng_rate_pct": 8.11,
-    "median_views": 19.5,
+    "median_views": 19,
     "median_views_day1": 20.0,
     "median_views_day7": 20,
     "with_day7": 11,
-    "median_watch_s": 3.1
+    "median_watch_s": 3
    },
    {
     "key": "tt/promo",
@@ -10814,15 +10838,15 @@
    },
    {
     "key": "tt/2026-11-09",
-    "posts": 2,
+    "posts": 3,
     "views": 24,
     "engaged": 1,
     "eng_rate_pct": 4.17,
-    "median_views": 12.0,
+    "median_views": 11,
     "median_views_day1": null,
     "median_views_day7": null,
     "with_day7": 0,
-    "median_watch_s": 3.2
+    "median_watch_s": 1.5
    },
    {
     "key": "yt/2026-09-14",
@@ -11248,15 +11272,15 @@
    },
    {
     "key": "tt/09",
-    "posts": 14,
+    "posts": 15,
     "views": 521,
     "engaged": 50,
     "eng_rate_pct": 9.6,
-    "median_views": 20.5,
+    "median_views": 19,
     "median_views_day1": 22,
     "median_views_day7": 27,
     "with_day7": 9,
-    "median_watch_s": 3.2
+    "median_watch_s": 3
    },
    {
     "key": "tt/14",
