@@ -1,5 +1,5 @@
 {
- "updated": "Wed 11/11 9:10 AM",
+ "updated": "Wed 11/11 12:52 PM",
  "updated_date": "2026-11-11",
  "platforms": [
   {
@@ -1136,7 +1136,7 @@
     },
     {
      "d": "2026-11-10",
-     "v": 47,
+     "v": 64,
      "e": 2
     }
    ],
@@ -1268,7 +1268,7 @@
     },
     {
      "d": "2026-11-04",
-     "v": 261,
+     "v": 278,
      "e": 11
     }
    ],
@@ -1508,7 +1508,7 @@
    {
     "t": "2026-11-11T09:06",
     "len": 16,
-    "v": 0,
+    "v": 13,
     "k": "reel",
     "x": "Matthew 10:8 (KJV) On today's episode of Walking",
     "up": false
@@ -1524,7 +1524,7 @@
    {
     "t": "2026-11-10T14:02",
     "len": 13,
-    "v": 152,
+    "v": 153,
     "k": "reel",
     "x": "Four Gospels. One timeline. Zero commentary. The",
     "up": false

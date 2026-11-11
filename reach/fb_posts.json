@@ -1,5 +1,5 @@
 {
- "updated": "Wed 11/11 9:10 AM",
+ "updated": "Wed 11/11 12:52 PM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -11,7 +11,7 @@
    "d": "2026-11-11",
    "short": 1,
    "long": 0,
-   "short_views": 0,
+   "short_views": 13,
    "long_views": 0,
    "unknown": 0
   },
@@ -19,7 +19,7 @@
    "d": "2026-11-10",
    "short": 3,
    "long": 0,
-   "short_views": 451,
+   "short_views": 452,
    "long_views": 0,
    "unknown": 0
   },
@@ -119,7 +119,7 @@
    "at": "2026-11-11 09:06",
    "live": "2026-11-11 09:06",
    "len": 16,
-   "views": 0,
+   "views": 13,
    "src": "fb_reels_total_plays",
    "text": "Matthew 10:8 (KJV) On today's episode of Walking with Jesus:",
    "pub": true,
@@ -145,7 +145,7 @@
    "at": "2026-11-10 14:02",
    "live": "2026-11-10 14:02",
    "len": 13,
-   "views": 152,
+   "views": 153,
    "src": "fb_reels_total_plays",
    "text": "Four Gospels. One timeline. Zero commentary. The Walking wit",
    "pub": true,
