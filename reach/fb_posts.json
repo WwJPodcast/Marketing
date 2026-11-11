@@ -1,5 +1,5 @@
 {
- "updated": "Wed 11/11 2:53 AM",
+ "updated": "Wed 11/11 9:10 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -7,6 +7,14 @@
  },
  "errors": [],
  "days": [
+  {
+   "d": "2026-11-11",
+   "short": 1,
+   "long": 0,
+   "short_views": 0,
+   "long_views": 0,
+   "unknown": 0
+  },
   {
    "d": "2026-11-10",
    "short": 3,
@@ -97,14 +105,27 @@
   },
   {
    "d": "2026-10-21",
-   "short": 3,
+   "short": 2,
    "long": 0,
-   "short_views": 7745,
+   "short_views": 7715,
    "long_views": 0,
    "unknown": 0
   }
  ],
  "items": [
+  {
+   "id": "3543510549159707",
+   "type": "reel",
+   "at": "2026-11-11 09:06",
+   "live": "2026-11-11 09:06",
+   "len": 16,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "Matthew 10:8 (KJV) On today's episode of Walking with Jesus:",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":7748721},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-11T15:06:26+00",
+   "sched": null
+  },
   {
    "id": "1514082230546655",
    "type": "reel",
@@ -870,19 +891,6 @@
    "text": "Matthew 3:17 (KJV) On today's episode of Walking with Jesus:",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":5952908},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-21T19:02:26+00",
-   "sched": null
-  },
-  {
-   "id": "1655848376139677",
-   "type": "reel",
-   "at": "2026-10-21 09:03",
-   "live": "2026-10-21 09:03",
-   "len": 18,
-   "views": 30,
-   "src": "fb_reels_total_plays",
-   "text": "Luke 2:49 (KJV) On today's episode of Walking with Jesus: Th",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":19256213},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-21T14:03:40+0",
    "sched": null
   }
  ]

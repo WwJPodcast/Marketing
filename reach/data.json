@@ -1,5 +1,5 @@
 {
- "updated": "Wed 11/11 2:53 AM",
+ "updated": "Wed 11/11 9:10 AM",
  "updated_date": "2026-11-11",
  "platforms": [
   {
@@ -921,7 +921,7 @@
     },
     {
      "d": "2026-11-10",
-     "v": 0,
+     "v": 20,
      "e": 0
     }
    ],
@@ -1053,7 +1053,7 @@
     },
     {
      "d": "2026-11-04",
-     "v": 127,
+     "v": 147,
      "e": 9
     }
    ],
@@ -1497,14 +1497,22 @@
   "YouTube split since 2026-09-15: shorts 15635 + long-form 98 of 15747 total views; 75 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 201; saved with numbers: 229",
+  "Buffer posts read: 203; saved with numbers: 230",
   "Facebook posts, last 21 days: 60 reels, 0 other videos, 10 over 90s; views known for 60 of 60, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 433 posts; YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.; YouTube per-video: 134 videos, titles from Data API for 0, public-title/first-view lookups 0; Facebook per-post: 60 saved"
+  "posts.json: 434 posts; YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.; YouTube per-video: 134 videos, titles from Data API for 0, public-title/first-view lookups 0; Facebook per-post: 59 saved"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
+   {
+    "t": "2026-11-11T09:06",
+    "len": 16,
+    "v": 0,
+    "k": "reel",
+    "x": "Matthew 10:8 (KJV) On today's episode of Walking",
+    "up": false
+   },
    {
     "t": "2026-11-10T17:01",
     "len": 15,
@@ -1975,14 +1983,6 @@
     "v": 7347,
     "k": "reel",
     "x": "Matthew 3:17 (KJV) On today's episode of Walking",
-    "up": false
-   },
-   {
-    "t": "2026-10-21T09:03",
-    "len": 18,
-    "v": 30,
-    "k": "reel",
-    "x": "Luke 2:49 (KJV) On today's episode of Walking wi",
     "up": false
    }
   ]
