@@ -1,5 +1,5 @@
 {
- "updated": "Tue 11/10 8:58 PM",
+ "updated": "Wed 11/11 2:53 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -11,7 +11,7 @@
    "d": "2026-11-10",
    "short": 3,
    "long": 0,
-   "short_views": 445,
+   "short_views": 451,
    "long_views": 0,
    "unknown": 0
   },
@@ -111,7 +111,7 @@
    "at": "2026-11-10 17:01",
    "live": "2026-11-10 17:01",
    "len": 15,
-   "views": 250,
+   "views": 254,
    "src": "fb_reels_total_plays",
    "text": "Luke 8:50 (KJV) On today's episode of Walking with Jesus: Da",
    "pub": true,
@@ -124,7 +124,7 @@
    "at": "2026-11-10 14:02",
    "live": "2026-11-10 14:02",
    "len": 13,
-   "views": 150,
+   "views": 152,
    "src": "fb_reels_total_plays",
    "text": "Four Gospels. One timeline. Zero commentary. The Walking wit",
    "pub": true,
