@@ -1,5 +1,5 @@
 {
- "updated": "Thu 11/12 8:27 AM",
+ "updated": "Thu 11/12 9:58 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -7,6 +7,14 @@
  },
  "errors": [],
  "days": [
+  {
+   "d": "2026-11-12",
+   "short": 1,
+   "long": 0,
+   "short_views": 0,
+   "long_views": 0,
+   "unknown": 0
+  },
   {
    "d": "2026-11-11",
    "short": 2,
@@ -97,14 +105,27 @@
   },
   {
    "d": "2026-10-22",
-   "short": 3,
+   "short": 2,
    "long": 0,
-   "short_views": 492,
+   "short_views": 365,
    "long_views": 0,
    "unknown": 0
   }
  ],
  "items": [
+  {
+   "id": "1193350653061240",
+   "type": "reel",
+   "at": "2026-11-12 09:06",
+   "live": "2026-11-12 09:06",
+   "len": 17,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "Matthew 14:31 (KJV) On today's episode of Walking with Jesus",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":3054751},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-12T15:06:06+00",
+   "sched": null
+  },
   {
    "id": "1495600019107988",
    "type": "reel",
@@ -857,19 +878,6 @@
    "text": "John 2:19 (KJV) On today's episode of Walking with Jesus: Be",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":10005626},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-22T19:02:31+0",
-   "sched": null
-  },
-  {
-   "id": "2027887444596737",
-   "type": "reel",
-   "at": "2026-10-22 09:02",
-   "live": "2026-10-22 09:02",
-   "len": 18,
-   "views": 127,
-   "src": "fb_reels_total_plays",
-   "text": "Matthew 4:4 (KJV) On today's episode of Walking with Jesus: ",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":3910577},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-22T14:02:41+00",
    "sched": null
   }
  ]

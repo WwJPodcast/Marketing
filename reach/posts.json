@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 08:27",
+ "updated": "2026-11-12 09:58",
  "fields": {
   "p": "platform",
   "t": "posted (Central)",
@@ -18,10 +18,34 @@
  },
  "notes": [
   "YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.",
-  "YouTube per-video: 136 videos, titles from Data API for 0, public-title/first-view lookups 2",
-  "Facebook per-post: 59 saved"
+  "YouTube per-video: 136 videos, titles from Data API for 0, public-title/first-view lookups 0",
+  "Facebook per-post: 58 saved"
  ],
  "posts": [
+  {
+   "p": "tt",
+   "id": "6aee14ba229bf05daffe5c09",
+   "t": "2026-11-12T09:07",
+   "type": "nature",
+   "tag_by": "caption",
+   "opening": null,
+   "len": 17,
+   "x": "Matthew 14:31 (KJV) On today's episode of Walking with Jesus",
+   "url": "https://tiktok.com/@walking.with.jesu838/video/7707301490821500174",
+   "age": 0,
+   "v": 0,
+   "e": 0,
+   "v1": null,
+   "v7": null,
+   "e7": null,
+   "watch": 0,
+   "watch_pct": null,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": null,
+   "reach": 0
+  },
   {
    "p": "ig",
    "id": "6aee70619214322f68beb32c",
@@ -10815,15 +10839,15 @@
    },
    {
     "key": "tt/nature",
-    "posts": 24,
+    "posts": 25,
     "views": 521,
     "engaged": 41,
     "eng_rate_pct": 7.87,
-    "median_views": 18.5,
+    "median_views": 18,
     "median_views_day1": 19.0,
     "median_views_day7": 18.5,
     "with_day7": 14,
-    "median_watch_s": 3.0
+    "median_watch_s": 3
    },
    {
     "key": "tt/promo",
@@ -11227,15 +11251,15 @@
    },
    {
     "key": "tt/2026-11-09",
-    "posts": 7,
+    "posts": 8,
     "views": 93,
     "engaged": 3,
     "eng_rate_pct": 3.23,
-    "median_views": 12,
+    "median_views": 10.0,
     "median_views_day1": 13,
     "median_views_day7": null,
     "with_day7": 0,
-    "median_watch_s": 4.0
+    "median_watch_s": 3.8
    },
    {
     "key": "yt/2026-09-14",
@@ -11673,15 +11697,15 @@
    },
    {
     "key": "tt/09",
-    "posts": 16,
+    "posts": 17,
     "views": 538,
     "engaged": 50,
     "eng_rate_pct": 9.29,
-    "median_views": 18.5,
+    "median_views": 18,
     "median_views_day1": 19,
     "median_views_day7": 19,
     "with_day7": 11,
-    "median_watch_s": 3.0
+    "median_watch_s": 2.9
    },
    {
     "key": "tt/14",

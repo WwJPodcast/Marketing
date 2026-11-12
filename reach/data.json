@@ -1,5 +1,5 @@
 {
- "updated": "Thu 11/12 8:27 AM",
+ "updated": "Thu 11/12 9:58 AM",
  "updated_date": "2026-11-12",
  "platforms": [
   {
@@ -1497,14 +1497,22 @@
   "YouTube split since 2026-09-15: shorts 15755 + long-form 99 of 15868 total views; 77 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 205; saved with numbers: 233",
+  "Buffer posts read: 207; saved with numbers: 234",
   "Facebook posts, last 21 days: 59 reels, 0 other videos, 10 over 90s; views known for 59 of 59, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 441 posts; YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.; YouTube per-video: 136 videos, titles from Data API for 0, public-title/first-view lookups 2; Facebook per-post: 59 saved"
+  "posts.json: 442 posts; YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.; YouTube per-video: 136 videos, titles from Data API for 0, public-title/first-view lookups 0; Facebook per-post: 58 saved"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
+   {
+    "t": "2026-11-12T09:06",
+    "len": 17,
+    "v": 0,
+    "k": "reel",
+    "x": "Matthew 14:31 (KJV) On today's episode of Walkin",
+    "up": false
+   },
    {
     "t": "2026-11-11T17:03",
     "len": 17,
@@ -1967,14 +1975,6 @@
     "v": 159,
     "k": "reel",
     "x": "John 2:19 (KJV) On today's episode of Walking wi",
-    "up": false
-   },
-   {
-    "t": "2026-10-22T09:02",
-    "len": 18,
-    "v": 127,
-    "k": "reel",
-    "x": "Matthew 4:4 (KJV) On today's episode of Walking ",
     "up": false
    }
   ]
