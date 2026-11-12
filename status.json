@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-12T08:26:59-06:00",
- "updated_label": "Thu 11/12 8:26 AM",
+ "updated": "2026-11-12T14:13:49-06:00",
+ "updated_label": "Thu 11/12 2:13 PM",
  "window_start": "2026-11-12",
  "window_days": 21,
  "goal_days": 14,
@@ -40,15 +40,15 @@
    "reported": "11/12",
    "queued": {
     "through": "2026-11-13",
-    "count": 3
+    "count": 2
    },
    "ready": {
-    "through": "2026-11-13",
-    "count": 0
+    "through": "2026-11-20",
+    "count": 5
    },
    "review": {
     "through": "2026-11-20",
-    "count": 5,
+    "count": 0,
     "fix": 0
    },
    "picked": {
@@ -81,22 +81,17 @@
   }
  ],
  "buffer": {
-  "youtube": 9,
-  "instagram": 10,
-  "facebook": 6,
-  "tiktok": 10,
+  "youtube": 8,
+  "instagram": 9,
+  "facebook": 5,
+  "tiktok": 9,
   "through_label": "Tue 11/17 2 PM",
-  "posted_7d": 13
+  "posted_7d": 12
  },
  "needs_you": [
   {
    "what": "Review 6 Tomorrow's posts 11/12–19",
    "due": "now",
-   "urgent": true
-  },
-  {
-   "what": "Review 5 nature cards 11/16–20",
-   "due": "by Fri",
    "urgent": true
   },
   {
