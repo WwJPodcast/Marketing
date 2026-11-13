@@ -1,5 +1,5 @@
 {
- "updated": "Fri 11/13 9:23 AM",
+ "updated": "Fri 11/13 12:44 PM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -11,7 +11,7 @@
    "d": "2026-11-12",
    "short": 2,
    "long": 0,
-   "short_views": 394,
+   "short_views": 395,
    "long_views": 0,
    "unknown": 0
   },
@@ -111,7 +111,7 @@
    "at": "2026-11-12 17:02",
    "live": "2026-11-12 17:02",
    "len": 18,
-   "views": 348,
+   "views": 349,
    "src": "fb_reels_total_plays",
    "text": "John 6:35 (KJV) On today's episode of Walking with Jesus: It",
    "pub": true,
