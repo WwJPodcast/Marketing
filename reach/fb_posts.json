@@ -1,5 +1,5 @@
 {
- "updated": "Sat 11/14 8:07 AM",
+ "updated": "Sat 11/14 11:17 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -7,6 +7,14 @@
  },
  "errors": [],
  "days": [
+  {
+   "d": "2026-11-14",
+   "short": 1,
+   "long": 0,
+   "short_views": 2,
+   "long_views": 0,
+   "unknown": 0
+  },
   {
    "d": "2026-11-12",
    "short": 2,
@@ -89,14 +97,27 @@
   },
   {
    "d": "2026-10-24",
-   "short": 2,
+   "short": 1,
    "long": 0,
-   "short_views": 563,
+   "short_views": 413,
    "long_views": 0,
    "unknown": 0
   }
  ],
  "items": [
+  {
+   "id": "1142852754886108",
+   "type": "reel",
+   "at": "2026-11-14 09:03",
+   "live": "2026-11-14 09:03",
+   "len": 16,
+   "views": 2,
+   "src": "fb_reels_total_plays",
+   "text": "That study plan isn't gone. It's just not the first step any",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":887994},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-14T15:03:09+000",
+   "sched": null
+  },
   {
    "id": "2414460052716768",
    "type": "reel",
@@ -810,19 +831,6 @@
    "text": "Do you have a daily habit that puts Jesus first? The Walking",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":2714612},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-24T20:01:19+00",
-   "sched": null
-  },
-  {
-   "id": "1124284210525386",
-   "type": "reel",
-   "at": "2026-10-24 09:02",
-   "live": "2026-10-24 09:02",
-   "len": 31,
-   "views": 150,
-   "src": "fb_reels_total_plays",
-   "text": "Before Jesus says a word, Luke tells you why he's writing: \"",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":1651558},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-24T14:02:36+00",
    "sched": null
   }
  ]

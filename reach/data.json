@@ -1,5 +1,5 @@
 {
- "updated": "Sat 11/14 8:07 AM",
+ "updated": "Sat 11/14 11:17 AM",
  "updated_date": "2026-11-14",
  "platforms": [
   {
@@ -1497,14 +1497,22 @@
   "YouTube split since 2026-09-15: shorts 15821 + long-form 103 of 15938 total views; 81 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 209; saved with numbers: 237",
+  "Buffer posts read: 211; saved with numbers: 238",
   "Facebook posts, last 21 days: 56 reels, 0 other videos, 10 over 90s; views known for 56 of 56, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 454 posts; YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.; YouTube per-video: 143 videos, titles from Data API for 0, public-title/first-view lookups 3; Facebook per-post: 56 saved"
+  "posts.json: 455 posts; YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.; YouTube per-video: 143 videos, titles from Data API for 0, public-title/first-view lookups 0; Facebook per-post: 55 saved"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
+   {
+    "t": "2026-11-14T09:03",
+    "len": 16,
+    "v": 2,
+    "k": "reel",
+    "x": "That study plan isn't gone. It's just not the fi",
+    "up": false
+   },
    {
     "t": "2026-11-12T17:02",
     "len": 18,
@@ -1943,14 +1951,6 @@
     "v": 413,
     "k": "reel",
     "x": "Do you have a daily habit that puts Jesus first?",
-    "up": false
-   },
-   {
-    "t": "2026-10-24T09:02",
-    "len": 31,
-    "v": 150,
-    "k": "reel",
-    "x": "Before Jesus says a word, Luke tells you why he'",
     "up": false
    }
   ]

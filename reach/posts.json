@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14 08:07",
+ "updated": "2026-11-14 11:17",
  "fields": {
   "p": "platform",
   "t": "posted (Central)",
@@ -18,10 +18,34 @@
  },
  "notes": [
   "YouTube titles/publish times not available (needs youtube.readonly scope?): HTTP 403: Request had insufficient authentication scopes.",
-  "YouTube per-video: 143 videos, titles from Data API for 0, public-title/first-view lookups 3",
-  "Facebook per-post: 56 saved"
+  "YouTube per-video: 143 videos, titles from Data API for 0, public-title/first-view lookups 0",
+  "Facebook per-post: 55 saved"
  ],
  "posts": [
+  {
+   "p": "tt",
+   "id": "6af3d9b80b5acab5862e1327",
+   "t": "2026-11-14T09:04",
+   "type": "promo",
+   "tag_by": "caption",
+   "opening": null,
+   "len": 16,
+   "x": "That study plan isn't gone. It's just not the first step any",
+   "url": "https://tiktok.com/@walking.with.jesu838/video/7708042955445079310",
+   "age": 0,
+   "v": 0,
+   "e": 0,
+   "v1": null,
+   "v7": null,
+   "e7": null,
+   "watch": 0,
+   "watch_pct": null,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": null,
+   "reach": 0
+  },
   {
    "p": "ig",
    "id": "6aee7068d6bbae6fa156f70f",
@@ -11141,15 +11165,15 @@
    },
    {
     "key": "tt/promo",
-    "posts": 7,
+    "posts": 8,
     "views": 404,
     "engaged": 28,
     "eng_rate_pct": 6.93,
-    "median_views": 30,
+    "median_views": 24.0,
     "median_views_day1": 30,
     "median_views_day7": 40.5,
     "with_day7": 6,
-    "median_watch_s": 1.8
+    "median_watch_s": 1.6
    },
    {
     "key": "tt/tomorrow",
@@ -11541,15 +11565,15 @@
    },
    {
     "key": "tt/2026-11-09",
-    "posts": 9,
+    "posts": 10,
     "views": 113,
     "engaged": 3,
     "eng_rate_pct": 2.65,
-    "median_views": 9,
+    "median_views": 8.5,
     "median_views_day1": 9,
     "median_views_day7": null,
     "with_day7": 0,
-    "median_watch_s": 4.0
+    "median_watch_s": 3.8
    },
    {
     "key": "yt/2026-09-14",
@@ -11987,15 +12011,15 @@
    },
    {
     "key": "tt/09",
-    "posts": 17,
+    "posts": 18,
     "views": 546,
     "engaged": 50,
     "eng_rate_pct": 9.16,
-    "median_views": 18,
+    "median_views": 17.5,
     "median_views_day1": 18,
     "median_views_day7": 22,
     "with_day7": 13,
-    "median_watch_s": 3
+    "median_watch_s": 3.0
    },
    {
     "key": "tt/14",
