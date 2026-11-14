@@ -1,5 +1,5 @@
 {
- "updated": "Fri 11/13 12:44 PM",
+ "updated": "Sat 11/14 8:07 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -11,7 +11,7 @@
    "d": "2026-11-12",
    "short": 2,
    "long": 0,
-   "short_views": 395,
+   "short_views": 399,
    "long_views": 0,
    "unknown": 0
   },
@@ -27,7 +27,7 @@
    "d": "2026-11-10",
    "short": 3,
    "long": 0,
-   "short_views": 453,
+   "short_views": 454,
    "long_views": 0,
    "unknown": 0
   },
@@ -94,14 +94,6 @@
    "short_views": 563,
    "long_views": 0,
    "unknown": 0
-  },
-  {
-   "d": "2026-10-23",
-   "short": 1,
-   "long": 0,
-   "short_views": 177,
-   "long_views": 0,
-   "unknown": 0
   }
  ],
  "items": [
@@ -111,7 +103,7 @@
    "at": "2026-11-12 17:02",
    "live": "2026-11-12 17:02",
    "len": 18,
-   "views": 349,
+   "views": 353,
    "src": "fb_reels_total_plays",
    "text": "John 6:35 (KJV) On today's episode of Walking with Jesus: It",
    "pub": true,
@@ -163,7 +155,7 @@
    "at": "2026-11-10 17:01",
    "live": "2026-11-10 17:01",
    "len": 15,
-   "views": 255,
+   "views": 256,
    "src": "fb_reels_total_plays",
    "text": "Luke 8:50 (KJV) On today's episode of Walking with Jesus: Da",
    "pub": true,
@@ -831,19 +823,6 @@
    "text": "Before Jesus says a word, Luke tells you why he's writing: \"",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":1651558},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-24T14:02:36+00",
-   "sched": null
-  },
-  {
-   "id": "2334497683992946",
-   "type": "reel",
-   "at": "2026-10-23 14:02",
-   "live": "2026-10-23 14:02",
-   "len": 18,
-   "views": 177,
-   "src": "fb_reels_total_plays",
-   "text": "John 4:14 (KJV) On today's episode of Walking with Jesus: Ye",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":7853863},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-23T19:02:37+00",
    "sched": null
   }
  ]
