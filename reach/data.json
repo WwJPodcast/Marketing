@@ -1,5 +1,5 @@
 {
- "updated": "Sat 11/14 10:49 PM",
+ "updated": "Sat 11/14 10:53 PM",
  "updated_date": "2026-11-14",
  "platforms": [
   {
@@ -2488,10 +2488,12 @@
      "types": {
       "nature": {
        "n": 6,
+       "tot": 174,
        "med": 15
       },
       "promo": {
        "n": 1,
+       "tot": 18,
        "med": 18
       }
      }
@@ -2501,14 +2503,17 @@
      "types": {
       "nature": {
        "n": 48,
+       "tot": 8176,
        "med": 100
       },
       "tomorrow": {
        "n": 32,
+       "tot": 1805,
        "med": 50
       },
       "promo": {
        "n": 41,
+       "tot": 5680,
        "med": 71
       }
      }
@@ -2523,14 +2528,17 @@
      "types": {
       "nature": {
        "n": 8,
+       "tot": 526,
        "med": 35
       },
       "tomorrow": {
        "n": 1,
+       "tot": 182,
        "med": 182
       },
       "promo": {
        "n": 1,
+       "tot": 153,
        "med": 153
       }
      }
@@ -2540,14 +2548,17 @@
      "types": {
       "nature": {
        "n": 16,
+       "tot": 6,
        "med": 0
       },
       "tomorrow": {
        "n": 9,
+       "tot": 2,
        "med": 0
       },
       "promo": {
        "n": 5,
+       "tot": 1,
        "med": 0
       }
      }
@@ -2557,14 +2568,17 @@
      "types": {
       "nature": {
        "n": 9,
+       "tot": 8402,
        "med": 159
       },
       "tomorrow": {
        "n": 6,
+       "tot": 1776,
        "med": 282
       },
       "promo": {
        "n": 7,
+       "tot": 1372,
        "med": 232
       }
      }
@@ -2579,10 +2593,12 @@
      "types": {
       "nature": {
        "n": 7,
+       "tot": 102,
        "med": 5
       },
       "promo": {
        "n": 1,
+       "tot": 4,
        "med": 4
       }
      }
@@ -2592,14 +2608,17 @@
      "types": {
       "nature": {
        "n": 48,
+       "tot": 887,
        "med": 5
       },
       "tomorrow": {
        "n": 29,
+       "tot": 329,
        "med": 7
       },
       "promo": {
        "n": 76,
+       "tot": 2205,
        "med": 12
       }
      }
@@ -2614,14 +2633,17 @@
      "types": {
       "nature": {
        "n": 6,
+       "tot": 67,
        "med": 10
       },
       "tomorrow": {
        "n": 1,
+       "tot": 15,
        "med": 15
       },
       "promo": {
        "n": 1,
+       "tot": 30,
        "med": 30
       }
      }
@@ -2631,14 +2653,17 @@
      "types": {
       "nature": {
        "n": 18,
+       "tot": 459,
        "med": 22
       },
       "tomorrow": {
        "n": 10,
+       "tot": 231,
        "med": 16
       },
       "promo": {
        "n": 6,
+       "tot": 374,
        "med": 42
       }
      }
