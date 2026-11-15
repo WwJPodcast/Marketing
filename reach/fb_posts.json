@@ -1,5 +1,5 @@
 {
- "updated": "Sat 11/14 10:53 PM",
+ "updated": "Sun 11/15 8:44 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -11,7 +11,7 @@
    "d": "2026-11-14",
    "short": 2,
    "long": 0,
-   "short_views": 409,
+   "short_views": 411,
    "long_views": 0,
    "unknown": 0
   },
@@ -27,7 +27,7 @@
    "d": "2026-11-11",
    "short": 2,
    "long": 0,
-   "short_views": 106,
+   "short_views": 110,
    "long_views": 0,
    "unknown": 0
   },
@@ -103,7 +103,7 @@
    "at": "2026-11-14 15:01",
    "live": "2026-11-14 15:01",
    "len": 14,
-   "views": 248,
+   "views": 250,
    "src": "fb_reels_total_plays",
    "text": "The entire life of Jesus can be heard in about twelve and a ",
    "pub": true,
@@ -155,7 +155,7 @@
    "at": "2026-11-11 17:03",
    "live": "2026-11-11 17:03",
    "len": 17,
-   "views": 82,
+   "views": 84,
    "src": "fb_reels_total_plays",
    "text": "Luke 9:62 (KJV) On today's episode of Walking with Jesus: Fr",
    "pub": true,
@@ -168,7 +168,7 @@
    "at": "2026-11-11 09:06",
    "live": "2026-11-11 09:06",
    "len": 16,
-   "views": 24,
+   "views": 26,
    "src": "fb_reels_total_plays",
    "text": "Matthew 10:8 (KJV) On today's episode of Walking with Jesus:",
    "pub": true,
