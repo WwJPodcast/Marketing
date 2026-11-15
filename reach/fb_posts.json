@@ -1,5 +1,5 @@
 {
- "updated": "Sat 11/14 11:17 AM",
+ "updated": "Sat 11/14 10:40 PM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -9,9 +9,9 @@
  "days": [
   {
    "d": "2026-11-14",
-   "short": 1,
+   "short": 2,
    "long": 0,
-   "short_views": 2,
+   "short_views": 408,
    "long_views": 0,
    "unknown": 0
   },
@@ -27,7 +27,7 @@
    "d": "2026-11-11",
    "short": 2,
    "long": 0,
-   "short_views": 105,
+   "short_views": 106,
    "long_views": 0,
    "unknown": 0
   },
@@ -35,7 +35,7 @@
    "d": "2026-11-10",
    "short": 3,
    "long": 0,
-   "short_views": 454,
+   "short_views": 455,
    "long_views": 0,
    "unknown": 0
   },
@@ -94,24 +94,29 @@
    "short_views": 281,
    "long_views": 18,
    "unknown": 0
-  },
-  {
-   "d": "2026-10-24",
-   "short": 1,
-   "long": 0,
-   "short_views": 413,
-   "long_views": 0,
-   "unknown": 0
   }
  ],
  "items": [
+  {
+   "id": "1287388453575752",
+   "type": "reel",
+   "at": "2026-11-14 15:01",
+   "live": "2026-11-14 15:01",
+   "len": 14,
+   "views": 247,
+   "src": "fb_reels_total_plays",
+   "text": "The entire life of Jesus can be heard in about twelve and a ",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":850241},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-14T21:01:31+000",
+   "sched": null
+  },
   {
    "id": "1142852754886108",
    "type": "reel",
    "at": "2026-11-14 09:03",
    "live": "2026-11-14 09:03",
    "len": 16,
-   "views": 2,
+   "views": 161,
    "src": "fb_reels_total_plays",
    "text": "That study plan isn't gone. It's just not the first step any",
    "pub": true,
@@ -163,7 +168,7 @@
    "at": "2026-11-11 09:06",
    "live": "2026-11-11 09:06",
    "len": 16,
-   "views": 23,
+   "views": 24,
    "src": "fb_reels_total_plays",
    "text": "Matthew 10:8 (KJV) On today's episode of Walking with Jesus:",
    "pub": true,
@@ -202,7 +207,7 @@
    "at": "2026-11-10 09:04",
    "live": "2026-11-10 09:04",
    "len": 17,
-   "views": 45,
+   "views": 46,
    "src": "fb_reels_total_plays",
    "text": "Mark 5:36 (KJV) On today's episode of Walking with Jesus: Da",
    "pub": true,
@@ -818,19 +823,6 @@
    "text": "Three Gospels tell of Jesus walking on the water. Only Matth",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":1086987},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-25T14:01:35+00",
-   "sched": null
-  },
-  {
-   "id": "1114882734767661",
-   "type": "reel",
-   "at": "2026-10-24 15:01",
-   "live": "2026-10-24 15:01",
-   "len": 12,
-   "views": 413,
-   "src": "fb_reels_total_plays",
-   "text": "Do you have a daily habit that puts Jesus first? The Walking",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":2714612},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-24T20:01:19+00",
    "sched": null
   }
  ]
