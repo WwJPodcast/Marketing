@@ -106,6 +106,14 @@ body.has-bar{padding-bottom:calc(76px + env(safe-area-inset-bottom,0px))}
 .prow small{color:var(--mute);font-size:11px;grid-column:1/-1}
 .prow .tag{font-size:9px;letter-spacing:.06em;text-transform:uppercase;border:1px solid currentColor;border-radius:3px;padding:0 4px;margin-left:6px;vertical-align:1px}
 .prow.long .tag{color:var(--long)}.prow.up .tag{color:var(--eng)}
+.tgrid{display:grid;gap:0;font-size:12px;align-items:center}
+.tgrid>span{padding:6px 4px;border-top:1px solid var(--line)}
+.tgrid .th{border-top:0;font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--mute);text-align:right}
+.tgrid .tn{padding-left:0}
+.tgrid .tc{text-align:right;display:flex;flex-direction:column}
+.tgrid .tc small{color:var(--mute);font-size:10px}
+.tgrid .tc.early b{color:var(--mute);font-weight:400}
+.tgrid .tc.best b{color:var(--eng)}
 .more{align-self:flex-start;background:none;border:1px solid var(--line);border-radius:8px;padding:6px 12px;color:var(--mute);cursor:pointer;min-height:36px}
 .more:active{background:var(--empty)}
 .chg{border:1px solid var(--eng);border-radius:10px;padding:8px 12px;background:var(--panel);font-size:12px}
@@ -335,6 +343,22 @@ function postsBlock(p){
   sec.append(h('div','sum',`<span>${YTP?`Views are YouTube's own count. % watched is the average share of each video people watched. Numbers keep growing for a few days.`:`Posts over ${LONG} seconds are long-form. Views are Facebook's own play count and keep growing for a few days.`}</span>`));
   return [sec]}
 
+/* ---------- which kind of post works: median views per type, split where the method changed ---------- */
+function typesBlock(p){
+  const T=DATA.by_type&&DATA.by_type[p.key];if(!T||!T.periods||!T.periods.length)return [];
+  const names=[['nature','Nature'],['tomorrow',"Tomorrow's episode"],['promo','Promo']],EARLY=8;
+  const per=T.periods,sec=h('div','posts');
+  sec.append(h('div','sec-t','<span>Which post types work</span><em>median views per post</em>'));
+  const g=h('div','tgrid num');g.style.gridTemplateColumns=`1.5fr repeat(${per.length},1fr)`;
+  g.append(h('span','th',''),...per.map(x=>h('span','th',x.label)));
+  const best=per.map(x=>{const ok=names.filter(([k])=>x.types[k]&&x.types[k].n>=EARLY);
+    return ok.length>1?ok.reduce((a,b)=>x.types[b[0]].med>x.types[a[0]].med?b:a)[0]:null});
+  names.forEach(([k,label])=>{g.append(h('span','tn',label));
+    per.forEach((x,i)=>{const c=x.types[k];
+      g.append(c?h('span','tc'+(c.n<EARLY?' early':'')+(best[i]===k?' best':''),`<b>${full(c.med)}</b><small>${c.n} post${c.n===1?'':'s'}${c.n<EARLY?' · early':''}</small>`):h('span','tc early','<b>—</b>'))})});
+  sec.append(g,h('div','sum',`<span>Only posts at least ${T.min_age} days old. Columns split where the posting method changed. “Early” means fewer than ${EARLY} posts, so don't trust it yet. The bold amber number is the best type in that column. Type is mixed with posting time: tomorrow's-episode posts go out in the evening, nature mostly in the morning.</span>`));
+  return [sec]}
+
 /* ---------- C: overview + one platform at a time ---------- */
 function layoutC(root){
   root.className='page narrow';
@@ -373,7 +397,7 @@ function layoutC(root){
   const tabs=h('div','tabs');tabs.setAttribute('role','tablist');tabs.setAttribute('aria-label','Platform');
   const panel=h('section','plat');panel.setAttribute('role','tabpanel');
   const pick=(k,tap)=>{const p=DATA.platforms.find(x=>x.key===k);panel.style.setProperty('--pc',`var(--${k})`);[...tabs.children].forEach(b=>b.setAttribute('aria-selected',b.dataset.k===k));
-    panel.replaceChildren(...[platHead(p),statLine(p),changesPlat(p)].filter(Boolean),legend(),...charts(p,'twin'),...splitBlock(p),...postsBlock(p));try{localStorage.setItem('wwj-reach-tab',k)}catch(e){}
+    panel.replaceChildren(...[platHead(p),statLine(p),changesPlat(p)].filter(Boolean),legend(),...charts(p,'twin'),...splitBlock(p),...postsBlock(p),...typesBlock(p));try{localStorage.setItem('wwj-reach-tab',k)}catch(e){}
     if(tap){const r=panel.getBoundingClientRect();if(r.top<0||r.top>innerHeight*0.6)panel.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})}};
   DATA.platforms.forEach(p=>{const b=h('button',null,`${ico(p.key,'')}${p.name}`);b.style.setProperty('--pc',`var(--${p.key})`);b.type='button';b.id='tab-'+p.key;b.dataset.k=p.key;b.setAttribute('role','tab');b.addEventListener('click',()=>pick(p.key,true));tabs.append(b)});
   root.append(panel,foot());

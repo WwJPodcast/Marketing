@@ -619,6 +619,40 @@ def build_yt_page_list(path, now, days=21):
     return {"days": days, "items": items} if items else None
 
 
+def build_type_table(path, events, now, min_age=3):
+    """Median views per post type, per platform, split into periods at each date the posting method
+    changed for that platform. Posts younger than min_age days are left out (numbers still growing)."""
+    posts = json.loads(path.read_text(encoding="utf-8")).get("posts", [])
+    out = {}
+    for plat in ("yt", "fb", "ig", "tt"):
+        cuts = []
+        for c in sorted({e["date"] for e in events if plat in (e.get("platforms") or [])}):
+            # changes within 2 days of each other count as one (a one-day period tells us nothing)
+            if not cuts or (dt.date.fromisoformat(c) - dt.date.fromisoformat(cuts[-1])).days >= 3:
+                cuts.append(c)
+        starts = [None] + cuts  # period i runs from starts[i] up to (not including) starts[i+1]
+        periods = []
+        for i, st in enumerate(starts):
+            en = starts[i + 1] if i + 1 < len(starts) else None
+            md = lambda d: f"{int(d[5:7])}/{int(d[8:10])}"
+            lab = (f"since {md(st)}" if en is None else f"{md(st)}\u2013{md(en)}" if st else f"before {md(en)}")
+            if en is not None and st:  # end label is the day before the next change
+                lab = f"{md(st)}\u2013{md((dt.date.fromisoformat(en) - dt.timedelta(days=1)).isoformat())}"
+            types = {}
+            for ty in ("nature", "tomorrow", "promo"):
+                vs = sorted(x["v"] for x in posts
+                            if x.get("p") == plat and x.get("type") == ty and x.get("t") and x.get("v") is not None
+                            and (x.get("age") or 0) >= min_age
+                            and (st is None or x["t"][:10] >= st) and (en is None or x["t"][:10] < en))
+                if vs:
+                    n = len(vs)
+                    types[ty] = {"n": n, "med": vs[n // 2] if n % 2 else round((vs[n // 2 - 1] + vs[n // 2]) / 2)}
+            if types:
+                periods.append({"label": lab, "types": types})
+        out[plat] = {"periods": periods[::-1], "min_age": min_age}  # newest period first
+    return out
+
+
 def label(now):
     h = now.hour % 12 or 12
     return f"{DOWS[now.weekday()]} {now.month}/{now.day} {h}:{now.minute:02d} {'AM' if now.hour < 12 else 'PM'}"
@@ -715,6 +749,11 @@ def main():
         data["fb_posts"] = fb_page_list
     if data_yt_posts:
         data["yt_posts"] = data_yt_posts
+    try:
+        evs = load(HERE / "events.json", {}).get("events") or []
+        data["by_type"] = build_type_table(HERE / "posts.json", evs, now)
+    except Exception as ex:
+        NOTES.append(f"Post-type table not built: {clean(ex)}")
     ev = load(HERE / "events.json", {}).get("events")
     if isinstance(ev, list):
         data["events"] = ev  # dates when the posting method changed (edit events.json)
