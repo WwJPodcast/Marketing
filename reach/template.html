@@ -312,8 +312,8 @@ function splitBlock(p){
 
 /* ---------- Facebook only: every recent video with its length and views ---------- */
 function postsBlock(p){
-  const F=DATA.fb_posts;if(p.key!=='fb'||!F||!F.items||!F.items.length)return [];
-  const LONG=F.long_over||90,isL=i=>(i.len||0)>LONG;
+  const YTP=p.key==='yt',F=YTP?DATA.yt_posts:p.key==='fb'?DATA.fb_posts:null;if(!F||!F.items||!F.items.length)return [];
+  const LONG=F.long_over||90,isL=i=>YTP?i.k==='video':(i.len||0)>LONG;
   const mm=n=>n==null?'?':Math.floor(n/60)+':'+String(n%60).padStart(2,'0');
   const when=t=>{const d=pd(t.slice(0,10));let H=+t.slice(11,13);const m=t.slice(14,16);const ap=H<12?'AM':'PM';H=H%12||12;return dl(d)+' '+H+':'+m+' '+ap};
   const med=a=>{if(!a.length)return null;const b=[...a].sort((x,y)=>x-y),n=b.length;return n%2?b[(n-1)/2]:Math.round((b[n/2-1]+b[n/2])/2)};
@@ -321,18 +321,18 @@ function postsBlock(p){
   const stat=(label,col,list)=>{const k=list.filter(i=>i.v!=null);
     return `<span><i style="background:var(${col})"></i><b>${label}</b> · ${list.length} posted · median <b class="num">${k.length?full(med(k.map(i=>i.v))):'—'}</b> views · total <b class="num">${full(k.reduce((s,i)=>s+i.v,0))}</b></span>`};
   const sec=h('div','posts');
-  sec.append(h('div','sec-t',`<span>Recent posts</span><em>last ${F.days} days · by go-live time</em>`),
-    h('div','sum num',stat('Shorts and Reels','--views',live.filter(i=>!isL(i)))+stat('Long-form','--long',live.filter(isL))));
+  sec.append(h('div','sec-t',`<span>${YTP?'Recent videos':'Recent posts'}</span><em>last ${F.days} days · by go-live time</em>`),
+    h('div','sum num',stat(YTP?'Shorts':'Shorts and Reels','--views',live.filter(i=>!isL(i)))+stat(YTP?'Full episodes':'Long-form','--long',live.filter(isL))));
   const list=h('div','plist');
   const row=i=>{const L=isL(i);
     const r=h('div','prow'+(L?' long':'')+(i.up?' up':''),
-      `<span class="x">${i.x?i.x.replace(/</g,'&lt;'):'(no caption)'}${L?'<span class="tag">Long</span>':''}${i.up?'<span class="tag">Scheduled</span>':''}</span><span class="v num">${i.up||i.v==null?'—':full(i.v)}</span><small>${when(i.t)} · ${mm(i.len)} · ${i.k==='reel'?'Reel':'Video'}</small>`);return r};
+      `<span class="x">${i.x?i.x.replace(/</g,'&lt;'):'(no caption)'}${L?'<span class="tag">Long</span>':''}${i.up?'<span class="tag">Scheduled</span>':''}</span><span class="v num">${i.up||i.v==null?'—':full(i.v)}</span><small>${when(i.t)} · ${mm(i.len)} · ${YTP?(L?'Episode':'Short'):i.k==='reel'?'Reel':'Video'}${i.ty&&i.ty!=='other'?' · '+i.ty:''}${i.wp!=null?' · '+Math.round(i.wp)+'% watched':''}</small>`);return r};
   const SHOW=20;let all=false;
   const paint=()=>{list.replaceChildren(...(all?F.items:F.items.slice(0,SHOW)).map(row));
     if(F.items.length>SHOW){btn.textContent=all?'Show fewer':'Show all '+F.items.length;btn.hidden=false}else btn.hidden=true};
   const btn=h('button','more');btn.type='button';btn.addEventListener('click',()=>{all=!all;paint()});
   paint();sec.append(list,btn);
-  sec.append(h('div','sum',`<span>Posts over ${LONG} seconds are long-form. Views are Facebook's own play count and keep growing for a few days.</span>`));
+  sec.append(h('div','sum',`<span>${YTP?`Views are YouTube's own count. % watched is the average share of each video people watched. Numbers keep growing for a few days.`:`Posts over ${LONG} seconds are long-form. Views are Facebook's own play count and keep growing for a few days.`}</span>`));
   return [sec]}
 
 /* ---------- C: overview + one platform at a time ---------- */

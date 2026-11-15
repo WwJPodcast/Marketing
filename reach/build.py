@@ -604,6 +604,21 @@ def load(path, default):
         return default
 
 
+def build_yt_page_list(path, now, days=21):
+    """Trimmed list of recent YouTube videos for the page, newest first."""
+    posts = json.loads(path.read_text(encoding="utf-8")).get("posts", [])
+    cut = (now.date() - dt.timedelta(days=days)).isoformat()
+    items = []
+    for x in posts:
+        if x.get("p") != "yt" or not x.get("t") or x["t"][:10] < cut:
+            continue
+        items.append({"t": x["t"][:16], "len": x.get("len"), "v": x.get("v"),
+                      "k": "short" if "/shorts/" in (x.get("url") or "") else "video",
+                      "x": (x.get("x") or "")[:60], "wp": x.get("watch_pct"), "ty": x.get("type"), "up": False})
+    items.sort(key=lambda i: i["t"], reverse=True)
+    return {"days": days, "items": items} if items else None
+
+
 def label(now):
     h = now.hour % 12 or 12
     return f"{DOWS[now.weekday()]} {now.month}/{now.day} {h}:{now.minute:02d} {'AM' if now.hour < 12 else 'PM'}"
@@ -661,6 +676,7 @@ def main():
         NOTES.append(f"{names[key]} not updated: {why}")
 
     fb_page_list, fb_rows = None, None
+    data_yt_posts = None
     try:
         fb_page_list, fb_rows = fetch_facebook_posts(now)  # extra detail for diagnosing Facebook; never allowed to affect the page
     except Exception as ex:
@@ -683,6 +699,9 @@ def main():
     try:
         n = per_post.write_posts(HERE / "posts.json", history, now, post_notes)
         NOTES.append(f"posts.json: {n} posts; " + "; ".join(post_notes)[:400])
+        yt_page = build_yt_page_list(HERE / "posts.json", now)
+        if yt_page:
+            data_yt_posts = yt_page
     except Exception as ex:
         print(f"::warning::posts.json not written: {clean(ex)}")
         NOTES.append(f"posts.json not written: {clean(ex)}")
@@ -694,6 +713,8 @@ def main():
     data = {"updated": label(now), "updated_date": iso(now.date()), "platforms": platforms, "notes": NOTES}
     if fb_page_list:
         data["fb_posts"] = fb_page_list
+    if data_yt_posts:
+        data["yt_posts"] = data_yt_posts
     ev = load(HERE / "events.json", {}).get("events")
     if isinstance(ev, list):
         data["events"] = ev  # dates when the posting method changed (edit events.json)
