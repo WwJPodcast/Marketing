@@ -1,5 +1,5 @@
 {
- "updated": "Sat 11/14 10:40 PM",
+ "updated": "Sat 11/14 10:43 PM",
  "updated_date": "2026-11-14",
  "platforms": [
   {
@@ -1951,6 +1951,531 @@
     "v": 27,
     "k": "reel",
     "x": "Three Gospels tell of Jesus walking on the water",
+    "up": false
+   }
+  ]
+ },
+ "yt_posts": {
+  "days": 21,
+  "items": [
+   {
+    "t": "2026-11-12T17:00",
+    "len": 18,
+    "v": 191,
+    "k": "short",
+    "x": "John 6:35 KJV \u2014 It Is I; Be Not Afraid | Walking with Jesus",
+    "wp": 77.36,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-11-12T09:00",
+    "len": 18,
+    "v": 2,
+    "k": "short",
+    "x": "Matthew 14:31 KJV \u2014 It Is I; Be Not Afraid | Walking with Je",
+    "wp": 0,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-11-11T17:00",
+    "len": 17,
+    "v": 4,
+    "k": "short",
+    "x": "Luke 9:62 KJV \u2014 Freely Ye Have Received, Freely Give | Walki",
+    "wp": 0,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-11-11T09:00",
+    "len": 17,
+    "v": 4,
+    "k": "short",
+    "x": "Matthew 10:8 KJV \u2014 Freely Ye Have Received, Freely Give | Wa",
+    "wp": 127.06,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-11-10T17:00",
+    "len": 16,
+    "v": 16,
+    "k": "short",
+    "x": "Luke 8:50 KJV \u2014 Damsel, I Say Unto Thee, Arise | Walking wit",
+    "wp": 80.34,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-11-10T14:00",
+    "len": 14,
+    "v": 18,
+    "k": "short",
+    "x": "Four Gospels. One Timeline. Zero Commentary. \u2014 Walking with ",
+    "wp": 60.95,
+    "ty": "promo",
+    "up": false
+   },
+   {
+    "t": "2026-11-10T09:00",
+    "len": 18,
+    "v": 14,
+    "k": "short",
+    "x": "Mark 5:36 KJV \u2014 Damsel, I Say Unto Thee, Arise | Walking wit",
+    "wp": 100.83,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-11-10T04:00",
+    "len": 719,
+    "v": 2,
+    "k": "video",
+    "x": "Damsel, I Say Unto Thee, Arise \u2014 Matthew 9-10, 13; Luke 4, 8",
+    "wp": 4.2,
+    "ty": "episode",
+    "up": false
+   },
+   {
+    "t": "2026-11-09T17:00",
+    "len": 17,
+    "v": 89,
+    "k": "short",
+    "x": "Luke 6:37 KJV \u2014 My Name Is Legion | Walking with Jesus",
+    "wp": 74,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-11-09T09:00",
+    "len": 17,
+    "v": 47,
+    "k": "short",
+    "x": "Mark 5:34 KJV \u2014 My Name Is Legion | Walking with Jesus",
+    "wp": 66.12,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-11-09T04:00",
+    "len": 733,
+    "v": 2,
+    "k": "video",
+    "x": "My Name Is Legion \u2014 Matthew 8-9; Mark 5; Luke 8 KJV | Harmon",
+    "wp": 1.08,
+    "ty": "episode",
+    "up": false
+   },
+   {
+    "t": "2026-11-06T14:00",
+    "len": 21,
+    "v": 43,
+    "k": "short",
+    "x": "Matthew 13:44 KJV \u2014 Even the Wind and Sea Obey Him | Walking",
+    "wp": 70.54,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-11-06T09:00",
+    "len": 18,
+    "v": 965,
+    "k": "short",
+    "x": "Mark 4:39 KJV \u2014 Even the Wind and Sea Obey Him | Walking wit",
+    "wp": 67.47,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-11-06T04:00",
+    "len": 790,
+    "v": 1,
+    "k": "video",
+    "x": "Even the Wind and Sea Obey Him \u2014 Matthew 8, 13; Mark 4; Luke",
+    "wp": 5.33,
+    "ty": "episode",
+    "up": false
+   },
+   {
+    "t": "2026-11-05T17:00",
+    "len": 53,
+    "v": 86,
+    "k": "short",
+    "x": "Even the Wind and Sea Obey Him \u2014 Matt 8, 13; Mark 4; Luke 8 ",
+    "wp": 34.86,
+    "ty": "tomorrow",
+    "up": false
+   },
+   {
+    "t": "2026-11-05T14:00",
+    "len": 20,
+    "v": 14,
+    "k": "short",
+    "x": "Mark 4:24 KJV \u2014 He That Hath Ears to Hear, Let Him Hear | Wa",
+    "wp": 102.86,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-11-05T09:00",
+    "len": 19,
+    "v": 114,
+    "k": "short",
+    "x": "Luke 8:15 KJV \u2014 He That Hath Ears to Hear, Let Him Hear | Wa",
+    "wp": 68.99,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-11-05T04:00",
+    "len": 816,
+    "v": 3,
+    "k": "video",
+    "x": "He That Hath Ears to Hear, Let Him Hear \u2014 Matthew 13; Mark 4",
+    "wp": 2.19,
+    "ty": "episode",
+    "up": false
+   },
+   {
+    "t": "2026-11-04T17:00",
+    "len": 48,
+    "v": 69,
+    "k": "short",
+    "x": "He That Hath Ears to Hear, Let Him Hear \u2014 Matt 13; Mark 4; L",
+    "wp": 89.65,
+    "ty": "tomorrow",
+    "up": false
+   },
+   {
+    "t": "2026-11-04T14:00",
+    "len": 17,
+    "v": 112,
+    "k": "short",
+    "x": "Matthew 12:30 KJV \u2014 A House Divided Against Itself | Walking",
+    "wp": 65.5,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-11-04T09:00",
+    "len": 18,
+    "v": 86,
+    "k": "short",
+    "x": "Luke 11:9 KJV \u2014 A House Divided Against Itself | Walking wit",
+    "wp": 92.5,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-11-03T17:00",
+    "len": 51,
+    "v": 53,
+    "k": "short",
+    "x": "A House Divided Against Itself \u2014 Matt 12; Mark 3; Luke 8, 11",
+    "wp": 65.27,
+    "ty": "tomorrow",
+    "up": false
+   },
+   {
+    "t": "2026-11-03T09:00",
+    "len": 16,
+    "v": 4,
+    "k": "short",
+    "x": "Matthew 11:28 KJV \u2014 Young Man, I Say Unto Thee, Arise | Walk",
+    "wp": 46.25,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-11-03T04:00",
+    "len": 782,
+    "v": 2,
+    "k": "video",
+    "x": "Young Man, I Say Unto Thee, Arise \u2014 Matthew 11; Luke 7-8, 11",
+    "wp": 0,
+    "ty": "episode",
+    "up": false
+   },
+   {
+    "t": "2026-11-02T17:00",
+    "len": 51,
+    "v": 55,
+    "k": "short",
+    "x": "Young Man, I Say Unto Thee, Arise \u2014 Matt 11; Luke 7-8, 11 KJ",
+    "wp": 54.76,
+    "ty": "tomorrow",
+    "up": false
+   },
+   {
+    "t": "2026-11-02T14:00",
+    "len": 17,
+    "v": 9,
+    "k": "short",
+    "x": "Matthew 7:7 KJV \u2014 Seek Ye First the Kingdom of God | Walking",
+    "wp": 188.18,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-11-02T09:00",
+    "len": 16,
+    "v": 38,
+    "k": "short",
+    "x": "Luke 6:46 KJV \u2014 Seek Ye First the Kingdom of God | Walking w",
+    "wp": 72.96,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-11-01T17:00",
+    "len": 45,
+    "v": 39,
+    "k": "short",
+    "x": "Seek Ye First the Kingdom of God \u2014 Matt 6-8; Luke 6-7 KJV",
+    "wp": 56.56,
+    "ty": "tomorrow",
+    "up": false
+   },
+   {
+    "t": "2026-11-01T09:00",
+    "len": 31,
+    "v": 284,
+    "k": "short",
+    "x": "Pastors: Try This for a Year \u2014 Walking with Jesus",
+    "wp": 51.2,
+    "ty": "promo",
+    "up": false
+   },
+   {
+    "t": "2026-10-30T14:00",
+    "len": 16,
+    "v": 89,
+    "k": "short",
+    "x": "Luke 6:31 KJV \u2014 Our Father Which Art in Heaven | Walking wit",
+    "wp": 85.93,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-10-30T09:00",
+    "len": 18,
+    "v": 141,
+    "k": "short",
+    "x": "Matthew 5:17 KJV \u2014 Our Father Which Art in Heaven | Walking ",
+    "wp": 63.46000000000001,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-10-30T04:00",
+    "len": 711,
+    "v": 1,
+    "k": "video",
+    "x": "Our Father Which Art in Heaven \u2014 Matthew 5-6; Luke 6 KJV | H",
+    "wp": 0,
+    "ty": "episode",
+    "up": false
+   },
+   {
+    "t": "2026-10-29T17:00",
+    "len": 50,
+    "v": 25,
+    "k": "short",
+    "x": "Our Father Which Art in Heaven \u2014 Matt 5-6; Luke 6 KJV",
+    "wp": 24.1,
+    "ty": "tomorrow",
+    "up": false
+   },
+   {
+    "t": "2026-10-29T14:00",
+    "len": 15,
+    "v": 204,
+    "k": "short",
+    "x": "Matthew 5:8 KJV \u2014 Ye Are the Salt of the Earth | Walking wit",
+    "wp": 96.94,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-10-29T09:00",
+    "len": 18,
+    "v": 164,
+    "k": "short",
+    "x": "Matthew 5:16 KJV \u2014 Ye Are the Salt of the Earth | Walking wi",
+    "wp": 58.56,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-10-29T04:00",
+    "len": 681,
+    "v": 5,
+    "k": "video",
+    "x": "Ye Are the Salt of the Earth \u2014 Matthew 5, 12; Mark 3; Luke 6",
+    "wp": 7.24,
+    "ty": "episode",
+    "up": false
+   },
+   {
+    "t": "2026-10-28T17:00",
+    "len": 63,
+    "v": 32,
+    "k": "short",
+    "x": "Ye Are the Salt of the Earth \u2014 Matt 5, 12; Mark 3; Luke 6 KJ",
+    "wp": 57.05,
+    "ty": "tomorrow",
+    "up": false
+   },
+   {
+    "t": "2026-10-28T14:00",
+    "len": 15,
+    "v": 99,
+    "k": "short",
+    "x": "John 5:40 KJV \u2014 Rise, Take Up Thy Bed, and Walk | Walking wi",
+    "wp": 63.35000000000001,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-10-28T09:00",
+    "len": 17,
+    "v": 152,
+    "k": "short",
+    "x": "John 5:39 KJV \u2014 Rise, Take Up Thy Bed, and Walk | Walking wi",
+    "wp": 114.84,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-10-28T04:00",
+    "len": 833,
+    "v": 1,
+    "k": "video",
+    "x": "Rise, Take Up Thy Bed, and Walk \u2014 Matthew 9, 12; Mark 2; Joh",
+    "wp": 3.2199999999999998,
+    "ty": "episode",
+    "up": false
+   },
+   {
+    "t": "2026-10-27T17:00",
+    "len": 45,
+    "v": 81,
+    "k": "short",
+    "x": "Rise, Take Up Thy Bed, and Walk \u2014 Matt 9, 12; Mark 2; Luke 5",
+    "wp": 57.87,
+    "ty": "tomorrow",
+    "up": false
+   },
+   {
+    "t": "2026-10-27T14:00",
+    "len": 31,
+    "v": 71,
+    "k": "short",
+    "x": "No Gospel Records All Seven \u2014 Four Gospel Harmony",
+    "wp": 81.17,
+    "ty": "promo",
+    "up": false
+   },
+   {
+    "t": "2026-10-27T09:00",
+    "len": 19,
+    "v": 89,
+    "k": "short",
+    "x": "Matthew 9:13 KJV \u2014 Thy Sins Be Forgiven Thee | Walking with ",
+    "wp": 60.84,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-10-27T04:00",
+    "len": 810,
+    "v": 1,
+    "k": "video",
+    "x": "Thy Sins Be Forgiven Thee \u2014 Matthew 4, 8-9; Mark 1-2; Luke 4",
+    "wp": 0,
+    "ty": "episode",
+    "up": false
+   },
+   {
+    "t": "2026-10-26T17:00",
+    "len": 52,
+    "v": 20,
+    "k": "short",
+    "x": "Thy Sins Be Forgiven Thee \u2014 Matt 4, 8-9; Mark 1-2; Luke 4-5 ",
+    "wp": 46.01,
+    "ty": "tomorrow",
+    "up": false
+   },
+   {
+    "t": "2026-10-26T14:00",
+    "len": 17,
+    "v": 45,
+    "k": "short",
+    "x": "Mark 1:15 KJV \u2014 Follow Me, and I Will Make You Fishers of Me",
+    "wp": 89.11,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-10-26T09:00",
+    "len": 16,
+    "v": 47,
+    "k": "short",
+    "x": "Matthew 4:19 KJV \u2014 Follow Me, and I Will Make You Fishers of",
+    "wp": 79.88,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-10-26T04:00",
+    "len": 765,
+    "v": 9,
+    "k": "video",
+    "x": "Follow Me, and I Will Make You Fishers of Men \u2014 Mark 1; Luke",
+    "wp": 2.49,
+    "ty": "episode",
+    "up": false
+   },
+   {
+    "t": "2026-10-25T17:00",
+    "len": 46,
+    "v": 72,
+    "k": "short",
+    "x": "Follow Me, and I Will Make You Fishers of Men \u2014 Matt 4, 8; M",
+    "wp": 34.27,
+    "ty": "tomorrow",
+    "up": false
+   },
+   {
+    "t": "2026-10-25T09:00",
+    "len": 23,
+    "v": 44,
+    "k": "short",
+    "x": "Only Matthew Says Peter Walked Too \u2014 Four Gospel Harmony",
+    "wp": 46.86,
+    "ty": "promo",
+    "up": false
+   },
+   {
+    "t": "2026-10-24T15:01",
+    "len": 13,
+    "v": 255,
+    "k": "short",
+    "x": "Do You Have a Daily Habit That Puts Jesus First? \u2014 Walking w",
+    "wp": 123.61999999999999,
+    "ty": "promo",
+    "up": false
+   },
+   {
+    "t": "2026-10-24T09:03",
+    "len": 31,
+    "v": 106,
+    "k": "short",
+    "x": "Why Luke Wrote His Gospel \u2014 Walking with Jesus",
+    "wp": 72.34,
+    "ty": "promo",
     "up": false
    }
   ]
