@@ -646,7 +646,7 @@ def build_type_table(path, events, now, min_age=3):
                             and (st is None or x["t"][:10] >= st) and (en is None or x["t"][:10] < en))
                 if vs:
                     n = len(vs)
-                    types[ty] = {"n": n, "med": vs[n // 2] if n % 2 else round((vs[n // 2 - 1] + vs[n // 2]) / 2)}
+                    types[ty] = {"n": n, "tot": sum(vs), "med": vs[n // 2] if n % 2 else round((vs[n // 2 - 1] + vs[n // 2]) / 2)}
             if types:
                 periods.append({"label": lab, "types": types})
         out[plat] = {"periods": periods[::-1], "min_age": min_age}  # newest period first

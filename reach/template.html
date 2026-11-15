@@ -348,14 +348,14 @@ function typesBlock(p){
   const T=DATA.by_type&&DATA.by_type[p.key];if(!T||!T.periods||!T.periods.length)return [];
   const names=[['nature','Nature'],['tomorrow',"Tomorrow's episode"],['promo','Promo']],EARLY=8;
   const per=T.periods,sec=h('div','posts');
-  sec.append(h('div','sec-t','<span>Which post types work</span><em>median views per post</em>'));
+  sec.append(h('div','sec-t','<span>Which post types work</span><em>bold = typical views per post</em>'));
   const g=h('div','tgrid num');g.style.gridTemplateColumns=`1.5fr repeat(${per.length},1fr)`;
   g.append(h('span','th',''),...per.map(x=>h('span','th',x.label)));
   const best=per.map(x=>{const ok=names.filter(([k])=>x.types[k]&&x.types[k].n>=EARLY);
     return ok.length>1?ok.reduce((a,b)=>x.types[b[0]].med>x.types[a[0]].med?b:a)[0]:null});
   names.forEach(([k,label])=>{g.append(h('span','tn',label));
     per.forEach((x,i)=>{const c=x.types[k];
-      g.append(c?h('span','tc'+(c.n<EARLY?' early':'')+(best[i]===k?' best':''),`<b>${full(c.med)}</b><small>${c.n} post${c.n===1?'':'s'}${c.n<EARLY?' · early':''}</small>`):h('span','tc early','<b>—</b>'))})});
+      g.append(c?h('span','tc'+(c.n<EARLY?' early':'')+(best[i]===k?' best':''),`<b>${full(c.med)}</b><small>${c.n} post${c.n===1?'':'s'}${c.n<EARLY?' · early':''}</small><small>${full(c.tot)} total views</small>`):h('span','tc early','<b>—</b>'))})});
   sec.append(g,h('div','sum',`<span>Only posts at least ${T.min_age} days old. Columns split where the posting method changed. “Early” means fewer than ${EARLY} posts, so don't trust it yet. The bold amber number is the best type in that column. Type is mixed with posting time: tomorrow's-episode posts go out in the evening, nature mostly in the morning.</span>`));
   return [sec]}
 
