@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-12T14:13:49-06:00",
- "updated_label": "Thu 11/12 2:13 PM",
- "window_start": "2026-11-12",
+ "updated": "2026-11-15T14:15:02-06:00",
+ "updated_label": "Sun 11/15 2:15 PM",
+ "window_start": "2026-11-15",
  "window_days": 21,
  "goal_days": 14,
  "types": [
@@ -11,7 +11,7 @@
    "rate": "5/wk",
    "per_week": 5,
    "builds": "Wed night",
-   "reported": "11/12",
+   "reported": "11/15",
    "queued": {
     "through": null,
     "count": 0
@@ -22,7 +22,7 @@
    },
    "review": {
     "through": "2026-11-19",
-    "count": 6,
+    "count": 5,
     "fix": 0
    },
    "picked": {
@@ -37,10 +37,10 @@
    "rate": "5–9/wk",
    "per_week": 7,
    "builds": "Mon night",
-   "reported": "11/12",
+   "reported": "11/15",
    "queued": {
-    "through": "2026-11-13",
-    "count": 2
+    "through": null,
+    "count": 0
    },
    "ready": {
     "through": "2026-11-20",
@@ -63,9 +63,9 @@
    "rate": "4/wk",
    "per_week": 4,
    "builds": "Thu night",
-   "reported": "11/12",
+   "reported": "11/15",
    "queued": {
-    "count": 7
+    "count": 1
    },
    "ready": {
     "count": 0
@@ -77,30 +77,37 @@
    "picked": {
     "count": 0
    },
-   "holes": []
+   "holes": [
+    "2026-11-21"
+   ]
   }
  ],
  "buffer": {
-  "youtube": 8,
-  "instagram": 9,
-  "facebook": 5,
-  "tiktok": 9,
+  "youtube": 1,
+  "instagram": 1,
+  "facebook": 1,
+  "tiktok": 1,
   "through_label": "Tue 11/17 2 PM",
-  "posted_7d": 12
+  "posted_7d": 17
  },
  "needs_you": [
   {
-   "what": "Review 6 Tomorrow's posts 11/12–19",
+   "what": "Review 5 Tomorrow's posts 11/15–19",
    "due": "now",
    "urgent": true
   },
   {
-   "what": "Pick Tomorrow's passages 11/22–12/3 (S4E26–S4E35)",
+   "what": "Pick Tomorrow's passages 11/22–12/6 (S4E26–S4E36)",
    "due": "by Wed",
    "urgent": true
   },
   {
-   "what": "Pick nature verses 12/2–3",
+   "what": "Approve 2 more promos for 11/21",
+   "due": "by Fri",
+   "urgent": true
+  },
+  {
+   "what": "Pick nature verses 12/2–4",
    "due": "by Mon 11/23",
    "urgent": false
   }
@@ -110,10 +117,10 @@
   "fix": 0
  },
  "last_run": {
-  "ok": true,
-  "scheduled": 4,
+  "ok": false,
+  "scheduled": 0,
   "held": 0,
-  "note": "Tue night"
+  "note": "Sun noon: GitHub push blocked (403 from Cowork shell)"
  },
- "next_run": "Fri 11:52 AM"
+ "next_run": "Tue 8:52 PM"
 }
