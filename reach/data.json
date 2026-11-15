@@ -1,5 +1,5 @@
 {
- "updated": "Sun 11/15 8:44 AM",
+ "updated": "Sun 11/15 11:58 AM",
  "updated_date": "2026-11-15",
  "platforms": [
   {
@@ -1497,18 +1497,26 @@
   "YouTube split since 2026-09-15: shorts 16033 + long-form 104 of 16151 total views; 83 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 213; saved with numbers: 241",
-  "Facebook posts, last 21 days: 56 reels, 0 other videos, 10 over 90s; views known for 56 of 56, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 462 posts; YouTube per-video: 145 videos, titles from Data API for 145, public-title/first-view lookups 0; Facebook per-post: 56 saved"
+  "Buffer posts read: 215; saved with numbers: 242",
+  "Facebook posts, last 21 days: 50 reels, 0 other videos, 4 over 90s; views known for 50 of 50, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
+  "posts.json: 463 posts; YouTube per-video: 145 videos, titles from Data API for 145, public-title/first-view lookups 0; Facebook per-post: 49 saved"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
    {
+    "t": "2026-11-15T09:03",
+    "len": 23,
+    "v": 134,
+    "k": "reel",
+    "x": "You've quoted it. You've heard it preached. But ",
+    "up": false
+   },
+   {
     "t": "2026-11-14T15:01",
     "len": 14,
-    "v": 250,
+    "v": 251,
     "k": "reel",
     "x": "The entire life of Jesus can be heard in about t",
     "up": false
@@ -1890,67 +1898,11 @@
     "up": false
    },
    {
-    "t": "2026-10-26T06:00",
-    "len": 764,
-    "v": 1,
-    "k": "reel",
-    "x": "A blind push toward home gets a long-distance mi",
-    "up": false
-   },
-   {
-    "t": "2026-10-25T18:00",
-    "len": 928,
-    "v": 3,
-    "k": "reel",
-    "x": "A Pharisee comes by night with a question. A wom",
-    "up": false
-   },
-   {
     "t": "2026-10-25T17:01",
     "len": 46,
     "v": 249,
     "k": "reel",
     "x": "On tomorrow's episode of Walking with Jesus: Fol",
-    "up": false
-   },
-   {
-    "t": "2026-10-25T16:00",
-    "len": 838,
-    "v": 0,
-    "k": "reel",
-    "x": "Forty days alone against the devil. A wedding sa",
-    "up": false
-   },
-   {
-    "t": "2026-10-25T14:00",
-    "len": 805,
-    "v": 1,
-    "k": "reel",
-    "x": "Eighteen silent years end with a wilderness prea",
-    "up": false
-   },
-   {
-    "t": "2026-10-25T12:00",
-    "len": 858,
-    "v": 4,
-    "k": "reel",
-    "x": "Shepherds hear the news before anyone of standin",
-    "up": false
-   },
-   {
-    "t": "2026-10-25T10:00",
-    "len": 962,
-    "v": 8,
-    "k": "reel",
-    "x": "A priest struck silent for doubting an angel. A ",
-    "up": false
-   },
-   {
-    "t": "2026-10-25T09:01",
-    "len": 22,
-    "v": 27,
-    "k": "reel",
-    "x": "Three Gospels tell of Jesus walking on the water",
     "up": false
    }
   ]

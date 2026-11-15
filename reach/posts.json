@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15 08:44",
+ "updated": "2026-11-15 11:58",
  "fields": {
   "p": "platform",
   "t": "posted (Central)",
@@ -18,9 +18,33 @@
  },
  "notes": [
   "YouTube per-video: 145 videos, titles from Data API for 145, public-title/first-view lookups 0",
-  "Facebook per-post: 56 saved"
+  "Facebook per-post: 49 saved"
  ],
  "posts": [
+  {
+   "p": "tt",
+   "id": "6af3d9bad9a6812579c83e55",
+   "t": "2026-11-15T09:06",
+   "type": "promo",
+   "tag_by": "caption",
+   "opening": null,
+   "len": 23,
+   "x": "You've quoted it. You've heard it preached. But do you know ",
+   "url": "https://tiktok.com/@walking.with.jesu838/video/7708414276662217998",
+   "age": 0,
+   "v": 0,
+   "e": 0,
+   "v1": null,
+   "v7": null,
+   "e7": null,
+   "watch": 0,
+   "watch_pct": null,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": null,
+   "reach": 0
+  },
   {
    "p": "tt",
    "id": "6af3d9b9d9a6812579c83e12",
@@ -80,7 +104,7 @@
    "x": "The entire life of Jesus can be heard in about twelve and a",
    "url": "/reel/1287388453575752/",
    "age": 1,
-   "v": 250,
+   "v": 251,
    "e": 0,
    "v1": null,
    "v7": null,
@@ -11215,7 +11239,7 @@
    {
     "key": "fb/promo",
     "posts": 15,
-    "views": 1937,
+    "views": 1938,
     "engaged": 11,
     "eng_rate_pct": 0.57,
     "median_views": 150,
@@ -11334,15 +11358,15 @@
    },
    {
     "key": "tt/promo",
-    "posts": 9,
+    "posts": 10,
     "views": 437,
     "engaged": 28,
     "eng_rate_pct": 6.41,
-    "median_views": 26,
+    "median_views": 22.0,
     "median_views_day1": 30,
     "median_views_day7": 40.5,
     "with_day7": 6,
-    "median_watch_s": 3.6
+    "median_watch_s": 2.7
    },
    {
     "key": "tt/tomorrow",
@@ -11471,7 +11495,7 @@
    {
     "key": "fb/2026-11-09",
     "posts": 11,
-    "views": 1493,
+    "views": 1494,
     "engaged": 9,
     "eng_rate_pct": 0.6,
     "median_views": 99,
@@ -11734,15 +11758,15 @@
    },
    {
     "key": "tt/2026-11-09",
-    "posts": 11,
+    "posts": 12,
     "views": 147,
     "engaged": 3,
     "eng_rate_pct": 2.04,
-    "median_views": 9,
+    "median_views": 9.0,
     "median_views_day1": 9,
     "median_views_day7": null,
     "with_day7": 0,
-    "median_watch_s": 4.0
+    "median_watch_s": 3.8
    },
    {
     "key": "yt/2026-09-14",
@@ -11929,10 +11953,10 @@
    {
     "key": "fb/15",
     "posts": 4,
-    "views": 934,
+    "views": 935,
     "engaged": 4,
     "eng_rate_pct": 0.43,
-    "median_views": 260.0,
+    "median_views": 260.5,
     "median_views_day1": null,
     "median_views_day7": 1,
     "with_day7": 1,
@@ -12180,15 +12204,15 @@
    },
    {
     "key": "tt/09",
-    "posts": 18,
+    "posts": 19,
     "views": 554,
     "engaged": 50,
     "eng_rate_pct": 9.03,
-    "median_views": 17.5,
+    "median_views": 17,
     "median_views_day1": 18,
     "median_views_day7": 22,
     "with_day7": 13,
-    "median_watch_s": 3.2
+    "median_watch_s": 3
    },
    {
     "key": "tt/14",

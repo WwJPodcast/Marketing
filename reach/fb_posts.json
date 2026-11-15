@@ -1,5 +1,5 @@
 {
- "updated": "Sun 11/15 8:44 AM",
+ "updated": "Sun 11/15 11:58 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -8,10 +8,18 @@
  "errors": [],
  "days": [
   {
+   "d": "2026-11-15",
+   "short": 1,
+   "long": 0,
+   "short_views": 134,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
    "d": "2026-11-14",
    "short": 2,
    "long": 0,
-   "short_views": 411,
+   "short_views": 412,
    "long_views": 0,
    "unknown": 0
   },
@@ -89,21 +97,34 @@
   },
   {
    "d": "2026-10-25",
-   "short": 11,
-   "long": 10,
-   "short_views": 281,
-   "long_views": 18,
+   "short": 10,
+   "long": 4,
+   "short_views": 254,
+   "long_views": 1,
    "unknown": 0
   }
  ],
  "items": [
+  {
+   "id": "1500124888845405",
+   "type": "reel",
+   "at": "2026-11-15 09:03",
+   "live": "2026-11-15 09:03",
+   "len": 23,
+   "views": 134,
+   "src": "fb_reels_total_plays",
+   "text": "You've quoted it. You've heard it preached. But do you know ",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":1271334},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-15T15:03:30+00",
+   "sched": null
+  },
   {
    "id": "1287388453575752",
    "type": "reel",
    "at": "2026-11-14 15:01",
    "live": "2026-11-14 15:01",
    "len": 14,
-   "views": 250,
+   "views": 251,
    "src": "fb_reels_total_plays",
    "text": "The entire life of Jesus can be heard in about twelve and a ",
    "pub": true,
@@ -732,97 +753,6 @@
    "text": "On tomorrow's episode of Walking with Jesus: Follow Me, and ",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":2301850},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-25T22:01:17+00",
-   "sched": null
-  },
-  {
-   "id": "29221853900773778",
-   "type": "reel",
-   "at": "2026-10-25 09:47",
-   "live": "2026-10-26 06:00",
-   "len": 764,
-   "views": 1,
-   "src": "fb_reels_total_plays",
-   "text": "A blind push toward home gets a long-distance miracle. Four ",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\"},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-26T11:00:04+0000\"}}",
-   "sched": null
-  },
-  {
-   "id": "1627782005749310",
-   "type": "reel",
-   "at": "2026-10-25 09:46",
-   "live": "2026-10-25 18:00",
-   "len": 928,
-   "views": 3,
-   "src": "fb_reels_total_plays",
-   "text": "A Pharisee comes by night with a question. A woman at a well",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\"},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-25T23:00:14+0000\"}}",
-   "sched": null
-  },
-  {
-   "id": "1654903569355745",
-   "type": "reel",
-   "at": "2026-10-25 09:46",
-   "live": "2026-10-25 16:00",
-   "len": 838,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "Forty days alone against the devil. A wedding saved by water",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\"},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-25T21:00:07+0000\"}}",
-   "sched": null
-  },
-  {
-   "id": "1436824231884400",
-   "type": "reel",
-   "at": "2026-10-25 09:46",
-   "live": "2026-10-25 14:00",
-   "len": 805,
-   "views": 1,
-   "src": "fb_reels_total_plays",
-   "text": "Eighteen silent years end with a wilderness preacher and a v",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\"},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-25T19:00:24+0000\"}}",
-   "sched": null
-  },
-  {
-   "id": "1659653242399270",
-   "type": "reel",
-   "at": "2026-10-25 09:45",
-   "live": "2026-10-25 12:00",
-   "len": 858,
-   "views": 4,
-   "src": "fb_reels_total_plays",
-   "text": "Shepherds hear the news before anyone of standing does. Wise",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\"},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-25T17:00:03+0000\"}}",
-   "sched": null
-  },
-  {
-   "id": "1099263533010076",
-   "type": "reel",
-   "at": "2026-10-25 09:16",
-   "live": "2026-10-25 10:00",
-   "len": 962,
-   "views": 8,
-   "src": "fb_reels_total_plays",
-   "text": "A priest struck silent for doubting an angel. A virgin told ",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\"},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-25T15:00:10+0000\"}}",
-   "sched": null
-  },
-  {
-   "id": "1814527676414878",
-   "type": "reel",
-   "at": "2026-10-25 09:01",
-   "live": "2026-10-25 09:01",
-   "len": 22,
-   "views": 27,
-   "src": "fb_reels_total_plays",
-   "text": "Three Gospels tell of Jesus walking on the water. Only Matth",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":1086987},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-25T14:01:35+00",
    "sched": null
   }
  ]
