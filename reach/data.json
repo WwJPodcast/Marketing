@@ -1,5 +1,5 @@
 {
- "updated": "Mon 11/16 2:52 AM",
+ "updated": "Mon 11/16 11:00 AM",
  "updated_date": "2026-11-16",
  "platforms": [
   {
@@ -921,8 +921,8 @@
     },
     {
      "d": "2026-11-15",
-     "v": 0,
-     "e": 0
+     "v": 9,
+     "e": 3
     }
    ],
    "weekly": [
@@ -1053,8 +1053,8 @@
     },
     {
      "d": "2026-11-09",
-     "v": 186,
-     "e": 9
+     "v": 195,
+     "e": 12
     }
    ],
    "before": {
@@ -1497,18 +1497,26 @@
   "YouTube split since 2026-09-15: shorts 16067 + long-form 107 of 16188 total views; 85 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 217; saved with numbers: 244",
-  "Facebook posts, last 21 days: 37 reels, 0 other videos, 0 over 90s; views known for 37 of 37, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 469 posts; YouTube per-video: 147 videos, titles from Data API for 147, public-title/first-view lookups 0; Facebook per-post: 37 saved"
+  "Buffer posts read: 219; saved with numbers: 246",
+  "Facebook posts, last 21 days: 38 reels, 0 other videos, 0 over 90s; views known for 38 of 38, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
+  "posts.json: 471 posts; YouTube per-video: 147 videos, titles from Data API for 147, public-title/first-view lookups 0; Facebook per-post: 37 saved"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
    {
+    "t": "2026-11-16T09:02",
+    "len": 15,
+    "v": 2,
+    "k": "reel",
+    "x": "Mark 8:18 (KJV) On today's episode of Walking wi",
+    "up": false
+   },
+   {
     "t": "2026-11-15T17:19",
     "len": 15,
-    "v": 187,
+    "v": 185,
     "k": "reel",
     "x": "Hear Jesus here. Make hearing Jesus a daily prac",
     "up": false
@@ -1516,7 +1524,7 @@
    {
     "t": "2026-11-15T09:03",
     "len": 23,
-    "v": 145,
+    "v": 138,
     "k": "reel",
     "x": "You've quoted it. You've heard it preached. But ",
     "up": false
@@ -1524,7 +1532,7 @@
    {
     "t": "2026-11-14T15:01",
     "len": 14,
-    "v": 254,
+    "v": 235,
     "k": "reel",
     "x": "The entire life of Jesus can be heard in about t",
     "up": false
@@ -1532,7 +1540,7 @@
    {
     "t": "2026-11-14T09:03",
     "len": 16,
-    "v": 161,
+    "v": 153,
     "k": "reel",
     "x": "That study plan isn't gone. It's just not the fi",
     "up": false
@@ -1540,7 +1548,7 @@
    {
     "t": "2026-11-12T17:02",
     "len": 18,
-    "v": 354,
+    "v": 356,
     "k": "reel",
     "x": "John 6:35 (KJV) On today's episode of Walking wi",
     "up": false
@@ -1572,7 +1580,7 @@
    {
     "t": "2026-11-10T17:01",
     "len": 15,
-    "v": 256,
+    "v": 224,
     "k": "reel",
     "x": "Luke 8:50 (KJV) On today's episode of Walking wi",
     "up": false
@@ -1580,7 +1588,7 @@
    {
     "t": "2026-11-10T14:02",
     "len": 13,
-    "v": 153,
+    "v": 134,
     "k": "reel",
     "x": "Four Gospels. One timeline. Zero commentary. The",
     "up": false
@@ -1588,7 +1596,7 @@
    {
     "t": "2026-11-10T09:04",
     "len": 17,
-    "v": 46,
+    "v": 42,
     "k": "reel",
     "x": "Mark 5:36 (KJV) On today's episode of Walking wi",
     "up": false
@@ -1596,7 +1604,7 @@
    {
     "t": "2026-11-09T17:01",
     "len": 16,
-    "v": 99,
+    "v": 92,
     "k": "reel",
     "x": "Luke 6:37 (KJV) On today's episode of Walking wi",
     "up": false
@@ -1612,7 +1620,7 @@
    {
     "t": "2026-11-08T17:01",
     "len": 17,
-    "v": 182,
+    "v": 174,
     "k": "reel",
     "x": "Mark 5:34 (KJV) On tomorrow's episode of Walking",
     "up": false
@@ -2356,18 +2364,18 @@
      "types": {
       "nature": {
        "n": 10,
-       "tot": 930,
-       "med": 46
+       "tot": 889,
+       "med": 44
       },
       "tomorrow": {
        "n": 1,
-       "tot": 182,
-       "med": 182
+       "tot": 174,
+       "med": 174
       },
       "promo": {
        "n": 1,
-       "tot": 153,
-       "med": 153
+       "tot": 134,
+       "med": 134
       }
      }
     },
