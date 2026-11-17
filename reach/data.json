@@ -1,5 +1,5 @@
 {
- "updated": "Tue 11/17 10:53 AM",
+ "updated": "Tue 11/17 1:30 PM",
  "updated_date": "2026-11-17",
  "platforms": [
   {
@@ -706,7 +706,7 @@
     },
     {
      "d": "2026-11-16",
-     "v": 281,
+     "v": 282,
      "e": 6
     }
    ],
@@ -838,7 +838,7 @@
     },
     {
      "d": "2026-11-10",
-     "v": 2004,
+     "v": 2005,
      "e": 18
     }
    ],
@@ -1508,7 +1508,7 @@
    {
     "t": "2026-11-17T09:04",
     "len": 15,
-    "v": 0,
+    "v": 11,
     "k": "reel",
     "x": "Mark 8:36 (KJV) On today's episode of Walking wi",
     "up": false
@@ -1516,7 +1516,7 @@
    {
     "t": "2026-11-16T14:01",
     "len": 12,
-    "v": 228,
+    "v": 229,
     "k": "reel",
     "x": "John 10:27 (KJV) Hear Jesus here. Make hearing J",
     "up": false
@@ -1524,7 +1524,7 @@
    {
     "t": "2026-11-16T09:02",
     "len": 15,
-    "v": 24,
+    "v": 25,
     "k": "reel",
     "x": "Mark 8:18 (KJV) On today's episode of Walking wi",
     "up": false
