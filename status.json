@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-16T13:30:04-06:00",
- "updated_label": "Mon 11/16 1:30 PM",
- "window_start": "2026-11-16",
+ "updated": "2026-11-17T02:52:02-06:00",
+ "updated_label": "Tue 11/17 2:52 AM",
+ "window_start": "2026-11-17",
  "window_days": 21,
  "goal_days": 14,
  "types": [
@@ -11,7 +11,7 @@
    "rate": "5/wk",
    "per_week": 5,
    "builds": "Wed night",
-   "reported": "11/16",
+   "reported": "11/17",
    "queued": {
     "through": null,
     "count": 0
@@ -22,7 +22,7 @@
    },
    "review": {
     "through": "2026-11-19",
-    "count": 4,
+    "count": 3,
     "fix": 0
    },
    "picked": {
@@ -37,7 +37,7 @@
    "rate": "5–9/wk",
    "per_week": 7,
    "builds": "Mon night",
-   "reported": "11/16",
+   "reported": "11/17",
    "queued": {
     "through": "2026-11-20",
     "count": 4
@@ -47,13 +47,13 @@
     "count": 0
    },
    "review": {
-    "through": "2026-11-20",
-    "count": 0,
+    "through": "2026-11-27",
+    "count": 5,
     "fix": 0
    },
    "picked": {
     "through": "2026-12-01",
-    "count": 7
+    "count": 2
    },
    "holes": []
   },
@@ -63,7 +63,7 @@
    "rate": "4/wk",
    "per_week": 4,
    "builds": "Thu night",
-   "reported": "11/16",
+   "reported": "11/17",
    "queued": {
     "count": 1
    },
@@ -84,22 +84,27 @@
   }
  ],
  "buffer": {
-  "youtube": 9,
-  "instagram": 9,
-  "facebook": 9,
-  "tiktok": 9,
+  "youtube": 8,
+  "instagram": 8,
+  "facebook": 8,
+  "tiktok": 8,
   "through_label": "Fri 11/20 9 AM",
   "posted_7d": 16
  },
  "needs_you": [
   {
-   "what": "Review 4 Tomorrow's posts 11/16–19",
+   "what": "Review 3 Tomorrow's posts 11/17–19",
    "due": "now",
    "urgent": true
   },
   {
-   "what": "Pick Tomorrow's passages 11/22–12/7 (S4E26–S4E37)",
+   "what": "Pick Tomorrow's passages 11/22–12/8 (S4E26–S4E38)",
    "due": "by Wed",
+   "urgent": true
+  },
+  {
+   "what": "Review 5 nature cards 11/23–27",
+   "due": "by Fri",
    "urgent": true
   },
   {
@@ -108,13 +113,13 @@
    "urgent": true
   },
   {
-   "what": "Pick nature verses 12/2–7",
-   "due": "by Mon 11/23",
+   "what": "Pick nature verses 12/2–8 (S4E33–S4E37)",
+   "due": "by Mon",
    "urgent": true
   }
  ],
  "waiting_on_builders": {
-  "build": 7,
+  "build": 2,
   "fix": 0
  },
  "last_run": {
