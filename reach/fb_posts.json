@@ -1,5 +1,5 @@
 {
- "updated": "Mon 11/16 3:14 PM",
+ "updated": "Tue 11/17 2:52 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -11,7 +11,7 @@
    "d": "2026-11-16",
    "short": 2,
    "long": 0,
-   "short_views": 25,
+   "short_views": 250,
    "long_views": 0,
    "unknown": 0
   },
@@ -19,7 +19,7 @@
    "d": "2026-11-15",
    "short": 2,
    "long": 0,
-   "short_views": 351,
+   "short_views": 352,
    "long_views": 0,
    "unknown": 0
   },
@@ -27,7 +27,7 @@
    "d": "2026-11-14",
    "short": 2,
    "long": 0,
-   "short_views": 415,
+   "short_views": 416,
    "long_views": 0,
    "unknown": 0
   },
@@ -111,7 +111,7 @@
    "at": "2026-11-16 14:01",
    "live": "2026-11-16 14:01",
    "len": 12,
-   "views": 2,
+   "views": 227,
    "src": "fb_reels_total_plays",
    "text": "John 10:27 (KJV) Hear Jesus here. Make hearing Jesus a daily",
    "pub": true,
@@ -150,7 +150,7 @@
    "at": "2026-11-15 09:03",
    "live": "2026-11-15 09:03",
    "len": 23,
-   "views": 146,
+   "views": 147,
    "src": "fb_reels_total_plays",
    "text": "You've quoted it. You've heard it preached. But do you know ",
    "pub": true,
@@ -163,7 +163,7 @@
    "at": "2026-11-14 15:01",
    "live": "2026-11-14 15:01",
    "len": 14,
-   "views": 254,
+   "views": 255,
    "src": "fb_reels_total_plays",
    "text": "The entire life of Jesus can be heard in about twelve and a ",
    "pub": true,
