@@ -1,5 +1,5 @@
 {
- "updated": "Wed 11/18 2:52 AM",
+ "updated": "Wed 11/18 10:26 AM",
  "updated_date": "2026-11-18",
  "platforms": [
   {
@@ -921,7 +921,7 @@
     },
     {
      "d": "2026-11-17",
-     "v": 0,
+     "v": 2,
      "e": 0
     }
    ],
@@ -1053,7 +1053,7 @@
     },
     {
      "d": "2026-11-11",
-     "v": 107,
+     "v": 109,
      "e": 6
     }
    ],
@@ -1136,7 +1136,7 @@
     },
     {
      "d": "2026-11-17",
-     "v": 45,
+     "v": 65,
      "e": 0
     }
    ],
@@ -1268,7 +1268,7 @@
     },
     {
      "d": "2026-11-11",
-     "v": 164,
+     "v": 184,
      "e": 2
     }
    ],
@@ -1497,14 +1497,22 @@
   "YouTube split since 2026-09-15: shorts 16695 + long-form 154 of 16864 total views; 89 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 227; saved with numbers: 253",
-  "Facebook posts, last 21 days: 35 reels, 0 other videos, 0 over 90s; views known for 35 of 35, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 489 posts; YouTube per-video: 153 videos, titles from Data API for 153, public-title/first-view lookups 0; Facebook per-post: 35 saved"
+  "Buffer posts read: 229; saved with numbers: 257",
+  "Facebook posts, last 21 days: 36 reels, 0 other videos, 0 over 90s; views known for 36 of 36, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
+  "posts.json: 493 posts; YouTube per-video: 153 videos, titles from Data API for 153, public-title/first-view lookups 0; Facebook per-post: 35 saved"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
+   {
+    "t": "2026-11-18T09:05",
+    "len": 15,
+    "v": 3,
+    "k": "reel",
+    "x": "Mark 9:23 (KJV) On today's episode of Walking wi",
+    "up": false
+   },
    {
     "t": "2026-11-17T17:02",
     "len": 12,
@@ -1524,7 +1532,7 @@
    {
     "t": "2026-11-17T09:04",
     "len": 15,
-    "v": 13,
+    "v": 14,
     "k": "reel",
     "x": "Mark 8:36 (KJV) On today's episode of Walking wi",
     "up": false
@@ -2435,8 +2443,8 @@
       },
       "promo": {
        "n": 5,
-       "tot": 102,
-       "med": 18
+       "tot": 104,
+       "med": 20
       }
      }
     },
@@ -2445,7 +2453,7 @@
      "types": {
       "nature": {
        "n": 18,
-       "tot": 460,
+       "tot": 461,
        "med": 22
       },
       "tomorrow": {
