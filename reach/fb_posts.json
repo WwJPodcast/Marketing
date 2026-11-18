@@ -1,5 +1,5 @@
 {
- "updated": "Tue 11/17 2:00 PM",
+ "updated": "Wed 11/18 2:52 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -9,9 +9,9 @@
  "days": [
   {
    "d": "2026-11-17",
-   "short": 1,
+   "short": 3,
    "long": 0,
-   "short_views": 11,
+   "short_views": 438,
    "long_views": 0,
    "unknown": 0
   },
@@ -19,7 +19,7 @@
    "d": "2026-11-16",
    "short": 2,
    "long": 0,
-   "short_views": 254,
+   "short_views": 256,
    "long_views": 0,
    "unknown": 0
   },
@@ -102,24 +102,42 @@
    "short_views": 0,
    "long_views": 0,
    "unknown": 0
-  },
-  {
-   "d": "2026-10-28",
-   "short": 7,
-   "long": 0,
-   "short_views": 4,
-   "long_views": 0,
-   "unknown": 0
   }
  ],
  "items": [
+  {
+   "id": "1117183597864221",
+   "type": "reel",
+   "at": "2026-11-17 17:02",
+   "live": "2026-11-17 17:02",
+   "len": 12,
+   "views": 224,
+   "src": "fb_reels_total_plays",
+   "text": "Matthew 11:15 (KJV) Hear Jesus here. Make hearing Jesus a da",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":4472749},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-17T23:02:34+00",
+   "sched": null
+  },
+  {
+   "id": "2249398352297627",
+   "type": "reel",
+   "at": "2026-11-17 14:03",
+   "live": "2026-11-17 14:03",
+   "len": 15,
+   "views": 201,
+   "src": "fb_reels_total_plays",
+   "text": "The dishes. The commute. The dog walk. Bring Jesus into the ",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":899213},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-17T20:03:33+000",
+   "sched": null
+  },
   {
    "id": "1437795887978930",
    "type": "reel",
    "at": "2026-11-17 09:04",
    "live": "2026-11-17 09:04",
    "len": 15,
-   "views": 11,
+   "views": 13,
    "src": "fb_reels_total_plays",
    "text": "Mark 8:36 (KJV) On today's episode of Walking with Jesus: Th",
    "pub": true,
@@ -132,7 +150,7 @@
    "at": "2026-11-16 14:01",
    "live": "2026-11-16 14:01",
    "len": 12,
-   "views": 229,
+   "views": 231,
    "src": "fb_reels_total_plays",
    "text": "John 10:27 (KJV) Hear Jesus here. Make hearing Jesus a daily",
    "pub": true,
@@ -540,97 +558,6 @@
    "text": "Pastors, ministers, ministry workers: try this. In one month",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":1376197},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-01T15:00:18+00",
-   "sched": null
-  },
-  {
-   "id": "1842912433565128",
-   "type": "reel",
-   "at": "2026-10-28 02:46",
-   "live": "2026-10-31 15:00",
-   "len": 20,
-   "views": 1,
-   "src": "fb_reels_total_plays",
-   "text": "Fifteen minutes with Jesus. No commentary. Just the Gospels.",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":1010493},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-31T20:00:12+00",
-   "sched": null
-  },
-  {
-   "id": "1804657004104905",
-   "type": "reel",
-   "at": "2026-10-28 02:45",
-   "live": "2026-10-31 09:00",
-   "len": 27,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "The whole story of Jesus, from the manger to the empty tomb:",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":2905048},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-31T14:00:00+00",
-   "sched": null
-  },
-  {
-   "id": "1767058434588525",
-   "type": "reel",
-   "at": "2026-10-28 02:45",
-   "live": "2026-10-30 14:00",
-   "len": 16,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "Luke 6:31 (KJV) On today's episode of Walking with Jesus: Ou",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":6600142},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-30T19:00:05+00",
-   "sched": null
-  },
-  {
-   "id": "2908769992828512",
-   "type": "reel",
-   "at": "2026-10-28 02:45",
-   "live": "2026-10-30 09:00",
-   "len": 17,
-   "views": 1,
-   "src": "fb_reels_total_plays",
-   "text": "Matthew 5:17 (KJV) On today's episode of Walking with Jesus:",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":3354162},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-30T14:00:01+00",
-   "sched": null
-  },
-  {
-   "id": "2138003903756807",
-   "type": "reel",
-   "at": "2026-10-28 02:45",
-   "live": "2026-10-29 17:00",
-   "len": 49,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "On tomorrow's episode of Walking with Jesus: Our Father Whic",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":2693923},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-29T22:00:14+00",
-   "sched": null
-  },
-  {
-   "id": "2115635869828691",
-   "type": "reel",
-   "at": "2026-10-28 02:45",
-   "live": "2026-10-29 14:00",
-   "len": 15,
-   "views": 1,
-   "src": "fb_reels_total_plays",
-   "text": "Matthew 5:8 (KJV) On today's episode of Walking with Jesus: ",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":5196154},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-29T19:00:00+00",
-   "sched": null
-  },
-  {
-   "id": "1425133580682677",
-   "type": "reel",
-   "at": "2026-10-28 02:45",
-   "live": "2026-10-29 09:00",
-   "len": 17,
-   "views": 1,
-   "src": "fb_reels_total_plays",
-   "text": "Matthew 5:16 (KJV) On today's episode of Walking with Jesus:",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":4600443},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-10-29T14:00:01+00",
    "sched": null
   }
  ]
