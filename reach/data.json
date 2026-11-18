@@ -1,5 +1,5 @@
 {
- "updated": "Wed 11/18 10:26 AM",
+ "updated": "Wed 11/18 1:30 PM",
  "updated_date": "2026-11-18",
  "platforms": [
   {
@@ -1508,7 +1508,7 @@
    {
     "t": "2026-11-18T09:05",
     "len": 15,
-    "v": 3,
+    "v": 26,
     "k": "reel",
     "x": "Mark 9:23 (KJV) On today's episode of Walking wi",
     "up": false
@@ -1516,7 +1516,7 @@
    {
     "t": "2026-11-17T17:02",
     "len": 12,
-    "v": 224,
+    "v": 226,
     "k": "reel",
     "x": "Matthew 11:15 (KJV) Hear Jesus here. Make hearin",
     "up": false
@@ -1556,7 +1556,7 @@
    {
     "t": "2026-11-15T17:19",
     "len": 15,
-    "v": 205,
+    "v": 206,
     "k": "reel",
     "x": "Hear Jesus here. Make hearing Jesus a daily prac",
     "up": false
@@ -1580,7 +1580,7 @@
    {
     "t": "2026-11-14T09:03",
     "len": 16,
-    "v": 161,
+    "v": 162,
     "k": "reel",
     "x": "That study plan isn't gone. It's just not the fi",
     "up": false
@@ -2338,8 +2338,8 @@
       },
       "promo": {
        "n": 5,
-       "tot": 921,
-       "med": 161
+       "tot": 923,
+       "med": 162
       }
      }
     },
