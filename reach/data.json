@@ -1,5 +1,5 @@
 {
- "updated": "Thu 11/19 10:32 AM",
+ "updated": "Thu 11/19 1:17 PM",
  "updated_date": "2026-11-19",
  "platforms": [
   {
@@ -1136,7 +1136,7 @@
     },
     {
      "d": "2026-11-18",
-     "v": 5,
+     "v": 16,
      "e": 0
     }
    ],
@@ -1268,7 +1268,7 @@
     },
     {
      "d": "2026-11-12",
-     "v": 182,
+     "v": 193,
      "e": 2
     }
    ],
@@ -1508,7 +1508,7 @@
    {
     "t": "2026-11-19T09:06",
     "len": 15,
-    "v": 4,
+    "v": 70,
     "k": "reel",
     "x": "Matthew 18:20 (KJV) On today's episode of Walkin",
     "up": false
@@ -1516,7 +1516,7 @@
    {
     "t": "2026-11-18T14:03",
     "len": 12,
-    "v": 3826,
+    "v": 4097,
     "k": "reel",
     "x": "Matthew 13:9 (KJV) Hear Jesus here. Make hearing",
     "up": false
@@ -1524,7 +1524,7 @@
    {
     "t": "2026-11-18T09:05",
     "len": 15,
-    "v": 39,
+    "v": 40,
     "k": "reel",
     "x": "Mark 9:23 (KJV) On today's episode of Walking wi",
     "up": false
@@ -1532,7 +1532,7 @@
    {
     "t": "2026-11-17T17:02",
     "len": 12,
-    "v": 228,
+    "v": 229,
     "k": "reel",
     "x": "Matthew 11:15 (KJV) Hear Jesus here. Make hearin",
     "up": false
@@ -1540,7 +1540,7 @@
    {
     "t": "2026-11-17T14:03",
     "len": 15,
-    "v": 202,
+    "v": 203,
     "k": "reel",
     "x": "The dishes. The commute. The dog walk. Bring Jes",
     "up": false
@@ -1548,7 +1548,7 @@
    {
     "t": "2026-11-17T09:04",
     "len": 15,
-    "v": 14,
+    "v": 15,
     "k": "reel",
     "x": "Mark 8:36 (KJV) On today's episode of Walking wi",
     "up": false
@@ -1556,7 +1556,7 @@
    {
     "t": "2026-11-16T14:01",
     "len": 12,
-    "v": 233,
+    "v": 234,
     "k": "reel",
     "x": "John 10:27 (KJV) Hear Jesus here. Make hearing J",
     "up": false
@@ -2344,7 +2344,7 @@
      "types": {
       "nature": {
        "n": 12,
-       "tot": 1194,
+       "tot": 1195,
        "med": 46
       },
       "tomorrow": {
@@ -2449,7 +2449,7 @@
      "types": {
       "nature": {
        "n": 10,
-       "tot": 121,
+       "tot": 122,
        "med": 10
       },
       "tomorrow": {
