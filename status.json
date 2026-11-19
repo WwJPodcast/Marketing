@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-18T13:30:09-06:00",
- "updated_label": "Wed 11/18 1:30 PM",
- "window_start": "2026-11-18",
+ "updated": "2026-11-19T13:16:47-06:00",
+ "updated_label": "Thu 11/19 1:16 PM",
+ "window_start": "2026-11-19",
  "window_days": 21,
  "goal_days": 14,
  "types": [
@@ -11,7 +11,7 @@
    "rate": "5/wk",
    "per_week": 5,
    "builds": "Wed night",
-   "reported": "11/18",
+   "reported": "11/19",
    "queued": {
     "through": null,
     "count": 0
@@ -22,7 +22,7 @@
    },
    "review": {
     "through": "2026-11-19",
-    "count": 2,
+    "count": 1,
     "fix": 0
    },
    "picked": {
@@ -37,18 +37,18 @@
    "rate": "5–9/wk",
    "per_week": 7,
    "builds": "Mon night",
-   "reported": "11/18",
+   "reported": "11/19",
    "queued": {
     "through": "2026-11-20",
-    "count": 2
+    "count": 1
    },
    "ready": {
-    "through": "2026-11-20",
-    "count": 0
+    "through": "2026-11-27",
+    "count": 9
    },
    "review": {
     "through": "2026-11-27",
-    "count": 9,
+    "count": 0,
     "fix": 0
    },
    "picked": {
@@ -63,7 +63,7 @@
    "rate": "4/wk",
    "per_week": 4,
    "builds": "Thu night",
-   "reported": "11/18",
+   "reported": "11/19",
    "queued": {
     "count": 0
    },
@@ -85,27 +85,22 @@
   }
  ],
  "buffer": {
-  "youtube": 5,
-  "instagram": 5,
-  "facebook": 5,
-  "tiktok": 5,
+  "youtube": 3,
+  "instagram": 3,
+  "facebook": 3,
+  "tiktok": 3,
   "through_label": "Fri 11/20 2 PM",
   "posted_7d": 16
  },
  "needs_you": [
   {
-   "what": "Review 2 Tomorrow's posts 11/18–19",
+   "what": "Review 1 Tomorrow's posts 11/19",
    "due": "now",
    "urgent": true
   },
   {
-   "what": "Pick Tomorrow's passages 11/22–12/9 (S4E26–S4E39)",
+   "what": "Pick Tomorrow's passages 11/22–12/10 (S4E26–S4E40)",
    "due": "now",
-   "urgent": true
-  },
-  {
-   "what": "Review 9 nature cards 11/23–27",
-   "due": "by Fri",
    "urgent": true
   },
   {
@@ -114,7 +109,7 @@
    "urgent": true
   },
   {
-   "what": "Pick nature verses 12/7–9 (S4E36–S4E37)",
+   "what": "Pick nature verses 12/7–10 (S4E36–S4E37)",
    "due": "by Mon 11/30",
    "urgent": false
   }
