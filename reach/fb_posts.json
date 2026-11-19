@@ -1,5 +1,5 @@
 {
- "updated": "Thu 11/19 1:30 PM",
+ "updated": "Thu 11/19 1:37 PM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -19,7 +19,7 @@
    "d": "2026-11-18",
    "short": 2,
    "long": 0,
-   "short_views": 4145,
+   "short_views": 4146,
    "long_views": 0,
    "unknown": 0
   },
@@ -140,7 +140,7 @@
    "at": "2026-11-18 14:03",
    "live": "2026-11-18 14:03",
    "len": 12,
-   "views": 4105,
+   "views": 4106,
    "src": "fb_reels_total_plays",
    "text": "Matthew 13:9 (KJV) Hear Jesus here. Make hearing Jesus a dai",
    "pub": true,
