@@ -1,5 +1,5 @@
 {
- "updated": "Thu 11/19 1:37 PM",
+ "updated": "Fri 11/20 2:52 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -9,9 +9,9 @@
  "days": [
   {
    "d": "2026-11-19",
-   "short": 1,
+   "short": 2,
    "long": 0,
-   "short_views": 70,
+   "short_views": 337,
    "long_views": 0,
    "unknown": 0
   },
@@ -19,7 +19,7 @@
    "d": "2026-11-18",
    "short": 2,
    "long": 0,
-   "short_views": 4146,
+   "short_views": 4186,
    "long_views": 0,
    "unknown": 0
   },
@@ -122,12 +122,25 @@
  ],
  "items": [
   {
+   "id": "29741826715409460",
+   "type": "reel",
+   "at": "2026-11-19 14:03",
+   "live": "2026-11-19 14:03",
+   "len": 13,
+   "views": 238,
+   "src": "fb_reels_total_plays",
+   "text": "Mark 4:9 (KJV) Hear Jesus here. Make hearing Jesus a daily p",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":4778045},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-19T20:03:09+00",
+   "sched": null
+  },
+  {
    "id": "1129171330091438",
    "type": "reel",
    "at": "2026-11-19 09:06",
    "live": "2026-11-19 09:06",
    "len": 15,
-   "views": 70,
+   "views": 99,
    "src": "fb_reels_total_plays",
    "text": "Matthew 18:20 (KJV) On today's episode of Walking with Jesus",
    "pub": true,
@@ -140,7 +153,7 @@
    "at": "2026-11-18 14:03",
    "live": "2026-11-18 14:03",
    "len": 12,
-   "views": 4106,
+   "views": 4146,
    "src": "fb_reels_total_plays",
    "text": "Matthew 13:9 (KJV) Hear Jesus here. Make hearing Jesus a dai",
    "pub": true,
