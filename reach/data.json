@@ -1,5 +1,5 @@
 {
- "updated": "Fri 11/20 2:52 AM",
+ "updated": "Fri 11/20 10:08 AM",
  "updated_date": "2026-11-20",
  "platforms": [
   {
@@ -706,7 +706,7 @@
     },
     {
      "d": "2026-11-19",
-     "v": 2941,
+     "v": 2942,
      "e": 52
     }
    ],
@@ -838,7 +838,7 @@
     },
     {
      "d": "2026-11-13",
-     "v": 6037,
+     "v": 6038,
      "e": 124
     }
    ],
@@ -921,7 +921,7 @@
     },
     {
      "d": "2026-11-19",
-     "v": 0,
+     "v": 5,
      "e": 0
     }
    ],
@@ -1053,7 +1053,7 @@
     },
     {
      "d": "2026-11-13",
-     "v": 85,
+     "v": 90,
      "e": 4
     }
    ],
@@ -1497,9 +1497,9 @@
   "YouTube split since 2026-09-15: shorts 16834 + long-form 171 of 16996 total views; 93 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 235; saved with numbers: 261",
+  "Buffer posts read: 235; saved with numbers: 263",
   "Facebook posts, last 21 days: 39 reels, 0 other videos, 0 over 90s; views known for 39 of 39, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 509 posts; YouTube per-video: 161 videos, titles from Data API for 161, public-title/first-view lookups 0; Facebook per-post: 39 saved"
+  "posts.json: 511 posts; YouTube per-video: 161 videos, titles from Data API for 161, public-title/first-view lookups 0; Facebook per-post: 39 saved"
  ],
  "fb_posts": {
   "long_over": 90,
@@ -1524,7 +1524,7 @@
    {
     "t": "2026-11-18T14:03",
     "len": 12,
-    "v": 4146,
+    "v": 4159,
     "k": "reel",
     "x": "Matthew 13:9 (KJV) Hear Jesus here. Make hearing",
     "up": false
