@@ -1,5 +1,5 @@
 {
- "updated": "Fri 11/20 10:08 AM",
+ "updated": "Fri 11/20 1:15 PM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -19,7 +19,7 @@
    "d": "2026-11-18",
    "short": 2,
    "long": 0,
-   "short_views": 4199,
+   "short_views": 4203,
    "long_views": 0,
    "unknown": 0
   },
@@ -35,7 +35,7 @@
    "d": "2026-11-16",
    "short": 2,
    "long": 0,
-   "short_views": 260,
+   "short_views": 261,
    "long_views": 0,
    "unknown": 0
   },
@@ -153,7 +153,7 @@
    "at": "2026-11-18 14:03",
    "live": "2026-11-18 14:03",
    "len": 12,
-   "views": 4159,
+   "views": 4163,
    "src": "fb_reels_total_plays",
    "text": "Matthew 13:9 (KJV) Hear Jesus here. Make hearing Jesus a dai",
    "pub": true,
@@ -218,7 +218,7 @@
    "at": "2026-11-16 14:01",
    "live": "2026-11-16 14:01",
    "len": 12,
-   "views": 234,
+   "views": 235,
    "src": "fb_reels_total_plays",
    "text": "John 10:27 (KJV) Hear Jesus here. Make hearing Jesus a daily",
    "pub": true,

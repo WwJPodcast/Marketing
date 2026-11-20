@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20 10:08",
+ "updated": "2026-11-20 13:15",
  "fields": {
   "p": "platform",
   "t": "posted (Central)",
@@ -32,12 +32,12 @@
    "x": "Mark 4:9 (KJV) Hear Jesus here. Make hearing Jesus a daily p",
    "url": "https://tiktok.com/@walking.with.jesu838/video/7709975789474729229",
    "age": 1,
-   "v": 0,
+   "v": 9,
    "e": 0,
    "v1": null,
    "v7": null,
    "e7": null,
-   "watch": 0,
+   "watch": 2.2,
    "watch_pct": null,
    "likes": 0,
    "comments": 0,
@@ -105,12 +105,12 @@
    "x": "Matthew 18:20 (KJV) On today's episode of Walking with Jesus",
    "url": "https://tiktok.com/@walking.with.jesu838/video/7709899095191719182",
    "age": 1,
-   "v": 2,
+   "v": 9,
    "e": 0,
    "v1": null,
    "v7": null,
    "e7": null,
-   "watch": 4.7,
+   "watch": 3.3,
    "watch_pct": null,
    "likes": 0,
    "comments": 0,
@@ -189,7 +189,7 @@
    "comments": 0,
    "shares": 0,
    "saves": null,
-   "reach": 0
+   "reach": 5
   },
   {
    "p": "ig",
@@ -226,9 +226,9 @@
    "x": "Matthew 13:9 (KJV) Hear Jesus here. Make hearing Jesus a dai",
    "url": "/reel/2350157172489886/",
    "age": 2,
-   "v": 4159,
+   "v": 4163,
    "e": 83,
-   "v1": 4159,
+   "v1": 4163,
    "v7": null,
    "e7": null,
    "watch": null,
@@ -262,7 +262,7 @@
    "comments": 0,
    "shares": 0,
    "saves": null,
-   "reach": 0
+   "reach": 4
   },
   {
    "p": "ig",
@@ -359,7 +359,7 @@
    "comments": 0,
    "shares": 0,
    "saves": null,
-   "reach": 2
+   "reach": 3
   },
   {
    "p": "fb",
@@ -432,7 +432,7 @@
    "comments": 0,
    "shares": 0,
    "saves": null,
-   "reach": 17
+   "reach": 21
   },
   {
    "p": "ig",
@@ -529,7 +529,7 @@
    "comments": 0,
    "shares": 0,
    "saves": null,
-   "reach": 14
+   "reach": 17
   },
   {
    "p": "ig",
@@ -687,7 +687,7 @@
    "x": "John 10:27 (KJV) Hear Jesus here. Make hearing Jesus a daily",
    "url": "/reel/981721001226558/",
    "age": 4,
-   "v": 234,
+   "v": 235,
    "e": 3,
    "v1": 231,
    "v7": null,
@@ -747,7 +747,7 @@
    "comments": 0,
    "shares": 0,
    "saves": null,
-   "reach": 9
+   "reach": 10
   },
   {
    "p": "ig",
@@ -868,7 +868,7 @@
    "comments": 0,
    "shares": 0,
    "saves": null,
-   "reach": 18
+   "reach": 20
   },
   {
    "p": "ig",
@@ -1661,7 +1661,7 @@
    "v1": 7,
    "v7": 8,
    "e7": 0,
-   "watch": 2.9,
+   "watch": 1.8,
    "watch_pct": null,
    "likes": 0,
    "comments": 0,
@@ -1758,7 +1758,7 @@
    "v1": 12,
    "v7": 13,
    "e7": 1,
-   "watch": 11.3,
+   "watch": 8.9,
    "watch_pct": null,
    "likes": 1,
    "comments": 0,
@@ -1831,7 +1831,7 @@
    "v1": 30,
    "v7": 30,
    "e7": 0,
-   "watch": 4.4,
+   "watch": 3.2,
    "watch_pct": null,
    "likes": 0,
    "comments": 0,
@@ -12390,7 +12390,7 @@
    {
     "key": "fb/nature",
     "posts": 43,
-    "views": 14383,
+    "views": 14388,
     "engaged": 144,
     "eng_rate_pct": 1.0,
     "median_views": 26,
@@ -12510,9 +12510,9 @@
    {
     "key": "tt/nature",
     "posts": 34,
-    "views": 618,
+    "views": 634,
     "engaged": 41,
-    "eng_rate_pct": 6.63,
+    "eng_rate_pct": 6.47,
     "median_views": 13.0,
     "median_views_day1": 15.0,
     "median_views_day7": 17.5,
@@ -12529,7 +12529,7 @@
     "median_views_day1": 19.5,
     "median_views_day7": 30,
     "with_day7": 7,
-    "median_watch_s": 4.1
+    "median_watch_s": 3.5
    },
    {
     "key": "tt/tomorrow",
@@ -12670,7 +12670,7 @@
    {
     "key": "fb/2026-11-16",
     "posts": 9,
-    "views": 5243,
+    "views": 5248,
     "engaged": 95,
     "eng_rate_pct": 1.81,
     "median_views": 203,
@@ -12953,15 +12953,15 @@
     "median_views_day1": 11,
     "median_views_day7": 10,
     "with_day7": 9,
-    "median_watch_s": 3.8
+    "median_watch_s": 3.6
    },
    {
     "key": "tt/2026-11-16",
     "posts": 9,
-    "views": 87,
+    "views": 103,
     "engaged": 0,
     "eng_rate_pct": 0.0,
-    "median_views": 7,
+    "median_views": 9,
     "median_views_day1": 9,
     "median_views_day7": null,
     "with_day7": 0,
@@ -13152,7 +13152,7 @@
    {
     "key": "fb/14",
     "posts": 21,
-    "views": 12931,
+    "views": 12936,
     "engaged": 121,
     "eng_rate_pct": 0.94,
     "median_views": 1,
@@ -13416,9 +13416,9 @@
    {
     "key": "tt/09",
     "posts": 23,
-    "views": 605,
+    "views": 612,
     "engaged": 52,
-    "eng_rate_pct": 8.6,
+    "eng_rate_pct": 8.5,
     "median_views": 13,
     "median_views_day1": 15.0,
     "median_views_day7": 18,
@@ -13428,9 +13428,9 @@
    {
     "key": "tt/14",
     "posts": 15,
-    "views": 341,
+    "views": 350,
     "engaged": 17,
-    "eng_rate_pct": 4.99,
+    "eng_rate_pct": 4.86,
     "median_views": 21,
     "median_views_day1": 20.0,
     "median_views_day7": 20,
