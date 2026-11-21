@@ -1,5 +1,5 @@
 {
- "updated": "Sat 11/21 2:52 AM",
+ "updated": "Sat 11/21 9:20 AM",
  "updated_date": "2026-11-21",
  "platforms": [
   {
@@ -921,7 +921,7 @@
     },
     {
      "d": "2026-11-20",
-     "v": 0,
+     "v": 3,
      "e": 0
     }
    ],
@@ -1053,7 +1053,7 @@
     },
     {
      "d": "2026-11-14",
-     "v": 60,
+     "v": 63,
      "e": 4
     }
    ],
@@ -1497,18 +1497,26 @@
   "YouTube split since 2026-09-15: shorts 16921 + long-form 176 of 17111 total views; 95 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 237; saved with numbers: 264",
-  "Facebook posts, last 21 days: 33 reels, 0 other videos, 0 over 90s; views known for 33 of 33, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 516 posts; YouTube per-video: 164 videos, titles from Data API for 164, public-title/first-view lookups 0; Facebook per-post: 33 saved"
+  "Buffer posts read: 239; saved with numbers: 266",
+  "Facebook posts, last 21 days: 34 reels, 0 other videos, 0 over 90s; views known for 34 of 34, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
+  "posts.json: 518 posts; YouTube per-video: 164 videos, titles from Data API for 164, public-title/first-view lookups 0; Facebook per-post: 33 saved"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
    {
+    "t": "2026-11-21T09:01",
+    "len": 14,
+    "v": 0,
+    "k": "reel",
+    "x": "Five days, not seven. On purpose. Life happens \u2014",
+    "up": false
+   },
+   {
     "t": "2026-11-20T14:02",
     "len": 14,
-    "v": 274,
+    "v": 276,
     "k": "reel",
     "x": "John 8:47 (KJV) Hear Jesus here. Make hearing Je",
     "up": false
@@ -1847,7 +1855,7 @@
    {
     "t": "2026-11-16T14:00",
     "len": 13,
-    "v": 40,
+    "v": 39,
     "k": "short",
     "x": "John 10:27 KJV \u2014 Hear Jesus here | Walking with Jesus",
     "wp": 74.84,
@@ -2264,7 +2272,7 @@
      "types": {
       "nature": {
        "n": 15,
-       "tot": 576,
+       "tot": 575,
        "med": 22
       },
       "promo": {

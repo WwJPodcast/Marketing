@@ -1,5 +1,5 @@
 {
- "updated": "Sat 11/21 2:52 AM",
+ "updated": "Sat 11/21 9:20 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -8,10 +8,18 @@
  "errors": [],
  "days": [
   {
+   "d": "2026-11-21",
+   "short": 1,
+   "long": 0,
+   "short_views": 0,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
    "d": "2026-11-20",
    "short": 1,
    "long": 0,
-   "short_views": 274,
+   "short_views": 276,
    "long_views": 0,
    "unknown": 0
   },
@@ -122,12 +130,25 @@
  ],
  "items": [
   {
+   "id": "1692748962555497",
+   "type": "reel",
+   "at": "2026-11-21 09:01",
+   "live": "2026-11-21 09:01",
+   "len": 14,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "Five days, not seven. On purpose. Life happens \u2014 this was bu",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":803515},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-21T15:01:37+000",
+   "sched": null
+  },
+  {
    "id": "1485710053467433",
    "type": "reel",
    "at": "2026-11-20 14:02",
    "live": "2026-11-20 14:02",
    "len": 14,
-   "views": 274,
+   "views": 276,
    "src": "fb_reels_total_plays",
    "text": "John 8:47 (KJV) Hear Jesus here. Make hearing Jesus a daily ",
    "pub": true,
