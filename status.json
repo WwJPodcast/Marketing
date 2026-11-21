@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-21T02:52:04-06:00",
- "updated_label": "Sat 11/21 2:52 AM",
+ "updated": "2026-11-21T13:30:04-06:00",
+ "updated_label": "Sat 11/21 1:30 PM",
  "window_start": "2026-11-21",
  "window_days": 21,
  "goal_days": 14,
@@ -65,7 +65,7 @@
    "builds": "Thu night",
    "reported": "11/21",
    "queued": {
-    "count": 4
+    "count": 3
    },
    "ready": {
     "count": 4
@@ -81,12 +81,12 @@
   }
  ],
  "buffer": {
-  "youtube": 10,
-  "instagram": 10,
-  "facebook": 10,
-  "tiktok": 10,
+  "youtube": 9,
+  "instagram": 9,
+  "facebook": 9,
+  "tiktok": 9,
   "through_label": "Thu 11/26 9 AM",
-  "posted_7d": 17
+  "posted_7d": 16
  },
  "needs_you": [
   {
