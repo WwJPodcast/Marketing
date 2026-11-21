@@ -1,5 +1,5 @@
 {
- "updated": "Fri 11/20 1:30 PM",
+ "updated": "Sat 11/21 2:52 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -8,10 +8,18 @@
  "errors": [],
  "days": [
   {
+   "d": "2026-11-20",
+   "short": 1,
+   "long": 0,
+   "short_views": 274,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
    "d": "2026-11-19",
    "short": 2,
    "long": 0,
-   "short_views": 337,
+   "short_views": 338,
    "long_views": 0,
    "unknown": 0
   },
@@ -19,7 +27,7 @@
    "d": "2026-11-18",
    "short": 2,
    "long": 0,
-   "short_views": 4203,
+   "short_views": 4210,
    "long_views": 0,
    "unknown": 0
   },
@@ -27,7 +35,7 @@
    "d": "2026-11-17",
    "short": 3,
    "long": 0,
-   "short_views": 447,
+   "short_views": 448,
    "long_views": 0,
    "unknown": 0
   },
@@ -51,7 +59,7 @@
    "d": "2026-11-14",
    "short": 2,
    "long": 0,
-   "short_views": 418,
+   "short_views": 419,
    "long_views": 0,
    "unknown": 0
   },
@@ -110,24 +118,29 @@
    "short_views": 0,
    "long_views": 0,
    "unknown": 0
-  },
-  {
-   "d": "2026-10-31",
-   "short": 7,
-   "long": 0,
-   "short_views": 0,
-   "long_views": 0,
-   "unknown": 0
   }
  ],
  "items": [
+  {
+   "id": "1485710053467433",
+   "type": "reel",
+   "at": "2026-11-20 14:02",
+   "live": "2026-11-20 14:02",
+   "len": 14,
+   "views": 274,
+   "src": "fb_reels_total_plays",
+   "text": "John 8:47 (KJV) Hear Jesus here. Make hearing Jesus a daily ",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":7359854},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-20T20:02:59+00",
+   "sched": null
+  },
   {
    "id": "29741826715409460",
    "type": "reel",
    "at": "2026-11-19 14:03",
    "live": "2026-11-19 14:03",
    "len": 13,
-   "views": 238,
+   "views": 239,
    "src": "fb_reels_total_plays",
    "text": "Mark 4:9 (KJV) Hear Jesus here. Make hearing Jesus a daily p",
    "pub": true,
@@ -153,7 +166,7 @@
    "at": "2026-11-18 14:03",
    "live": "2026-11-18 14:03",
    "len": 12,
-   "views": 4163,
+   "views": 4170,
    "src": "fb_reels_total_plays",
    "text": "Matthew 13:9 (KJV) Hear Jesus here. Make hearing Jesus a dai",
    "pub": true,
@@ -179,7 +192,7 @@
    "at": "2026-11-17 17:02",
    "live": "2026-11-17 17:02",
    "len": 12,
-   "views": 229,
+   "views": 230,
    "src": "fb_reels_total_plays",
    "text": "Matthew 11:15 (KJV) Hear Jesus here. Make hearing Jesus a da",
    "pub": true,
@@ -270,7 +283,7 @@
    "at": "2026-11-14 15:01",
    "live": "2026-11-14 15:01",
    "len": 14,
-   "views": 255,
+   "views": 256,
    "src": "fb_reels_total_plays",
    "text": "The entire life of Jesus can be heard in about twelve and a ",
    "pub": true,
@@ -535,97 +548,6 @@
    "text": "On tomorrow's episode of Walking with Jesus: A House Divided",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":2995440},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-03T23:00:07+00",
-   "sched": null
-  },
-  {
-   "id": "1649928480112388",
-   "type": "reel",
-   "at": "2026-10-31 02:45",
-   "live": "2026-11-03 14:00",
-   "len": 89,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "I read the Book of Mormon, the Quran, and the Dhammapada in ",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":12000050},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-03T20:00:04+0",
-   "sched": null
-  },
-  {
-   "id": "1788540532370782",
-   "type": "reel",
-   "at": "2026-10-31 02:45",
-   "live": "2026-11-03 09:00",
-   "len": 16,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "Matthew 11:28 (KJV) On today's episode of Walking with Jesus",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":13232922},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-03T15:00:44+0",
-   "sched": null
-  },
-  {
-   "id": "1574645184433142",
-   "type": "reel",
-   "at": "2026-10-31 02:45",
-   "live": "2026-11-02 17:00",
-   "len": 50,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "On tomorrow's episode of Walking with Jesus: Young Man, I Sa",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":2711516},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-02T23:00:20+00",
-   "sched": null
-  },
-  {
-   "id": "2677531322681666",
-   "type": "reel",
-   "at": "2026-10-31 02:45",
-   "live": "2026-11-02 14:00",
-   "len": 17,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "Matthew 7:7 (KJV) On today's episode of Walking with Jesus: ",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":7626041},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-02T20:00:08+00",
-   "sched": null
-  },
-  {
-   "id": "1118093637607949",
-   "type": "reel",
-   "at": "2026-10-31 02:45",
-   "live": "2026-11-02 09:00",
-   "len": 15,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "Luke 6:46 (KJV) On today's episode of Walking with Jesus: Se",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":6519369},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-02T15:00:15+00",
-   "sched": null
-  },
-  {
-   "id": "1124735826954992",
-   "type": "reel",
-   "at": "2026-10-31 02:45",
-   "live": "2026-11-01 17:00",
-   "len": 45,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "On tomorrow's episode of Walking with Jesus: Seek Ye First t",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":2395129},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-01T23:00:00+00",
-   "sched": null
-  },
-  {
-   "id": "1040015129054042",
-   "type": "reel",
-   "at": "2026-10-31 02:45",
-   "live": "2026-11-01 09:00",
-   "len": 31,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "Pastors, ministers, ministry workers: try this. In one month",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":1376197},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-01T15:00:18+00",
    "sched": null
   }
  ]
