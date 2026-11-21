@@ -1,5 +1,5 @@
 {
- "updated": "Sat 11/21 9:20 AM",
+ "updated": "Sat 11/21 12:11 PM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -11,7 +11,7 @@
    "d": "2026-11-21",
    "short": 1,
    "long": 0,
-   "short_views": 0,
+   "short_views": 5,
    "long_views": 0,
    "unknown": 0
   },
@@ -19,7 +19,7 @@
    "d": "2026-11-20",
    "short": 1,
    "long": 0,
-   "short_views": 276,
+   "short_views": 277,
    "long_views": 0,
    "unknown": 0
   },
@@ -43,7 +43,7 @@
    "d": "2026-11-17",
    "short": 3,
    "long": 0,
-   "short_views": 448,
+   "short_views": 449,
    "long_views": 0,
    "unknown": 0
   },
@@ -135,7 +135,7 @@
    "at": "2026-11-21 09:01",
    "live": "2026-11-21 09:01",
    "len": 14,
-   "views": 0,
+   "views": 5,
    "src": "fb_reels_total_plays",
    "text": "Five days, not seven. On purpose. Life happens \u2014 this was bu",
    "pub": true,
@@ -148,7 +148,7 @@
    "at": "2026-11-20 14:02",
    "live": "2026-11-20 14:02",
    "len": 14,
-   "views": 276,
+   "views": 277,
    "src": "fb_reels_total_plays",
    "text": "John 8:47 (KJV) Hear Jesus here. Make hearing Jesus a daily ",
    "pub": true,
@@ -226,7 +226,7 @@
    "at": "2026-11-17 14:03",
    "live": "2026-11-17 14:03",
    "len": 15,
-   "views": 203,
+   "views": 204,
    "src": "fb_reels_total_plays",
    "text": "The dishes. The commute. The dog walk. Bring Jesus into the ",
    "pub": true,

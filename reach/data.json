@@ -1,5 +1,5 @@
 {
- "updated": "Sat 11/21 9:20 AM",
+ "updated": "Sat 11/21 12:11 PM",
  "updated_date": "2026-11-21",
  "platforms": [
   {
@@ -1136,7 +1136,7 @@
     },
     {
      "d": "2026-11-20",
-     "v": 0,
+     "v": 5,
      "e": 0
     }
    ],
@@ -1268,7 +1268,7 @@
     },
     {
      "d": "2026-11-14",
-     "v": 153,
+     "v": 158,
      "e": 2
     }
    ],
@@ -1508,7 +1508,7 @@
    {
     "t": "2026-11-21T09:01",
     "len": 14,
-    "v": 0,
+    "v": 5,
     "k": "reel",
     "x": "Five days, not seven. On purpose. Life happens \u2014",
     "up": false
@@ -1516,7 +1516,7 @@
    {
     "t": "2026-11-20T14:02",
     "len": 14,
-    "v": 276,
+    "v": 277,
     "k": "reel",
     "x": "John 8:47 (KJV) Hear Jesus here. Make hearing Je",
     "up": false
@@ -1564,7 +1564,7 @@
    {
     "t": "2026-11-17T14:03",
     "len": 15,
-    "v": 203,
+    "v": 204,
     "k": "reel",
     "x": "The dishes. The commute. The dog walk. Bring Jes",
     "up": false
@@ -2322,8 +2322,8 @@
       },
       "promo": {
        "n": 6,
-       "tot": 1131,
-       "med": 183
+       "tot": 1132,
+       "med": 184
       }
      }
     },
@@ -2437,7 +2437,7 @@
      "types": {
       "nature": {
        "n": 18,
-       "tot": 463,
+       "tot": 464,
        "med": 22
       },
       "tomorrow": {
