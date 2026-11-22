@@ -475,7 +475,7 @@ function goalBlock(live,combined){
 /* ---------- C: overview + one platform at a time ---------- */
 function layoutC(root){
   root.className='page narrow';
-  root.append(head());const ct=changesTop();if(ct)root.append(ct);
+  root.append(head());
   // scoreboard: three stacked panes (7 days, 6 months, all time), only the selected one visible
   const live=DATA.platforms.filter(p=>p.daily);
   if(!live.length){root.append(h('div','empty-note','No numbers yet. The first nightly run fills this in.'));return}
