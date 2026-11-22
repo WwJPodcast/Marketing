@@ -1,5 +1,5 @@
 {
- "updated": "Sun 11/22 9:45 AM",
+ "updated": "Sun 11/22 9:59 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -19,7 +19,7 @@
    "d": "2026-11-21",
    "short": 2,
    "long": 0,
-   "short_views": 249,
+   "short_views": 251,
    "long_views": 0,
    "unknown": 0
   },
@@ -156,7 +156,7 @@
    "at": "2026-11-21 15:01",
    "live": "2026-11-21 15:01",
    "len": 17,
-   "views": 241,
+   "views": 243,
    "src": "fb_reels_total_plays",
    "text": "This is the opposite of scrolling. Fifteen quiet minutes wit",
    "pub": true,

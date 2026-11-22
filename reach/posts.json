@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22 09:45",
+ "updated": "2026-11-22 09:59",
  "fields": {
   "p": "platform",
   "t": "posted (Central)",
@@ -104,7 +104,7 @@
    "x": "This is the opposite of scrolling. Fifteen quiet minutes wit",
    "url": "/reel/1655260519630891/",
    "age": 1,
-   "v": 241,
+   "v": 243,
    "e": 1,
    "v1": null,
    "v7": null,
@@ -12801,7 +12801,7 @@
    {
     "key": "fb/promo",
     "posts": 20,
-    "views": 2754,
+    "views": 2756,
     "engaged": 15,
     "eng_rate_pct": 0.54,
     "median_views": 151.5,
@@ -13117,7 +13117,7 @@
    {
     "key": "fb/2026-11-16",
     "posts": 12,
-    "views": 5796,
+    "views": 5798,
     "engaged": 98,
     "eng_rate_pct": 1.69,
     "median_views": 217.0,
@@ -13611,7 +13611,7 @@
    {
     "key": "fb/15",
     "posts": 5,
-    "views": 1181,
+    "views": 1183,
     "engaged": 5,
     "eng_rate_pct": 0.42,
     "median_views": 256,
