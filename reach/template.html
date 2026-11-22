@@ -385,7 +385,7 @@ function rssBlock(){
   {const all=D.all,snap=R.history||{},day=s=>pd(s),dl={};
     (R.daily||[]).forEach(([d,v])=>{dl[d]=v});
     const hk=Object.keys(snap).sort();hk.slice(1).forEach((d,i)=>{const gap=(day(d)-day(hk[i]))/864e5;if(gap===1&&dl[d]==null)dl[d]=snap[d].all-snap[hk[i]].all});
-    const dk=Object.keys(dl).sort(),cum={};let run=all;
+    const dk=Object.keys(dl).sort(),cum={};let run=all-(dk.length&&R.as_of>dk[dk.length-1]?D.h24:0);
     for(let i=dk.length-1;i>=0;i--){cum[dk[i]]=run;run-=dl[dk[i]]}
     hk.forEach(d=>{cum[d]=snap[d].all});
     const ck=Object.keys(cum).sort();
