@@ -382,6 +382,15 @@ function rssBlock(){
   sec.append(h('div','big num',`<div><b>${full(D.d7)}</b><span>last 7 days</span></div><div><b>${full(D.d30)}</b><span>last 30 days</span>${chg}</div><div><b>${full(D.all)}</b><span>all time</span></div>`));
   sec.append(h('div','stats',`<span>Last 24 hours <b>${full(D.h24)}</b></span>`+(R.ras_last3!=null?`<span>Subscribers (last 3 episodes) <b>${R.ras_last3}</b></span>`:'')));
   out.push(sec);
+  {const all=D.all,snap=R.history||{},day=s=>pd(s),dl={};
+    (R.daily||[]).forEach(([d,v])=>{dl[d]=v});
+    const hk=Object.keys(snap).sort();hk.slice(1).forEach((d,i)=>{const gap=(day(d)-day(hk[i]))/864e5;if(gap===1&&dl[d]==null)dl[d]=snap[d].all-snap[hk[i]].all});
+    const dk=Object.keys(dl).sort(),cum={};let run=all;
+    for(let i=dk.length-1;i>=0;i--){cum[dk[i]]=run;run-=dl[dk[i]]}
+    hk.forEach(d=>{cum[d]=snap[d].all});
+    const ck=Object.keys(cum).sort();
+    out.push(lineChart(ck.map(d=>({d:day(d),y:cum[d]})),{empty:'Fills in as days are saved',title:'Downloads, running total',sub:'all time',color:'var(--views)',fmtY:fmt}));
+    out.push(lineChart(dk.map(d=>({d:day(d),y:dl[d]})),{empty:'Fills in as days are saved',title:'Downloads per day',sub:dk.length?`last ${dk.length} days`:'',color:'var(--views)',fmtY:fmt}))}
   const rows=(title,em,list,suffix)=>{const s=h('div','posts');s.append(h('div','sec-t',`<span>${title}</span><em>${em}</em>`));
     const mx=Math.max(...list.map(x=>x[1]),1),mr=h('div','mini-rows');
     list.forEach(([n,v])=>mr.append(h('div','mini-row',`<span class="nm">${n}</span><span class="bar"><i style="width:${Math.max(2,v/mx*100)}%"></i></span><b class="num">${v}${suffix}</b>`)));s.append(mr);return s};
@@ -393,11 +402,6 @@ function rssBlock(){
   const mr=h('div','mini-rows'),mx=Math.max(...R.episodes.map(x=>x.n),1);
   R.episodes.forEach(x=>mr.append(h('div','mini-row',`<span class="nm"><span>${x.code.replace('S0','S').replace(' - ','·')}<small>${x.date.slice(5).replace('-','/')}</small></span></span><span><span style="font-size:12px">${x.title}</span><span class="bar" style="display:block;margin-top:3px"><i style="width:${Math.max(2,x.n/mx*100)}%"></i></span></span><b class="num">${x.n}</b>`)));
   e.append(mr);out.push(e);
-  const H=Object.keys(R.history||{}).sort();
-  if(H.length>1){const s=h('div','posts');s.append(h('div','sec-t','<span>Downloads per day</span><em>from saved daily totals</em>'));const mr2=h('div','mini-rows');
-    const days=H.slice(1).map((d,i)=>[d.slice(5).replace('-','/'),R.history[d].all-R.history[H[i]].all]).slice(-14).reverse(),m=Math.max(...days.map(x=>x[1]),1);
-    days.forEach(([n,v])=>mr2.append(h('div','mini-row',`<span class="nm">${n}</span><span class="bar"><i style="width:${Math.max(2,v/m*100)}%"></i></span><b class="num">${v}</b>`)));s.append(mr2);out.push(s)}
-  else out.push(h('div','empty-note','Downloads per day start to appear once a second day has been saved.'));
   out.push(h('div','foot','<span>Downloads come from RSS.com and cover Apple Podcasts, Spotify, Amazon Music and the rest. They are not the same as plays on social, so they are not added to the goal totals.</span>'));
   return out}
 function compareBlock(){
@@ -428,7 +432,7 @@ function lineChart(pts,opt){
   const cap=h('div','chart-cap');cap.append(h('span',null,opt.title),h('span',null,opt.sub||''));
   const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':opt.title});wrap.append(cap,svg);
   const ys=pts.map(p=>p.y).filter(y=>y!=null);
-  if(ys.length<2){const t=el('text',{x:W/2,y:50,'text-anchor':'middle'},svg);t.textContent='Fills in as weeks are tracked';return wrap}
+  if(ys.length<2){const t=el('text',{x:W/2,y:50,'text-anchor':'middle'},svg);t.textContent=opt.empty||'Fills in as weeks are tracked';return wrap}
   const yMax=nice(Math.max(1e-9,...ys,opt.target||0)*1.05),x=i=>padL+i*(W-padL-padR)/Math.max(1,pts.length-1),y=v=>base-(v/yMax)*(base-top);
   [0,yMax].forEach(v=>{el('line',{x1:padL,x2:W-padR,y1:y(v),y2:y(v),stroke:'var(--line)','stroke-width':1},svg);
     const t=el('text',{x:padL-4,y:y(v)+3,'text-anchor':'end'},svg);t.textContent=opt.fmtY(v)});
@@ -493,9 +497,11 @@ function layoutC(root){
     if(r==='all'){const gb=goalBlock(live,combined);if(gb)pane.append(gb)}
     if(r==='6m')pane.append(chart(combined,{title:'All channels by week',sub:'views + engaged',style:'twin',weekly:true}));
     const rows=h('div','mini-rows');const mx=Math.max(1,...ts.map(t=>t.v));
-    DATA.platforms.forEach(p=>{const t=tot(r,p);
+    DATA.platforms.filter(p=>p.key!=='pin').forEach(p=>{const t=tot(r,p);
       const nm=`<span class="nm">${ico(p.key)}<span>${p.name}${r==='all'?`<small>${(p.since?'since '+p.since:'starts this week')+(p.stopped?' · stopped '+md(p.stopped):'')}</small>`:''}</span></span>`;
       const row=h('div','mini-row num',`${nm}<span class="bar"><i style="width:${t?Math.max(1.5,t.v/mx*100):0}%"></i></span><span>${t?fmt(t.v):'—'}</span>`);row.style.setProperty('--pc',`var(--${p.key})`);rows.append(row)});
+    if(DATA.rss){const R=DATA.rss,v=r==='7d'?R.downloads.d7:R.downloads.all;
+      const row=h('div','mini-row num',`<span class="nm">${ico('rss')}<span>RSS<small>downloads${r==='6m'?' · all time':''}</small></span></span><span class="bar"><i style="width:${Math.max(1.5,v/mx*100)}%"></i></span><span>${fmt(v)}</span>`);row.style.setProperty('--pc','var(--views)');rows.append(row)}
     pane.append(rows);panes[r]=pane;
     const b=h('button',null,label);b.type='button';b.id='range-'+r;b.dataset.r=r;b.setAttribute('role','tab');b.setAttribute('aria-controls',pane.id);
     b.addEventListener('click',()=>pickR(r));rtabs.append(b)});

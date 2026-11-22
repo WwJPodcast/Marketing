@@ -762,6 +762,7 @@ def main():
     rss = load(HERE / "rss" / "rss.json", {})
     if rss.get("downloads"):
         rss["history"] = load(HERE / "rss" / "history.json", {})
+        rss["daily"] = (load(HERE / "rss" / "daily.json", {}) or {}).get("daily") or []  # optional backfill [["YYYY-MM-DD", downloads], ...]
         data["rss"] = rss
     ev = load(HERE / "events.json", {}).get("events")
     if isinstance(ev, list):
