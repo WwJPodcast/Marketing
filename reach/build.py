@@ -756,6 +756,9 @@ def main():
         data["by_type"] = build_type_table(HERE / "posts.json", evs, now)
     except Exception as ex:
         NOTES.append(f"Post-type table not built: {clean(ex)}")
+    goal = load(HERE / "goal.json", {})
+    if goal.get("interactions"):
+        data["goal"] = {"interactions": goal["interactions"], "views": goal.get("views")}
     ev = load(HERE / "events.json", {}).get("events")
     if isinstance(ev, list):
         data["events"] = ev  # dates when the posting method changed (edit events.json)

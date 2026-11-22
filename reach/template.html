@@ -114,6 +114,16 @@ body.has-bar{padding-bottom:calc(76px + env(safe-area-inset-bottom,0px))}
 .tgrid .tc small{color:var(--mute);font-size:10px}
 .tgrid .tc.early b{color:var(--mute);font-weight:400}
 .tgrid .tc.best b{color:var(--eng)}
+.goal{display:flex;flex-direction:column;gap:12px;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+.goal h3{margin:0;font:600 14px var(--display)}
+.gtop{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.gtop b{font:600 22px/1.1 var(--display);font-variant-numeric:tabular-nums}
+.gtop span{color:var(--mute);font-size:12px}
+.gtop em{font-style:normal;font-weight:600;margin-left:auto;color:var(--eng)}
+.gbar{height:8px;border-radius:4px;background:var(--empty);overflow:hidden}
+.gbar i{display:block;height:100%;background:var(--eng);min-width:3px}
+.gnote{font-size:11px;color:var(--mute)}
+.gsub{display:flex;flex-direction:column;gap:6px;padding-top:10px;border-top:1px solid var(--line)}
 .more{align-self:flex-start;background:none;border:1px solid var(--line);border-radius:8px;padding:6px 12px;color:var(--mute);cursor:pointer;min-height:36px}
 .more:active{background:var(--empty)}
 .chg{border:1px solid var(--eng);border-radius:10px;padding:8px 12px;background:var(--panel);font-size:12px}
@@ -153,7 +163,7 @@ DATA.platforms.forEach(p=>{
 });
 
 /* ---------- method changes (reach/events.json) ---------- */
-DATA.events=(DATA.events||[]).map(e=>Object.assign({},e,{d:pd(e.date)})).filter(e=>e.d).sort((a,b)=>b.d-a.d);
+DATA.events=(DATA.events||[]).map(e=>Object.assign({},e,{d:pd(e.date)})).filter(e=>e.d&&!e.hidden).sort((a,b)=>b.d-a.d);
 const evFor=p=>DATA.events.filter(e=>(e.platforms||[]).includes(p.key));
 DATA.platforms.forEach(p=>{const st=evFor(p).filter(e=>(e.stops||[]).includes(p.key)).map(e=>e.d)[0];
   if(st){p.stopped=st;['daily','weekly'].forEach(k=>{if(p[k])p[k]=p[k].map(x=>x.d>=st?{d:x.d,v:null,e:null}:x)})}});
@@ -279,6 +289,7 @@ function spark(p){const svg=el('svg',{viewBox:'0 0 64 20','aria-hidden':'true'})
   c.forEach((x,i)=>{const hv=x.v/m*18;if(hv>0)el('path',{d:bar(i*st+1,20,bw,Math.max(1.5,hv),true),fill:'var(--pc,var(--views))'},svg)});return svg}
 
 const ICON={"yt": "M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z", "fb": "M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z", "ig": "M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077", "tt": "M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z", "pin": "M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"};
+ICON.compare="M4 20V10h4v10zM10 20V4h4v16zM16 20v-7h4v7z";
 const ico=(k,c)=>`<svg class="${c||'ico'}" viewBox="0 0 24 24" aria-hidden="true"><path d="${ICON[k]}"/></svg>`;
 const evLine=e=>`<div class="chg-i"><b>${dl(e.d)} · ${e.title}</b><span>${e.text||''}</span></div>`;
 function changesTop(){
@@ -345,20 +356,90 @@ function postsBlock(p){
   return [sec]}
 
 /* ---------- which kind of post works: median views per type, split where the method changed ---------- */
-function typesBlock(p){
+function typesBlock(p,compact){
   const T=DATA.by_type&&DATA.by_type[p.key];if(!T||!T.periods||!T.periods.length)return [];
   const names=[['nature','Nature'],['hear','Nature-Hear'],['promo','Promo'],['tomorrow',"Tomorrow's (ended)"]],EARLY=8;
   const per=T.periods,sec=h('div','posts');
-  sec.append(h('div','sec-t','<span>Which post types work</span><em>bold = typical views per post</em>'));
+  sec.append(h('div','sec-t',compact?`<span>${ico(p.key)}${p.name}</span><em>bold = typical views per post</em>`:'<span>Which post types work</span><em>bold = typical views per post</em>'));
   const g=h('div','tgrid num');g.style.gridTemplateColumns=`1.5fr repeat(${per.length},1fr)`;
   g.append(h('span','th',''),...per.map(x=>h('span','th',x.label)));
   const best=per.map(x=>{const ok=names.filter(([k])=>x.types[k]&&x.types[k].n>=EARLY);
-    return ok.length>1?ok.reduce((a,b)=>x.types[b[0]].med>x.types[a[0]].med?b:a)[0]:null});
+    const w=ok.length>1?ok.reduce((a,b)=>x.types[b[0]].med>x.types[a[0]].med?b:a)[0]:null;return w&&x.types[w].med>0?w:null});
   names.forEach(([k,label])=>{g.append(h('span','tn',label));
     per.forEach((x,i)=>{const c=x.types[k];
       g.append(c?h('span','tc'+(c.n<EARLY?' early':'')+(best[i]===k?' best':''),`<b>${full(c.med)}</b><small>${c.n} post${c.n===1?'':'s'}${c.n<EARLY?' · early':''}</small><small>${full(c.tot)} total views</small>`):h('span','tc early','<b>—</b>'))})});
+  if(compact){sec.append(g);return [sec]}
   sec.append(g,h('div','sum',`<span>Only posts at least ${T.min_age} days old. Columns split where the posting method changed. “Early” means fewer than ${EARLY} posts, so don't trust it yet. The bold amber number is the best type in that column. Each type goes out at its own time of day, so a gap can be timing rather than type. Nature-Hear began 11/16 and tomorrow's-episode posts ended 11/8.</span>`));
   return [sec]}
+
+/* ---------- Compare tab: which kind of post works, all platforms side by side ---------- */
+function compareBlock(){
+  const order=['yt','fb','ig','tt'].filter(k=>DATA.by_type&&DATA.by_type[k]&&DATA.by_type[k].periods.length);
+  const out=[h('div','plat-h','<b>Compare</b><small>which kind of post works</small>')];
+  if(!order.length){out.push(h('div','empty-note','Fills in once posts are tracked.'));return out}
+  const names=[['nature','Nature'],['hear','Nature-Hear'],['promo','Promo'],['tomorrow',"Tomorrow's (ended)"]],EARLY=8;
+  const cur=order.map(k=>({k,p:DATA.platforms.find(x=>x.key===k),per:DATA.by_type[k].periods[0]}));
+  const sec=h('div','posts');
+  sec.append(h('div','sec-t','<span>Right now</span><em>typical views per post, current method</em>'));
+  const g=h('div','tgrid num');g.style.gridTemplateColumns=`1.4fr repeat(${cur.length},1fr)`;
+  g.append(h('span','th',''),...cur.map(c=>h('span','th',`${c.p.name}<br>${c.per.label}`)));
+  const best=cur.map(c=>{const ok=names.filter(([k])=>c.per.types[k]&&c.per.types[k].n>=EARLY);
+    const w=ok.length>1?ok.reduce((a,b)=>c.per.types[b[0]].med>c.per.types[a[0]].med?b:a)[0]:null;return w&&c.per.types[w].med>0?w:null});
+  names.filter(([k])=>k!=='tomorrow').forEach(([k,label])=>{g.append(h('span','tn',label));
+    cur.forEach((c,i)=>{const t=c.per.types[k];
+      g.append(t?h('span','tc'+(t.n<EARLY?' early':'')+(best[i]===k?' best':''),`<b>${full(t.med)}</b><small>${t.n} post${t.n===1?'':'s'}${t.n<EARLY?' · early':''}</small>`):h('span','tc early','<b>—</b>'))})});
+  sec.append(g,h('div','sum',`<span>Median views per post, only posts at least 3 days old. “Early” means fewer than ${EARLY} posts, so don't trust it yet. The bold amber number is the best type for that platform once there are enough posts. Each type goes out at its own time of day, so a gap can be timing rather than type.</span>`));
+  out.push(sec);
+  out.push(h('div','sec-t','<span>Platform by platform</span><em>columns split where the posting method changed</em>'));
+  order.forEach(k=>out.push(...typesBlock(DATA.platforms.find(x=>x.key===k),true)));
+  out.push(h('div','sum',`<span>Nature-Hear began 11/16. Tomorrow's-episode posts ended 11/8. Earlier columns are kept so you can see how each type did before.</span>`));
+  return out}
+
+/* ---------- lifetime goal: simple line chart ---------- */
+function lineChart(pts,opt){
+  const W=360,H=104,padL=34,padR=10,top=10,base=84,wrap=h('div','chart');
+  const cap=h('div','chart-cap');cap.append(h('span',null,opt.title),h('span',null,opt.sub||''));
+  const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':opt.title});wrap.append(cap,svg);
+  const ys=pts.map(p=>p.y).filter(y=>y!=null);
+  if(ys.length<2){const t=el('text',{x:W/2,y:50,'text-anchor':'middle'},svg);t.textContent='Fills in as weeks are tracked';return wrap}
+  const yMax=nice(Math.max(1e-9,...ys,opt.target||0)*1.05),x=i=>padL+i*(W-padL-padR)/Math.max(1,pts.length-1),y=v=>base-(v/yMax)*(base-top);
+  [0,yMax].forEach(v=>{el('line',{x1:padL,x2:W-padR,y1:y(v),y2:y(v),stroke:'var(--line)','stroke-width':1},svg);
+    const t=el('text',{x:padL-4,y:y(v)+3,'text-anchor':'end'},svg);t.textContent=opt.fmtY(v)});
+  if(opt.target!=null){el('line',{x1:padL,x2:W-padR,y1:y(opt.target),y2:y(opt.target),stroke:'var(--eng)','stroke-width':1.5,'stroke-dasharray':'4 3'},svg);
+}
+  let dstr='';pts.forEach((p,i)=>{if(p.y!=null)dstr+=(dstr?'L':'M')+x(i).toFixed(1)+','+y(p.y).toFixed(1)});
+  el('path',{d:dstr,fill:'none',stroke:opt.color,'stroke-width':2.2,'stroke-linejoin':'round','stroke-linecap':'round'},svg);
+  let li=pts.length-1;while(li>0&&pts[li].y==null)li--;el('circle',{cx:x(li),cy:y(pts[li].y),r:3.5,fill:opt.color},svg);
+  let lastM=-1;pts.forEach((p,i)=>{const m=p.d.getMonth();if(m!==lastM&&p.d.getDate()<=7||i===0){lastM=m;const t=el('text',{x:x(i),y:H-4,'text-anchor':i===0?'start':'middle'},svg);t.textContent=MON[m]}});
+  return wrap}
+
+function goalBlock(live,combined){
+  const G=DATA.goal;if(!G||!G.interactions)return null;
+  const baseV=live.reduce((s,p)=>s+(p.before?p.before.v:0),0),baseE=live.reduce((s,p)=>s+(p.before?p.before.e:0),0);
+  const first=Math.max(0,combined.findIndex(x=>x.v!=null)),wk=combined.slice(first);
+  let a=baseV,b=baseE;const cv=[],ce=[];
+  wk.forEach(x=>{a+=x.v||0;b+=x.e||0;cv.push({d:x.d,y:a});ce.push({d:x.d,y:b})});
+  const TV=a,TE=b,pct=(v,g)=>g?Math.min(100,v/g*100):0,pf=(v,g)=>g?(v/g*100).toFixed(1)+'%':'';
+  const last4=wk.slice(-4),pace=sum(last4,'e')/Math.max(1,last4.length),paceV=sum(last4,'v')/Math.max(1,last4.length);
+  const need=G.views?G.interactions/G.views*100:null;
+  const rt=wk.map(x=>({d:x.d,y:x.v>=200?x.e/x.v*100:null}));
+  const rate4=sum(last4,'v')?sum(last4,'e')/sum(last4,'v')*100:null;
+  const box=h('div','goal');
+  box.append(h('h3',null,'Lifetime goal'));
+  const card=(label,val,goalN,unit)=>h('div',null,`<div class="gtop num"><b>${full(val)}</b><span>of ${full(goalN)} ${unit}</span><em>${pf(val,goalN)}</em></div><div class="gbar" role="progressbar" aria-label="${label}" aria-valuenow="${Math.round(pct(val,goalN))}" aria-valuemin="0" aria-valuemax="100"><i style="width:${pct(val,goalN).toFixed(1)}%"></i></div>`);
+  const s1=h('div','gsub');s1.style.borderTop='0';s1.style.paddingTop='0';
+  s1.append(card('Interactions',TE,G.interactions,'interactions'),
+    lineChart(ce,{title:'Interactions, running total',sub:'by week',color:'var(--eng)',fmtY:fmt}),
+    h('div','gnote',pace>0&&TE<G.interactions?`Last 4 weeks: about ${full(Math.round(pace))} interactions a week. At that pace, roughly ${full(Math.ceil((G.interactions-TE)/pace))} more weeks. No deadline, just a pace check.`:`No deadline. Interactions are the Engaged number: likes or reactions, comments, shares and saves.`));
+  box.append(s1);
+  if(G.views){const s2=h('div','gsub');
+    s2.append(card('Views',TV,G.views,'views, the estimate the goal needs'),
+      lineChart(cv,{title:'Views, running total',sub:'by week',color:'var(--views)',fmtY:fmt}),
+      h('div','gnote',paceV>0?`Last 4 weeks: about ${full(Math.round(paceV))} views a week.`:''));box.append(s2)}
+  if(need!=null){const s3=h('div','gsub');
+    s3.append(lineChart(rt,{title:'Interaction rate by week',sub:rate4!=null?`last 4 weeks ${rate4.toFixed(1)}% · lifetime ${rate(TV,TE)}`:'',color:'var(--views)',target:need,targetLabel:`goal assumes ${need.toFixed(1)}%`,fmtY:v=>v.toFixed(0)+'%'}),
+      h('div','gnote',`The dashed line is the ${need.toFixed(1)}% the goal assumes. The views goal is the interactions goal divided by this rate. If the rate climbs above it, fewer views are needed. Weeks under 200 views are left out.`));box.append(s3)}
+  return box}
 
 /* ---------- C: overview + one platform at a time ---------- */
 function layoutC(root){
@@ -382,6 +463,7 @@ function layoutC(root){
     const pane=h('div','pane');pane.id='pane-'+r;pane.setAttribute('role','tabpanel');
     pane.append(h('div','sec-t',`<span>${head}</span>`),
       h('div','big',`<div><b>${fmt(TV)}</b><span>Views${dtxt}</span></div><div><b>${full(TE)}</b><span>Engaged</span></div><div><b>${rate(TV,TE)}</b><span>Rate</span></div>`));
+    if(r==='all'){const gb=goalBlock(live,combined);if(gb)pane.append(gb)}
     if(r==='6m')pane.append(chart(combined,{title:'All channels by week',sub:'views + engaged',style:'twin',weekly:true}));
     const rows=h('div','mini-rows');const mx=Math.max(1,...ts.map(t=>t.v));
     DATA.platforms.forEach(p=>{const t=tot(r,p);
@@ -397,14 +479,15 @@ function layoutC(root){
   pickR(panes[rr]?rr:'7d');
   const tabs=h('div','tabs');tabs.setAttribute('role','tablist');tabs.setAttribute('aria-label','Platform');
   const panel=h('section','plat');panel.setAttribute('role','tabpanel');
-  const pick=(k,tap)=>{const p=DATA.platforms.find(x=>x.key===k);panel.style.setProperty('--pc',`var(--${k})`);[...tabs.children].forEach(b=>b.setAttribute('aria-selected',b.dataset.k===k));
-    panel.replaceChildren(...[platHead(p),statLine(p),changesPlat(p)].filter(Boolean),legend(),...charts(p,'twin'),...splitBlock(p),...postsBlock(p),...typesBlock(p));try{localStorage.setItem('wwj-reach-tab',k)}catch(e){}
+  const pick=(k,tap)=>{const p=DATA.platforms.find(x=>x.key===k);panel.style.setProperty('--pc',k==='compare'?'var(--views)':`var(--${k})`);[...tabs.children].forEach(b=>b.setAttribute('aria-selected',b.dataset.k===k));
+    if(k==='compare')panel.replaceChildren(...compareBlock());else panel.replaceChildren(...[platHead(p),statLine(p),changesPlat(p)].filter(Boolean),legend(),...charts(p,'twin'),...splitBlock(p),...postsBlock(p));try{localStorage.setItem('wwj-reach-tab',k)}catch(e){}
     if(tap){const r=panel.getBoundingClientRect();if(r.top<0||r.top>innerHeight*0.6)panel.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})}};
-  DATA.platforms.forEach(p=>{const b=h('button',null,`${ico(p.key,'')}${p.name}`);b.style.setProperty('--pc',`var(--${p.key})`);b.type='button';b.id='tab-'+p.key;b.dataset.k=p.key;b.setAttribute('role','tab');b.addEventListener('click',()=>pick(p.key,true));tabs.append(b)});
+  DATA.platforms.filter(p=>p.key!=='pin').forEach(p=>{const b=h('button',null,`${ico(p.key,'')}${p.name}`);b.style.setProperty('--pc',`var(--${p.key})`);b.type='button';b.id='tab-'+p.key;b.dataset.k=p.key;b.setAttribute('role','tab');b.addEventListener('click',()=>pick(p.key,true));tabs.append(b)});
+  {const b=h('button',null,`${ico('compare','')}Compare`);b.style.setProperty('--pc','var(--views)');b.type='button';b.id='tab-compare';b.dataset.k='compare';b.setAttribute('role','tab');b.addEventListener('click',()=>pick('compare',true));tabs.append(b)}
   root.append(panel,foot());
   const bar=h('nav','tabbar');bar.append(tabs);document.body.append(bar);document.body.classList.add('has-bar');
   let k='fb';try{k=localStorage.getItem('wwj-reach-tab')||'fb'}catch(e){}
-  pick(DATA.platforms.some(p=>p.key===k)?k:'fb');
+  pick(k==='compare'||DATA.platforms.some(p=>p.key===k&&p.key!=='pin')?k:'fb');
 }
 function foot(){return h('div','foot',`<span>Views follow each platform's own count: plays on YouTube, Instagram and TikTok, and content views on Facebook.</span><span>Engaged adds likes or reactions, comments, shares and saves. On Facebook it is Meta's post engagement count, which also includes clicks.</span><span>YouTube and Facebook report their own history. Instagram, TikTok and Pinterest come from Buffer, which only keeps 31 days, so each night's totals are saved to build the longer graphs.</span><span>YouTube's Shorts vs long-form split uses YouTube's own content-type tag. Live streams count as long-form.</span><span>YouTube reports a day or two late, so its graphs stop at the last day it has reported. The date is next to its name.</span><span>For Instagram, TikTok and Pinterest, history from before tracking began counts each post's views on the day it was posted, not the days people watched it.</span>`)}
 

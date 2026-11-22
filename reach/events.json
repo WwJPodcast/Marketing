@@ -1,5 +1,5 @@
 {
- "_note": "Dates when posting method changed. Edit this file to add one: date (YYYY-MM-DD), title, text, platforms (yt fb ig tt pin). 'stops' lists platforms whose tracking ends that day. Add \"split\": false to mark a day on the graphs without starting a new column in the post-type table.",
+ "_note": "Dates when posting method changed. Edit this file to add one: date (YYYY-MM-DD), title, text, platforms (yt fb ig tt pin). 'stops' lists platforms whose tracking ends that day. Add \"split\": false to mark a day on the graphs without starting a new column in the post-type table. \"hidden\": true keeps a date for the post-type columns but does not show it on the page.",
  "events": [
   {
    "date": "2026-10-26",
@@ -7,7 +7,8 @@
    "platforms": [
     "fb"
    ],
-   "text": "Facebook posting moved off Buffer to the API pipeline. Reach fell to near zero from this day."
+   "text": "Facebook posting moved off Buffer to the API pipeline. Reach fell to near zero from this day.",
+   "hidden": true
   },
   {
    "date": "2026-11-06",
