@@ -1,5 +1,5 @@
 {
- "updated": "Sun 11/22 12:38 PM",
+ "updated": "Sun 11/22 1:30 PM",
  "updated_date": "2026-11-22",
  "platforms": [
   {
@@ -1508,7 +1508,7 @@
    {
     "t": "2026-11-22T09:02",
     "len": 13,
-    "v": 176,
+    "v": 177,
     "k": "reel",
     "x": "No commentary. No one telling you what to think.",
     "ty": "promo",
@@ -1517,7 +1517,7 @@
    {
     "t": "2026-11-21T15:01",
     "len": 17,
-    "v": 271,
+    "v": 277,
     "k": "reel",
     "x": "This is the opposite of scrolling. Fifteen quiet",
     "ty": "promo",
@@ -1562,7 +1562,7 @@
    {
     "t": "2026-11-18T14:03",
     "len": 12,
-    "v": 4181,
+    "v": 4182,
     "k": "reel",
     "x": "Matthew 13:9 (KJV) Hear Jesus here. Make hearing",
     "ty": "hear",
@@ -2404,7 +2404,7 @@
       },
       "hear": {
        "n": 4,
-       "tot": 4885,
+       "tot": 4886,
        "med": 237
       },
       "tomorrow": {

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22 12:38",
+ "updated": "2026-11-22 13:30",
  "fields": {
   "p": "platform",
   "t": "posted (Central)",
@@ -104,7 +104,7 @@
    "x": "This is the opposite of scrolling. Fifteen quiet minutes wit",
    "url": "/reel/1655260519630891/",
    "age": 1,
-   "v": 271,
+   "v": 277,
    "e": 2,
    "v1": null,
    "v7": null,
@@ -541,7 +541,7 @@
    "x": "Matthew 13:9 (KJV) Hear Jesus here. Make hearing Jesus a dai",
    "url": "/reel/2350157172489886/",
    "age": 4,
-   "v": 4181,
+   "v": 4182,
    "e": 83,
    "v1": 4163,
    "v7": null,
@@ -12777,7 +12777,7 @@
    {
     "key": "fb/hear",
     "posts": 5,
-    "views": 5163,
+    "views": 5164,
     "engaged": 91,
     "eng_rate_pct": 1.76,
     "median_views": 239,
@@ -12801,7 +12801,7 @@
    {
     "key": "fb/promo",
     "posts": 20,
-    "views": 2784,
+    "views": 2790,
     "engaged": 16,
     "eng_rate_pct": 0.57,
     "median_views": 151.5,
@@ -13117,7 +13117,7 @@
    {
     "key": "fb/2026-11-16",
     "posts": 12,
-    "views": 5826,
+    "views": 5833,
     "engaged": 99,
     "eng_rate_pct": 1.7,
     "median_views": 217.0,
@@ -13599,7 +13599,7 @@
    {
     "key": "fb/14",
     "posts": 22,
-    "views": 13234,
+    "views": 13235,
     "engaged": 123,
     "eng_rate_pct": 0.93,
     "median_views": 8.0,
@@ -13611,9 +13611,9 @@
    {
     "key": "fb/15",
     "posts": 5,
-    "views": 1211,
+    "views": 1217,
     "engaged": 6,
-    "eng_rate_pct": 0.5,
+    "eng_rate_pct": 0.49,
     "median_views": 270,
     "median_views_day1": 254,
     "median_views_day7": 128.5,
