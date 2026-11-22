@@ -75,6 +75,7 @@ body.has-bar{padding-bottom:calc(76px + env(safe-area-inset-bottom,0px))}
 .tabs button[aria-selected="true"]{color:var(--ink);background:var(--panel);box-shadow:inset 0 -3px 0 var(--pc)}
 .tabs button svg{width:20px;height:20px;fill:var(--pc)}
 .ico{width:16px;height:16px;fill:var(--pc);flex:none}
+.sec-t>span:has(>.ico){display:inline-flex;align-items:center;gap:6px}
 .plat-h b{display:inline-flex;align-items:center;gap:7px}
 .mini-row .nm{display:flex;align-items:center;gap:6px;min-width:0}
 .tabs button:active{background:var(--empty)}
@@ -106,11 +107,11 @@ body.has-bar{padding-bottom:calc(76px + env(safe-area-inset-bottom,0px))}
 .prow small{color:var(--mute);font-size:11px;grid-column:1/-1}
 .prow .tag{font-size:9px;letter-spacing:.06em;text-transform:uppercase;border:1px solid currentColor;border-radius:3px;padding:0 4px;margin-left:6px;vertical-align:1px}
 .prow.long .tag{color:var(--long)}.prow.up .tag{color:var(--eng)}
-.tgrid{display:grid;gap:0;font-size:12px;align-items:center}
-.tgrid>span{padding:6px 4px;border-top:1px solid var(--line)}
-.tgrid .th{border-top:0;font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--mute);text-align:right}
-.tgrid .tn{padding-left:0}
-.tgrid .tc{text-align:right;display:flex;flex-direction:column}
+.tgrid{display:grid;gap:0;font-size:12px;align-items:stretch}
+.tgrid>span{padding:6px 4px;border-top:1px solid var(--line);display:flex;flex-direction:column;justify-content:center}
+.tgrid .th{border-top:0;font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--mute);text-align:right;justify-content:flex-end}
+.tgrid .tn{padding-left:0;justify-content:flex-start;padding-top:8px}
+.tgrid .tc{text-align:right;display:flex;flex-direction:column;justify-content:flex-start}
 .tgrid .tc small{color:var(--mute);font-size:10px}
 .tgrid .tc.early b{color:var(--mute);font-weight:400}
 .tgrid .tc.best b{color:var(--eng)}
