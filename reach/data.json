@@ -1,5 +1,5 @@
 {
- "updated": "Sun 11/22 10:07 AM",
+ "updated": "Sun 11/22 12:38 PM",
  "updated_date": "2026-11-22",
  "platforms": [
   {
@@ -272,12 +272,12 @@
       },
       {
        "d": "2026-11-16",
-       "v": 77,
+       "v": 76,
        "e": 12
       },
       {
        "d": "2026-11-17",
-       "v": 62,
+       "v": 61,
        "e": 6
       },
       {
@@ -419,7 +419,7 @@
       },
       {
        "d": "2026-11-13",
-       "v": 986,
+       "v": 984,
        "e": 84
       }
      ]
@@ -1494,7 +1494,7 @@
   }
  ],
  "notes": [
-  "YouTube split since 2026-09-15: shorts 17008 + long-form 182 of 17203 total views; 97 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
+  "YouTube split since 2026-09-15: shorts 17006 + long-form 182 of 17203 total views; 97 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
   "Buffer posts read: 243; saved with numbers: 270",
@@ -1508,7 +1508,7 @@
    {
     "t": "2026-11-22T09:02",
     "len": 13,
-    "v": 0,
+    "v": 176,
     "k": "reel",
     "x": "No commentary. No one telling you what to think.",
     "ty": "promo",
@@ -1517,7 +1517,7 @@
    {
     "t": "2026-11-21T15:01",
     "len": 17,
-    "v": 245,
+    "v": 271,
     "k": "reel",
     "x": "This is the opposite of scrolling. Fifteen quiet",
     "ty": "promo",
@@ -1679,7 +1679,7 @@
    {
     "t": "2026-11-11T17:03",
     "len": 17,
-    "v": 84,
+    "v": 85,
     "k": "reel",
     "x": "Luke 9:62 (KJV) On today's episode of Walking wi",
     "ty": "nature",
@@ -1688,7 +1688,7 @@
    {
     "t": "2026-11-11T09:06",
     "len": 16,
-    "v": 26,
+    "v": 27,
     "k": "reel",
     "x": "Matthew 10:8 (KJV) On today's episode of Walking",
     "ty": "nature",
@@ -2399,7 +2399,7 @@
      "types": {
       "nature": {
        "n": 14,
-       "tot": 1115,
+       "tot": 1117,
        "med": 43
       },
       "hear": {
