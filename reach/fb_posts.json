@@ -1,5 +1,5 @@
 {
- "updated": "Sun 11/22 8:15 AM",
+ "updated": "Sun 11/22 9:15 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -8,10 +8,18 @@
  "errors": [],
  "days": [
   {
+   "d": "2026-11-22",
+   "short": 1,
+   "long": 0,
+   "short_views": 0,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
    "d": "2026-11-21",
    "short": 2,
    "long": 0,
-   "short_views": 242,
+   "short_views": 245,
    "long_views": 0,
    "unknown": 0
   },
@@ -130,12 +138,25 @@
  ],
  "items": [
   {
+   "id": "1494910019510338",
+   "type": "reel",
+   "at": "2026-11-22 09:02",
+   "live": "2026-11-22 09:02",
+   "len": 13,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "No commentary. No one telling you what to think. Just His wo",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":828172},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-22T15:02:14+000",
+   "sched": null
+  },
+  {
    "id": "1655260519630891",
    "type": "reel",
    "at": "2026-11-21 15:01",
    "live": "2026-11-21 15:01",
    "len": 17,
-   "views": 234,
+   "views": 237,
    "src": "fb_reels_total_plays",
    "text": "This is the opposite of scrolling. Fifteen quiet minutes wit",
    "pub": true,

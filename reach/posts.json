@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22 08:15",
+ "updated": "2026-11-22 09:15",
  "fields": {
   "p": "platform",
   "t": "posted (Central)",
@@ -21,6 +21,30 @@
   "Facebook per-post: 35 saved"
  ],
  "posts": [
+  {
+   "p": "tt",
+   "id": "6b00c5c15e993799d8313e97",
+   "t": "2026-11-22T09:07",
+   "type": "promo",
+   "tag_by": "caption",
+   "opening": null,
+   "len": 13,
+   "x": "No commentary. No one telling you what to think. Just His wo",
+   "url": "https://tiktok.com/@walking.with.jesu838/video/7711011769174609165",
+   "age": 0,
+   "v": 0,
+   "e": 0,
+   "v1": null,
+   "v7": null,
+   "e7": null,
+   "watch": 0,
+   "watch_pct": null,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": null,
+   "reach": 0
+  },
   {
    "p": "tt",
    "id": "6b00c5bf5102766245d83da2",
@@ -80,7 +104,7 @@
    "x": "This is the opposite of scrolling. Fifteen quiet minutes wit",
    "url": "/reel/1655260519630891/",
    "age": 1,
-   "v": 234,
+   "v": 237,
    "e": 1,
    "v1": null,
    "v7": null,
@@ -12777,7 +12801,7 @@
    {
     "key": "fb/promo",
     "posts": 20,
-    "views": 2747,
+    "views": 2750,
     "engaged": 15,
     "eng_rate_pct": 0.55,
     "median_views": 151.5,
@@ -12920,15 +12944,15 @@
    },
    {
     "key": "tt/promo",
-    "posts": 14,
+    "posts": 15,
     "views": 519,
     "engaged": 30,
     "eng_rate_pct": 5.78,
-    "median_views": 19.0,
+    "median_views": 18,
     "median_views_day1": 19.5,
     "median_views_day7": 30,
     "with_day7": 9,
-    "median_watch_s": 2.5
+    "median_watch_s": 1.8
    },
    {
     "key": "tt/tomorrow",
@@ -13093,7 +13117,7 @@
    {
     "key": "fb/2026-11-16",
     "posts": 12,
-    "views": 5789,
+    "views": 5792,
     "engaged": 98,
     "eng_rate_pct": 1.69,
     "median_views": 217.0,
@@ -13380,15 +13404,15 @@
    },
    {
     "key": "tt/2026-11-16",
-    "posts": 12,
+    "posts": 13,
     "views": 127,
     "engaged": 0,
     "eng_rate_pct": 0.0,
-    "median_views": 9.5,
+    "median_views": 9,
     "median_views_day1": 9.0,
     "median_views_day7": null,
     "with_day7": 0,
-    "median_watch_s": 4.2
+    "median_watch_s": 3.5
    },
    {
     "key": "yt/2026-09-14",
@@ -13587,9 +13611,9 @@
    {
     "key": "fb/15",
     "posts": 5,
-    "views": 1174,
+    "views": 1177,
     "engaged": 5,
-    "eng_rate_pct": 0.43,
+    "eng_rate_pct": 0.42,
     "median_views": 256,
     "median_views_day1": 254,
     "median_views_day7": 128.5,
@@ -13838,15 +13862,15 @@
    },
    {
     "key": "tt/09",
-    "posts": 24,
+    "posts": 25,
     "views": 622,
     "engaged": 52,
     "eng_rate_pct": 8.36,
-    "median_views": 12.5,
+    "median_views": 12,
     "median_views_day1": 13,
     "median_views_day7": 17.5,
     "with_day7": 18,
-    "median_watch_s": 3.0
+    "median_watch_s": 2.9
    },
    {
     "key": "tt/14",

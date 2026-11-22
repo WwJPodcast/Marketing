@@ -1,5 +1,5 @@
 {
- "updated": "Sun 11/22 8:15 AM",
+ "updated": "Sun 11/22 9:15 AM",
  "updated_date": "2026-11-22",
  "platforms": [
   {
@@ -1497,18 +1497,27 @@
   "YouTube split since 2026-09-15: shorts 17008 + long-form 182 of 17203 total views; 97 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 241; saved with numbers: 269",
-  "Facebook posts, last 21 days: 35 reels, 0 other videos, 0 over 90s; views known for 35 of 35, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 526 posts; YouTube per-video: 167 videos, titles from Data API for 167, public-title/first-view lookups 0; Facebook per-post: 35 saved"
+  "Buffer posts read: 243; saved with numbers: 270",
+  "Facebook posts, last 21 days: 36 reels, 0 other videos, 0 over 90s; views known for 36 of 36, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
+  "posts.json: 527 posts; YouTube per-video: 167 videos, titles from Data API for 167, public-title/first-view lookups 0; Facebook per-post: 35 saved"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
    {
+    "t": "2026-11-22T09:02",
+    "len": 13,
+    "v": 0,
+    "k": "reel",
+    "x": "No commentary. No one telling you what to think.",
+    "ty": "promo",
+    "up": false
+   },
+   {
     "t": "2026-11-21T15:01",
     "len": 17,
-    "v": 234,
+    "v": 237,
     "k": "reel",
     "x": "This is the opposite of scrolling. Fifteen quiet",
     "ty": "promo",
