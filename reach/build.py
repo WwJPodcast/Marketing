@@ -472,6 +472,7 @@ def fetch_facebook_posts(now):
     result_page = {"long_over": FB_LONG_SECONDS, "days": FB_POST_DAYS,
                    "items": [{"t": i["live"].astimezone(TZ).strftime("%Y-%m-%dT%H:%M"), "len": i["len"],
                               "v": i["views"], "k": i["type"], "x": i["text"][:48],
+                              "ty": per_post.post_type(None, i["text"], i["len"])[0],
                               "up": i["live"] > now} for i in page_items]}
 
     nl = sum(1 for i in rows if (i["len"] or 0) > FB_LONG_SECONDS)
@@ -626,7 +627,8 @@ def build_type_table(path, events, now, min_age=3):
     out = {}
     for plat in ("yt", "fb", "ig", "tt"):
         cuts = []
-        for c in sorted({e["date"] for e in events if plat in (e.get("platforms") or [])}):
+        for c in sorted({e["date"] for e in events
+                         if plat in (e.get("platforms") or []) and e.get("split", True)}):
             # changes within 2 days of each other count as one (a one-day period tells us nothing)
             if not cuts or (dt.date.fromisoformat(c) - dt.date.fromisoformat(cuts[-1])).days >= 3:
                 cuts.append(c)
@@ -639,7 +641,7 @@ def build_type_table(path, events, now, min_age=3):
             if en is not None and st:  # end label is the day before the next change
                 lab = f"{md(st)}\u2013{md((dt.date.fromisoformat(en) - dt.timedelta(days=1)).isoformat())}"
             types = {}
-            for ty in ("nature", "tomorrow", "promo"):
+            for ty in ("nature", "hear", "tomorrow", "promo"):
                 vs = sorted(x["v"] for x in posts
                             if x.get("p") == plat and x.get("type") == ty and x.get("t") and x.get("v") is not None
                             and (x.get("age") or 0) >= min_age

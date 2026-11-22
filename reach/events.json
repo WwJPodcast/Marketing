@@ -1,5 +1,5 @@
 {
- "_note": "Dates when posting method changed. Edit this file to add one: date (YYYY-MM-DD), title, text, platforms (yt fb ig tt pin). 'stops' lists platforms whose tracking ends that day.",
+ "_note": "Dates when posting method changed. Edit this file to add one: date (YYYY-MM-DD), title, text, platforms (yt fb ig tt pin). 'stops' lists platforms whose tracking ends that day. Add \"split\": false to mark a day on the graphs without starting a new column in the post-type table.",
  "events": [
   {
    "date": "2026-10-26",
@@ -38,6 +38,18 @@
     "tt"
    ],
    "text": "Regular posts paused; a new kind of nature post replaces them. Test: can they beat the 2-second swipe-away?"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "Nature-Hear posts begin",
+   "platforms": [
+    "yt",
+    "fb",
+    "ig",
+    "tt"
+   ],
+   "split": false,
+   "text": "Tomorrow's-episode posts discontinued (last one 11/8). The new Nature-Hear post, a nature card opening with the Hear Jesus Here promo ending, takes their place."
   }
  ]
 }

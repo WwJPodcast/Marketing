@@ -319,6 +319,7 @@ function splitBlock(p){
     return sec})}
 
 /* ---------- Facebook only: every recent video with its length and views ---------- */
+const TYN={nature:'nature',hear:'nature-hear',tomorrow:"tomorrow's",promo:'promo',episode:'episode'};
 function postsBlock(p){
   const YTP=p.key==='yt',F=YTP?DATA.yt_posts:p.key==='fb'?DATA.fb_posts:null;if(!F||!F.items||!F.items.length)return [];
   const LONG=F.long_over||90,isL=i=>YTP?i.k==='video':(i.len||0)>LONG;
@@ -334,7 +335,7 @@ function postsBlock(p){
   const list=h('div','plist');
   const row=i=>{const L=isL(i);
     const r=h('div','prow'+(L?' long':'')+(i.up?' up':''),
-      `<span class="x">${i.x?i.x.replace(/</g,'&lt;'):'(no caption)'}${L?'<span class="tag">Long</span>':''}${i.up?'<span class="tag">Scheduled</span>':''}</span><span class="v num">${i.up||i.v==null?'—':full(i.v)}</span><small>${when(i.t)} · ${mm(i.len)} · ${YTP?(L?'Episode':'Short'):i.k==='reel'?'Reel':'Video'}${i.ty&&i.ty!=='other'?' · '+i.ty:''}${i.wp!=null?' · '+Math.round(i.wp)+'% watched':''}</small>`);return r};
+      `<span class="x">${i.x?i.x.replace(/</g,'&lt;'):'(no caption)'}${L?'<span class="tag">Long</span>':''}${i.up?'<span class="tag">Scheduled</span>':''}</span><span class="v num">${i.up||i.v==null?'—':full(i.v)}</span><small>${when(i.t)} · ${mm(i.len)} · ${YTP?(L?'Episode':'Short'):i.k==='reel'?'Reel':'Video'}${i.ty&&i.ty!=='other'?' · '+(TYN[i.ty]||i.ty):''}${i.wp!=null?' · '+Math.round(i.wp)+'% watched':''}</small>`);return r};
   const SHOW=20;let all=false;
   const paint=()=>{list.replaceChildren(...(all?F.items:F.items.slice(0,SHOW)).map(row));
     if(F.items.length>SHOW){btn.textContent=all?'Show fewer':'Show all '+F.items.length;btn.hidden=false}else btn.hidden=true};
@@ -346,7 +347,7 @@ function postsBlock(p){
 /* ---------- which kind of post works: median views per type, split where the method changed ---------- */
 function typesBlock(p){
   const T=DATA.by_type&&DATA.by_type[p.key];if(!T||!T.periods||!T.periods.length)return [];
-  const names=[['nature','Nature'],['tomorrow',"Tomorrow's episode"],['promo','Promo']],EARLY=8;
+  const names=[['nature','Nature'],['hear','Nature-Hear'],['promo','Promo'],['tomorrow',"Tomorrow's (ended)"]],EARLY=8;
   const per=T.periods,sec=h('div','posts');
   sec.append(h('div','sec-t','<span>Which post types work</span><em>bold = typical views per post</em>'));
   const g=h('div','tgrid num');g.style.gridTemplateColumns=`1.5fr repeat(${per.length},1fr)`;
@@ -356,7 +357,7 @@ function typesBlock(p){
   names.forEach(([k,label])=>{g.append(h('span','tn',label));
     per.forEach((x,i)=>{const c=x.types[k];
       g.append(c?h('span','tc'+(c.n<EARLY?' early':'')+(best[i]===k?' best':''),`<b>${full(c.med)}</b><small>${c.n} post${c.n===1?'':'s'}${c.n<EARLY?' · early':''}</small><small>${full(c.tot)} total views</small>`):h('span','tc early','<b>—</b>'))})});
-  sec.append(g,h('div','sum',`<span>Only posts at least ${T.min_age} days old. Columns split where the posting method changed. “Early” means fewer than ${EARLY} posts, so don't trust it yet. The bold amber number is the best type in that column. Type is mixed with posting time: tomorrow's-episode posts go out in the evening, nature mostly in the morning.</span>`));
+  sec.append(g,h('div','sum',`<span>Only posts at least ${T.min_age} days old. Columns split where the posting method changed. “Early” means fewer than ${EARLY} posts, so don't trust it yet. The bold amber number is the best type in that column. Each type goes out at its own time of day, so a gap can be timing rather than type. Nature-Hear began 11/16 and tomorrow's-episode posts ended 11/8.</span>`));
   return [sec]}
 
 /* ---------- C: overview + one platform at a time ---------- */

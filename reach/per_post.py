@@ -29,13 +29,16 @@ import re
 import statistics
 import urllib.parse
 
-TYPES = ("nature", "tomorrow", "promo")
+TYPES = ("nature", "tomorrow", "promo", "hear")  # hear = Nature-Hear: nature card opening + Hear Jesus Here ending
 EPISODE_SECONDS = 180          # longer than this is a full episode, not a clip
 YT_MAX_VIDEOS = 200            # the Analytics API's cap for a per-video report
 PLATFORM_OF = {"youtube": "yt", "facebook": "fb", "instagram": "ig", "tiktok": "tt", "pinterest": "pin"}
 
 VERSE_START = re.compile(r"\s*(?:[123]\s*)?[A-Z][a-z]+\.?\s+\d+:\d+")
 TOMORROW = re.compile(r"tomorrow'?s\s+episode", re.I)
+# Nature-Hear caption/title: a verse reference, then "Hear Jesus here" right away
+# ("John 8:47 (KJV) Hear Jesus here. ..." / "Matthew 13:9 KJV - Hear Jesus here | Walking with Jesus")
+HEAR = re.compile(r"^\s*(?:[123]\s*)?[A-Z][a-z]+\.?\s+\d+:\d+[^A-Za-z]{0,12}(?:kjv)?[^A-Za-z]{0,6}hear jesus here", re.I)
 # YouTube Tomorrow's titles name chapter ranges with no verse, e.g. "Blessed Is He That Cometh - John 11-12, Luke 18-19 KJV"
 CHAPTERS = re.compile(r"\b(?:[123]\s*)?[A-Z][a-z]+\.?\s+\d+(?:-\d+)?\s*(?:[,;]|KJV\b)")
 YT_LOOKUPS = 150               # most title/first-view lookups per night (new videos only after the first run)
@@ -44,7 +47,7 @@ YT_LOOKUPS = 150               # most title/first-view lookups per night (new vi
 # ------------------------------------------------------------------ post type
 
 def post_type(file=None, text=None, length=None, yt_title=False):
-    """-> (type, tag_by). type is nature / tomorrow / promo / episode / other."""
+    """-> (type, tag_by). type is nature / hear / tomorrow / promo / episode / other."""
     name = (file or "").rsplit("/", 1)[-1].lower()
     for k in TYPES:
         if name.startswith(k + "_"):
@@ -56,6 +59,8 @@ def post_type(file=None, text=None, length=None, yt_title=False):
         return "other", "none"
     if TOMORROW.search(t):
         return "tomorrow", "caption"
+    if HEAR.match(t):
+        return "hear", "caption"
     if VERSE_START.match(t):
         return "nature", "caption"
     if yt_title and ":" not in t.split("|")[0] and CHAPTERS.search(t):
@@ -320,7 +325,7 @@ def write_posts(path, history, now, notes):
         "by_hour": group([x for x in dated if len(x["t"]) > 10], lambda x: f"{x['p']}/{x['t'][11:13]}"),
     }
     out = {"updated": now.strftime("%Y-%m-%d %H:%M"),
-           "fields": {"p": "platform", "t": "posted (Central)", "type": "nature/tomorrow/promo/episode/other",
+           "fields": {"p": "platform", "t": "posted (Central)", "type": "nature/hear (Nature-Hear)/tomorrow (discontinued)/promo/episode/other",
                       "tag_by": "file name, length or caption", "len": "seconds",
                       "opening": "words/question/build from the file name letter, else null",
                       "v": "views to date", "e": "likes+comments+shares(+saves) to date",
