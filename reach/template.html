@@ -70,8 +70,8 @@ body.has-bar{padding-bottom:calc(76px + env(safe-area-inset-bottom,0px))}
 .tabbar{position:fixed;left:0;right:0;bottom:0;z-index:5;background:var(--bg);border-top:1px solid var(--line);
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
   padding-block:6px calc(8px + env(safe-area-inset-bottom,0px))}
-.tabbar .tabs{max-width:430px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);gap:4px}
-.tabs button{background:none;border:0;border-radius:10px;min-height:48px;padding:6px 2px;font-size:11px;cursor:pointer;color:var(--mute);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;white-space:nowrap}
+.tabbar .tabs{max-width:430px;margin:0 auto;display:grid;grid-template-columns:repeat(6,1fr);gap:2px}
+.tabs button{background:none;border:0;border-radius:10px;min-height:48px;padding:6px 0;font-size:10.5px;cursor:pointer;color:var(--mute);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;white-space:nowrap}
 .tabs button[aria-selected="true"]{color:var(--ink);background:var(--panel);box-shadow:inset 0 -3px 0 var(--pc)}
 .tabs button svg{width:20px;height:20px;fill:var(--pc)}
 .ico{width:16px;height:16px;fill:var(--pc);flex:none}
@@ -290,6 +290,7 @@ function spark(p){const svg=el('svg',{viewBox:'0 0 64 20','aria-hidden':'true'})
 
 const ICON={"yt": "M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z", "fb": "M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z", "ig": "M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077", "tt": "M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z", "pin": "M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"};
 ICON.compare="M4 20V10h4v10zM10 20V4h4v16zM16 20v-7h4v7z";
+ICON.rss="M4 4.5a15.5 15.5 0 0 1 15.5 15.5h-3A12.5 12.5 0 0 0 4 7.5zM4 10.5A9.5 9.5 0 0 1 13.5 20h-3A6.5 6.5 0 0 0 4 13.5zM6.5 17a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z";
 const ico=(k,c)=>`<svg class="${c||'ico'}" viewBox="0 0 24 24" aria-hidden="true"><path d="${ICON[k]}"/></svg>`;
 const evLine=e=>`<div class="chg-i"><b>${dl(e.d)} · ${e.title}</b><span>${e.text||''}</span></div>`;
 function changesTop(){
@@ -373,6 +374,32 @@ function typesBlock(p,compact){
   return [sec]}
 
 /* ---------- Compare tab: which kind of post works, all platforms side by side ---------- */
+function rssBlock(){
+  const R=DATA.rss,out=[h('div','plat-h',`<b>RSS</b><small>podcast downloads · as of ${R.as_of}</small>`)];
+  const D=R.downloads,sec=h('div','posts');
+  const chg=D.d30_change_pct==null?'':`<small>${D.d30_change_pct>0?'+':''}${D.d30_change_pct}% vs the 30 days before</small>`;
+  sec.append(h('div','sec-t','<span>Downloads</span><em>from RSS.com, bots removed</em>'));
+  sec.append(h('div','big num',`<div><b>${full(D.d7)}</b><span>last 7 days</span></div><div><b>${full(D.d30)}</b><span>last 30 days</span>${chg}</div><div><b>${full(D.all)}</b><span>all time</span></div>`));
+  sec.append(h('div','stats',`<span>Last 24 hours <b>${full(D.h24)}</b></span>`+(R.ras_last3!=null?`<span>Subscribers (last 3 episodes) <b>${R.ras_last3}</b></span>`:'')));
+  out.push(sec);
+  const rows=(title,em,list,suffix)=>{const s=h('div','posts');s.append(h('div','sec-t',`<span>${title}</span><em>${em}</em>`));
+    const mx=Math.max(...list.map(x=>x[1]),1),mr=h('div','mini-rows');
+    list.forEach(([n,v])=>mr.append(h('div','mini-row',`<span class="nm">${n}</span><span class="bar"><i style="width:${Math.max(2,v/mx*100)}%"></i></span><b class="num">${v}${suffix}</b>`)));s.append(mr);return s};
+  out.push(rows('Where listeners are',`${R.country_count} countries · ${R.city_count} cities`,R.countries,'%'));
+  out.push(rows('Device','share of downloads',R.devices,'%'));
+  out.push(rows('How old the episode was','when it was downloaded',R.age,'%'));
+  const e=h('div','posts');e.append(h('div','sec-t',`<span>Episodes</span><em>downloads each, newest first</em>`));
+  if(R.top30)e.append(h('div','stats',`<span>Top in the last 30 days <b>${R.top30.title}</b> · ${R.top30.n}</span>`));
+  const mr=h('div','mini-rows'),mx=Math.max(...R.episodes.map(x=>x.n),1);
+  R.episodes.forEach(x=>mr.append(h('div','mini-row',`<span class="nm"><span>${x.code.replace('S0','S').replace(' - ','·')}<small>${x.date.slice(5).replace('-','/')}</small></span></span><span><span style="font-size:12px">${x.title}</span><span class="bar" style="display:block;margin-top:3px"><i style="width:${Math.max(2,x.n/mx*100)}%"></i></span></span><b class="num">${x.n}</b>`)));
+  e.append(mr);out.push(e);
+  const H=Object.keys(R.history||{}).sort();
+  if(H.length>1){const s=h('div','posts');s.append(h('div','sec-t','<span>Downloads per day</span><em>from saved daily totals</em>'));const mr2=h('div','mini-rows');
+    const days=H.slice(1).map((d,i)=>[d.slice(5).replace('-','/'),R.history[d].all-R.history[H[i]].all]).slice(-14).reverse(),m=Math.max(...days.map(x=>x[1]),1);
+    days.forEach(([n,v])=>mr2.append(h('div','mini-row',`<span class="nm">${n}</span><span class="bar"><i style="width:${Math.max(2,v/m*100)}%"></i></span><b class="num">${v}</b>`)));s.append(mr2);out.push(s)}
+  else out.push(h('div','empty-note','Downloads per day start to appear once a second day has been saved.'));
+  out.push(h('div','foot','<span>Downloads come from RSS.com and cover Apple Podcasts, Spotify, Amazon Music and the rest. They are not the same as plays on social, so they are not added to the goal totals.</span>'));
+  return out}
 function compareBlock(){
   const order=['yt','fb','ig','tt'].filter(k=>DATA.by_type&&DATA.by_type[k]&&DATA.by_type[k].periods.length);
   const out=[h('div','plat-h','<b>Compare</b><small>which kind of post works</small>')];
@@ -479,15 +506,16 @@ function layoutC(root){
   pickR(panes[rr]?rr:'7d');
   const tabs=h('div','tabs');tabs.setAttribute('role','tablist');tabs.setAttribute('aria-label','Platform');
   const panel=h('section','plat');panel.setAttribute('role','tabpanel');
-  const pick=(k,tap)=>{const p=DATA.platforms.find(x=>x.key===k);panel.style.setProperty('--pc',k==='compare'?'var(--views)':`var(--${k})`);[...tabs.children].forEach(b=>b.setAttribute('aria-selected',b.dataset.k===k));
-    if(k==='compare')panel.replaceChildren(...compareBlock());else panel.replaceChildren(...[platHead(p),statLine(p),changesPlat(p)].filter(Boolean),legend(),...charts(p,'twin'),...splitBlock(p),...postsBlock(p));try{localStorage.setItem('wwj-reach-tab',k)}catch(e){}
+  const pick=(k,tap)=>{const p=DATA.platforms.find(x=>x.key===k);panel.style.setProperty('--pc',(k==='compare'||k==='rss')?'var(--views)':`var(--${k})`);[...tabs.children].forEach(b=>b.setAttribute('aria-selected',b.dataset.k===k));
+    if(k==='compare')panel.replaceChildren(...compareBlock());else if(k==='rss')panel.replaceChildren(...rssBlock());else panel.replaceChildren(...[platHead(p),statLine(p),changesPlat(p)].filter(Boolean),legend(),...charts(p,'twin'),...splitBlock(p),...postsBlock(p));try{localStorage.setItem('wwj-reach-tab',k)}catch(e){}
     if(tap){const r=panel.getBoundingClientRect();if(r.top<0||r.top>innerHeight*0.6)panel.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})}};
   DATA.platforms.filter(p=>p.key!=='pin').forEach(p=>{const b=h('button',null,`${ico(p.key,'')}${p.name}`);b.style.setProperty('--pc',`var(--${p.key})`);b.type='button';b.id='tab-'+p.key;b.dataset.k=p.key;b.setAttribute('role','tab');b.addEventListener('click',()=>pick(p.key,true));tabs.append(b)});
   {const b=h('button',null,`${ico('compare','')}Compare`);b.style.setProperty('--pc','var(--views)');b.type='button';b.id='tab-compare';b.dataset.k='compare';b.setAttribute('role','tab');b.addEventListener('click',()=>pick('compare',true));tabs.append(b)}
+  if(DATA.rss){const b=h('button',null,`${ico('rss','')}RSS`);b.style.setProperty('--pc','var(--views)');b.type='button';b.id='tab-rss';b.dataset.k='rss';b.setAttribute('role','tab');b.addEventListener('click',()=>pick('rss',true));tabs.append(b)}
   root.append(panel,foot());
   const bar=h('nav','tabbar');bar.append(tabs);document.body.append(bar);document.body.classList.add('has-bar');
   let k='fb';try{k=localStorage.getItem('wwj-reach-tab')||'fb'}catch(e){}
-  pick(k==='compare'||DATA.platforms.some(p=>p.key===k&&p.key!=='pin')?k:'fb');
+  pick(k==='compare'||(k==='rss'&&DATA.rss)||DATA.platforms.some(p=>p.key===k&&p.key!=='pin')?k:'fb');
 }
 function foot(){return h('div','foot',`<span>Views follow each platform's own count: plays on YouTube, Instagram and TikTok, and content views on Facebook.</span><span>Engaged adds likes or reactions, comments, shares and saves. On Facebook it is Meta's post engagement count, which also includes clicks.</span><span>YouTube and Facebook report their own history. Instagram, TikTok and Pinterest come from Buffer, which only keeps 31 days, so each night's totals are saved to build the longer graphs.</span><span>YouTube's Shorts vs long-form split uses YouTube's own content-type tag. Live streams count as long-form.</span><span>YouTube reports a day or two late, so its graphs stop at the last day it has reported. The date is next to its name.</span><span>For Instagram, TikTok and Pinterest, history from before tracking began counts each post's views on the day it was posted, not the days people watched it.</span>`)}
 

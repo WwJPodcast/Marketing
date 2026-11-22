@@ -759,6 +759,10 @@ def main():
     goal = load(HERE / "goal.json", {})
     if goal.get("interactions"):
         data["goal"] = {"interactions": goal["interactions"], "views": goal.get("views")}
+    rss = load(HERE / "rss" / "rss.json", {})
+    if rss.get("downloads"):
+        rss["history"] = load(HERE / "rss" / "history.json", {})
+        data["rss"] = rss
     ev = load(HERE / "events.json", {}).get("events")
     if isinstance(ev, list):
         data["events"] = ev  # dates when the posting method changed (edit events.json)

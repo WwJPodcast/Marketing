@@ -1,0 +1,195 @@
+{
+ "as_of": "2026-11-22",
+ "downloads": {
+  "h24": 13,
+  "d7": 226,
+  "d30": 376,
+  "d30_change_pct": 69,
+  "all": 1032
+ },
+ "ras_last3": 4,
+ "countries": [
+  [
+   "United States",
+   94.25
+  ],
+  [
+   "Canada",
+   5.31
+  ],
+  [
+   "Other",
+   0.44
+  ]
+ ],
+ "country_count": 3,
+ "city_count": 26,
+ "devices": [
+  [
+   "Mobile",
+   69.03
+  ],
+  [
+   "Computer",
+   30.97
+  ]
+ ],
+ "age": [
+  [
+   "0\u20137 days",
+   43
+  ],
+  [
+   "8\u201330 days",
+   17
+  ],
+  [
+   "31\u201390 days",
+   15
+  ],
+  [
+   "90+ days",
+   24
+  ]
+ ],
+ "top30": {
+  "title": "Before Time Began",
+  "n": 51
+ },
+ "episodes": [
+  {
+   "code": "S04 - E25",
+   "title": "Neither Do I Condemn Thee",
+   "date": "2026-11-20",
+   "dur": "12:29",
+   "n": 7
+  },
+  {
+   "code": "S04 - E24",
+   "title": "Where Two or Three Are Gathered Together",
+   "date": "2026-11-19",
+   "dur": "10:55",
+   "n": 8
+  },
+  {
+   "code": "S04 - E23",
+   "title": "Except Ye Become as Little Children",
+   "date": "2026-11-18",
+   "dur": "14:06",
+   "n": 7
+  },
+  {
+   "code": "S04 - E22",
+   "title": "Thou Art the Christ",
+   "date": "2026-11-17",
+   "dur": "12:56",
+   "n": 9
+  },
+  {
+   "code": "S04 - E21",
+   "title": "Even the Dogs Eat of the Crumbs",
+   "date": "2026-11-16",
+   "dur": "12:25",
+   "n": 9
+  },
+  {
+   "code": "S04 - E20",
+   "title": "I Am the Bread of Life",
+   "date": "2026-11-13",
+   "dur": "15:34",
+   "n": 9
+  },
+  {
+   "code": "S04 - E19",
+   "title": "It Is I; Be Not Afraid",
+   "date": "2026-11-12",
+   "dur": "13:14",
+   "n": 9
+  },
+  {
+   "code": "S04 - E18",
+   "title": "Freely Ye Have Received, Freely Give",
+   "date": "2026-11-11",
+   "dur": "12:35",
+   "n": 7
+  },
+  {
+   "code": "S04 - E17",
+   "title": "Damsel, I Say Unto Thee, Arise",
+   "date": "2026-11-10",
+   "dur": "11:22",
+   "n": 7
+  },
+  {
+   "code": "S04 - E16",
+   "title": "My Name Is Legion",
+   "date": "2026-11-09",
+   "dur": "11:39",
+   "n": 9
+  },
+  {
+   "code": "S04 - E15",
+   "title": "Even the Wind and Sea Obey Him",
+   "date": "2026-11-06",
+   "dur": "12:35",
+   "n": 9
+  },
+  {
+   "code": "S04 - E14",
+   "title": "He That Hath Ears to Hear, Let Him Hear",
+   "date": "2026-11-05",
+   "dur": "13:08",
+   "n": 8
+  },
+  {
+   "code": "S04 - E13",
+   "title": "A House Divided Against Itself",
+   "date": "2026-11-04",
+   "dur": "13:19",
+   "n": 19
+  },
+  {
+   "code": "S04 - E12",
+   "title": "Young Man, I Say Unto Thee, Arise",
+   "date": "2026-11-03",
+   "dur": "12:36",
+   "n": 10
+  },
+  {
+   "code": "S04 - E11",
+   "title": "Seek Ye First the Kingdom of God",
+   "date": "2026-11-02",
+   "dur": "13:29",
+   "n": 10
+  },
+  {
+   "code": "S04 - E10",
+   "title": "Our Father Which Art in Heaven",
+   "date": "2026-10-30",
+   "dur": "11:28",
+   "n": 8
+  },
+  {
+   "code": "S04 - E09",
+   "title": "Ye Are the Salt of the Earth",
+   "date": "2026-10-29",
+   "dur": "10:52",
+   "n": 8
+  },
+  {
+   "code": "S04 - E08",
+   "title": "Rise, Take Up Thy Bed, and Walk",
+   "date": "2026-10-28",
+   "dur": "13:24",
+   "n": 8
+  },
+  {
+   "code": "S04 - E07",
+   "title": "Thy Sins Be Forgiven Thee",
+   "date": "2026-10-27",
+   "dur": "12:56",
+   "n": 7
+  }
+ ],
+ "note": "Read from the RSS.com dashboard in a signed-in browser. Episode counts are what the Episodes tab shows beside each episode."
+}

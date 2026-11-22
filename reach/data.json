@@ -1,5 +1,5 @@
 {
- "updated": "Sun 11/22 9:15 AM",
+ "updated": "Sun 11/22 9:18 AM",
  "updated_date": "2026-11-22",
  "platforms": [
   {
@@ -7,845 +7,18 @@
    "name": "YouTube",
    "via": "YouTube API",
    "views": "views",
-   "since": "Sep 2026",
-   "daily": [
-    {
-     "d": "2026-11-06",
-     "v": 686,
-     "e": 51
-    },
-    {
-     "d": "2026-11-07",
-     "v": 376,
-     "e": 19
-    },
-    {
-     "d": "2026-11-08",
-     "v": 49,
-     "e": 5
-    },
-    {
-     "d": "2026-11-09",
-     "v": 117,
-     "e": 26
-    },
-    {
-     "d": "2026-11-10",
-     "v": 44,
-     "e": 3
-    },
-    {
-     "d": "2026-11-11",
-     "v": 24,
-     "e": 2
-    },
-    {
-     "d": "2026-11-12",
-     "v": 208,
-     "e": 20
-    },
-    {
-     "d": "2026-11-13",
-     "v": 37,
-     "e": 1
-    },
-    {
-     "d": "2026-11-14",
-     "v": 477,
-     "e": 35
-    },
-    {
-     "d": "2026-11-15",
-     "v": 185,
-     "e": 10
-    },
-    {
-     "d": "2026-11-16",
-     "v": 86,
-     "e": 12
-    },
-    {
-     "d": "2026-11-17",
-     "v": 68,
-     "e": 6
-    },
-    {
-     "d": "2026-11-18",
-     "v": 116,
-     "e": 12
-    },
-    {
-     "d": "2026-11-19",
-     "v": 94,
-     "e": 8
-    }
-   ],
-   "weekly": [
-    {
-     "d": "2026-05-22",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-05-29",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-06-05",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-06-12",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-06-19",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-06-26",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-07-03",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-07-10",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-07-17",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-07-24",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-07-31",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-08-07",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-08-14",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-08-21",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-08-28",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-09-04",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-09-11",
-     "v": 49,
-     "e": 7
-    },
-    {
-     "d": "2026-09-18",
-     "v": 2028,
-     "e": 305
-    },
-    {
-     "d": "2026-09-25",
-     "v": 1583,
-     "e": 241
-    },
-    {
-     "d": "2026-10-02",
-     "v": 1985,
-     "e": 423
-    },
-    {
-     "d": "2026-10-09",
-     "v": 3962,
-     "e": 645
-    },
-    {
-     "d": "2026-10-16",
-     "v": 2201,
-     "e": 265
-    },
-    {
-     "d": "2026-10-23",
-     "v": 1585,
-     "e": 216
-    },
-    {
-     "d": "2026-10-30",
-     "v": 1243,
-     "e": 162
-    },
-    {
-     "d": "2026-11-06",
-     "v": 1504,
-     "e": 126
-    },
-    {
-     "d": "2026-11-13",
-     "v": 1063,
-     "e": 84
-    }
-   ],
-   "through": "2026-11-19",
-   "before": {
-    "v": 0,
-    "e": 0
-   },
-   "split": {
-    "shorts": {
-     "daily": [
-      {
-       "d": "2026-11-06",
-       "v": 685,
-       "e": 51
-      },
-      {
-       "d": "2026-11-07",
-       "v": 374,
-       "e": 19
-      },
-      {
-       "d": "2026-11-08",
-       "v": 48,
-       "e": 5
-      },
-      {
-       "d": "2026-11-09",
-       "v": 116,
-       "e": 26
-      },
-      {
-       "d": "2026-11-10",
-       "v": 41,
-       "e": 3
-      },
-      {
-       "d": "2026-11-11",
-       "v": 23,
-       "e": 2
-      },
-      {
-       "d": "2026-11-12",
-       "v": 207,
-       "e": 20
-      },
-      {
-       "d": "2026-11-13",
-       "v": 34,
-       "e": 1
-      },
-      {
-       "d": "2026-11-14",
-       "v": 476,
-       "e": 35
-      },
-      {
-       "d": "2026-11-15",
-       "v": 139,
-       "e": 9
-      },
-      {
-       "d": "2026-11-16",
-       "v": 77,
-       "e": 12
-      },
-      {
-       "d": "2026-11-17",
-       "v": 62,
-       "e": 6
-      },
-      {
-       "d": "2026-11-18",
-       "v": 110,
-       "e": 13
-      },
-      {
-       "d": "2026-11-19",
-       "v": 88,
-       "e": 8
-      }
-     ],
-     "weekly": [
-      {
-       "d": "2026-05-22",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-05-29",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-06-05",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-06-12",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-06-19",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-06-26",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-07-03",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-07-10",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-07-17",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-07-24",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-07-31",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-08-07",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-08-14",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-08-21",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-08-28",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-09-04",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-09-11",
-       "v": 49,
-       "e": 7
-      },
-      {
-       "d": "2026-09-18",
-       "v": 2025,
-       "e": 305
-      },
-      {
-       "d": "2026-09-25",
-       "v": 1577,
-       "e": 241
-      },
-      {
-       "d": "2026-10-02",
-       "v": 1985,
-       "e": 423
-      },
-      {
-       "d": "2026-10-09",
-       "v": 3962,
-       "e": 645
-      },
-      {
-       "d": "2026-10-16",
-       "v": 2147,
-       "e": 261
-      },
-      {
-       "d": "2026-10-23",
-       "v": 1557,
-       "e": 213
-      },
-      {
-       "d": "2026-10-30",
-       "v": 1226,
-       "e": 162
-      },
-      {
-       "d": "2026-11-06",
-       "v": 1494,
-       "e": 126
-      },
-      {
-       "d": "2026-11-13",
-       "v": 986,
-       "e": 84
-      }
-     ]
-    },
-    "long": {
-     "daily": [
-      {
-       "d": "2026-11-06",
-       "v": 1,
-       "e": 0
-      },
-      {
-       "d": "2026-11-07",
-       "v": 2,
-       "e": 0
-      },
-      {
-       "d": "2026-11-08",
-       "v": 1,
-       "e": 0
-      },
-      {
-       "d": "2026-11-09",
-       "v": 1,
-       "e": 0
-      },
-      {
-       "d": "2026-11-10",
-       "v": 3,
-       "e": 0
-      },
-      {
-       "d": "2026-11-11",
-       "v": 1,
-       "e": 0
-      },
-      {
-       "d": "2026-11-12",
-       "v": 1,
-       "e": 0
-      },
-      {
-       "d": "2026-11-13",
-       "v": 3,
-       "e": 0
-      },
-      {
-       "d": "2026-11-14",
-       "v": 1,
-       "e": 0
-      },
-      {
-       "d": "2026-11-15",
-       "v": 46,
-       "e": 1
-      },
-      {
-       "d": "2026-11-16",
-       "v": 10,
-       "e": 0
-      },
-      {
-       "d": "2026-11-17",
-       "v": 7,
-       "e": 0
-      },
-      {
-       "d": "2026-11-18",
-       "v": 5,
-       "e": 0
-      },
-      {
-       "d": "2026-11-19",
-       "v": 6,
-       "e": 0
-      }
-     ],
-     "weekly": [
-      {
-       "d": "2026-05-22",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-05-29",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-06-05",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-06-12",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-06-19",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-06-26",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-07-03",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-07-10",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-07-17",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-07-24",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-07-31",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-08-07",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-08-14",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-08-21",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-08-28",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-09-04",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-09-11",
-       "v": 0,
-       "e": 0
-      },
-      {
-       "d": "2026-09-18",
-       "v": 3,
-       "e": 0
-      },
-      {
-       "d": "2026-09-25",
-       "v": 6,
-       "e": 0
-      },
-      {
-       "d": "2026-10-02",
-       "v": 0,
-       "e": 0
-      },
-      {
-       "d": "2026-10-09",
-       "v": 0,
-       "e": 0
-      },
-      {
-       "d": "2026-10-16",
-       "v": 45,
-       "e": 4
-      },
-      {
-       "d": "2026-10-23",
-       "v": 23,
-       "e": 3
-      },
-      {
-       "d": "2026-10-30",
-       "v": 17,
-       "e": 0
-      },
-      {
-       "d": "2026-11-06",
-       "v": 10,
-       "e": 0
-      },
-      {
-       "d": "2026-11-13",
-       "v": 78,
-       "e": 1
-      }
-     ]
-    }
-   }
+   "since": null,
+   "daily": null,
+   "weekly": null
   },
   {
    "key": "fb",
    "name": "Facebook",
    "via": "Facebook API",
    "views": "views",
-   "since": "Jul 2026",
-   "daily": [
-    {
-     "d": "2026-11-08",
-     "v": 182,
-     "e": 0
-    },
-    {
-     "d": "2026-11-09",
-     "v": 119,
-     "e": 1
-    },
-    {
-     "d": "2026-11-10",
-     "v": 455,
-     "e": 1
-    },
-    {
-     "d": "2026-11-11",
-     "v": 99,
-     "e": 1
-    },
-    {
-     "d": "2026-11-12",
-     "v": 405,
-     "e": 9
-    },
-    {
-     "d": "2026-11-13",
-     "v": 11,
-     "e": 0
-    },
-    {
-     "d": "2026-11-14",
-     "v": 413,
-     "e": 0
-    },
-    {
-     "d": "2026-11-15",
-     "v": 340,
-     "e": 1
-    },
-    {
-     "d": "2026-11-16",
-     "v": 282,
-     "e": 6
-    },
-    {
-     "d": "2026-11-17",
-     "v": 448,
-     "e": 5
-    },
-    {
-     "d": "2026-11-18",
-     "v": 1602,
-     "e": 60
-    },
-    {
-     "d": "2026-11-19",
-     "v": 2943,
-     "e": 52
-    },
-    {
-     "d": "2026-11-20",
-     "v": 302,
-     "e": 4
-    },
-    {
-     "d": "2026-11-21",
-     "v": 248,
-     "e": 3
-    }
-   ],
-   "weekly": [
-    {
-     "d": "2026-05-24",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-05-31",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-06-07",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-06-14",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-06-21",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-06-28",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-07-05",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-07-12",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-07-19",
-     "v": null,
-     "e": null
-    },
-    {
-     "d": "2026-07-26",
-     "v": 753,
-     "e": 16
-    },
-    {
-     "d": "2026-08-02",
-     "v": 826,
-     "e": 30
-    },
-    {
-     "d": "2026-08-09",
-     "v": 492,
-     "e": 16
-    },
-    {
-     "d": "2026-08-16",
-     "v": 462,
-     "e": 8
-    },
-    {
-     "d": "2026-08-23",
-     "v": 409,
-     "e": 9
-    },
-    {
-     "d": "2026-08-30",
-     "v": 485,
-     "e": 3
-    },
-    {
-     "d": "2026-09-06",
-     "v": 1209,
-     "e": 29
-    },
-    {
-     "d": "2026-09-13",
-     "v": 1272,
-     "e": 17
-    },
-    {
-     "d": "2026-09-20",
-     "v": 1330,
-     "e": 14
-    },
-    {
-     "d": "2026-09-27",
-     "v": 3078,
-     "e": 49
-    },
-    {
-     "d": "2026-10-04",
-     "v": 2683,
-     "e": 44
-    },
-    {
-     "d": "2026-10-11",
-     "v": 3916,
-     "e": 68
-    },
-    {
-     "d": "2026-10-18",
-     "v": 10690,
-     "e": 102
-    },
-    {
-     "d": "2026-10-25",
-     "v": 488,
-     "e": 7
-    },
-    {
-     "d": "2026-11-01",
-     "v": 36,
-     "e": 0
-    },
-    {
-     "d": "2026-11-08",
-     "v": 1684,
-     "e": 12
-    },
-    {
-     "d": "2026-11-15",
-     "v": 6165,
-     "e": 131
-    }
-   ],
-   "before": {
-    "v": 0,
-    "e": 0
-   }
+   "since": null,
+   "daily": null,
+   "weekly": null
   },
   {
    "key": "ig",
@@ -1060,7 +233,8 @@
    "before": {
     "v": 0,
     "e": 0
-   }
+   },
+   "stale": "11/22"
   },
   {
    "key": "tt",
@@ -1275,7 +449,8 @@
    "before": {
     "v": 0,
     "e": 0
-   }
+   },
+   "stale": "11/22"
   },
   {
    "key": "pin",
@@ -1490,347 +665,19 @@
    "before": {
     "v": 0,
     "e": 0
-   }
+   },
+   "stale": "11/22"
   }
  ],
  "notes": [
-  "YouTube split since 2026-09-15: shorts 17008 + long-form 182 of 17203 total views; 97 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
-  "Buffer: 1 organization(s) visible to the API key",
-  "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 243; saved with numbers: 270",
-  "Facebook posts, last 21 days: 36 reels, 0 other videos, 0 over 90s; views known for 36 of 36, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 527 posts; YouTube per-video: 167 videos, titles from Data API for 167, public-title/first-view lookups 0; Facebook per-post: 35 saved"
+  "YouTube not updated: missing secret(s): YOUTUBE_REFRESH_TOKEN, GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET",
+  "Facebook not updated: missing secret(s): FACEBOOK_PAGE_TOKEN",
+  "Instagram not updated: missing secret(s): BUFFER_API_KEY",
+  "TikTok not updated: missing secret(s): BUFFER_API_KEY",
+  "Pinterest not updated: missing secret(s): BUFFER_API_KEY",
+  "Facebook post list not available: missing secret(s): FACEBOOK_PAGE_TOKEN",
+  "posts.json: 527 posts; YouTube per-video not available: missing secret(s): YOUTUBE_REFRESH_TOKEN, GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET"
  ],
- "fb_posts": {
-  "long_over": 90,
-  "days": 21,
-  "items": [
-   {
-    "t": "2026-11-22T09:02",
-    "len": 13,
-    "v": 0,
-    "k": "reel",
-    "x": "No commentary. No one telling you what to think.",
-    "ty": "promo",
-    "up": false
-   },
-   {
-    "t": "2026-11-21T15:01",
-    "len": 17,
-    "v": 237,
-    "k": "reel",
-    "x": "This is the opposite of scrolling. Fifteen quiet",
-    "ty": "promo",
-    "up": false
-   },
-   {
-    "t": "2026-11-21T09:01",
-    "len": 14,
-    "v": 8,
-    "k": "reel",
-    "x": "Five days, not seven. On purpose. Life happens \u2014",
-    "ty": "promo",
-    "up": false
-   },
-   {
-    "t": "2026-11-20T14:02",
-    "len": 14,
-    "v": 278,
-    "k": "reel",
-    "x": "John 8:47 (KJV) Hear Jesus here. Make hearing Je",
-    "ty": "hear",
-    "up": false
-   },
-   {
-    "t": "2026-11-19T14:03",
-    "len": 13,
-    "v": 239,
-    "k": "reel",
-    "x": "Mark 4:9 (KJV) Hear Jesus here. Make hearing Jes",
-    "ty": "hear",
-    "up": false
-   },
-   {
-    "t": "2026-11-19T09:06",
-    "len": 15,
-    "v": 99,
-    "k": "reel",
-    "x": "Matthew 18:20 (KJV) On today's episode of Walkin",
-    "ty": "nature",
-    "up": false
-   },
-   {
-    "t": "2026-11-18T14:03",
-    "len": 12,
-    "v": 4181,
-    "k": "reel",
-    "x": "Matthew 13:9 (KJV) Hear Jesus here. Make hearing",
-    "ty": "hear",
-    "up": false
-   },
-   {
-    "t": "2026-11-18T09:05",
-    "len": 15,
-    "v": 40,
-    "k": "reel",
-    "x": "Mark 9:23 (KJV) On today's episode of Walking wi",
-    "ty": "nature",
-    "up": false
-   },
-   {
-    "t": "2026-11-17T17:02",
-    "len": 12,
-    "v": 230,
-    "k": "reel",
-    "x": "Matthew 11:15 (KJV) Hear Jesus here. Make hearin",
-    "ty": "hear",
-    "up": false
-   },
-   {
-    "t": "2026-11-17T14:03",
-    "len": 15,
-    "v": 204,
-    "k": "reel",
-    "x": "The dishes. The commute. The dog walk. Bring Jes",
-    "ty": "promo",
-    "up": false
-   },
-   {
-    "t": "2026-11-17T09:04",
-    "len": 15,
-    "v": 15,
-    "k": "reel",
-    "x": "Mark 8:36 (KJV) On today's episode of Walking wi",
-    "ty": "nature",
-    "up": false
-   },
-   {
-    "t": "2026-11-16T14:01",
-    "len": 12,
-    "v": 235,
-    "k": "reel",
-    "x": "John 10:27 (KJV) Hear Jesus here. Make hearing J",
-    "ty": "hear",
-    "up": false
-   },
-   {
-    "t": "2026-11-16T09:02",
-    "len": 15,
-    "v": 26,
-    "k": "reel",
-    "x": "Mark 8:18 (KJV) On today's episode of Walking wi",
-    "ty": "nature",
-    "up": false
-   },
-   {
-    "t": "2026-11-15T17:19",
-    "len": 15,
-    "v": 209,
-    "k": "reel",
-    "x": "Hear Jesus here. Make hearing Jesus a daily prac",
-    "ty": "promo",
-    "up": false
-   },
-   {
-    "t": "2026-11-15T09:03",
-    "len": 23,
-    "v": 147,
-    "k": "reel",
-    "x": "You've quoted it. You've heard it preached. But ",
-    "ty": "promo",
-    "up": false
-   },
-   {
-    "t": "2026-11-14T15:01",
-    "len": 14,
-    "v": 256,
-    "k": "reel",
-    "x": "The entire life of Jesus can be heard in about t",
-    "ty": "promo",
-    "up": false
-   },
-   {
-    "t": "2026-11-14T09:03",
-    "len": 16,
-    "v": 163,
-    "k": "reel",
-    "x": "That study plan isn't gone. It's just not the fi",
-    "ty": "promo",
-    "up": false
-   },
-   {
-    "t": "2026-11-12T17:02",
-    "len": 18,
-    "v": 356,
-    "k": "reel",
-    "x": "John 6:35 (KJV) On today's episode of Walking wi",
-    "ty": "nature",
-    "up": false
-   },
-   {
-    "t": "2026-11-12T09:06",
-    "len": 17,
-    "v": 46,
-    "k": "reel",
-    "x": "Matthew 14:31 (KJV) On today's episode of Walkin",
-    "ty": "nature",
-    "up": false
-   },
-   {
-    "t": "2026-11-11T17:03",
-    "len": 17,
-    "v": 84,
-    "k": "reel",
-    "x": "Luke 9:62 (KJV) On today's episode of Walking wi",
-    "ty": "nature",
-    "up": false
-   },
-   {
-    "t": "2026-11-11T09:06",
-    "len": 16,
-    "v": 26,
-    "k": "reel",
-    "x": "Matthew 10:8 (KJV) On today's episode of Walking",
-    "ty": "nature",
-    "up": false
-   },
-   {
-    "t": "2026-11-10T17:01",
-    "len": 15,
-    "v": 257,
-    "k": "reel",
-    "x": "Luke 8:50 (KJV) On today's episode of Walking wi",
-    "ty": "nature",
-    "up": false
-   },
-   {
-    "t": "2026-11-10T14:02",
-    "len": 13,
-    "v": 153,
-    "k": "reel",
-    "x": "Four Gospels. One timeline. Zero commentary. The",
-    "ty": "promo",
-    "up": false
-   },
-   {
-    "t": "2026-11-10T09:04",
-    "len": 17,
-    "v": 46,
-    "k": "reel",
-    "x": "Mark 5:36 (KJV) On today's episode of Walking wi",
-    "ty": "nature",
-    "up": false
-   },
-   {
-    "t": "2026-11-09T17:01",
-    "len": 16,
-    "v": 100,
-    "k": "reel",
-    "x": "Luke 6:37 (KJV) On today's episode of Walking wi",
-    "ty": "nature",
-    "up": false
-   },
-   {
-    "t": "2026-11-09T09:03",
-    "len": 17,
-    "v": 20,
-    "k": "reel",
-    "x": "Mark 5:34 (KJV) On today's episode of Walking wi",
-    "ty": "nature",
-    "up": false
-   },
-   {
-    "t": "2026-11-08T17:01",
-    "len": 17,
-    "v": 182,
-    "k": "reel",
-    "x": "Mark 5:34 (KJV) On tomorrow's episode of Walking",
-    "ty": "tomorrow",
-    "up": false
-   },
-   {
-    "t": "2026-11-06T14:00",
-    "len": 20,
-    "v": 0,
-    "k": "reel",
-    "x": "Matthew 13:44 (KJV) On today's episode of Walkin",
-    "ty": "nature",
-    "up": false
-   },
-   {
-    "t": "2026-11-06T09:00",
-    "len": 18,
-    "v": 0,
-    "k": "reel",
-    "x": "Mark 4:39 (KJV) On today's episode of Walking wi",
-    "ty": "nature",
-    "up": false
-   },
-   {
-    "t": "2026-11-05T17:00",
-    "len": 53,
-    "v": 0,
-    "k": "reel",
-    "x": "On tomorrow's episode of Walking with Jesus: Eve",
-    "ty": "tomorrow",
-    "up": false
-   },
-   {
-    "t": "2026-11-05T14:00",
-    "len": 19,
-    "v": 0,
-    "k": "reel",
-    "x": "Mark 4:24 (KJV) On today's episode of Walking wi",
-    "ty": "nature",
-    "up": false
-   },
-   {
-    "t": "2026-11-05T09:00",
-    "len": 19,
-    "v": 0,
-    "k": "reel",
-    "x": "Luke 8:15 (KJV) On today's episode of Walking wi",
-    "ty": "nature",
-    "up": false
-   },
-   {
-    "t": "2026-11-04T17:00",
-    "len": 48,
-    "v": 0,
-    "k": "reel",
-    "x": "On tomorrow's episode of Walking with Jesus: He ",
-    "ty": "tomorrow",
-    "up": false
-   },
-   {
-    "t": "2026-11-04T14:00",
-    "len": 16,
-    "v": 0,
-    "k": "reel",
-    "x": "Matthew 12:30 (KJV) On today's episode of Walkin",
-    "ty": "nature",
-    "up": false
-   },
-   {
-    "t": "2026-11-04T09:00",
-    "len": 18,
-    "v": 0,
-    "k": "reel",
-    "x": "Luke 11:9 (KJV) On today's episode of Walking wi",
-    "ty": "nature",
-    "up": false
-   },
-   {
-    "t": "2026-11-03T17:00",
-    "len": 50,
-    "v": 0,
-    "k": "reel",
-    "x": "On tomorrow's episode of Walking with Jesus: A H",
-    "ty": "tomorrow",
-    "up": false
-   }
-  ]
- },
  "yt_posts": {
   "days": 21,
   "items": [
@@ -2561,6 +1408,209 @@
  "goal": {
   "interactions": 87000,
   "views": 1450000
+ },
+ "rss": {
+  "as_of": "2026-11-22",
+  "downloads": {
+   "h24": 13,
+   "d7": 226,
+   "d30": 376,
+   "d30_change_pct": 69,
+   "all": 1032
+  },
+  "ras_last3": 4,
+  "countries": [
+   [
+    "United States",
+    94.25
+   ],
+   [
+    "Canada",
+    5.31
+   ],
+   [
+    "Other",
+    0.44
+   ]
+  ],
+  "country_count": 3,
+  "city_count": 26,
+  "devices": [
+   [
+    "Mobile",
+    69.03
+   ],
+   [
+    "Computer",
+    30.97
+   ]
+  ],
+  "age": [
+   [
+    "0\u20137 days",
+    43
+   ],
+   [
+    "8\u201330 days",
+    17
+   ],
+   [
+    "31\u201390 days",
+    15
+   ],
+   [
+    "90+ days",
+    24
+   ]
+  ],
+  "top30": {
+   "title": "Before Time Began",
+   "n": 51
+  },
+  "episodes": [
+   {
+    "code": "S04 - E25",
+    "title": "Neither Do I Condemn Thee",
+    "date": "2026-11-20",
+    "dur": "12:29",
+    "n": 7
+   },
+   {
+    "code": "S04 - E24",
+    "title": "Where Two or Three Are Gathered Together",
+    "date": "2026-11-19",
+    "dur": "10:55",
+    "n": 8
+   },
+   {
+    "code": "S04 - E23",
+    "title": "Except Ye Become as Little Children",
+    "date": "2026-11-18",
+    "dur": "14:06",
+    "n": 7
+   },
+   {
+    "code": "S04 - E22",
+    "title": "Thou Art the Christ",
+    "date": "2026-11-17",
+    "dur": "12:56",
+    "n": 9
+   },
+   {
+    "code": "S04 - E21",
+    "title": "Even the Dogs Eat of the Crumbs",
+    "date": "2026-11-16",
+    "dur": "12:25",
+    "n": 9
+   },
+   {
+    "code": "S04 - E20",
+    "title": "I Am the Bread of Life",
+    "date": "2026-11-13",
+    "dur": "15:34",
+    "n": 9
+   },
+   {
+    "code": "S04 - E19",
+    "title": "It Is I; Be Not Afraid",
+    "date": "2026-11-12",
+    "dur": "13:14",
+    "n": 9
+   },
+   {
+    "code": "S04 - E18",
+    "title": "Freely Ye Have Received, Freely Give",
+    "date": "2026-11-11",
+    "dur": "12:35",
+    "n": 7
+   },
+   {
+    "code": "S04 - E17",
+    "title": "Damsel, I Say Unto Thee, Arise",
+    "date": "2026-11-10",
+    "dur": "11:22",
+    "n": 7
+   },
+   {
+    "code": "S04 - E16",
+    "title": "My Name Is Legion",
+    "date": "2026-11-09",
+    "dur": "11:39",
+    "n": 9
+   },
+   {
+    "code": "S04 - E15",
+    "title": "Even the Wind and Sea Obey Him",
+    "date": "2026-11-06",
+    "dur": "12:35",
+    "n": 9
+   },
+   {
+    "code": "S04 - E14",
+    "title": "He That Hath Ears to Hear, Let Him Hear",
+    "date": "2026-11-05",
+    "dur": "13:08",
+    "n": 8
+   },
+   {
+    "code": "S04 - E13",
+    "title": "A House Divided Against Itself",
+    "date": "2026-11-04",
+    "dur": "13:19",
+    "n": 19
+   },
+   {
+    "code": "S04 - E12",
+    "title": "Young Man, I Say Unto Thee, Arise",
+    "date": "2026-11-03",
+    "dur": "12:36",
+    "n": 10
+   },
+   {
+    "code": "S04 - E11",
+    "title": "Seek Ye First the Kingdom of God",
+    "date": "2026-11-02",
+    "dur": "13:29",
+    "n": 10
+   },
+   {
+    "code": "S04 - E10",
+    "title": "Our Father Which Art in Heaven",
+    "date": "2026-10-30",
+    "dur": "11:28",
+    "n": 8
+   },
+   {
+    "code": "S04 - E09",
+    "title": "Ye Are the Salt of the Earth",
+    "date": "2026-10-29",
+    "dur": "10:52",
+    "n": 8
+   },
+   {
+    "code": "S04 - E08",
+    "title": "Rise, Take Up Thy Bed, and Walk",
+    "date": "2026-10-28",
+    "dur": "13:24",
+    "n": 8
+   },
+   {
+    "code": "S04 - E07",
+    "title": "Thy Sins Be Forgiven Thee",
+    "date": "2026-10-27",
+    "dur": "12:56",
+    "n": 7
+   }
+  ],
+  "note": "Read from the RSS.com dashboard in a signed-in browser. Episode counts are what the Episodes tab shows beside each episode.",
+  "history": {
+   "2026-11-22": {
+    "all": 1032,
+    "d7": 226,
+    "d30": 376,
+    "h24": 13
+   }
+  }
  },
  "events": [
   {
