@@ -1,5 +1,5 @@
 {
- "updated": "Sun 11/22 2:52 AM",
+ "updated": "Sun 11/22 8:15 AM",
  "updated_date": "2026-11-22",
  "platforms": [
   {
@@ -921,7 +921,7 @@
     },
     {
      "d": "2026-11-21",
-     "v": 0,
+     "v": 5,
      "e": 0
     }
    ],
@@ -1053,7 +1053,7 @@
     },
     {
      "d": "2026-11-15",
-     "v": 25,
+     "v": 30,
      "e": 4
     }
    ],
@@ -1497,9 +1497,9 @@
   "YouTube split since 2026-09-15: shorts 17008 + long-form 182 of 17203 total views; 97 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 241; saved with numbers: 267",
+  "Buffer posts read: 241; saved with numbers: 269",
   "Facebook posts, last 21 days: 35 reels, 0 other videos, 0 over 90s; views known for 35 of 35, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 524 posts; YouTube per-video: 167 videos, titles from Data API for 167, public-title/first-view lookups 0; Facebook per-post: 35 saved"
+  "posts.json: 526 posts; YouTube per-video: 167 videos, titles from Data API for 167, public-title/first-view lookups 0; Facebook per-post: 35 saved"
  ],
  "fb_posts": {
   "long_over": 90,
@@ -1508,7 +1508,7 @@
    {
     "t": "2026-11-21T15:01",
     "len": 17,
-    "v": 228,
+    "v": 234,
     "k": "reel",
     "x": "This is the opposite of scrolling. Fifteen quiet",
     "ty": "promo",
@@ -1553,7 +1553,7 @@
    {
     "t": "2026-11-18T14:03",
     "len": 12,
-    "v": 4180,
+    "v": 4181,
     "k": "reel",
     "x": "Matthew 13:9 (KJV) Hear Jesus here. Make hearing",
     "ty": "hear",
@@ -1898,7 +1898,7 @@
    {
     "t": "2026-11-17T14:00",
     "len": 16,
-    "v": 27,
+    "v": 26,
     "k": "short",
     "x": "The Dishes. The Commute. The Dog Walk. \u2014 Walking with Jesus",
     "wp": 62.34,
@@ -2355,7 +2355,7 @@
       },
       "promo": {
        "n": 7,
-       "tot": 687,
+       "tot": 686,
        "med": 89
       }
      }
@@ -2395,7 +2395,7 @@
       },
       "hear": {
        "n": 4,
-       "tot": 4884,
+       "tot": 4885,
        "med": 237
       },
       "tomorrow": {
@@ -2549,6 +2549,10 @@
    "min_age": 3
   }
  },
+ "goal": {
+  "interactions": 87000,
+  "views": 1450000
+ },
  "events": [
   {
    "date": "2026-10-26",
@@ -2556,7 +2560,8 @@
    "platforms": [
     "fb"
    ],
-   "text": "Facebook posting moved off Buffer to the API pipeline. Reach fell to near zero from this day."
+   "text": "Facebook posting moved off Buffer to the API pipeline. Reach fell to near zero from this day.",
+   "hidden": true
   },
   {
    "date": "2026-11-06",
