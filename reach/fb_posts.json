@@ -1,5 +1,5 @@
 {
- "updated": "Sat 11/21 1:30 PM",
+ "updated": "Sat 11/21 8:37 PM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -9,9 +9,9 @@
  "days": [
   {
    "d": "2026-11-21",
-   "short": 1,
+   "short": 2,
    "long": 0,
-   "short_views": 5,
+   "short_views": 230,
    "long_views": 0,
    "unknown": 0
   },
@@ -19,7 +19,7 @@
    "d": "2026-11-20",
    "short": 1,
    "long": 0,
-   "short_views": 277,
+   "short_views": 278,
    "long_views": 0,
    "unknown": 0
   },
@@ -35,7 +35,7 @@
    "d": "2026-11-18",
    "short": 2,
    "long": 0,
-   "short_views": 4210,
+   "short_views": 4219,
    "long_views": 0,
    "unknown": 0
   },
@@ -130,12 +130,25 @@
  ],
  "items": [
   {
+   "id": "1655260519630891",
+   "type": "reel",
+   "at": "2026-11-21 15:01",
+   "live": "2026-11-21 15:01",
+   "len": 17,
+   "views": 223,
+   "src": "fb_reels_total_plays",
+   "text": "This is the opposite of scrolling. Fifteen quiet minutes wit",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":842122},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-21T21:01:08+000",
+   "sched": null
+  },
+  {
    "id": "1692748962555497",
    "type": "reel",
    "at": "2026-11-21 09:01",
    "live": "2026-11-21 09:01",
    "len": 14,
-   "views": 5,
+   "views": 7,
    "src": "fb_reels_total_plays",
    "text": "Five days, not seven. On purpose. Life happens \u2014 this was bu",
    "pub": true,
@@ -148,7 +161,7 @@
    "at": "2026-11-20 14:02",
    "live": "2026-11-20 14:02",
    "len": 14,
-   "views": 277,
+   "views": 278,
    "src": "fb_reels_total_plays",
    "text": "John 8:47 (KJV) Hear Jesus here. Make hearing Jesus a daily ",
    "pub": true,
@@ -187,7 +200,7 @@
    "at": "2026-11-18 14:03",
    "live": "2026-11-18 14:03",
    "len": 12,
-   "views": 4170,
+   "views": 4179,
    "src": "fb_reels_total_plays",
    "text": "Matthew 13:9 (KJV) Hear Jesus here. Make hearing Jesus a dai",
    "pub": true,
