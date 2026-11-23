@@ -1,5 +1,5 @@
 {
- "updated": "Mon 11/23 1:30 PM",
+ "updated": "Mon 11/23 4:54 PM",
  "updated_date": "2026-11-23",
  "platforms": [
   {
@@ -9,11 +9,6 @@
    "views": "views",
    "since": "Sep 2026",
    "daily": [
-    {
-     "d": "2026-11-07",
-     "v": 376,
-     "e": 19
-    },
     {
      "d": "2026-11-08",
      "v": 49,
@@ -78,141 +73,146 @@
      "d": "2026-11-20",
      "v": 88,
      "e": 10
+    },
+    {
+     "d": "2026-11-21",
+     "v": 547,
+     "e": 35
     }
    ],
    "weekly": [
     {
-     "d": "2026-05-23",
+     "d": "2026-05-24",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-05-30",
+     "d": "2026-05-31",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-06-06",
+     "d": "2026-06-07",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-06-13",
+     "d": "2026-06-14",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-06-20",
+     "d": "2026-06-21",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-06-27",
+     "d": "2026-06-28",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-07-04",
+     "d": "2026-07-05",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-07-11",
+     "d": "2026-07-12",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-07-18",
+     "d": "2026-07-19",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-07-25",
+     "d": "2026-07-26",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-08-01",
+     "d": "2026-08-02",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-08-08",
+     "d": "2026-08-09",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-08-15",
+     "d": "2026-08-16",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-08-22",
+     "d": "2026-08-23",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-08-29",
+     "d": "2026-08-30",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-09-05",
+     "d": "2026-09-06",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-09-12",
-     "v": 117,
+     "d": "2026-09-13",
+     "v": 128,
      "e": 9
     },
     {
-     "d": "2026-09-19",
-     "v": 2388,
-     "e": 363
+     "d": "2026-09-20",
+     "v": 2622,
+     "e": 401
     },
     {
-     "d": "2026-09-26",
-     "v": 1440,
-     "e": 238
+     "d": "2026-09-27",
+     "v": 1438,
+     "e": 245
     },
     {
-     "d": "2026-10-03",
-     "v": 2012,
-     "e": 441
+     "d": "2026-10-04",
+     "v": 2290,
+     "e": 481
     },
     {
-     "d": "2026-10-10",
-     "v": 4616,
-     "e": 681
+     "d": "2026-10-11",
+     "v": 4612,
+     "e": 637
     },
     {
-     "d": "2026-10-17",
-     "v": 1298,
-     "e": 164
+     "d": "2026-10-18",
+     "v": 1131,
+     "e": 150
     },
     {
-     "d": "2026-10-24",
-     "v": 1782,
-     "e": 270
+     "d": "2026-10-25",
+     "v": 1492,
+     "e": 256
     },
     {
-     "d": "2026-10-31",
-     "v": 1669,
-     "e": 149
+     "d": "2026-11-01",
+     "v": 1985,
+     "e": 155
     },
     {
-     "d": "2026-11-07",
-     "v": 855,
-     "e": 76
+     "d": "2026-11-08",
+     "v": 956,
+     "e": 92
     },
     {
-     "d": "2026-11-14",
-     "v": 1110,
+     "d": "2026-11-15",
+     "v": 1180,
      "e": 95
     }
    ],
-   "through": "2026-11-20",
+   "through": "2026-11-21",
    "before": {
     "v": 0,
     "e": 0
@@ -220,11 +220,6 @@
    "split": {
     "shorts": {
      "daily": [
-      {
-       "d": "2026-11-07",
-       "v": 374,
-       "e": 19
-      },
       {
        "d": "2026-11-08",
        "v": 48,
@@ -289,148 +284,148 @@
        "d": "2026-11-20",
        "v": 75,
        "e": 9
+      },
+      {
+       "d": "2026-11-21",
+       "v": 532,
+       "e": 35
       }
      ],
      "weekly": [
       {
-       "d": "2026-05-23",
+       "d": "2026-05-24",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-05-30",
+       "d": "2026-05-31",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-06",
+       "d": "2026-06-07",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-13",
+       "d": "2026-06-14",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-20",
+       "d": "2026-06-21",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-27",
+       "d": "2026-06-28",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-04",
+       "d": "2026-07-05",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-11",
+       "d": "2026-07-12",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-18",
+       "d": "2026-07-19",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-25",
+       "d": "2026-07-26",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-01",
+       "d": "2026-08-02",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-08",
+       "d": "2026-08-09",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-15",
+       "d": "2026-08-16",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-22",
+       "d": "2026-08-23",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-29",
+       "d": "2026-08-30",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-09-05",
+       "d": "2026-09-06",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-09-12",
-       "v": 117,
+       "d": "2026-09-13",
+       "v": 128,
        "e": 9
       },
       {
-       "d": "2026-09-19",
-       "v": 2385,
-       "e": 363
+       "d": "2026-09-20",
+       "v": 2619,
+       "e": 401
       },
       {
-       "d": "2026-09-26",
-       "v": 1434,
-       "e": 238
+       "d": "2026-09-27",
+       "v": 1432,
+       "e": 245
       },
       {
-       "d": "2026-10-03",
-       "v": 2012,
-       "e": 441
+       "d": "2026-10-04",
+       "v": 2290,
+       "e": 481
       },
       {
-       "d": "2026-10-10",
-       "v": 4604,
-       "e": 680
+       "d": "2026-10-11",
+       "v": 4600,
+       "e": 636
       },
       {
-       "d": "2026-10-17",
-       "v": 1253,
-       "e": 161
+       "d": "2026-10-18",
+       "v": 1080,
+       "e": 147
       },
       {
-       "d": "2026-10-24",
-       "v": 1754,
-       "e": 267
+       "d": "2026-10-25",
+       "v": 1470,
+       "e": 253
       },
       {
-       "d": "2026-10-31",
-       "v": 1654,
-       "e": 149
+       "d": "2026-11-01",
+       "v": 1968,
+       "e": 155
       },
       {
-       "d": "2026-11-07",
-       "v": 843,
-       "e": 76
+       "d": "2026-11-08",
+       "v": 945,
+       "e": 92
       },
       {
-       "d": "2026-11-14",
-       "v": 1022,
+       "d": "2026-11-15",
+       "v": 1078,
        "e": 93
       }
      ]
     },
     "long": {
      "daily": [
-      {
-       "d": "2026-11-07",
-       "v": 2,
-       "e": 0
-      },
       {
        "d": "2026-11-08",
        "v": 1,
@@ -495,137 +490,142 @@
        "d": "2026-11-20",
        "v": 13,
        "e": 1
+      },
+      {
+       "d": "2026-11-21",
+       "v": 15,
+       "e": 0
       }
      ],
      "weekly": [
       {
-       "d": "2026-05-23",
+       "d": "2026-05-24",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-05-30",
+       "d": "2026-05-31",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-06",
+       "d": "2026-06-07",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-13",
+       "d": "2026-06-14",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-20",
+       "d": "2026-06-21",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-27",
+       "d": "2026-06-28",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-04",
+       "d": "2026-07-05",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-11",
+       "d": "2026-07-12",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-18",
+       "d": "2026-07-19",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-25",
+       "d": "2026-07-26",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-01",
+       "d": "2026-08-02",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-08",
+       "d": "2026-08-09",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-15",
+       "d": "2026-08-16",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-22",
+       "d": "2026-08-23",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-29",
+       "d": "2026-08-30",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-09-05",
+       "d": "2026-09-06",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-09-12",
+       "d": "2026-09-13",
        "v": 0,
        "e": 0
       },
       {
-       "d": "2026-09-19",
+       "d": "2026-09-20",
        "v": 3,
        "e": 0
       },
       {
-       "d": "2026-09-26",
+       "d": "2026-09-27",
        "v": 6,
        "e": 0
       },
       {
-       "d": "2026-10-03",
+       "d": "2026-10-04",
        "v": 0,
        "e": 0
       },
       {
-       "d": "2026-10-10",
+       "d": "2026-10-11",
        "v": 4,
        "e": 1
       },
       {
-       "d": "2026-10-17",
-       "v": 44,
+       "d": "2026-10-18",
+       "v": 45,
        "e": 3
       },
       {
-       "d": "2026-10-24",
-       "v": 23,
+       "d": "2026-10-25",
+       "v": 22,
        "e": 3
       },
       {
-       "d": "2026-10-31",
-       "v": 15,
+       "d": "2026-11-01",
+       "v": 17,
        "e": 0
       },
       {
-       "d": "2026-11-07",
-       "v": 12,
+       "d": "2026-11-08",
+       "v": 11,
        "e": 0
       },
       {
-       "d": "2026-11-14",
-       "v": 88,
+       "d": "2026-11-15",
+       "v": 102,
        "e": 2
       }
      ]
@@ -1494,21 +1494,30 @@
   }
  ],
  "notes": [
-  "YouTube split since 2026-09-15: shorts 17078 + long-form 195 of 17287 total views; 99 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
+  "YouTube split since 2026-09-15: shorts 17610 + long-form 210 of 17834 total views; 101 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 245; saved with numbers: 272",
-  "Facebook posts, last 21 days: 33 reels, 0 other videos, 0 over 90s; views known for 33 of 33, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 533 posts; YouTube per-video: 170 videos, titles from Data API for 170, public-title/first-view lookups 0; Facebook per-post: 32 saved"
+  "Buffer posts read: 247; saved with numbers: 273",
+  "Facebook posts, last 21 days: 34 reels, 0 other videos, 0 over 90s; views known for 34 of 34, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
+  "posts.json: 537 posts; YouTube per-video: 173 videos, titles from Data API for 173, public-title/first-view lookups 0; Facebook per-post: 32 saved"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
    {
+    "t": "2026-11-23T14:02",
+    "len": 13,
+    "v": 189,
+    "k": "reel",
+    "x": "Luke 17:17 (KJV) On today's episode of Walking w",
+    "ty": "nature",
+    "up": false
+   },
+   {
     "t": "2026-11-23T09:04",
     "len": 14,
-    "v": 159,
+    "v": 220,
     "k": "reel",
     "x": "John 10:11 (KJV) On today's episode of Walking w",
     "ty": "nature",
@@ -1571,7 +1580,7 @@
    {
     "t": "2026-11-18T14:03",
     "len": 12,
-    "v": 4182,
+    "v": 4183,
     "k": "reel",
     "x": "Matthew 13:9 (KJV) Hear Jesus here. Make hearing",
     "ty": "hear",
@@ -1808,19 +1817,39 @@
   "days": 21,
   "items": [
    {
+    "t": "2026-11-21T15:00",
+    "len": 17,
+    "v": 252,
+    "k": "short",
+    "x": "The Opposite of Scrolling: 15 Minutes With Jesus \u2014 Walking w",
+    "wp": 70.98,
+    "ty": "promo",
+    "up": false
+   },
+   {
+    "t": "2026-11-21T09:00",
+    "len": 14,
+    "v": 254,
+    "k": "short",
+    "x": "Why This Bible Plan Is Five Days, Not Seven \u2014 Walking with J",
+    "wp": 65.54,
+    "ty": "promo",
+    "up": false
+   },
+   {
     "t": "2026-11-20T14:00",
     "len": 14,
-    "v": 39,
+    "v": 50,
     "k": "short",
     "x": "John 8:47 KJV \u2014 Hear Jesus here | Walking with Jesus",
-    "wp": 67.42,
+    "wp": 67.19,
     "ty": "hear",
     "up": false
    },
    {
     "t": "2026-11-20T09:00",
     "len": 16,
-    "v": 20,
+    "v": 21,
     "k": "short",
     "x": "John 8:11 KJV \u2014 Neither Do I Condemn Thee | Walking with Jes",
     "wp": 83.21,
@@ -1840,7 +1869,7 @@
    {
     "t": "2026-11-19T14:00",
     "len": 13,
-    "v": 31,
+    "v": 39,
     "k": "short",
     "x": "Mark 4:9 KJV \u2014 Hear Jesus here | Walking with Jesus",
     "wp": 94.32,
@@ -1890,17 +1919,17 @@
    {
     "t": "2026-11-18T04:00",
     "len": 880,
-    "v": 1,
+    "v": 2,
     "k": "video",
     "x": "Except Ye Become as Little Children \u2014 Matthew 17-18; Mark 9;",
-    "wp": 0,
+    "wp": 0.36,
     "ty": "episode",
     "up": false
    },
    {
     "t": "2026-11-17T17:00",
     "len": 13,
-    "v": 37,
+    "v": 38,
     "k": "short",
     "x": "Matthew 11:15 KJV \u2014 Hear Jesus here | Walking with Jesus",
     "wp": 105.36000000000001,
@@ -1910,7 +1939,7 @@
    {
     "t": "2026-11-17T14:00",
     "len": 16,
-    "v": 27,
+    "v": 29,
     "k": "short",
     "x": "The Dishes. The Commute. The Dog Walk. \u2014 Walking with Jesus",
     "wp": 67.38,
@@ -1930,10 +1959,10 @@
    {
     "t": "2026-11-17T04:00",
     "len": 804,
-    "v": 8,
+    "v": 10,
     "k": "video",
     "x": "Thou Art the Christ \u2014 Matthew 16-17; Mark 8-9; Luke 9 KJV | ",
-    "wp": 27.87,
+    "wp": 18.76,
     "ty": "episode",
     "up": false
    },
@@ -2030,10 +2059,10 @@
    {
     "t": "2026-11-13T04:00",
     "len": 955,
-    "v": 4,
+    "v": 11,
     "k": "video",
     "x": "I Am the Bread of Life \u2014 Matthew 15; Mark 7; John 6 KJV | Ha",
-    "wp": 66.53,
+    "wp": 53.849999999999994,
     "ty": "episode",
     "up": false
    },
@@ -2060,10 +2089,10 @@
    {
     "t": "2026-11-12T04:00",
     "len": 830,
-    "v": 5,
+    "v": 9,
     "k": "video",
     "x": "It Is I; Be Not Afraid \u2014 Matthew 14; Mark 6; Luke 9; John 6 ",
-    "wp": 26.419999999999998,
+    "wp": 13.59,
     "ty": "episode",
     "up": false
    },
@@ -2088,9 +2117,19 @@
     "up": false
    },
    {
+    "t": "2026-11-11T04:00",
+    "len": 790,
+    "v": 1,
+    "k": "video",
+    "x": "Freely Ye Have Received, Freely Give \u2014 Matthew 10-11, 14; Ma",
+    "wp": 0,
+    "ty": "episode",
+    "up": false
+   },
+   {
     "t": "2026-11-10T17:00",
     "len": 16,
-    "v": 20,
+    "v": 21,
     "k": "short",
     "x": "Luke 8:50 KJV \u2014 Damsel, I Say Unto Thee, Arise | Walking wit",
     "wp": 64.12,
@@ -2337,17 +2376,17 @@
      "types": {
       "nature": {
        "n": 14,
-       "tot": 507,
+       "tot": 509,
        "med": 20
       },
       "hear": {
        "n": 5,
-       "tot": 214,
+       "tot": 234,
        "med": 39
       },
       "promo": {
        "n": 7,
-       "tot": 687,
+       "tot": 689,
        "med": 89
       }
      }
@@ -2357,7 +2396,7 @@
      "types": {
       "nature": {
        "n": 48,
-       "tot": 8191,
+       "tot": 8193,
        "med": 100
       },
       "tomorrow": {
@@ -2387,7 +2426,7 @@
       },
       "hear": {
        "n": 5,
-       "tot": 5165,
+       "tot": 5166,
        "med": 239
       },
       "tomorrow": {

@@ -1,5 +1,5 @@
 {
- "updated": "Mon 11/23 1:30 PM",
+ "updated": "Mon 11/23 4:54 PM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -9,9 +9,9 @@
  "days": [
   {
    "d": "2026-11-23",
-   "short": 1,
+   "short": 2,
    "long": 0,
-   "short_views": 159,
+   "short_views": 409,
    "long_views": 0,
    "unknown": 0
   },
@@ -51,7 +51,7 @@
    "d": "2026-11-18",
    "short": 2,
    "long": 0,
-   "short_views": 4222,
+   "short_views": 4223,
    "long_views": 0,
    "unknown": 0
   },
@@ -138,12 +138,25 @@
  ],
  "items": [
   {
+   "id": "1182752577608546",
+   "type": "reel",
+   "at": "2026-11-23 14:02",
+   "live": "2026-11-23 14:02",
+   "len": 13,
+   "views": 189,
+   "src": "fb_reels_total_plays",
+   "text": "Luke 17:17 (KJV) On today's episode of Walking with Jesus: O",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":5086809},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-23T20:02:48+00",
+   "sched": null
+  },
+  {
    "id": "2354411422036644",
    "type": "reel",
    "at": "2026-11-23 09:04",
    "live": "2026-11-23 09:04",
    "len": 14,
-   "views": 159,
+   "views": 220,
    "src": "fb_reels_total_plays",
    "text": "John 10:11 (KJV) On today's episode of Walking with Jesus: O",
    "pub": true,
@@ -234,7 +247,7 @@
    "at": "2026-11-18 14:03",
    "live": "2026-11-18 14:03",
    "len": 12,
-   "views": 4182,
+   "views": 4183,
    "src": "fb_reels_total_plays",
    "text": "Matthew 13:9 (KJV) Hear Jesus here. Make hearing Jesus a dai",
    "pub": true,
