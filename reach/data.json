@@ -1,5 +1,5 @@
 {
- "updated": "Mon 11/23 2:52 AM",
+ "updated": "Mon 11/23 1:13 PM",
  "updated_date": "2026-11-23",
  "platforms": [
   {
@@ -66,13 +66,13 @@
     },
     {
      "d": "2026-11-18",
-     "v": 116,
-     "e": 12
+     "v": 115,
+     "e": 13
     },
     {
      "d": "2026-11-19",
-     "v": 94,
-     "e": 8
+     "v": 91,
+     "e": 9
     },
     {
      "d": "2026-11-20",
@@ -208,8 +208,8 @@
     },
     {
      "d": "2026-11-14",
-     "v": 1114,
-     "e": 93
+     "v": 1110,
+     "e": 95
     }
    ],
    "through": "2026-11-20",
@@ -282,8 +282,8 @@
       },
       {
        "d": "2026-11-19",
-       "v": 88,
-       "e": 8
+       "v": 85,
+       "e": 9
       },
       {
        "d": "2026-11-20",
@@ -419,8 +419,8 @@
       },
       {
        "d": "2026-11-14",
-       "v": 1025,
-       "e": 92
+       "v": 1022,
+       "e": 93
       }
      ]
     },
@@ -921,7 +921,7 @@
     },
     {
      "d": "2026-11-22",
-     "v": 0,
+     "v": 13,
      "e": 0
     }
    ],
@@ -1053,7 +1053,7 @@
     },
     {
      "d": "2026-11-16",
-     "v": 20,
+     "v": 33,
      "e": 1
     }
    ],
@@ -1136,8 +1136,8 @@
     },
     {
      "d": "2026-11-22",
-     "v": 0,
-     "e": 0
+     "v": 19,
+     "e": 1
     }
    ],
    "weekly": [
@@ -1268,8 +1268,8 @@
     },
     {
      "d": "2026-11-16",
-     "v": 163,
-     "e": 2
+     "v": 182,
+     "e": 3
     }
    ],
    "before": {
@@ -1494,21 +1494,30 @@
   }
  ],
  "notes": [
-  "YouTube split since 2026-09-15: shorts 17081 + long-form 195 of 17291 total views; 99 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
+  "YouTube split since 2026-09-15: shorts 17078 + long-form 195 of 17287 total views; 99 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 243; saved with numbers: 270",
-  "Facebook posts, last 21 days: 32 reels, 0 other videos, 0 over 90s; views known for 32 of 32, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 531 posts; YouTube per-video: 170 videos, titles from Data API for 170, public-title/first-view lookups 0; Facebook per-post: 32 saved"
+  "Buffer posts read: 245; saved with numbers: 272",
+  "Facebook posts, last 21 days: 33 reels, 0 other videos, 0 over 90s; views known for 33 of 33, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
+  "posts.json: 533 posts; YouTube per-video: 170 videos, titles from Data API for 170, public-title/first-view lookups 0; Facebook per-post: 32 saved"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
    {
+    "t": "2026-11-23T09:04",
+    "len": 14,
+    "v": 159,
+    "k": "reel",
+    "x": "John 10:11 (KJV) On today's episode of Walking w",
+    "ty": "nature",
+    "up": false
+   },
+   {
     "t": "2026-11-22T09:02",
     "len": 13,
-    "v": 199,
+    "v": 200,
     "k": "reel",
     "x": "No commentary. No one telling you what to think.",
     "ty": "promo",
@@ -1831,7 +1840,7 @@
    {
     "t": "2026-11-19T14:00",
     "len": 13,
-    "v": 32,
+    "v": 31,
     "k": "short",
     "x": "Mark 4:9 KJV \u2014 Hear Jesus here | Walking with Jesus",
     "wp": 94.32,
@@ -1841,7 +1850,7 @@
    {
     "t": "2026-11-19T09:00",
     "len": 16,
-    "v": 21,
+    "v": 19,
     "k": "short",
     "x": "Matthew 18:20 KJV \u2014 Where Two or Three Are Gathered Together",
     "wp": 99.67,
@@ -2328,12 +2337,12 @@
      "types": {
       "nature": {
        "n": 14,
-       "tot": 509,
+       "tot": 507,
        "med": 20
       },
       "hear": {
        "n": 5,
-       "tot": 215,
+       "tot": 214,
        "med": 39
       },
       "promo": {
@@ -2443,7 +2452,7 @@
      "types": {
       "nature": {
        "n": 13,
-       "tot": 112,
+       "tot": 114,
        "med": 4
       },
       "hear": {
@@ -2453,7 +2462,7 @@
       },
       "promo": {
        "n": 6,
-       "tot": 84,
+       "tot": 87,
        "med": 6
       }
      }
