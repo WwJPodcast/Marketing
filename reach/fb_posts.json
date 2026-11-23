@@ -1,5 +1,5 @@
 {
- "updated": "Sun 11/22 1:30 PM",
+ "updated": "Mon 11/23 2:52 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -11,7 +11,7 @@
    "d": "2026-11-22",
    "short": 1,
    "long": 0,
-   "short_views": 177,
+   "short_views": 199,
    "long_views": 0,
    "unknown": 0
   },
@@ -19,7 +19,7 @@
    "d": "2026-11-21",
    "short": 2,
    "long": 0,
-   "short_views": 285,
+   "short_views": 290,
    "long_views": 0,
    "unknown": 0
   },
@@ -27,7 +27,7 @@
    "d": "2026-11-20",
    "short": 1,
    "long": 0,
-   "short_views": 278,
+   "short_views": 279,
    "long_views": 0,
    "unknown": 0
   },
@@ -126,14 +126,6 @@
    "short_views": 0,
    "long_views": 0,
    "unknown": 0
-  },
-  {
-   "d": "2026-11-02",
-   "short": 4,
-   "long": 0,
-   "short_views": 0,
-   "long_views": 0,
-   "unknown": 0
   }
  ],
  "items": [
@@ -143,7 +135,7 @@
    "at": "2026-11-22 09:02",
    "live": "2026-11-22 09:02",
    "len": 13,
-   "views": 177,
+   "views": 199,
    "src": "fb_reels_total_plays",
    "text": "No commentary. No one telling you what to think. Just His wo",
    "pub": true,
@@ -156,7 +148,7 @@
    "at": "2026-11-21 15:01",
    "live": "2026-11-21 15:01",
    "len": 17,
-   "views": 277,
+   "views": 282,
    "src": "fb_reels_total_plays",
    "text": "This is the opposite of scrolling. Fifteen quiet minutes wit",
    "pub": true,
@@ -182,7 +174,7 @@
    "at": "2026-11-20 14:02",
    "live": "2026-11-20 14:02",
    "len": 14,
-   "views": 278,
+   "views": 279,
    "src": "fb_reels_total_plays",
    "text": "John 8:47 (KJV) Hear Jesus here. Make hearing Jesus a daily ",
    "pub": true,
@@ -551,58 +543,6 @@
    "text": "Luke 8:15 (KJV) On today's episode of Walking with Jesus: He",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":7098831},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-05T15:00:01+00",
-   "sched": null
-  },
-  {
-   "id": "2002233080453924",
-   "type": "reel",
-   "at": "2026-11-02 02:45",
-   "live": "2026-11-04 17:00",
-   "len": 48,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "On tomorrow's episode of Walking with Jesus: He That Hath Ea",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":2611303},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-04T23:00:01+00",
-   "sched": null
-  },
-  {
-   "id": "1915552693219039",
-   "type": "reel",
-   "at": "2026-11-02 02:45",
-   "live": "2026-11-04 14:00",
-   "len": 16,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "Matthew 12:30 (KJV) On today's episode of Walking with Jesus",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":7425591},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-04T20:00:01+00",
-   "sched": null
-  },
-  {
-   "id": "1139247335146539",
-   "type": "reel",
-   "at": "2026-11-02 02:45",
-   "live": "2026-11-04 09:00",
-   "len": 18,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "Luke 11:9 (KJV) On today's episode of Walking with Jesus: A ",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":3164796},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-04T15:00:15+00",
-   "sched": null
-  },
-  {
-   "id": "1605757567267317",
-   "type": "reel",
-   "at": "2026-11-02 02:45",
-   "live": "2026-11-03 17:00",
-   "len": 50,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "On tomorrow's episode of Walking with Jesus: A House Divided",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":2995440},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-03T23:00:07+00",
    "sched": null
   }
  ]
