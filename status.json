@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T02:52:02-06:00",
- "updated_label": "Mon 11/23 2:52 AM",
+ "updated": "2026-11-23T13:30:04-06:00",
+ "updated_label": "Mon 11/23 1:30 PM",
  "window_start": "2026-11-23",
  "window_days": 21,
  "goal_days": 14,
@@ -26,8 +26,8 @@
     "fix": 0
    },
    "picked": {
-    "through": null,
-    "count": 0
+    "through": "2026-12-11",
+    "count": 24
    },
    "holes": []
   },
@@ -40,7 +40,7 @@
    "reported": "11/23",
    "queued": {
     "through": "2026-11-27",
-    "count": 9
+    "count": 8
    },
    "ready": {
     "through": "2026-11-27",
@@ -81,16 +81,16 @@
   }
  ],
  "buffer": {
-  "youtube": 10,
-  "instagram": 10,
-  "facebook": 10,
-  "tiktok": 10,
+  "youtube": 9,
+  "instagram": 9,
+  "facebook": 9,
+  "tiktok": 9,
   "through_label": "Fri 11/27 2 PM",
   "posted_7d": 14
  },
  "needs_you": [
   {
-   "what": "Pick Nature-Hear verses 11/23–12/14",
+   "what": "Pick Nature-Hear verses 11/24–12/14",
    "due": "now",
    "urgent": true
   },
@@ -101,7 +101,7 @@
   }
  ],
  "waiting_on_builders": {
-  "build": 12,
+  "build": 36,
   "fix": 0
  },
  "last_run": {
