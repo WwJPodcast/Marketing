@@ -1,5 +1,5 @@
 {
- "updated": "Tue 11/24 2:52 AM",
+ "updated": "Tue 11/24 12:52 PM",
  "updated_date": "2026-11-24",
  "platforms": [
   {
@@ -640,11 +640,6 @@
    "since": "Jul 2026",
    "daily": [
     {
-     "d": "2026-11-09",
-     "v": 119,
-     "e": 1
-    },
-    {
      "d": "2026-11-10",
      "v": 455,
      "e": 1
@@ -701,152 +696,156 @@
     },
     {
      "d": "2026-11-21",
-     "v": 248,
+     "v": 249,
      "e": 3
     },
     {
      "d": "2026-11-22",
      "v": 259,
      "e": 1
+    },
+    {
+     "d": "2026-11-23",
+     "v": 631,
+     "e": 11
     }
    ],
    "weekly": [
     {
-     "d": "2026-05-25",
+     "d": "2026-05-26",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-06-01",
+     "d": "2026-06-02",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-06-08",
+     "d": "2026-06-09",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-06-15",
+     "d": "2026-06-16",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-06-22",
+     "d": "2026-06-23",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-06-29",
+     "d": "2026-06-30",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-07-06",
+     "d": "2026-07-07",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-07-13",
+     "d": "2026-07-14",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-07-20",
+     "d": "2026-07-21",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-07-27",
-     "v": 1219,
-     "e": 38
+     "d": "2026-07-28",
+     "v": 1278,
+     "e": 41
     },
     {
-     "d": "2026-08-03",
-     "v": 363,
-     "e": 8
-    },
-    {
-     "d": "2026-08-10",
-     "v": 498,
-     "e": 16
-    },
-    {
-     "d": "2026-08-17",
-     "v": 461,
-     "e": 8
-    },
-    {
-     "d": "2026-08-24",
-     "v": 405,
-     "e": 9
-    },
-    {
-     "d": "2026-08-31",
-     "v": 663,
-     "e": 5
-    },
-    {
-     "d": "2026-09-07",
-     "v": 1038,
-     "e": 29
-    },
-    {
-     "d": "2026-09-14",
-     "v": 1265,
+     "d": "2026-08-04",
+     "v": 534,
      "e": 15
     },
     {
-     "d": "2026-09-21",
-     "v": 1565,
-     "e": 16
+     "d": "2026-08-11",
+     "v": 270,
+     "e": 6
     },
     {
-     "d": "2026-09-28",
-     "v": 3171,
-     "e": 51
+     "d": "2026-08-18",
+     "v": 460,
+     "e": 8
     },
     {
-     "d": "2026-10-05",
-     "v": 2663,
-     "e": 48
+     "d": "2026-08-25",
+     "v": 618,
+     "e": 9
     },
     {
-     "d": "2026-10-12",
-     "v": 4228,
-     "e": 77
+     "d": "2026-09-01",
+     "v": 474,
+     "e": 7
     },
     {
-     "d": "2026-10-19",
-     "v": 10503,
-     "e": 88
+     "d": "2026-09-08",
+     "v": 1245,
+     "e": 30
     },
     {
-     "d": "2026-10-26",
-     "v": 54,
-     "e": 4
+     "d": "2026-09-15",
+     "v": 1364,
+     "e": 17
     },
     {
-     "d": "2026-11-02",
-     "v": 215,
-     "e": 0
+     "d": "2026-09-22",
+     "v": 1559,
+     "e": 19
     },
     {
-     "d": "2026-11-09",
-     "v": 1842,
-     "e": 13
+     "d": "2026-09-29",
+     "v": 3286,
+     "e": 54
     },
     {
-     "d": "2026-11-16",
-     "v": 6084,
-     "e": 131
+     "d": "2026-10-06",
+     "v": 2742,
+     "e": 46
+    },
+    {
+     "d": "2026-10-13",
+     "v": 4437,
+     "e": 79
+    },
+    {
+     "d": "2026-10-20",
+     "v": 9798,
+     "e": 80
+    },
+    {
+     "d": "2026-10-27",
+     "v": 33,
+     "e": 1
+    },
+    {
+     "d": "2026-11-03",
+     "v": 332,
+     "e": 1
+    },
+    {
+     "d": "2026-11-10",
+     "v": 2005,
+     "e": 18
+    },
+    {
+     "d": "2026-11-17",
+     "v": 6434,
+     "e": 136
     }
    ],
    "before": {
     "v": 0,
     "e": 0
-   },
-   "stale": "11/23"
+   }
   },
   {
    "key": "ig",
@@ -922,7 +921,7 @@
     },
     {
      "d": "2026-11-23",
-     "v": 0,
+     "v": 8,
      "e": 0
     }
    ],
@@ -1054,7 +1053,7 @@
     },
     {
      "d": "2026-11-17",
-     "v": 30,
+     "v": 38,
      "e": 0
     }
    ],
@@ -1137,8 +1136,8 @@
     },
     {
      "d": "2026-11-23",
-     "v": 0,
-     "e": 0
+     "v": 54,
+     "e": 2
     }
    ],
    "weekly": [
@@ -1269,8 +1268,8 @@
     },
     {
      "d": "2026-11-17",
-     "v": 146,
-     "e": 1
+     "v": 200,
+     "e": 3
     }
    ],
    "before": {
@@ -1498,19 +1497,27 @@
   "YouTube split since 2026-09-15: shorts 17610 + long-form 210 of 17834 total views; 101 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 247; saved with numbers: 273",
-  "Facebook not updated: HTTP 500: An unexpected error has occurred. Please retry your request later.",
-  "Facebook posts, last 21 days: 34 reels, 0 other videos, 0 over 90s; views known for 34 of 34, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 539 posts; YouTube per-video: 173 videos, titles from Data API for 173, public-title/first-view lookups 0; Facebook per-post: 34 saved"
+  "Buffer posts read: 249; saved with numbers: 276",
+  "Facebook posts, last 21 days: 35 reels, 0 other videos, 0 over 90s; views known for 35 of 35, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
+  "posts.json: 542 posts; YouTube per-video: 173 videos, titles from Data API for 173, public-title/first-view lookups 0; Facebook per-post: 34 saved"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
    {
+    "t": "2026-11-24T09:04",
+    "len": 15,
+    "v": 9,
+    "k": "reel",
+    "x": "Luke 10:37 (KJV) On today's episode of Walking w",
+    "ty": "nature",
+    "up": false
+   },
+   {
     "t": "2026-11-23T14:02",
     "len": 13,
-    "v": 212,
+    "v": 214,
     "k": "reel",
     "x": "Luke 17:17 (KJV) On today's episode of Walking w",
     "ty": "nature",
@@ -1519,7 +1526,7 @@
    {
     "t": "2026-11-23T09:04",
     "len": 14,
-    "v": 414,
+    "v": 511,
     "k": "reel",
     "x": "John 10:11 (KJV) On today's episode of Walking w",
     "ty": "nature",
@@ -1537,7 +1544,7 @@
    {
     "t": "2026-11-21T15:01",
     "len": 17,
-    "v": 283,
+    "v": 284,
     "k": "reel",
     "x": "This is the opposite of scrolling. Fifteen quiet",
     "ty": "promo",
@@ -1582,7 +1589,7 @@
    {
     "t": "2026-11-18T14:03",
     "len": 12,
-    "v": 4183,
+    "v": 4184,
     "k": "reel",
     "x": "Matthew 13:9 (KJV) Hear Jesus here. Make hearing",
     "ty": "hear",
@@ -1627,7 +1634,7 @@
    {
     "t": "2026-11-16T14:01",
     "len": 12,
-    "v": 235,
+    "v": 236,
     "k": "reel",
     "x": "John 10:27 (KJV) Hear Jesus here. Make hearing J",
     "ty": "hear",
@@ -1636,7 +1643,7 @@
    {
     "t": "2026-11-16T09:02",
     "len": 15,
-    "v": 26,
+    "v": 28,
     "k": "reel",
     "x": "Mark 8:18 (KJV) On today's episode of Walking wi",
     "ty": "nature",
@@ -2393,12 +2400,12 @@
      "types": {
       "nature": {
        "n": 14,
-       "tot": 1117,
+       "tot": 1119,
        "med": 43
       },
       "hear": {
        "n": 5,
-       "tot": 5167,
+       "tot": 5169,
        "med": 239
       },
       "tomorrow": {
@@ -2408,7 +2415,7 @@
       },
       "promo": {
        "n": 8,
-       "tot": 1423,
+       "tot": 1424,
        "med": 184
       }
      }
@@ -2473,8 +2480,8 @@
       },
       "promo": {
        "n": 8,
-       "tot": 94,
-       "med": 5
+       "tot": 96,
+       "med": 6
       }
      }
     },
