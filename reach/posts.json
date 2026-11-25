@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25 11:57",
+ "updated": "2026-11-25 13:30",
  "fields": {
   "p": "platform",
   "t": "posted (Central)",
@@ -104,7 +104,7 @@
    "x": "Mark 4:23 (KJV) Hear Jesus here. Make hearing Jesus a daily",
    "url": "/reel/1446309040472483/",
    "age": 1,
-   "v": 235,
+   "v": 236,
    "e": 2,
    "v1": null,
    "v7": null,
@@ -13310,7 +13310,7 @@
    {
     "key": "fb/hear",
     "posts": 6,
-    "views": 5405,
+    "views": 5406,
     "engaged": 93,
     "eng_rate_pct": 1.72,
     "median_views": 237.5,
@@ -13662,10 +13662,10 @@
    {
     "key": "fb/2026-11-23",
     "posts": 4,
-    "views": 975,
+    "views": 976,
     "engaged": 15,
     "eng_rate_pct": 1.54,
-    "median_views": 225.0,
+    "median_views": 225.5,
     "median_views_day1": 364.0,
     "median_views_day7": null,
     "with_day7": 0,
@@ -14204,7 +14204,7 @@
    {
     "key": "fb/17",
     "posts": 23,
-    "views": 3434,
+    "views": 3435,
     "engaged": 24,
     "eng_rate_pct": 0.7,
     "median_views": 182,
