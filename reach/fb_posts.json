@@ -1,5 +1,5 @@
 {
- "updated": "Tue 11/24 3:30 PM",
+ "updated": "Wed 11/25 2:52 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -9,9 +9,9 @@
  "days": [
   {
    "d": "2026-11-24",
-   "short": 1,
+   "short": 2,
    "long": 0,
-   "short_views": 10,
+   "short_views": 245,
    "long_views": 0,
    "unknown": 0
   },
@@ -19,7 +19,7 @@
    "d": "2026-11-23",
    "short": 2,
    "long": 0,
-   "short_views": 725,
+   "short_views": 728,
    "long_views": 0,
    "unknown": 0
   },
@@ -67,7 +67,7 @@
    "d": "2026-11-17",
    "short": 3,
    "long": 0,
-   "short_views": 450,
+   "short_views": 451,
    "long_views": 0,
    "unknown": 0
   },
@@ -134,24 +134,29 @@
    "short_views": 182,
    "long_views": 0,
    "unknown": 0
-  },
-  {
-   "d": "2026-11-04",
-   "short": 5,
-   "long": 0,
-   "short_views": 0,
-   "long_views": 0,
-   "unknown": 0
   }
  ],
  "items": [
+  {
+   "id": "1446309040472483",
+   "type": "reel",
+   "at": "2026-11-24 17:01",
+   "live": "2026-11-24 17:01",
+   "len": 12,
+   "views": 233,
+   "src": "fb_reels_total_plays",
+   "text": "Mark 4:23 (KJV) Hear Jesus here. Make hearing Jesus a daily ",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":4953989},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-24T23:01:22+00",
+   "sched": null
+  },
   {
    "id": "2305268513601035",
    "type": "reel",
    "at": "2026-11-24 09:04",
    "live": "2026-11-24 09:04",
    "len": 15,
-   "views": 10,
+   "views": 12,
    "src": "fb_reels_total_plays",
    "text": "Luke 10:37 (KJV) On today's episode of Walking with Jesus: G",
    "pub": true,
@@ -164,7 +169,7 @@
    "at": "2026-11-23 14:02",
    "live": "2026-11-23 14:02",
    "len": 13,
-   "views": 214,
+   "views": 215,
    "src": "fb_reels_total_plays",
    "text": "Luke 17:17 (KJV) On today's episode of Walking with Jesus: O",
    "pub": true,
@@ -177,7 +182,7 @@
    "at": "2026-11-23 09:04",
    "live": "2026-11-23 09:04",
    "len": 14,
-   "views": 511,
+   "views": 513,
    "src": "fb_reels_total_plays",
    "text": "John 10:11 (KJV) On today's episode of Walking with Jesus: O",
    "pub": true,
@@ -294,7 +299,7 @@
    "at": "2026-11-17 17:02",
    "live": "2026-11-17 17:02",
    "len": 12,
-   "views": 231,
+   "views": 232,
    "src": "fb_reels_total_plays",
    "text": "Matthew 11:15 (KJV) Hear Jesus here. Make hearing Jesus a da",
    "pub": true,
@@ -533,71 +538,6 @@
    "text": "Mark 5:34 (KJV) On tomorrow's episode of Walking with Jesus:",
    "pub": true,
    "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":7581924},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-08T23:01:02+00",
-   "sched": null
-  },
-  {
-   "id": "2006514173340589",
-   "type": "reel",
-   "at": "2026-11-04 02:45",
-   "live": "2026-11-06 14:00",
-   "len": 20,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "Matthew 13:44 (KJV) On today's episode of Walking with Jesus",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":12269619},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-06T20:00:02+0",
-   "sched": null
-  },
-  {
-   "id": "1713262950317969",
-   "type": "reel",
-   "at": "2026-11-04 02:45",
-   "live": "2026-11-06 09:00",
-   "len": 18,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "Mark 4:39 (KJV) On today's episode of Walking with Jesus: Ev",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":5034583},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-06T15:00:06+00",
-   "sched": null
-  },
-  {
-   "id": "1123417786939560",
-   "type": "reel",
-   "at": "2026-11-04 02:45",
-   "live": "2026-11-05 17:00",
-   "len": 53,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "On tomorrow's episode of Walking with Jesus: Even the Wind a",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":3116565},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-05T23:00:00+00",
-   "sched": null
-  },
-  {
-   "id": "28965575173110912",
-   "type": "reel",
-   "at": "2026-11-04 02:45",
-   "live": "2026-11-05 14:00",
-   "len": 19,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "Mark 4:24 (KJV) On today's episode of Walking with Jesus: He",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":7168210},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-05T20:00:00+00",
-   "sched": null
-  },
-  {
-   "id": "4547887438819940",
-   "type": "reel",
-   "at": "2026-11-04 02:45",
-   "live": "2026-11-05 09:00",
-   "len": 19,
-   "views": 0,
-   "src": "fb_reels_total_plays",
-   "text": "Luke 8:15 (KJV) On today's episode of Walking with Jesus: He",
-   "pub": true,
-   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":7098831},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-05T15:00:01+00",
    "sched": null
   }
  ]
