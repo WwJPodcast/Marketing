@@ -1,5 +1,5 @@
 {
- "updated": "Wed 11/25 2:52 AM",
+ "updated": "Wed 11/25 11:57 AM",
  "updated_date": "2026-11-25",
  "platforms": [
   {
@@ -1136,7 +1136,7 @@
     },
     {
      "d": "2026-11-24",
-     "v": 0,
+     "v": 16,
      "e": 0
     }
    ],
@@ -1268,7 +1268,7 @@
     },
     {
      "d": "2026-11-18",
-     "v": 135,
+     "v": 151,
      "e": 3
     }
    ],
@@ -1497,18 +1497,27 @@
   "YouTube split since 2026-09-15: shorts 17867 + long-form 229 of 18110 total views; 103 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 251; saved with numbers: 279",
-  "Facebook posts, last 21 days: 31 reels, 0 other videos, 0 over 90s; views known for 31 of 31, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 548 posts; YouTube per-video: 174 videos, titles from Data API for 174, public-title/first-view lookups 0; Facebook per-post: 31 saved"
+  "Buffer posts read: 253; saved with numbers: 280",
+  "Facebook posts, last 21 days: 32 reels, 0 other videos, 0 over 90s; views known for 32 of 32, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
+  "posts.json: 549 posts; YouTube per-video: 174 videos, titles from Data API for 174, public-title/first-view lookups 0; Facebook per-post: 31 saved"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
    {
+    "t": "2026-11-25T09:05",
+    "len": 15,
+    "v": 93,
+    "k": "reel",
+    "x": "Luke 12:32 (KJV) On today's episode of Walking w",
+    "ty": "nature",
+    "up": false
+   },
+   {
     "t": "2026-11-24T17:01",
     "len": 12,
-    "v": 233,
+    "v": 235,
     "k": "reel",
     "x": "Mark 4:23 (KJV) Hear Jesus here. Make hearing Je",
     "ty": "hear",

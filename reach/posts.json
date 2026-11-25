@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25 02:52",
+ "updated": "2026-11-25 11:57",
  "fields": {
   "p": "platform",
   "t": "posted (Central)",
@@ -21,6 +21,30 @@
   "Facebook per-post: 31 saved"
  ],
  "posts": [
+  {
+   "p": "tt",
+   "id": "6b00c6105102766245d8547b",
+   "t": "2026-11-25T09:06",
+   "type": "nature",
+   "tag_by": "caption",
+   "opening": null,
+   "len": 15,
+   "x": "Luke 12:32 (KJV) On today's episode of Walking with Jesus: E",
+   "url": "https://tiktok.com/@walking.with.jesu838/video/7712125527766600974",
+   "age": 0,
+   "v": 0,
+   "e": 0,
+   "v1": null,
+   "v7": null,
+   "e7": null,
+   "watch": 0,
+   "watch_pct": null,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": null,
+   "reach": 0
+  },
   {
    "p": "ig",
    "id": "6b04fc35c43c1f2f5c815add",
@@ -56,12 +80,12 @@
    "x": "Mark 4:23 (KJV) Hear Jesus here. Make hearing Jesus a daily ",
    "url": "https://tiktok.com/@walking.with.jesu838/video/7711876916722158862",
    "age": 1,
-   "v": 0,
+   "v": 11,
    "e": 0,
    "v1": null,
    "v7": null,
    "e7": null,
-   "watch": 0,
+   "watch": 4.2,
    "watch_pct": null,
    "likes": 0,
    "comments": 0,
@@ -80,7 +104,7 @@
    "x": "Mark 4:23 (KJV) Hear Jesus here. Make hearing Jesus a daily",
    "url": "/reel/1446309040472483/",
    "age": 1,
-   "v": 233,
+   "v": 235,
    "e": 2,
    "v1": null,
    "v7": null,
@@ -105,12 +129,12 @@
    "x": "Luke 10:37 (KJV) On today's episode of Walking with Jesus: G",
    "url": "https://tiktok.com/@walking.with.jesu838/video/7711754070456913165",
    "age": 1,
-   "v": 0,
+   "v": 3,
    "e": 0,
    "v1": null,
    "v7": null,
    "e7": null,
-   "watch": 0,
+   "watch": 5.0,
    "watch_pct": null,
    "likes": 0,
    "comments": 0,
@@ -178,18 +202,18 @@
    "x": "Luke 17:17 (KJV) On today's episode of Walking with Jesus: O",
    "url": "https://tiktok.com/@walking.with.jesu838/video/7711459888081292558",
    "age": 2,
-   "v": 23,
+   "v": 25,
    "e": 0,
-   "v1": 23,
+   "v1": 25,
    "v7": null,
    "e7": null,
-   "watch": 2.2,
+   "watch": 2.1,
    "watch_pct": null,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saves": null,
-   "reach": 0
+   "reach": 12
   },
   {
    "p": "ig",
@@ -262,7 +286,7 @@
    "comments": 0,
    "shares": 0,
    "saves": null,
-   "reach": 0
+   "reach": 12
   },
   {
    "p": "ig",
@@ -329,13 +353,13 @@
    "v1": 6,
    "v7": null,
    "e7": null,
-   "watch": 1.3,
+   "watch": 1.4,
    "watch_pct": null,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saves": null,
-   "reach": 4
+   "reach": 6
   },
   {
    "p": "ig",
@@ -1734,7 +1758,7 @@
    "v1": 18,
    "v7": 20,
    "e7": 0,
-   "watch": 7.4,
+   "watch": 3.3,
    "watch_pct": null,
    "likes": 0,
    "comments": 0,
@@ -1807,7 +1831,7 @@
    "v1": 11,
    "v7": 11,
    "e7": 2,
-   "watch": 3.8,
+   "watch": 3.5,
    "watch_pct": null,
    "likes": 2,
    "comments": 0,
@@ -13286,7 +13310,7 @@
    {
     "key": "fb/hear",
     "posts": 6,
-    "views": 5403,
+    "views": 5405,
     "engaged": 93,
     "eng_rate_pct": 1.72,
     "median_views": 237.5,
@@ -13430,26 +13454,26 @@
    {
     "key": "tt/hear",
     "posts": 6,
-    "views": 46,
+    "views": 57,
     "engaged": 0,
     "eng_rate_pct": 0.0,
-    "median_views": 5.5,
+    "median_views": 8.0,
     "median_views_day1": 7,
     "median_views_day7": 13.0,
     "with_day7": 2,
-    "median_watch_s": 4.2
+    "median_watch_s": 4.6
    },
    {
     "key": "tt/nature",
-    "posts": 33,
-    "views": 647,
+    "posts": 34,
+    "views": 652,
     "engaged": 43,
-    "eng_rate_pct": 6.65,
-    "median_views": 17,
+    "eng_rate_pct": 6.6,
+    "median_views": 15.0,
     "median_views_day1": 17.0,
     "median_views_day7": 17.0,
     "with_day7": 28,
-    "median_watch_s": 2.7
+    "median_watch_s": 2.8
    },
    {
     "key": "tt/promo",
@@ -13638,10 +13662,10 @@
    {
     "key": "fb/2026-11-23",
     "posts": 4,
-    "views": 973,
+    "views": 975,
     "engaged": 15,
     "eng_rate_pct": 1.54,
-    "median_views": 224.0,
+    "median_views": 225.0,
     "median_views_day1": 364.0,
     "median_views_day7": null,
     "with_day7": 0,
@@ -13933,7 +13957,7 @@
     "median_views_day1": 11,
     "median_views_day7": 11,
     "with_day7": 13,
-    "median_watch_s": 3.6
+    "median_watch_s": 3.3
    },
    {
     "key": "tt/2026-11-16",
@@ -13949,15 +13973,15 @@
    },
    {
     "key": "tt/2026-11-23",
-    "posts": 4,
-    "views": 54,
+    "posts": 5,
+    "views": 70,
     "engaged": 2,
-    "eng_rate_pct": 3.7,
-    "median_views": 11.5,
-    "median_views_day1": 27.0,
+    "eng_rate_pct": 2.86,
+    "median_views": 11,
+    "median_views_day1": 28.0,
     "median_views_day7": null,
     "with_day7": 0,
-    "median_watch_s": 0.9
+    "median_watch_s": 2.1
    },
    {
     "key": "yt/2026-09-14",
@@ -14180,7 +14204,7 @@
    {
     "key": "fb/17",
     "posts": 23,
-    "views": 3432,
+    "views": 3434,
     "engaged": 24,
     "eng_rate_pct": 0.7,
     "median_views": 182,
@@ -14407,11 +14431,11 @@
    },
    {
     "key": "tt/09",
-    "posts": 27,
-    "views": 659,
+    "posts": 28,
+    "views": 662,
     "engaged": 54,
-    "eng_rate_pct": 8.19,
-    "median_views": 12,
+    "eng_rate_pct": 8.16,
+    "median_views": 11.5,
     "median_views_day1": 12.5,
     "median_views_day7": 17,
     "with_day7": 21,
@@ -14420,9 +14444,9 @@
    {
     "key": "tt/14",
     "posts": 17,
-    "views": 378,
+    "views": 380,
     "engaged": 17,
-    "eng_rate_pct": 4.5,
+    "eng_rate_pct": 4.47,
     "median_views": 21,
     "median_views_day1": 19,
     "median_views_day7": 21,
@@ -14444,14 +14468,14 @@
    {
     "key": "tt/17",
     "posts": 18,
-    "views": 319,
+    "views": 330,
     "engaged": 12,
-    "eng_rate_pct": 3.76,
+    "eng_rate_pct": 3.64,
     "median_views": 14.5,
     "median_views_day1": 15,
     "median_views_day7": 15,
     "with_day7": 17,
-    "median_watch_s": 1.8
+    "median_watch_s": 1.9
    },
    {
     "key": "yt/04",

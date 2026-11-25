@@ -1,5 +1,5 @@
 {
- "updated": "Wed 11/25 2:52 AM",
+ "updated": "Wed 11/25 11:57 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -8,10 +8,18 @@
  "errors": [],
  "days": [
   {
+   "d": "2026-11-25",
+   "short": 1,
+   "long": 0,
+   "short_views": 93,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
    "d": "2026-11-24",
    "short": 2,
    "long": 0,
-   "short_views": 245,
+   "short_views": 247,
    "long_views": 0,
    "unknown": 0
   },
@@ -138,12 +146,25 @@
  ],
  "items": [
   {
+   "id": "1154726510829003",
+   "type": "reel",
+   "at": "2026-11-25 09:05",
+   "live": "2026-11-25 09:05",
+   "len": 15,
+   "views": 93,
+   "src": "fb_reels_total_plays",
+   "text": "Luke 12:32 (KJV) On today's episode of Walking with Jesus: E",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":6858909},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-25T15:05:45+00",
+   "sched": null
+  },
+  {
    "id": "1446309040472483",
    "type": "reel",
    "at": "2026-11-24 17:01",
    "live": "2026-11-24 17:01",
    "len": 12,
-   "views": 233,
+   "views": 235,
    "src": "fb_reels_total_plays",
    "text": "Mark 4:23 (KJV) Hear Jesus here. Make hearing Jesus a daily ",
    "pub": true,
