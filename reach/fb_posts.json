@@ -1,5 +1,5 @@
 {
- "updated": "Thu 11/26 11:42 AM",
+ "updated": "Thu 11/26 1:30 PM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -11,7 +11,7 @@
    "d": "2026-11-26",
    "short": 2,
    "long": 0,
-   "short_views": 101,
+   "short_views": 303,
    "long_views": 0,
    "unknown": 0
   },
@@ -159,7 +159,7 @@
    "at": "2026-11-26 11:07",
    "live": "2026-11-26 11:07",
    "len": 17,
-   "views": 0,
+   "views": 156,
    "src": "fb_reels_total_plays",
    "text": "Ten were healed. One came back. Only Luke records it \u2014 Luke ",
    "pub": true,
@@ -172,7 +172,7 @@
    "at": "2026-11-26 09:07",
    "live": "2026-11-26 09:07",
    "len": 14,
-   "views": 101,
+   "views": 147,
    "src": "fb_reels_total_plays",
    "text": "Luke 14:11 (KJV) On today's episode of Walking with Jesus: T",
    "pub": true,

@@ -1,5 +1,5 @@
 {
- "updated": "Thu 11/26 11:42 AM",
+ "updated": "Thu 11/26 1:30 PM",
  "updated_date": "2026-11-26",
  "platforms": [
   {
@@ -71,7 +71,7 @@
     },
     {
      "d": "2026-11-22",
-     "v": 276,
+     "v": 275,
      "e": 16
     },
     {
@@ -208,7 +208,7 @@
     },
     {
      "d": "2026-11-17",
-     "v": 1304,
+     "v": 1303,
      "e": 100
     }
    ],
@@ -706,7 +706,7 @@
     },
     {
      "d": "2026-11-25",
-     "v": 611,
+     "v": 612,
      "e": 12
     }
    ],
@@ -838,7 +838,7 @@
     },
     {
      "d": "2026-11-19",
-     "v": 5351,
+     "v": 5352,
      "e": 91
     }
    ],
@@ -1494,7 +1494,7 @@
   }
  ],
  "notes": [
-  "YouTube split since 2026-09-15: shorts 17979 + long-form 236 of 18229 total views; 105 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
+  "YouTube split since 2026-09-15: shorts 17979 + long-form 236 of 18228 total views; 105 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
   "Buffer posts read: 261; saved with numbers: 287",
@@ -1508,7 +1508,7 @@
    {
     "t": "2026-11-26T11:07",
     "len": 17,
-    "v": 0,
+    "v": 156,
     "k": "reel",
     "x": "Ten were healed. One came back. Only Luke record",
     "ty": "promo",
@@ -1517,7 +1517,7 @@
    {
     "t": "2026-11-26T09:07",
     "len": 14,
-    "v": 101,
+    "v": 147,
     "k": "reel",
     "x": "Luke 14:11 (KJV) On today's episode of Walking w",
     "ty": "nature",
