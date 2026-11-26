@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-25T13:30:04-06:00",
- "updated_label": "Wed 11/25 1:30 PM",
- "window_start": "2026-11-25",
+ "updated": "2026-11-26T02:52:02-06:00",
+ "updated_label": "Thu 11/26 2:52 AM",
+ "window_start": "2026-11-26",
  "window_days": 21,
  "goal_days": 14,
  "types": [
@@ -11,14 +11,14 @@
    "rate": "5/wk",
    "per_week": 5,
    "builds": "Mon night",
-   "reported": "11/25",
+   "reported": "11/26",
    "queued": {
     "through": null,
     "count": 0
    },
    "ready": {
     "through": "2026-12-03",
-    "count": 6
+    "count": 5
    },
    "review": {
     "through": "2026-12-03",
@@ -39,10 +39,10 @@
    "rate": "5–9/wk",
    "per_week": 7,
    "builds": "Mon night",
-   "reported": "11/25",
+   "reported": "11/26",
    "queued": {
     "through": "2026-11-27",
-    "count": 5
+    "count": 4
    },
    "ready": {
     "through": "2026-11-27",
@@ -65,7 +65,7 @@
    "rate": "4/wk",
    "per_week": 4,
    "builds": "Thu night",
-   "reported": "11/25",
+   "reported": "11/26",
    "queued": {
     "count": 1
    },
@@ -83,16 +83,16 @@
   }
  ],
  "buffer": {
-  "youtube": 6,
-  "instagram": 6,
-  "facebook": 6,
-  "tiktok": 6,
+  "youtube": 5,
+  "instagram": 5,
+  "facebook": 5,
+  "tiktok": 5,
   "through_label": "Sat 11/28 9 AM",
   "posted_7d": 13
  },
  "needs_you": [
   {
-   "what": "Pick Nature-Hear verses 11/27–12/16",
+   "what": "Pick Nature-Hear verses 11/27–12/17",
    "due": "now",
    "urgent": true
   },
@@ -102,7 +102,7 @@
    "urgent": true
   },
   {
-   "what": "Pick nature verses 12/9–16 (S4E38–S4E42)",
+   "what": "Pick nature verses 12/9–17 (S4E38–S4E42)",
    "due": "by Mon",
    "urgent": true
   }
