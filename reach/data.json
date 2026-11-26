@@ -1,5 +1,5 @@
 {
- "updated": "Thu 11/26 1:30 PM",
+ "updated": "Thu 11/26 2:31 PM",
  "updated_date": "2026-11-26",
  "platforms": [
   {
@@ -9,11 +9,6 @@
    "views": "views",
    "since": "Sep 2026",
    "daily": [
-    {
-     "d": "2026-11-10",
-     "v": 44,
-     "e": 3
-    },
     {
      "d": "2026-11-11",
      "v": 24,
@@ -78,141 +73,146 @@
      "d": "2026-11-23",
      "v": 125,
      "e": 11
+    },
+    {
+     "d": "2026-11-24",
+     "v": 68,
+     "e": 4
     }
    ],
    "weekly": [
     {
-     "d": "2026-05-26",
+     "d": "2026-05-27",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-06-02",
+     "d": "2026-06-03",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-06-09",
+     "d": "2026-06-10",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-06-16",
+     "d": "2026-06-17",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-06-23",
+     "d": "2026-06-24",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-06-30",
+     "d": "2026-07-01",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-07-07",
+     "d": "2026-07-08",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-07-14",
+     "d": "2026-07-15",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-07-21",
+     "d": "2026-07-22",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-07-28",
+     "d": "2026-07-29",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-08-04",
+     "d": "2026-08-05",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-08-11",
+     "d": "2026-08-12",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-08-18",
+     "d": "2026-08-19",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-08-25",
+     "d": "2026-08-26",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-09-01",
+     "d": "2026-09-02",
      "v": null,
      "e": null
     },
     {
-     "d": "2026-09-08",
-     "v": null,
-     "e": null
+     "d": "2026-09-09",
+     "v": 13,
+     "e": 4
     },
     {
-     "d": "2026-09-15",
-     "v": 682,
-     "e": 118
+     "d": "2026-09-16",
+     "v": 919,
+     "e": 136
     },
     {
-     "d": "2026-09-22",
-     "v": 2196,
-     "e": 309
+     "d": "2026-09-23",
+     "v": 2048,
+     "e": 311
     },
     {
-     "d": "2026-09-29",
-     "v": 1901,
-     "e": 342
+     "d": "2026-09-30",
+     "v": 2066,
+     "e": 385
     },
     {
-     "d": "2026-10-06",
-     "v": 3176,
-     "e": 589
+     "d": "2026-10-07",
+     "v": 3127,
+     "e": 558
     },
     {
-     "d": "2026-10-13",
-     "v": 3490,
-     "e": 477
+     "d": "2026-10-14",
+     "v": 3397,
+     "e": 462
     },
     {
-     "d": "2026-10-20",
-     "v": 1098,
-     "e": 120
+     "d": "2026-10-21",
+     "v": 1159,
+     "e": 124
     },
     {
-     "d": "2026-10-27",
-     "v": 1590,
-     "e": 253
+     "d": "2026-10-28",
+     "v": 1489,
+     "e": 235
     },
     {
-     "d": "2026-11-03",
-     "v": 1731,
-     "e": 157
+     "d": "2026-11-04",
+     "v": 1690,
+     "e": 153
     },
     {
-     "d": "2026-11-10",
-     "v": 1061,
-     "e": 83
+     "d": "2026-11-11",
+     "v": 1085,
+     "e": 86
     },
     {
-     "d": "2026-11-17",
+     "d": "2026-11-18",
      "v": 1303,
-     "e": 100
+     "e": 98
     }
    ],
-   "through": "2026-11-23",
+   "through": "2026-11-24",
    "before": {
     "v": 0,
     "e": 0
@@ -220,11 +220,6 @@
    "split": {
     "shorts": {
      "daily": [
-      {
-       "d": "2026-11-10",
-       "v": 41,
-       "e": 3
-      },
       {
        "d": "2026-11-11",
        "v": 23,
@@ -289,148 +284,148 @@
        "d": "2026-11-23",
        "v": 117,
        "e": 11
+      },
+      {
+       "d": "2026-11-24",
+       "v": 58,
+       "e": 3
       }
      ],
      "weekly": [
       {
-       "d": "2026-05-26",
+       "d": "2026-05-27",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-02",
+       "d": "2026-06-03",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-09",
+       "d": "2026-06-10",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-16",
+       "d": "2026-06-17",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-23",
+       "d": "2026-06-24",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-30",
+       "d": "2026-07-01",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-07",
+       "d": "2026-07-08",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-14",
+       "d": "2026-07-15",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-21",
+       "d": "2026-07-22",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-28",
+       "d": "2026-07-29",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-04",
+       "d": "2026-08-05",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-11",
+       "d": "2026-08-12",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-18",
+       "d": "2026-08-19",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-25",
+       "d": "2026-08-26",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-09-01",
+       "d": "2026-09-02",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-09-08",
-       "v": null,
-       "e": null
+       "d": "2026-09-09",
+       "v": 13,
+       "e": 4
       },
       {
-       "d": "2026-09-15",
-       "v": 682,
-       "e": 118
+       "d": "2026-09-16",
+       "v": 919,
+       "e": 136
       },
       {
-       "d": "2026-09-22",
-       "v": 2193,
-       "e": 309
+       "d": "2026-09-23",
+       "v": 2045,
+       "e": 311
       },
       {
-       "d": "2026-09-29",
-       "v": 1895,
-       "e": 342
+       "d": "2026-09-30",
+       "v": 2060,
+       "e": 385
       },
       {
-       "d": "2026-10-06",
-       "v": 3176,
-       "e": 589
+       "d": "2026-10-07",
+       "v": 3127,
+       "e": 558
       },
       {
-       "d": "2026-10-13",
-       "v": 3464,
-       "e": 476
+       "d": "2026-10-14",
+       "v": 3360,
+       "e": 461
       },
       {
-       "d": "2026-10-20",
-       "v": 1054,
-       "e": 115
+       "d": "2026-10-21",
+       "v": 1123,
+       "e": 119
       },
       {
-       "d": "2026-10-27",
-       "v": 1575,
-       "e": 252
+       "d": "2026-10-28",
+       "v": 1472,
+       "e": 234
       },
       {
-       "d": "2026-11-03",
-       "v": 1712,
-       "e": 157
+       "d": "2026-11-04",
+       "v": 1673,
+       "e": 153
       },
       {
-       "d": "2026-11-10",
-       "v": 996,
-       "e": 82
+       "d": "2026-11-11",
+       "v": 1016,
+       "e": 85
       },
       {
-       "d": "2026-11-17",
-       "v": 1232,
-       "e": 99
+       "d": "2026-11-18",
+       "v": 1229,
+       "e": 96
       }
      ]
     },
     "long": {
      "daily": [
-      {
-       "d": "2026-11-10",
-       "v": 3,
-       "e": 0
-      },
       {
        "d": "2026-11-11",
        "v": 1,
@@ -495,138 +490,143 @@
        "d": "2026-11-23",
        "v": 8,
        "e": 0
+      },
+      {
+       "d": "2026-11-24",
+       "v": 10,
+       "e": 1
       }
      ],
      "weekly": [
       {
-       "d": "2026-05-26",
+       "d": "2026-05-27",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-02",
+       "d": "2026-06-03",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-09",
+       "d": "2026-06-10",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-16",
+       "d": "2026-06-17",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-23",
+       "d": "2026-06-24",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-06-30",
+       "d": "2026-07-01",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-07",
+       "d": "2026-07-08",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-14",
+       "d": "2026-07-15",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-21",
+       "d": "2026-07-22",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-07-28",
+       "d": "2026-07-29",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-04",
+       "d": "2026-08-05",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-11",
+       "d": "2026-08-12",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-18",
+       "d": "2026-08-19",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-08-25",
+       "d": "2026-08-26",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-09-01",
+       "d": "2026-09-02",
        "v": null,
        "e": null
       },
       {
-       "d": "2026-09-08",
-       "v": null,
-       "e": null
-      },
-      {
-       "d": "2026-09-15",
+       "d": "2026-09-09",
        "v": 0,
        "e": 0
       },
       {
-       "d": "2026-09-22",
+       "d": "2026-09-16",
+       "v": 0,
+       "e": 0
+      },
+      {
+       "d": "2026-09-23",
        "v": 3,
        "e": 0
       },
       {
-       "d": "2026-09-29",
+       "d": "2026-09-30",
        "v": 6,
        "e": 0
       },
       {
-       "d": "2026-10-06",
+       "d": "2026-10-07",
        "v": 0,
        "e": 0
       },
       {
-       "d": "2026-10-13",
+       "d": "2026-10-14",
+       "v": 28,
+       "e": 1
+      },
+      {
+       "d": "2026-10-21",
+       "v": 31,
+       "e": 5
+      },
+      {
+       "d": "2026-10-28",
        "v": 17,
        "e": 1
       },
       {
-       "d": "2026-10-20",
-       "v": 39,
-       "e": 5
-      },
-      {
-       "d": "2026-10-27",
-       "v": 15,
-       "e": 1
-      },
-      {
-       "d": "2026-11-03",
-       "v": 19,
+       "d": "2026-11-04",
+       "v": 17,
        "e": 0
       },
       {
-       "d": "2026-11-10",
-       "v": 65,
+       "d": "2026-11-11",
+       "v": 69,
        "e": 1
       },
       {
-       "d": "2026-11-17",
-       "v": 72,
-       "e": 1
+       "d": "2026-11-18",
+       "v": 75,
+       "e": 2
       }
      ]
     }
@@ -1494,21 +1494,30 @@
   }
  ],
  "notes": [
-  "YouTube split since 2026-09-15: shorts 17979 + long-form 236 of 18228 total views; 105 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
+  "YouTube split since 2026-09-15: shorts 18037 + long-form 246 of 18296 total views; 107 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 261; saved with numbers: 287",
-  "Facebook posts, last 21 days: 36 reels, 0 other videos, 0 over 90s; views known for 36 of 36, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 562 posts; YouTube per-video: 177 videos, titles from Data API for 177, public-title/first-view lookups 0; Facebook per-post: 34 saved"
+  "Buffer posts read: 263; saved with numbers: 288",
+  "Facebook posts, last 21 days: 37 reels, 0 other videos, 0 over 90s; views known for 37 of 37, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
+  "posts.json: 566 posts; YouTube per-video: 180 videos, titles from Data API for 180, public-title/first-view lookups 0; Facebook per-post: 34 saved"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
    {
+    "t": "2026-11-26T14:03",
+    "len": 13,
+    "v": 2,
+    "k": "reel",
+    "x": "Luke 14:27 (KJV) On today's episode of Walking w",
+    "ty": "nature",
+    "up": false
+   },
+   {
     "t": "2026-11-26T11:07",
     "len": 17,
-    "v": 156,
+    "v": 168,
     "k": "reel",
     "x": "Ten were healed. One came back. Only Luke record",
     "ty": "promo",
@@ -1517,7 +1526,7 @@
    {
     "t": "2026-11-26T09:07",
     "len": 14,
-    "v": 147,
+    "v": 149,
     "k": "reel",
     "x": "Luke 14:11 (KJV) On today's episode of Walking w",
     "ty": "nature",
@@ -1835,22 +1844,52 @@
   "days": 21,
   "items": [
    {
+    "t": "2026-11-24T14:00",
+    "len": 17,
+    "v": 12,
+    "k": "short",
+    "x": "Ten Were Healed. One Came Back. \u2014 Walking with Jesus",
+    "wp": 113.96,
+    "ty": "promo",
+    "up": false
+   },
+   {
+    "t": "2026-11-24T09:00",
+    "len": 16,
+    "v": 1,
+    "k": "short",
+    "x": "Luke 10:37 KJV \u2014 Go, and Do Thou Likewise | Walking with Jes",
+    "wp": 0,
+    "ty": "nature",
+    "up": false
+   },
+   {
+    "t": "2026-11-24T04:00",
+    "len": 823,
+    "v": 1,
+    "k": "video",
+    "x": "Go, and Do Thou Likewise \u2014 Luke 10, 12; John 10 KJV | Harmon",
+    "wp": 0.66,
+    "ty": "episode",
+    "up": false
+   },
+   {
     "t": "2026-11-23T14:00",
     "len": 13,
-    "v": 48,
+    "v": 58,
     "k": "short",
     "x": "Luke 17:17 KJV \u2014 One Thing I Know: I Was Blind, Now I See | ",
-    "wp": 91.48,
+    "wp": 76.22,
     "ty": "nature",
     "up": false
    },
    {
     "t": "2026-11-23T09:00",
     "len": 15,
-    "v": 26,
+    "v": 37,
     "k": "short",
     "x": "John 10:11 KJV \u2014 One Thing I Know: I Was Blind, Now I See | ",
-    "wp": 129.96,
+    "wp": 96.42,
     "ty": "nature",
     "up": false
    },
@@ -1867,7 +1906,7 @@
    {
     "t": "2026-11-22T09:00",
     "len": 14,
-    "v": 79,
+    "v": 91,
     "k": "short",
     "x": "The Bible Study With Nothing Added \u2014 Walking with Jesus",
     "wp": 49.4,
@@ -1877,17 +1916,17 @@
    {
     "t": "2026-11-21T15:00",
     "len": 17,
-    "v": 389,
+    "v": 395,
     "k": "short",
     "x": "The Opposite of Scrolling: 15 Minutes With Jesus \u2014 Walking w",
-    "wp": 68.02,
+    "wp": 66.85,
     "ty": "promo",
     "up": false
    },
    {
     "t": "2026-11-21T09:00",
     "len": 14,
-    "v": 306,
+    "v": 307,
     "k": "short",
     "x": "Why This Bible Plan Is Five Days, Not Seven \u2014 Walking with J",
     "wp": 66.06,
@@ -1967,7 +2006,7 @@
    {
     "t": "2026-11-18T09:00",
     "len": 15,
-    "v": 31,
+    "v": 32,
     "k": "short",
     "x": "Mark 9:23 KJV \u2014 Except Ye Become as Little Children | Walkin",
     "wp": 89.8,
@@ -1977,10 +2016,10 @@
    {
     "t": "2026-11-18T04:00",
     "len": 880,
-    "v": 13,
+    "v": 14,
     "k": "video",
     "x": "Except Ye Become as Little Children \u2014 Matthew 17-18; Mark 9;",
-    "wp": 20.87,
+    "wp": 19.2,
     "ty": "episode",
     "up": false
    },
@@ -2027,7 +2066,7 @@
    {
     "t": "2026-11-16T14:00",
     "len": 13,
-    "v": 39,
+    "v": 40,
     "k": "short",
     "x": "John 10:27 KJV \u2014 Hear Jesus here | Walking with Jesus",
     "wp": 74.84,
@@ -2117,10 +2156,10 @@
    {
     "t": "2026-11-13T04:00",
     "len": 955,
-    "v": 14,
+    "v": 17,
     "k": "video",
     "x": "I Am the Bread of Life \u2014 Matthew 15; Mark 7; John 6 KJV | Ha",
-    "wp": 41.87,
+    "wp": 32.67,
     "ty": "episode",
     "up": false
    },
@@ -2147,10 +2186,10 @@
    {
     "t": "2026-11-12T04:00",
     "len": 830,
-    "v": 13,
+    "v": 17,
     "k": "video",
     "x": "It Is I; Be Not Afraid \u2014 Matthew 14; Mark 6; Luke 9; John 6 ",
-    "wp": 18.86,
+    "wp": 20.35,
     "ty": "episode",
     "up": false
    },
@@ -2334,18 +2373,18 @@
      "types": {
       "nature": {
        "n": 16,
-       "tot": 589,
+       "tot": 611,
        "med": 22
       },
       "hear": {
        "n": 5,
-       "tot": 246,
+       "tot": 247,
        "med": 42
       },
       "promo": {
        "n": 10,
-       "tot": 1465,
-       "med": 106
+       "tot": 1484,
+       "med": 107
       }
      }
     },
@@ -2354,7 +2393,7 @@
      "types": {
       "nature": {
        "n": 48,
-       "tot": 8196,
+       "tot": 8197,
        "med": 100
       },
       "tomorrow": {
@@ -2364,7 +2403,7 @@
       },
       "promo": {
        "n": 41,
-       "tot": 5690,
+       "tot": 5692,
        "med": 71
       }
      }

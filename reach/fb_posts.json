@@ -1,5 +1,5 @@
 {
- "updated": "Thu 11/26 1:30 PM",
+ "updated": "Thu 11/26 2:31 PM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -9,9 +9,9 @@
  "days": [
   {
    "d": "2026-11-26",
-   "short": 2,
+   "short": 3,
    "long": 0,
-   "short_views": 303,
+   "short_views": 319,
    "long_views": 0,
    "unknown": 0
   },
@@ -154,12 +154,25 @@
  ],
  "items": [
   {
+   "id": "1880395676310377",
+   "type": "reel",
+   "at": "2026-11-26 14:03",
+   "live": "2026-11-26 14:03",
+   "len": 13,
+   "views": 2,
+   "src": "fb_reels_total_plays",
+   "text": "Luke 14:27 (KJV) On today's episode of Walking with Jesus: T",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":6287541},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-26T20:03:51+00",
+   "sched": null
+  },
+  {
    "id": "1097940839913877",
    "type": "reel",
    "at": "2026-11-26 11:07",
    "live": "2026-11-26 11:07",
    "len": 17,
-   "views": 156,
+   "views": 168,
    "src": "fb_reels_total_plays",
    "text": "Ten were healed. One came back. Only Luke records it \u2014 Luke ",
    "pub": true,
@@ -172,7 +185,7 @@
    "at": "2026-11-26 09:07",
    "live": "2026-11-26 09:07",
    "len": 14,
-   "views": 147,
+   "views": 149,
    "src": "fb_reels_total_plays",
    "text": "Luke 14:11 (KJV) On today's episode of Walking with Jesus: T",
    "pub": true,
