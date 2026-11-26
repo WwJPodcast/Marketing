@@ -1,5 +1,5 @@
 {
- "updated": "Thu 11/26 2:52 AM",
+ "updated": "Thu 11/26 11:42 AM",
  "updated_date": "2026-11-26",
  "platforms": [
   {
@@ -277,7 +277,7 @@
       },
       {
        "d": "2026-11-21",
-       "v": 532,
+       "v": 527,
        "e": 35
       },
       {
@@ -419,7 +419,7 @@
       },
       {
        "d": "2026-11-17",
-       "v": 1237,
+       "v": 1232,
        "e": 99
       }
      ]
@@ -483,7 +483,7 @@
       },
       {
        "d": "2026-11-21",
-       "v": 15,
+       "v": 14,
        "e": 0
       },
       {
@@ -625,7 +625,7 @@
       },
       {
        "d": "2026-11-17",
-       "v": 73,
+       "v": 72,
        "e": 1
       }
      ]
@@ -1136,8 +1136,8 @@
     },
     {
      "d": "2026-11-25",
-     "v": 31,
-     "e": 0
+     "v": 150,
+     "e": 7
     }
    ],
    "weekly": [
@@ -1268,8 +1268,8 @@
     },
     {
      "d": "2026-11-19",
-     "v": 166,
-     "e": 3
+     "v": 285,
+     "e": 10
     }
    ],
    "before": {
@@ -1494,21 +1494,39 @@
   }
  ],
  "notes": [
-  "YouTube split since 2026-09-15: shorts 17984 + long-form 237 of 18229 total views; 105 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
+  "YouTube split since 2026-09-15: shorts 17979 + long-form 236 of 18229 total views; 105 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 257; saved with numbers: 285",
-  "Facebook posts, last 21 days: 34 reels, 0 other videos, 0 over 90s; views known for 34 of 34, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 560 posts; YouTube per-video: 177 videos, titles from Data API for 177, public-title/first-view lookups 0; Facebook per-post: 34 saved"
+  "Buffer posts read: 261; saved with numbers: 287",
+  "Facebook posts, last 21 days: 36 reels, 0 other videos, 0 over 90s; views known for 36 of 36, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
+  "posts.json: 562 posts; YouTube per-video: 177 videos, titles from Data API for 177, public-title/first-view lookups 0; Facebook per-post: 34 saved"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
    {
+    "t": "2026-11-26T11:07",
+    "len": 17,
+    "v": 0,
+    "k": "reel",
+    "x": "Ten were healed. One came back. Only Luke record",
+    "ty": "promo",
+    "up": false
+   },
+   {
+    "t": "2026-11-26T09:07",
+    "len": 14,
+    "v": 101,
+    "k": "reel",
+    "x": "Luke 14:11 (KJV) On today's episode of Walking w",
+    "ty": "nature",
+    "up": false
+   },
+   {
     "t": "2026-11-25T17:01",
     "len": 14,
-    "v": 179,
+    "v": 184,
     "k": "reel",
     "x": "Luke 6:47 (KJV) Hear Jesus here. Make hearing Je",
     "ty": "hear",
@@ -1517,7 +1535,7 @@
    {
     "t": "2026-11-25T14:03",
     "len": 12,
-    "v": 181,
+    "v": 182,
     "k": "reel",
     "x": "Luke 13:5 (KJV) On today's episode of Walking wi",
     "ty": "nature",
@@ -1526,7 +1544,7 @@
    {
     "t": "2026-11-25T09:05",
     "len": 15,
-    "v": 244,
+    "v": 259,
     "k": "reel",
     "x": "Luke 12:32 (KJV) On today's episode of Walking w",
     "ty": "nature",
