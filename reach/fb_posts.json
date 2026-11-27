@@ -1,5 +1,5 @@
 {
- "updated": "Fri 11/27 9:11 AM",
+ "updated": "Fri 11/27 9:13 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -19,7 +19,7 @@
    "d": "2026-11-26",
    "short": 4,
    "long": 0,
-   "short_views": 2842,
+   "short_views": 2844,
    "long_views": 0,
    "unknown": 0
   },
@@ -219,7 +219,7 @@
    "at": "2026-11-26 09:07",
    "live": "2026-11-26 09:07",
    "len": 14,
-   "views": 2223,
+   "views": 2225,
    "src": "fb_reels_total_plays",
    "text": "Luke 14:11 (KJV) On today's episode of Walking with Jesus: T",
    "pub": true,
