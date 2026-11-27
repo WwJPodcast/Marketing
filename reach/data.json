@@ -1,5 +1,5 @@
 {
- "updated": "Fri 11/27 9:13 AM",
+ "updated": "Fri 11/27 9:20 AM",
  "updated_date": "2026-11-27",
  "platforms": [
   {
@@ -1508,7 +1508,7 @@
    {
     "t": "2026-11-27T09:06",
     "len": 15,
-    "v": 0,
+    "v": 1,
     "k": "reel",
     "x": "Luke 17:21 (KJV) On today's episode of Walking w",
     "ty": "nature",
@@ -1544,7 +1544,7 @@
    {
     "t": "2026-11-26T09:07",
     "len": 14,
-    "v": 2225,
+    "v": 2228,
     "k": "reel",
     "x": "Luke 14:11 (KJV) On today's episode of Walking w",
     "ty": "nature",
@@ -2886,6 +2886,14 @@
     "2026-11-21",
     2
    ]
+  ],
+  "top_posts": [
+   {
+    "title": "Before Time Began",
+    "n": 51,
+    "date": null,
+    "posts": []
+   }
   ]
  },
  "events": [

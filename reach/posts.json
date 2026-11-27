@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 09:13",
+ "updated": "2026-11-27 09:20",
  "fields": {
   "p": "platform",
   "t": "posted (Central)",
@@ -323,7 +323,7 @@
    "x": "Luke 14:11 (KJV) On today's episode of Walking with Jesus: T",
    "url": "/reel/4512668258991429/",
    "age": 1,
-   "v": 2225,
+   "v": 2228,
    "e": 37,
    "v1": null,
    "v7": null,
@@ -13977,7 +13977,7 @@
    {
     "key": "fb/nature",
     "posts": 46,
-    "views": 13148,
+    "views": 13151,
     "engaged": 117,
     "eng_rate_pct": 0.89,
     "median_views": 29.0,
@@ -14317,7 +14317,7 @@
    {
     "key": "fb/2026-11-23",
     "posts": 11,
-    "views": 4449,
+    "views": 4452,
     "engaged": 73,
     "eng_rate_pct": 1.64,
     "median_views": 213,
@@ -14799,7 +14799,7 @@
    {
     "key": "fb/09",
     "posts": 37,
-    "views": 5003,
+    "views": 5006,
     "engaged": 77,
     "eng_rate_pct": 1.54,
     "median_views": 28,
