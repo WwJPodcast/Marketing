@@ -1,5 +1,5 @@
 {
- "updated": "Fri 11/27 2:52 AM",
+ "updated": "Fri 11/27 9:11 AM",
  "updated_date": "2026-11-27",
  "platforms": [
   {
@@ -706,7 +706,7 @@
     },
     {
      "d": "2026-11-26",
-     "v": 1211,
+     "v": 1216,
      "e": 38
     }
    ],
@@ -838,7 +838,7 @@
     },
     {
      "d": "2026-11-20",
-     "v": 3621,
+     "v": 3626,
      "e": 77
     }
    ],
@@ -1136,8 +1136,8 @@
     },
     {
      "d": "2026-11-26",
-     "v": 0,
-     "e": 0
+     "v": 211,
+     "e": 7
     }
    ],
    "weekly": [
@@ -1268,8 +1268,8 @@
     },
     {
      "d": "2026-11-20",
-     "v": 269,
-     "e": 10
+     "v": 480,
+     "e": 17
     }
    ],
    "before": {
@@ -1497,14 +1497,23 @@
   "YouTube split since 2026-09-15: shorts 18036 + long-form 246 of 18296 total views; 107 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 265; saved with numbers: 293",
-  "Facebook posts, last 21 days: 38 reels, 0 other videos, 0 over 90s; views known for 38 of 38, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 575 posts; YouTube per-video: 180 videos, titles from Data API for 180, public-title/first-view lookups 0; Facebook per-post: 38 saved"
+  "Buffer posts read: 267; saved with numbers: 294",
+  "Facebook posts, last 21 days: 39 reels, 0 other videos, 0 over 90s; views known for 39 of 39, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
+  "posts.json: 576 posts; YouTube per-video: 180 videos, titles from Data API for 180, public-title/first-view lookups 0; Facebook per-post: 38 saved"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
+   {
+    "t": "2026-11-27T09:06",
+    "len": 15,
+    "v": 0,
+    "k": "reel",
+    "x": "Luke 17:21 (KJV) On today's episode of Walking w",
+    "ty": "nature",
+    "up": false
+   },
    {
     "t": "2026-11-26T17:02",
     "len": 12,
@@ -1535,7 +1544,7 @@
    {
     "t": "2026-11-26T09:07",
     "len": 14,
-    "v": 647,
+    "v": 2223,
     "k": "reel",
     "x": "Luke 14:11 (KJV) On today's episode of Walking w",
     "ty": "nature",
@@ -2502,7 +2511,7 @@
      "types": {
       "nature": {
        "n": 15,
-       "tot": 190,
+       "tot": 193,
        "med": 10
       },
       "hear": {
