@@ -1,5 +1,5 @@
 {
- "updated": "Fri 11/27 1:30 PM",
+ "updated": "Fri 11/27 2:17 PM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -9,9 +9,9 @@
  "days": [
   {
    "d": "2026-11-27",
-   "short": 1,
+   "short": 2,
    "long": 0,
-   "short_views": 108,
+   "short_views": 110,
    "long_views": 0,
    "unknown": 0
   },
@@ -19,7 +19,7 @@
    "d": "2026-11-26",
    "short": 4,
    "long": 0,
-   "short_views": 2868,
+   "short_views": 2869,
    "long_views": 0,
    "unknown": 0
   },
@@ -162,12 +162,25 @@
  ],
  "items": [
   {
+   "id": "1763225749144806",
+   "type": "reel",
+   "at": "2026-11-27 14:03",
+   "live": "2026-11-27 14:03",
+   "len": 12,
+   "views": 0,
+   "src": "fb_reels_total_plays",
+   "text": "Mark 10:9 (KJV) On today's episode of Walking with Jesus: A ",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":5946835},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-27T20:03:37+00",
+   "sched": null
+  },
+  {
    "id": "1473885488229190",
    "type": "reel",
    "at": "2026-11-27 09:06",
    "live": "2026-11-27 09:06",
    "len": 15,
-   "views": 108,
+   "views": 110,
    "src": "fb_reels_total_plays",
    "text": "Luke 17:21 (KJV) On today's episode of Walking with Jesus: A",
    "pub": true,
@@ -219,7 +232,7 @@
    "at": "2026-11-26 09:07",
    "live": "2026-11-26 09:07",
    "len": 14,
-   "views": 2247,
+   "views": 2248,
    "src": "fb_reels_total_plays",
    "text": "Luke 14:11 (KJV) On today's episode of Walking with Jesus: T",
    "pub": true,
