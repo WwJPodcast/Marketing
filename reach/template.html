@@ -400,8 +400,8 @@ function rssBlock(){
   out.push(rows('How old the episode was','when it was downloaded',R.age,'%'));
   {/* Most downloaded in the last 30 days, whatever the release date. R.top is a list the nightly pull can write
       ([{code?,title,n}] best first); until it does, the single R.top30 entry is shown on its own. */
-    const tl=(R.top&&R.top.length?R.top:(R.top30&&R.top30.title?[R.top30]:[])).slice(0,10);
-    if(tl.length){const t=h('div','posts');t.append(h('div','sec-t',`<span>Most downloaded</span><em>last 30 days, any release date</em>`));
+    const tl=(R.top&&R.top.length?R.top:(R.top30&&R.top30.title?[R.top30]:[])).slice().sort((a,b)=>b.n-a.n).slice(0,5);
+    if(tl.length){const t=h('div','posts');t.append(h('div','sec-t',`<span>Top five downloads</span><em>last 30 days, highest first</em>`));
       const tm=Math.max(...tl.map(x=>x.n),1),tr=h('div','mini-rows');
       tl.forEach((x,i)=>tr.append(h('div','mini-row',`<span class="nm"><span>${i+1}${x.code?`<small>${x.code.replace('S0','S').replace(' - ','·')}</small>`:''}</span></span><span><span style="font-size:12px">${x.title}</span><span class="bar" style="display:block;margin-top:3px"><i style="width:${Math.max(2,x.n/tm*100)}%"></i></span></span><b class="num">${x.n}</b>`)));
       t.append(tr);out.push(t)}}
@@ -431,6 +431,16 @@ function compareBlock(){
   out.push(h('div','sec-t','<span>Platform by platform</span><em>columns split where the posting method changed</em>'));
   order.forEach(k=>out.push(...typesBlock(DATA.platforms.find(x=>x.key===k),true)));
   out.push(h('div','sum',`<span>Nature-Hear began 11/16. Tomorrow's-episode posts ended 11/8. Earlier columns are kept so you can see how each type did before.</span>`));
+  /* Top downloaded episodes next to the posts that went out the day before and on their release day (built by build.py). */
+  const R=DATA.rss,tp=R&&R.top_posts;
+  if(tp&&tp.length){const s=h('div','posts'),PN={yt:'YT',fb:'FB',ig:'IG',tt:'TT'};
+    s.append(h('div','sec-t','<span>Top episodes and their posts</span><em>posts the day before and on release day</em>'));
+    const mr=h('div','mini-rows'),mx=Math.max(...tp.map(x=>x.n),1);
+    tp.forEach((x,i)=>{const ps=x.posts||[],v=ps.reduce((a,p)=>a+(p.v||0),0),by={};ps.forEach(p=>{by[p.p]=(by[p.p]||0)+(p.v||0)});
+      const line=x.date?(ps.length?`${ps.length} post${ps.length===1?'':'s'} · ${full(v)} views (${Object.keys(by).map(k=>`${PN[k]||k} ${full(by[k])}`).join(' · ')})`:'no posts tracked those two days'):'release date not saved yet';
+      mr.append(h('div','mini-row',`<span class="nm"><span>${i+1}<small>${x.date?x.date.slice(5).replace('-','/'):'—'}</small></span></span><span><span style="font-size:12px">${x.title}</span><span class="bar" style="display:block;margin-top:3px"><i style="width:${Math.max(2,x.n/mx*100)}%"></i></span><small style="display:block;margin-top:3px;opacity:.75">${line}</small></span><b class="num">${x.n}</b>`))});
+    s.append(mr,h('div','sum',`<span>These are free posts, not paid ads. Downloads are the last 30 days, so an older episode (like the first one) is mostly new listeners starting at the beginning, not that day's posts. Read the link only for recent releases, and treat it as a hint.</span>`));
+    out.push(s)}
   return out}
 
 /* ---------- lifetime goal: simple line chart ---------- */

@@ -763,6 +763,23 @@ def main():
     if rss.get("downloads"):
         rss["history"] = load(HERE / "rss" / "history.json", {})
         rss["daily"] = (load(HERE / "rss" / "daily.json", {}) or {}).get("daily") or []  # optional backfill [["YYYY-MM-DD", downloads], ...]
+        try:
+            # Link the top downloaded episodes (rss.top, else the single top30) to posts from the day before and release day.
+            tops = sorted(rss.get("top") or ([rss["top30"]] if rss.get("top30") else []), key=lambda x: -(x.get("n") or 0))[:10]
+            by_title = {e.get("title"): e.get("date") for e in rss.get("episodes") or []}
+            plist = (load(HERE / "posts.json", {}) or {}).get("posts") or []
+            linked = []
+            for t in tops:
+                d = t.get("date") or by_title.get(t.get("title"))
+                posts = []
+                if d:
+                    prev = (dt.date.fromisoformat(d) - dt.timedelta(days=1)).isoformat()
+                    posts = [{"p": x["p"], "type": x.get("type"), "v": x.get("v") or 0, "e": x.get("e") or 0, "day": x["t"][:10]}
+                             for x in plist if x.get("p") in ("yt", "fb", "ig", "tt") and x.get("t", "")[:10] in (prev, d)]
+                linked.append({"title": t.get("title"), "n": t.get("n"), "date": d, "posts": posts})
+            rss["top_posts"] = linked
+        except Exception as ex:
+            NOTES.append(f"Top episodes link not built: {clean(ex)}")
         data["rss"] = rss
     ev = load(HERE / "events.json", {}).get("events")
     if isinstance(ev, list):
