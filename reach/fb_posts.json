@@ -1,5 +1,5 @@
 {
- "updated": "Thu 11/26 2:31 PM",
+ "updated": "Fri 11/27 2:52 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -9,9 +9,9 @@
  "days": [
   {
    "d": "2026-11-26",
-   "short": 3,
+   "short": 4,
    "long": 0,
-   "short_views": 319,
+   "short_views": 1266,
    "long_views": 0,
    "unknown": 0
   },
@@ -35,7 +35,7 @@
    "d": "2026-11-23",
    "short": 2,
    "long": 0,
-   "short_views": 729,
+   "short_views": 730,
    "long_views": 0,
    "unknown": 0
   },
@@ -154,12 +154,25 @@
  ],
  "items": [
   {
+   "id": "1126967873275178",
+   "type": "reel",
+   "at": "2026-11-26 17:02",
+   "live": "2026-11-26 17:02",
+   "len": 12,
+   "views": 199,
+   "src": "fb_reels_total_plays",
+   "text": "Mark 4:3 (KJV) Hear Jesus here. Make hearing Jesus a daily p",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":5818851},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-26T23:02:08+00",
+   "sched": null
+  },
+  {
    "id": "1880395676310377",
    "type": "reel",
    "at": "2026-11-26 14:03",
    "live": "2026-11-26 14:03",
    "len": 13,
-   "views": 2,
+   "views": 213,
    "src": "fb_reels_total_plays",
    "text": "Luke 14:27 (KJV) On today's episode of Walking with Jesus: T",
    "pub": true,
@@ -172,7 +185,7 @@
    "at": "2026-11-26 11:07",
    "live": "2026-11-26 11:07",
    "len": 17,
-   "views": 168,
+   "views": 207,
    "src": "fb_reels_total_plays",
    "text": "Ten were healed. One came back. Only Luke records it \u2014 Luke ",
    "pub": true,
@@ -185,7 +198,7 @@
    "at": "2026-11-26 09:07",
    "live": "2026-11-26 09:07",
    "len": 14,
-   "views": 149,
+   "views": 647,
    "src": "fb_reels_total_plays",
    "text": "Luke 14:11 (KJV) On today's episode of Walking with Jesus: T",
    "pub": true,
@@ -263,7 +276,7 @@
    "at": "2026-11-23 14:02",
    "live": "2026-11-23 14:02",
    "len": 13,
-   "views": 215,
+   "views": 216,
    "src": "fb_reels_total_plays",
    "text": "Luke 17:17 (KJV) On today's episode of Walking with Jesus: O",
    "pub": true,
