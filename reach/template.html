@@ -398,8 +398,14 @@ function rssBlock(){
   out.push(rows('Where listeners are',`${R.country_count} countries · ${R.city_count} cities`,R.countries,'%'));
   out.push(rows('Device','share of downloads',R.devices,'%'));
   out.push(rows('How old the episode was','when it was downloaded',R.age,'%'));
+  {/* Most downloaded in the last 30 days, whatever the release date. R.top is a list the nightly pull can write
+      ([{code?,title,n}] best first); until it does, the single R.top30 entry is shown on its own. */
+    const tl=(R.top&&R.top.length?R.top:(R.top30&&R.top30.title?[R.top30]:[])).slice(0,10);
+    if(tl.length){const t=h('div','posts');t.append(h('div','sec-t',`<span>Most downloaded</span><em>last 30 days, any release date</em>`));
+      const tm=Math.max(...tl.map(x=>x.n),1),tr=h('div','mini-rows');
+      tl.forEach((x,i)=>tr.append(h('div','mini-row',`<span class="nm"><span>${i+1}${x.code?`<small>${x.code.replace('S0','S').replace(' - ','·')}</small>`:''}</span></span><span><span style="font-size:12px">${x.title}</span><span class="bar" style="display:block;margin-top:3px"><i style="width:${Math.max(2,x.n/tm*100)}%"></i></span></span><b class="num">${x.n}</b>`)));
+      t.append(tr);out.push(t)}}
   const e=h('div','posts');e.append(h('div','sec-t',`<span>Episodes</span><em>downloads each, newest first</em>`));
-  if(R.top30)e.append(h('div','stats',`<span>Top in the last 30 days <b>${R.top30.title}</b> · ${R.top30.n}</span>`));
   const mr=h('div','mini-rows'),mx=Math.max(...R.episodes.map(x=>x.n),1);
   R.episodes.forEach(x=>mr.append(h('div','mini-row',`<span class="nm"><span>${x.code.replace('S0','S').replace(' - ','·')}<small>${x.date.slice(5).replace('-','/')}</small></span></span><span><span style="font-size:12px">${x.title}</span><span class="bar" style="display:block;margin-top:3px"><i style="width:${Math.max(2,x.n/mx*100)}%"></i></span></span><b class="num">${x.n}</b>`)));
   e.append(mr);out.push(e);
