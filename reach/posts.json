@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 11:27",
+ "updated": "2026-11-27 13:30",
  "fields": {
   "p": "platform",
   "t": "posted (Central)",
@@ -250,7 +250,7 @@
    "x": "Ten were healed. One came back. Only Luke records it \u2014 Luke",
    "url": "/reel/1097940839913877/",
    "age": 1,
-   "v": 207,
+   "v": 208,
    "e": 4,
    "v1": null,
    "v7": null,
@@ -323,7 +323,7 @@
    "x": "Luke 14:11 (KJV) On today's episode of Walking with Jesus: T",
    "url": "/reel/4512668258991429/",
    "age": 1,
-   "v": 2241,
+   "v": 2247,
    "e": 37,
    "v1": null,
    "v7": null,
@@ -13977,7 +13977,7 @@
    {
     "key": "fb/nature",
     "posts": 46,
-    "views": 13164,
+    "views": 13170,
     "engaged": 117,
     "eng_rate_pct": 0.89,
     "median_views": 29.0,
@@ -13989,7 +13989,7 @@
    {
     "key": "fb/promo",
     "posts": 22,
-    "views": 3205,
+    "views": 3206,
     "engaged": 20,
     "eng_rate_pct": 0.62,
     "median_views": 158.0,
@@ -14317,7 +14317,7 @@
    {
     "key": "fb/2026-11-23",
     "posts": 11,
-    "views": 4466,
+    "views": 4473,
     "engaged": 73,
     "eng_rate_pct": 1.63,
     "median_views": 213,
@@ -14799,7 +14799,7 @@
    {
     "key": "fb/09",
     "posts": 37,
-    "views": 5019,
+    "views": 5025,
     "engaged": 77,
     "eng_rate_pct": 1.53,
     "median_views": 28,
@@ -14823,10 +14823,10 @@
    {
     "key": "fb/11",
     "posts": 1,
-    "views": 207,
+    "views": 208,
     "engaged": 4,
-    "eng_rate_pct": 1.93,
-    "median_views": 207,
+    "eng_rate_pct": 1.92,
+    "median_views": 208,
     "median_views_day1": null,
     "median_views_day7": null,
     "with_day7": 0,
