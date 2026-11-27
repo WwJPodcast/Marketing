@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 09:20",
+ "updated": "2026-11-27 11:27",
  "fields": {
   "p": "platform",
   "t": "posted (Central)",
@@ -104,7 +104,7 @@
    "x": "Mark 4:3 (KJV) Hear Jesus here. Make hearing Jesus a daily p",
    "url": "/reel/1126967873275178/",
    "age": 1,
-   "v": 199,
+   "v": 200,
    "e": 1,
    "v1": null,
    "v7": null,
@@ -323,7 +323,7 @@
    "x": "Luke 14:11 (KJV) On today's episode of Walking with Jesus: T",
    "url": "/reel/4512668258991429/",
    "age": 1,
-   "v": 2228,
+   "v": 2241,
    "e": 37,
    "v1": null,
    "v7": null,
@@ -13965,7 +13965,7 @@
    {
     "key": "fb/hear",
     "posts": 8,
-    "views": 5791,
+    "views": 5792,
     "engaged": 98,
     "eng_rate_pct": 1.69,
     "median_views": 237.0,
@@ -13977,7 +13977,7 @@
    {
     "key": "fb/nature",
     "posts": 46,
-    "views": 13151,
+    "views": 13164,
     "engaged": 117,
     "eng_rate_pct": 0.89,
     "median_views": 29.0,
@@ -14317,9 +14317,9 @@
    {
     "key": "fb/2026-11-23",
     "posts": 11,
-    "views": 4452,
+    "views": 4466,
     "engaged": 73,
-    "eng_rate_pct": 1.64,
+    "eng_rate_pct": 1.63,
     "median_views": 213,
     "median_views_day1": 215,
     "median_views_day7": null,
@@ -14799,9 +14799,9 @@
    {
     "key": "fb/09",
     "posts": 37,
-    "views": 5006,
+    "views": 5019,
     "engaged": 77,
-    "eng_rate_pct": 1.54,
+    "eng_rate_pct": 1.53,
     "median_views": 28,
     "median_views_day1": 32.5,
     "median_views_day7": 15,
@@ -14883,7 +14883,7 @@
    {
     "key": "fb/17",
     "posts": 25,
-    "views": 3820,
+    "views": 3821,
     "engaged": 29,
     "eng_rate_pct": 0.76,
     "median_views": 184,
