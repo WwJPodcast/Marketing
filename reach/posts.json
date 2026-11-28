@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28 02:52",
+ "updated": "2026-11-28 10:10",
  "fields": {
   "p": "platform",
   "t": "posted (Central)",
@@ -21,6 +21,30 @@
   "Facebook per-post: 40 saved"
  ],
  "posts": [
+  {
+   "p": "tt",
+   "id": "6b064dae40e1d58d12f0aa36",
+   "t": "2026-11-28T09:04",
+   "type": "promo",
+   "tag_by": "caption",
+   "opening": null,
+   "len": 14,
+   "x": "Vitamins for your body. This, for your soul. Fifteen minutes",
+   "url": "https://tiktok.com/@walking.with.jesu838/video/7713238087047892238",
+   "age": 0,
+   "v": 0,
+   "e": 0,
+   "v1": null,
+   "v7": null,
+   "e7": null,
+   "watch": 0,
+   "watch_pct": null,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": null,
+   "reach": 0
+  },
   {
    "p": "ig",
    "id": "6b032c27d864a01105e2ff66",
@@ -80,7 +104,7 @@
    "x": "Mark 10:9 (KJV) On today's episode of Walking with Jesus: A",
    "url": "/reel/1763225749144806/",
    "age": 1,
-   "v": 215,
+   "v": 217,
    "e": 7,
    "v1": null,
    "v7": null,
@@ -129,12 +153,12 @@
    "x": "Luke 17:21 (KJV) On today's episode of Walking with Jesus: A",
    "url": "https://tiktok.com/@walking.with.jesu838/video/7712867715739864333",
    "age": 1,
-   "v": 0,
+   "v": 1,
    "e": 0,
    "v1": null,
    "v7": null,
    "e7": null,
-   "watch": 0,
+   "watch": 0.7,
    "watch_pct": null,
    "likes": 0,
    "comments": 0,
@@ -153,7 +177,7 @@
    "x": "Luke 17:21 (KJV) On today's episode of Walking with Jesus: A",
    "url": "/reel/1473885488229190/",
    "age": 1,
-   "v": 131,
+   "v": 134,
    "e": 2,
    "v1": null,
    "v7": null,
@@ -178,9 +202,9 @@
    "x": "Mark 4:3 (KJV) Hear Jesus here. Make hearing Jesus a daily p",
    "url": "https://tiktok.com/@walking.with.jesu838/video/7712619289462770957",
    "age": 2,
-   "v": 13,
+   "v": 16,
    "e": 0,
-   "v1": 13,
+   "v1": 16,
    "v7": null,
    "e7": null,
    "watch": 1.5,
@@ -226,9 +250,9 @@
    "x": "Mark 4:3 (KJV) Hear Jesus here. Make hearing Jesus a daily p",
    "url": "/reel/1126967873275178/",
    "age": 2,
-   "v": 200,
+   "v": 201,
    "e": 1,
-   "v1": 200,
+   "v1": 201,
    "v7": null,
    "e7": null,
    "watch": null,
@@ -262,7 +286,7 @@
    "comments": 0,
    "shares": 0,
    "saves": 0,
-   "reach": 14
+   "reach": 15
   },
   {
    "p": "tt",
@@ -275,18 +299,18 @@
    "x": "Luke 14:27 (KJV) On today's episode of Walking with Jesus: T",
    "url": "https://tiktok.com/@walking.with.jesu838/video/7712573472886574350",
    "age": 2,
-   "v": 8,
+   "v": 10,
    "e": 0,
-   "v1": 8,
+   "v1": 10,
    "v7": null,
    "e7": null,
-   "watch": 1.0,
+   "watch": 1.6,
    "watch_pct": null,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saves": null,
-   "reach": 0
+   "reach": 2
   },
   {
    "p": "fb",
@@ -299,9 +323,9 @@
    "x": "Luke 14:27 (KJV) On today's episode of Walking with Jesus: T",
    "url": "/reel/1880395676310377/",
    "age": 2,
-   "v": 213,
+   "v": 214,
    "e": 4,
-   "v1": 213,
+   "v1": 214,
    "v7": null,
    "e7": null,
    "watch": null,
@@ -359,7 +383,7 @@
    "comments": 0,
    "shares": 0,
    "saves": null,
-   "reach": 0
+   "reach": 48
   },
   {
    "p": "fb",
@@ -421,18 +445,18 @@
    "x": "Luke 14:11 (KJV) On today's episode of Walking with Jesus: T",
    "url": "https://tiktok.com/@walking.with.jesu838/video/7712496966571183374",
    "age": 2,
-   "v": 78,
-   "e": 4,
-   "v1": 78,
+   "v": 84,
+   "e": 5,
+   "v1": 84,
    "v7": null,
    "e7": null,
    "watch": 1.7,
    "watch_pct": null,
-   "likes": 4,
+   "likes": 5,
    "comments": 0,
    "shares": 0,
    "saves": null,
-   "reach": 0
+   "reach": 58
   },
   {
    "p": "fb",
@@ -445,9 +469,9 @@
    "x": "Luke 14:11 (KJV) On today's episode of Walking with Jesus: T",
    "url": "/reel/4512668258991429/",
    "age": 2,
-   "v": 2268,
+   "v": 2277,
    "e": 37,
-   "v1": 2268,
+   "v1": 2277,
    "v7": null,
    "e7": null,
    "watch": null,
@@ -505,7 +529,7 @@
    "comments": 0,
    "shares": 0,
    "saves": null,
-   "reach": 2
+   "reach": 14
   },
   {
    "p": "fb",
@@ -543,7 +567,7 @@
    "x": "Luke 13:5 (KJV) On today's episode of Walking with Jesus: Ex",
    "url": "https://www.tiktok.com/@walking.with.jesu838/video/7712202301519170830?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
    "age": 3,
-   "v": 118,
+   "v": 119,
    "e": 9,
    "v1": 118,
    "v7": null,
@@ -554,7 +578,7 @@
    "comments": 0,
    "shares": 0,
    "saves": null,
-   "reach": 95
+   "reach": 116
   },
   {
    "p": "ig",
@@ -675,7 +699,7 @@
    "comments": 0,
    "shares": 0,
    "saves": null,
-   "reach": 20
+   "reach": 21
   },
   {
    "p": "fb",
@@ -845,7 +869,7 @@
    "comments": 0,
    "shares": 0,
    "saves": null,
-   "reach": 4
+   "reach": 6
   },
   {
    "p": "ig",
@@ -1081,13 +1105,13 @@
    "v1": 0,
    "v7": null,
    "e7": null,
-   "watch": 0,
+   "watch": 1.4,
    "watch_pct": null,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saves": 0,
-   "reach": 0
+   "reach": 1
   },
   {
    "p": "fb",
@@ -1100,7 +1124,7 @@
    "x": "John 10:11 (KJV) On today's episode of Walking with Jesus: O",
    "url": "/reel/2354411422036644/",
    "age": 5,
-   "v": 514,
+   "v": 515,
    "e": 11,
    "v1": 513,
    "v7": null,
@@ -1832,7 +1856,7 @@
    "v1": 7,
    "v7": 7,
    "e7": 0,
-   "watch": 6.3,
+   "watch": 4.6,
    "watch_pct": null,
    "likes": 0,
    "comments": 0,
@@ -1929,7 +1953,7 @@
    "v1": 4,
    "v7": 4,
    "e7": 0,
-   "watch": 7.4,
+   "watch": 4.1,
    "watch_pct": null,
    "likes": 0,
    "comments": 0,
@@ -14135,7 +14159,7 @@
    {
     "key": "fb/hear",
     "posts": 8,
-    "views": 5792,
+    "views": 5793,
     "engaged": 98,
     "eng_rate_pct": 1.69,
     "median_views": 237.0,
@@ -14147,7 +14171,7 @@
    {
     "key": "fb/nature",
     "posts": 48,
-    "views": 13538,
+    "views": 13554,
     "engaged": 126,
     "eng_rate_pct": 0.93,
     "median_views": 35.0,
@@ -14279,11 +14303,11 @@
    {
     "key": "tt/hear",
     "posts": 8,
-    "views": 88,
+    "views": 91,
     "engaged": 0,
     "eng_rate_pct": 0.0,
-    "median_views": 11.0,
-    "median_views_day1": 11.0,
+    "median_views": 11.5,
+    "median_views_day1": 11.5,
     "median_views_day7": 7,
     "with_day7": 5,
     "median_watch_s": 3.0
@@ -14291,9 +14315,9 @@
    {
     "key": "tt/nature",
     "posts": 39,
-    "views": 882,
-    "engaged": 56,
-    "eng_rate_pct": 6.35,
+    "views": 892,
+    "engaged": 57,
+    "eng_rate_pct": 6.39,
     "median_views": 17,
     "median_views_day1": 17,
     "median_views_day7": 15.0,
@@ -14302,15 +14326,15 @@
    },
    {
     "key": "tt/promo",
-    "posts": 16,
+    "posts": 17,
     "views": 643,
     "engaged": 32,
     "eng_rate_pct": 4.98,
-    "median_views": 20.5,
+    "median_views": 20,
     "median_views_day1": 19.5,
     "median_views_day7": 20.5,
     "with_day7": 12,
-    "median_watch_s": 1.6
+    "median_watch_s": 1.4
    },
    {
     "key": "tt/tomorrow",
@@ -14487,11 +14511,11 @@
    {
     "key": "fb/2026-11-23",
     "posts": 13,
-    "views": 4841,
+    "views": 4858,
     "engaged": 82,
     "eng_rate_pct": 1.69,
-    "median_views": 213,
-    "median_views_day1": 213,
+    "median_views": 214,
+    "median_views_day1": 214,
     "median_views_day7": null,
     "with_day7": 0,
     "median_watch_s": null
@@ -14710,7 +14734,7 @@
     "median_views_day1": 1,
     "median_views_day7": null,
     "with_day7": 0,
-    "median_watch_s": 0.6
+    "median_watch_s": 0.7
    },
    {
     "key": "pin/2026-10-26",
@@ -14798,15 +14822,15 @@
    },
    {
     "key": "tt/2026-11-23",
-    "posts": 13,
-    "views": 431,
-    "engaged": 16,
-    "eng_rate_pct": 3.71,
-    "median_views": 15,
+    "posts": 14,
+    "views": 444,
+    "engaged": 17,
+    "eng_rate_pct": 3.83,
+    "median_views": 15.5,
     "median_views_day1": 21,
     "median_views_day7": null,
     "with_day7": 0,
-    "median_watch_s": 1.7
+    "median_watch_s": 1.6
    },
    {
     "key": "yt/2026-09-14",
@@ -14969,9 +14993,9 @@
    {
     "key": "fb/09",
     "posts": 38,
-    "views": 5177,
+    "views": 5190,
     "engaged": 79,
-    "eng_rate_pct": 1.53,
+    "eng_rate_pct": 1.52,
     "median_views": 29.0,
     "median_views_day1": 40,
     "median_views_day7": 15,
@@ -15017,11 +15041,11 @@
    {
     "key": "fb/14",
     "posts": 26,
-    "views": 14066,
+    "views": 14069,
     "engaged": 139,
     "eng_rate_pct": 0.99,
     "median_views": 156.0,
-    "median_views_day1": 208.0,
+    "median_views_day1": 208.5,
     "median_views_day7": 1,
     "with_day7": 13,
     "median_watch_s": null
@@ -15053,11 +15077,11 @@
    {
     "key": "fb/17",
     "posts": 25,
-    "views": 3821,
+    "views": 3822,
     "engaged": 29,
     "eng_rate_pct": 0.76,
     "median_views": 184,
-    "median_views_day1": 192.0,
+    "median_views_day1": 192.5,
     "median_views_day7": 84,
     "with_day7": 13,
     "median_watch_s": null
@@ -15280,15 +15304,15 @@
    },
    {
     "key": "tt/09",
-    "posts": 30,
-    "views": 766,
-    "engaged": 58,
-    "eng_rate_pct": 7.57,
-    "median_views": 12.5,
+    "posts": 31,
+    "views": 773,
+    "engaged": 59,
+    "eng_rate_pct": 7.63,
+    "median_views": 12,
     "median_views_day1": 13,
     "median_views_day7": 13,
     "with_day7": 23,
-    "median_watch_s": 2.8
+    "median_watch_s": 2.7
    },
    {
     "key": "tt/11",
@@ -15305,9 +15329,9 @@
    {
     "key": "tt/14",
     "posts": 20,
-    "views": 506,
+    "views": 509,
     "engaged": 26,
-    "eng_rate_pct": 5.14,
+    "eng_rate_pct": 5.11,
     "median_views": 19.5,
     "median_views_day1": 19,
     "median_views_day7": 19.0,
@@ -15329,11 +15353,11 @@
    {
     "key": "tt/17",
     "posts": 20,
-    "views": 361,
+    "views": 364,
     "engaged": 12,
-    "eng_rate_pct": 3.32,
-    "median_views": 14.5,
-    "median_views_day1": 14.5,
+    "eng_rate_pct": 3.3,
+    "median_views": 15.0,
+    "median_views_day1": 15.0,
     "median_views_day7": 15,
     "with_day7": 17,
     "median_watch_s": 1.6

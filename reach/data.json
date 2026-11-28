@@ -1,5 +1,5 @@
 {
- "updated": "Sat 11/28 2:52 AM",
+ "updated": "Sat 11/28 10:10 AM",
  "updated_date": "2026-11-28",
  "platforms": [
   {
@@ -706,7 +706,7 @@
     },
     {
      "d": "2026-11-27",
-     "v": 2041,
+     "v": 2043,
      "e": 31
     }
    ],
@@ -838,7 +838,7 @@
     },
     {
      "d": "2026-11-21",
-     "v": 5365,
+     "v": 5367,
      "e": 104
     }
    ],
@@ -1136,8 +1136,8 @@
     },
     {
      "d": "2026-11-27",
-     "v": 0,
-     "e": 0
+     "v": 13,
+     "e": 1
     }
    ],
    "weekly": [
@@ -1268,8 +1268,8 @@
     },
     {
      "d": "2026-11-21",
-     "v": 475,
-     "e": 17
+     "v": 488,
+     "e": 18
     }
    ],
    "before": {
@@ -1497,18 +1497,27 @@
   "YouTube split since 2026-09-15: shorts 18108 + long-form 255 of 18369 total views; 109 rows, content types seen: ['shorts', 'videoOnDemand'], columns: ['day', 'creatorContentType', 'views', 'likes', 'comments', 'shares']",
   "Buffer: 1 organization(s) visible to the API key",
   "Buffer channels: facebook, tiktok, instagram; tracking 2",
-  "Buffer posts read: 269; saved with numbers: 297",
-  "Facebook posts, last 21 days: 40 reels, 0 other videos, 0 over 90s; views known for 40 of 40, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
-  "posts.json: 583 posts; YouTube per-video: 182 videos, titles from Data API for 182, public-title/first-view lookups 0; Facebook per-post: 40 saved"
+  "Buffer posts read: 271; saved with numbers: 298",
+  "Facebook posts, last 21 days: 41 reels, 0 other videos, 0 over 90s; views known for 41 of 41, not yet published 0 (metrics: {'reel': 'fb_reels_total_plays'})",
+  "posts.json: 584 posts; YouTube per-video: 182 videos, titles from Data API for 182, public-title/first-view lookups 0; Facebook per-post: 40 saved"
  ],
  "fb_posts": {
   "long_over": 90,
   "days": 21,
   "items": [
    {
+    "t": "2026-11-28T09:03",
+    "len": 14,
+    "v": 4,
+    "k": "reel",
+    "x": "Vitamins for your body. This, for your soul. Fif",
+    "ty": "promo",
+    "up": false
+   },
+   {
     "t": "2026-11-27T14:03",
     "len": 12,
-    "v": 215,
+    "v": 217,
     "k": "reel",
     "x": "Mark 10:9 (KJV) On today's episode of Walking wi",
     "ty": "nature",
@@ -1517,7 +1526,7 @@
    {
     "t": "2026-11-27T09:06",
     "len": 15,
-    "v": 131,
+    "v": 134,
     "k": "reel",
     "x": "Luke 17:21 (KJV) On today's episode of Walking w",
     "ty": "nature",
@@ -1526,7 +1535,7 @@
    {
     "t": "2026-11-26T17:02",
     "len": 12,
-    "v": 200,
+    "v": 201,
     "k": "reel",
     "x": "Mark 4:3 (KJV) Hear Jesus here. Make hearing Jes",
     "ty": "hear",
@@ -1535,7 +1544,7 @@
    {
     "t": "2026-11-26T14:03",
     "len": 13,
-    "v": 213,
+    "v": 214,
     "k": "reel",
     "x": "Luke 14:27 (KJV) On today's episode of Walking w",
     "ty": "nature",
@@ -1553,7 +1562,7 @@
    {
     "t": "2026-11-26T09:07",
     "len": 14,
-    "v": 2268,
+    "v": 2277,
     "k": "reel",
     "x": "Luke 14:11 (KJV) On today's episode of Walking w",
     "ty": "nature",
@@ -1616,7 +1625,7 @@
    {
     "t": "2026-11-23T09:04",
     "len": 14,
-    "v": 514,
+    "v": 515,
     "k": "reel",
     "x": "John 10:11 (KJV) On today's episode of Walking w",
     "ty": "nature",
@@ -2395,7 +2404,7 @@
      "types": {
       "nature": {
        "n": 19,
-       "tot": 2303,
+       "tot": 2304,
        "med": 46
       },
       "hear": {
@@ -2510,7 +2519,7 @@
      "types": {
       "nature": {
        "n": 17,
-       "tot": 332,
+       "tot": 333,
        "med": 10
       },
       "hear": {

@@ -1,5 +1,5 @@
 {
- "updated": "Sat 11/28 2:52 AM",
+ "updated": "Sat 11/28 10:10 AM",
  "cutoff_days": 21,
  "long_over_seconds": 90,
  "view_metrics_used": {
@@ -8,10 +8,18 @@
  "errors": [],
  "days": [
   {
+   "d": "2026-11-28",
+   "short": 1,
+   "long": 0,
+   "short_views": 4,
+   "long_views": 0,
+   "unknown": 0
+  },
+  {
    "d": "2026-11-27",
    "short": 2,
    "long": 0,
-   "short_views": 346,
+   "short_views": 351,
    "long_views": 0,
    "unknown": 0
   },
@@ -19,7 +27,7 @@
    "d": "2026-11-26",
    "short": 4,
    "long": 0,
-   "short_views": 2889,
+   "short_views": 2900,
    "long_views": 0,
    "unknown": 0
   },
@@ -43,7 +51,7 @@
    "d": "2026-11-23",
    "short": 2,
    "long": 0,
-   "short_views": 730,
+   "short_views": 731,
    "long_views": 0,
    "unknown": 0
   },
@@ -162,12 +170,25 @@
  ],
  "items": [
   {
+   "id": "29312898331700490",
+   "type": "reel",
+   "at": "2026-11-28 09:03",
+   "live": "2026-11-28 09:03",
+   "len": 14,
+   "views": 4,
+   "src": "fb_reels_total_plays",
+   "text": "Vitamins for your body. This, for your soul. Fifteen minutes",
+   "pub": true,
+   "status": "{\"video_status\":\"ready\",\"uploading_phase\":{\"status\":\"complete\",\"bytes_transferred\":776367},\"processing_phase\":{\"status\":\"complete\"},\"publishing_phase\":{\"status\":\"complete\",\"publish_status\":\"published\",\"publish_time\":\"2026-11-28T15:03:39+000",
+   "sched": null
+  },
+  {
    "id": "1763225749144806",
    "type": "reel",
    "at": "2026-11-27 14:03",
    "live": "2026-11-27 14:03",
    "len": 12,
-   "views": 215,
+   "views": 217,
    "src": "fb_reels_total_plays",
    "text": "Mark 10:9 (KJV) On today's episode of Walking with Jesus: A ",
    "pub": true,
@@ -180,7 +201,7 @@
    "at": "2026-11-27 09:06",
    "live": "2026-11-27 09:06",
    "len": 15,
-   "views": 131,
+   "views": 134,
    "src": "fb_reels_total_plays",
    "text": "Luke 17:21 (KJV) On today's episode of Walking with Jesus: A",
    "pub": true,
@@ -193,7 +214,7 @@
    "at": "2026-11-26 17:02",
    "live": "2026-11-26 17:02",
    "len": 12,
-   "views": 200,
+   "views": 201,
    "src": "fb_reels_total_plays",
    "text": "Mark 4:3 (KJV) Hear Jesus here. Make hearing Jesus a daily p",
    "pub": true,
@@ -206,7 +227,7 @@
    "at": "2026-11-26 14:03",
    "live": "2026-11-26 14:03",
    "len": 13,
-   "views": 213,
+   "views": 214,
    "src": "fb_reels_total_plays",
    "text": "Luke 14:27 (KJV) On today's episode of Walking with Jesus: T",
    "pub": true,
@@ -232,7 +253,7 @@
    "at": "2026-11-26 09:07",
    "live": "2026-11-26 09:07",
    "len": 14,
-   "views": 2268,
+   "views": 2277,
    "src": "fb_reels_total_plays",
    "text": "Luke 14:11 (KJV) On today's episode of Walking with Jesus: T",
    "pub": true,
@@ -323,7 +344,7 @@
    "at": "2026-11-23 09:04",
    "live": "2026-11-23 09:04",
    "len": 14,
-   "views": 514,
+   "views": 515,
    "src": "fb_reels_total_plays",
    "text": "John 10:11 (KJV) On today's episode of Walking with Jesus: O",
    "pub": true,
